@@ -19,12 +19,12 @@ about:
       url: /about/officers.html
     - title: History
       url: /about/history.html
-    - title: Youth Chess
-      url: /about/youthchess.html
+    - title: Junior Chess
+      url: /about/juniorchess.html
   - title: Documents
     children:
     - title: Privacy policy
-      url: /about/privacy-polic.html
+      url: /about/privacy-policy.html
     - title: Safeguarding
       url: /about/safeguarding.html
     - title: Meetings and minutes
