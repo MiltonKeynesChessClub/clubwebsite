@@ -1,0 +1,24 @@
+.masthead {
+
+	background-color: $mk-dark-brown;
+
+	.greedy-nav {
+		background-color: $mk-dark-brown;
+
+		a.site-title {
+			padding: 80px 0 0 0;
+			height: 0;
+			background: url("/assets/images/logo/logo.svg") no-repeat;
+			background-size: 75%;
+			overflow: hidden;
+		}
+	}
+
+	.masthead__menu-item a {
+		color: $mk-white-platinum;
+	}
+}
+
+.page__footer {
+	color: $mk-white-platinum;
+}
