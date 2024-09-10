@@ -19,6 +19,16 @@
 	}
 }
 
+.page__content {
+	p, li, blockquote, address, dl, dd, dt {
+		font-size: 0.7em;
+	}
+
+	address {
+		margin-bottom: 1.3em;
+	}
+}
+
 .page__footer {
 	color: $mk-white-platinum;
 }
