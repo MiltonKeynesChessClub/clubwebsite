@@ -17,15 +17,15 @@ layout: single
       {{ player.ecfcode }}
     </a>
   </dd>
+
+  <dt>Title</dt>
+  <dd>{{ player.title | default: "<em>Not a titled player, yet</em>" }}</dd>
+
   <dt>Standard rating</dt>
-  <dd>{{ player.standardrating }}</dd>
-  <dt>Rapid rating</dt>
-  <dd>{{ player.rapidrating }}</dd>
+  <dd>{{ player.standardrating | default: "<em>No rating</em>" }}</dd>
 
   <dt>Rapid rating</dt>
-  <dd>{{ player.rapidrating }}</dd>
-
-
+  <dd>{{ player.rapidrating | default: "<em>No rating</em>" }}</dd>
 
   <h2>TODO: show game history, etc.</h2>
 </dl>
