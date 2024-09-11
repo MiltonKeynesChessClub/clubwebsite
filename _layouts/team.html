@@ -3,15 +3,14 @@ layout: single
 ---
 
 {% assign team = site.data.mkteams[page.team] %}
-{% assign captain = site.data.mkplayers[team.captain] %}
+{% assign leaguetable = site.data._generated.bcl_table[team.division.id] %}
+{% assign fixtures = site.data._generated.bcl_fixtures[team.division.id] %}
 
 {{ content }}
 
 <h2>Team members</h2>
 <p>
-  <strong>Captain</strong>: <a href="/players/{{ team.captain }}.html">
-      {{ captain.name }}
-  </a>
+  <strong>Captain</strong>: {% include member_link.html slug=team.captain %}
 </p>
 <ol>
   {% for memberslug in team.members %}
@@ -21,6 +20,64 @@ layout: single
   {% endfor %}
 </ol>
 
-<h2>Fixtures and results</h2>
+<h2>Fixtures and results ( {{ team.division.name }})</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Played</th>
+      <th>Won</th>
+      <th>Drawn</th>
+      <th>Lost</th>
+      <th>For</th>
+      <th>Against</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for divteam in leaguetable %}
+      <tr{% if divteam.team == team.league_name %} class="active"{% endif %}>
+        <td>{{ divteam.team }}</td>
+        <td>{{ divteam.played }}</td>
+        <td>{{ divteam.won }}</td>
+        <td>{{ divteam.drawn }}</td>
+        <td>{{ divteam.lost }}</td>
+        <td>{{ divteam.for }}</td>
+        <td>{{ divteam.against }}</td>
+        <td>{{ divteam.points }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
-TODO
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Home</th>
+      <th>Result</th>
+      <th>Away</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for fixture in fixtures %}
+      {% if fixture.hometeam == team.league_name or fixture.awayteam == team.league_name  %}
+      <tr>
+        <td><time datetime="{{ fixture.date | date_to_xmlschema }}">{{ fixture.date | date: date_format }}</time></td>
+        <td>
+          <span{% if fixture.hometeam == team.league_name %} class="active"{% endif %}>{{ fixture.hometeam }}</span>
+        </td>
+        <td>{{ fixture.result }}</td>
+        <td>
+          <span{% if fixture.awayteam == team.league_name %} class="active"{% endif %}>{{ fixture.awayteam }}</span>
+        </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<!-- {% assign games = site.data._generated.bcl_matches[team.division] | find:"fixture","{{ fixture.id }}" %} -->
+
+
+

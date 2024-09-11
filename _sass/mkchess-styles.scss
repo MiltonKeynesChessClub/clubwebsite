@@ -35,3 +35,18 @@
 .page__footer {
 	color: $mk-white-platinum;
 }
+
+table {
+	display: table;
+
+	tr.active {
+		td, th {
+			background-color: $mk-light-brown;
+			font-weight     : bold;
+		}
+	}
+
+	td .active {
+		font-weight: bold;
+	}
+}
