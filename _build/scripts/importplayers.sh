@@ -39,7 +39,7 @@ fi
 # Filter Milton Keynes club players
 if [[ ! -f $MK_CSV ]] ; then
 	echo $ALL_CSV_HEADERS > $MK_CSV
-	cat $FULL_CSV | grep '"9BAQ","Milton Keynes"' >> $MK_CSV
+	cat $FULL_CSV | grep ',"Milton Keynes' >> $MK_CSV
 fi
 
 # Convert our CSV into a jsonl file for easier processing

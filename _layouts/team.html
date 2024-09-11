@@ -1,0 +1,29 @@
+---
+layout: single
+---
+
+{% assign team = site.data.mkteams[page.team] %}
+{% assign captain = site.data.mkplayers[team.captain] %}
+
+{{ content }}
+
+<h2>Team members</h2>
+<p>
+  <strong>Captain</strong>: <a href="/players/{{ team.captain }}.html">
+      {{ captain.name }}
+  </a>
+</p>
+<ol>
+  {% for playerid in team.members %}
+    {% assign player = site.data.mkplayers[playerid] %}
+    <li>
+      <a href="/players/{{ playerid }}.html">
+        {{ player.name }}
+      </a>
+    </li>
+{% endfor %}
+</ol>
+
+<h2>Fixtures and results</h2>
+
+TODO
