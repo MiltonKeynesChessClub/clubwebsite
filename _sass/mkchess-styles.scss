@@ -46,7 +46,22 @@ table {
 		}
 	}
 
+	.muted {
+		color: $muted-text-color;
+	}
+
+	tr.muted {
+		td, th {
+			font-style: italic;
+		}
+
+	}
+
 	td .active {
 		font-weight: bold;
 	}
+}
+
+.text-centered {
+	text-align: center;
 }

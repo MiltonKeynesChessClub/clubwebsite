@@ -55,19 +55,25 @@ layout: single
     <tr>
       <th>Date</th>
       <th>Home</th>
-      <th>Result</th>
+      <th class="text-centered">Result</th>
       <th>Away</th>
     </tr>
   </thead>
   <tbody>
     {% for fixture in fixtures %}
       {% if fixture.hometeam == team.league_name or fixture.awayteam == team.league_name  %}
-      <tr>
+      <tr{% if fixture.result == "0 - 0" %} class="muted"{% endif %}>
         <td><time datetime="{{ fixture.date | date_to_xmlschema }}">{{ fixture.date | date: date_format }}</time></td>
         <td>
           <span{% if fixture.hometeam == team.league_name %} class="active"{% endif %}>{{ fixture.hometeam }}</span>
         </td>
-        <td>{{ fixture.result }}</td>
+        <td class="text-centered">
+          {% if fixture.result == "0 - 0" %}
+            TBC
+          {% else %}
+            {{ fixture.result }}
+          {% endif %}
+        </td>
         <td>
           <span{% if fixture.awayteam == team.league_name %} class="active"{% endif %}>{{ fixture.awayteam }}</span>
         </td>
@@ -77,7 +83,7 @@ layout: single
   </tbody>
 </table>
 
-<!-- {% assign games = site.data._generated.bcl_matches[team.division] | find:"fixture","{{ fixture.id }}" %} -->
+{% assign games = site.data._generated.bcl_matches[team.division] | where:"fixture",fixture.id %}
 
 
 
