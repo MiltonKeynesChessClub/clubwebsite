@@ -1,9 +1,9 @@
-{% for member in site.data.mkmembers %}
-    {% if member.slug == include.slug %}
-    	{% assign __m = member %}
+{% for _m in site.data.mkmembers %}
+    {% if _m.slug == include.slug %}
+    	{% assign member = _m %}
     {% endif %}
 {% endfor %}
 
-{% if __m.slug %}
-	<a href="/members/{{ __m.slug }}.html"{% if __m.slug == page.member %} class="active"{% endif %}>{{ __m.name }}</a>
+{% if member.slug %}
+	<a href="/members/{{ member.slug }}.html"{% if member.slug == page.member %} class="active"{% endif %}>{{ member.name }}</a>
 {% endif %}
