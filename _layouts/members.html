@@ -5,11 +5,9 @@ layout: single
 {{ content }}
 
 <ul>
-{% for player in site.data.mkplayers %}
+{% for member in site.data.mkmembers %}
   <li>
-    <a href="/players/{{ player[0] }}.html">
-      {{ player[1].name }} ({{ player[1].ecfcode }})
-    </a>
+    {% include member_link.html slug=member.slug %}
   </li>
 {% endfor %}
 </ul>

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: officers
 title:  "Club officers"
 sidebar:
   nav: about

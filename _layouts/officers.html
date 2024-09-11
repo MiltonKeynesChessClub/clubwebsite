@@ -1,0 +1,27 @@
+---
+layout: single
+---
+
+{{ content }}
+
+<dl>
+	{% for officerrole in site.data.officers %}
+		<dt>{{ officerrole.role }}</dt>
+		{% for memberslug in officerrole.members %}
+		  <dd>
+		    {% include member_link.html slug=memberslug %}
+		  </dd>
+		{% endfor %}
+	{% endfor %}
+</dl>
+
+<dl>
+	{% for team in site.data.mkteams %}
+	  {% assign memberslug = team[1].captain %}
+	  <dt>{{ team[1].name }} Captain</dt>
+	  <dd>
+	    {% include member_link.html slug=memberslug %}
+	  </dd>
+	{% endfor %}
+</dl>
+

@@ -14,14 +14,11 @@ layout: single
   </a>
 </p>
 <ol>
-  {% for playerid in team.members %}
-    {% assign player = site.data.mkplayers[playerid] %}
+  {% for memberslug in team.members %}
     <li>
-      <a href="/players/{{ playerid }}.html">
-        {{ player.name }}
-      </a>
+      {% include member_link.html slug=memberslug %}
     </li>
-{% endfor %}
+  {% endfor %}
 </ol>
 
 <h2>Fixtures and results</h2>

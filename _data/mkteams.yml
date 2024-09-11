@@ -1,42 +1,42 @@
 mka:
   name: Milton Keynes A
-  captain: elwin-adrian-g
+  captain: adrian-elwin
   members:
-  - tweeddale-eoin
-  - bartram-dominic
-  - elwin-adrian-g
-  - smith-graham
-  - whiteside-robert
-  - bowler-andrew
+  - eoin-tweeddale
+  - dominic-bartram
+  - adrian-elwin
+  - graham-smith
+  - robert-whiteside
+  - andrew-bowler
 
 mkb:
   name: Milton Keynes B
-  captain: bhalla-sumit
+  captain: sumit-bhalla
   members:
-  - heath-alan
-  - ward-george
-  - spigapiena-giuseppe
-  - watson-dominic
-  - evans-thomas
-  - bhalla-sumit
+  - alan-heath
+  - george-ward
+  - giuseppe-spigapiena
+  - dominic-watson
+  - thomas-evans
+  - sumit-bhalla
 
 mkc:
   name: Milton Keynes C
-  captain: solloway-colin-j
+  captain: colin-solloway
   members:
-  - wells-dave
-  - solloway-colin-j
-  - mcnamara-john
-  - mckeon-john-e
-  - page-michael
+  - dave-wells
+  - colin-solloway
+  - john-mcnamara
+  - john-mckeon
+  - michael-page
 
 ou:
   name: Open University
-  captain: alexander-nod-james
+  captain: james-alexander
   members:
-    - alexander-nod-james
-    - edwards-vincent
-    - osborn-mark
-    - jacques-matthew
-    - phillips-david
-    - collins-nigel
+    - james-alexander
+    - vincent-edwards
+    - mark-osborn
+    - matthew-jacques
+    - david-phillips
+    - nigel-collins

@@ -1,0 +1,9 @@
+{% for member in site.data.mkmembers %}
+    {% if member.slug == include.slug %}
+    	{% assign __m = member %}
+    {% endif %}
+{% endfor %}
+
+{% if __m.slug %}
+	<a href="/members/{{ __m.slug }}.html"{% if __m.slug == page.member %} class="active"{% endif %}>{{ __m.name }}</a>
+{% endif %}
