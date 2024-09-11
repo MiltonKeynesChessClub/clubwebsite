@@ -10,12 +10,12 @@ layout: single
 
 <h2>Team members</h2>
 <p>
-  <strong>Captain</strong>: {% include member_link.html slug=team.captain %}
+  <strong>Captain</strong>: {% include member_link.html value=team.captain field="slug" %}
 </p>
 <ol>
   {% for memberslug in team.members %}
     <li>
-      {% include member_link.html slug=memberslug %}
+      {% include member_link.html value=memberslug field="slug" %}
     </li>
   {% endfor %}
 </ol>
@@ -105,10 +105,10 @@ layout: single
           <tbody>
             {% for game in games %}
               <tr>
-                <td>{{ game.home.name }} ({{ game.home.color }})</td>
+                <td>{% include member_link.html value=game.home.name field="ecfname" %} ({{ game.home.color }})</td>
                 <td>{{ game.home.rating }}</td>
                 <td class="text-centered">{{ game.result }}</td>
-                <td>{{ game.away.name }} ({{ game.away.color }})</td>
+                <td>{% include member_link.html value=game.away.name field="ecfname" %} ({{ game.away.color }})</td>
                 <td>{{ game.away.rating }}</td>
               </tr>
             {% endfor %}

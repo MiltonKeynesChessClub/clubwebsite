@@ -7,7 +7,7 @@
         <ul>
           {% for member in site.data.mkmembers %}
             <li>
-               {% include member_link.html slug=member.slug %}
+               {% include member_link.html value=member.slug field="slug" %}
             </li>
           {% endfor %}
         </ul>
