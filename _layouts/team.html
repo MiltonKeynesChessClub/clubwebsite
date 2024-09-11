@@ -8,7 +8,7 @@ layout: single
 
 {{ content }}
 
-<h2>Team members</h2>
+<h2 id="team-members">Team members</h2>
 <p>
   <strong>Captain</strong>: {% include member_link.html value=team.captain field="slug" %}
 </p>
@@ -20,7 +20,7 @@ layout: single
   {% endfor %}
 </ol>
 
-<h2>League table</h2>
+<h2 id="league-table">League table</h2>
 <table>
   <thead>
     <tr>
@@ -50,7 +50,7 @@ layout: single
   </tbody>
 </table>
 
-<h2>Fixtures</h2>
+<h2 id="fixtures">Fixtures</h2>
 <table>
   <thead>
     <tr>
@@ -84,13 +84,13 @@ layout: single
   </tbody>
 </table>
 
-<h2>Full results</h2>
+<h2 id="full-results">Full results</h2>
 {% for fixture in fixtures %}
   {% if fixture.hometeam == team.league_name or fixture.awayteam == team.league_name %}
     {% if fixture.result != "0 - 0" %}
       {% assign games = site.data._generated.bcl_matches[team.division.id] | where:"fixture",fixture.id %}
       {% if games.size > 0 %}
-        <h4>{{ fixture.hometeam }} vs {{ fixture.awayteam }}</h4>
+        <h4 id="{{ fixture.id }}">{{ fixture.hometeam }} vs {{ fixture.awayteam }}</h4>
         <p class="page__meta">
           Result: {{ fixture.result }} on <time datetime="{{ fixture.date | date_to_xmlschema }}">{{ fixture.date | date: date_format }}</time>
         </p>

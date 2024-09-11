@@ -2,6 +2,8 @@
 layout: team
 title: "Milton Keynes B"
 team: mkb
+toc: true
+toc_sticky: true
 header:
   overlay_image: /assets/images/banners/team.jpg
   overlay_filter: rgba( 0,0,0,0.8)

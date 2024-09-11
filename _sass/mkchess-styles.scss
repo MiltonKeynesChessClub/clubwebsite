@@ -65,3 +65,13 @@ table {
 .text-centered {
 	text-align: center;
 }
+
+ul.toc__menu {
+	li {
+		font-size: .8em;
+
+		li {
+			font-size: 1em;
+		}
+	}
+}
