@@ -1,0 +1,31 @@
+---
+layout: single
+---
+
+{% assign player = site.data.mkplayers[page.player] %}
+
+{{ content }}
+
+<h2>Essential info</h2>
+<p><em>This is just a demo of the concept of using "dynamic" data.</em></p>
+<dl>
+  <dt>Name</dt>
+  <dd>{{ player.name }}</dd>
+  <dt>ECF Code</dt>
+  <dd>
+    <a rel="ECF Rating Page" href="https://rating.englishchess.org.uk/v2/new/player.php?ECF_code={{ player.ecfcode }}" title="{{ player.ecfcode }}">
+      {{ player.ecfcode }}
+    </a>
+  </dd>
+  <dt>Standard rating</dt>
+  <dd>{{ player.standardrating }}</dd>
+  <dt>Rapid rating</dt>
+  <dd>{{ player.rapidrating }}</dd>
+
+  <dt>Rapid rating</dt>
+  <dd>{{ player.rapidrating }}</dd>
+
+
+
+  <h2>TODO: show game history, etc.</h2>
+</dl>

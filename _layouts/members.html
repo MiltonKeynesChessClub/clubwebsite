@@ -1,0 +1,15 @@
+---
+layout: single
+---
+
+{{ content }}
+
+<ul>
+{% for player in site.data.mkplayers %}
+  <li>
+    <a href="/players/{{ player[0] }}.html">
+      {{ player[1].name }} ({{ player[1].ecfcode }})
+    </a>
+  </li>
+{% endfor %}
+</ul>

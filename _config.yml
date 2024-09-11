@@ -22,6 +22,10 @@ include:
 
 minimal_mistakes_skin: "mkchess" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+exclude:
+  - _build
+  - .github
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
