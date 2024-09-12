@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Arsenii Korzun"
-permalink: /member/arsenii-korzun.html
+permalink: /members/arsenii-korzun.html
 member: arsenii-korzun
 ---

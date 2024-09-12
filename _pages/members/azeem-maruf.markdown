@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Azeem Maruf"
-permalink: /member/azeem-maruf.html
+permalink: /members/azeem-maruf.html
 member: azeem-maruf
 ---

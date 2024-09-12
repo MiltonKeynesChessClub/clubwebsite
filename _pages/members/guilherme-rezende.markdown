@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Guilherme Rezende"
-permalink: /member/guilherme-rezende.html
+permalink: /members/guilherme-rezende.html
 member: guilherme-rezende
 ---

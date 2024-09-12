@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Jeshwin Jayakumar"
-permalink: /member/jeshwin-jayakumar.html
+permalink: /members/jeshwin-jayakumar.html
 member: jeshwin-jayakumar
 ---

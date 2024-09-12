@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Cyprian Rutka"
-permalink: /member/cyprian-rutka.html
+permalink: /members/cyprian-rutka.html
 member: cyprian-rutka
 ---

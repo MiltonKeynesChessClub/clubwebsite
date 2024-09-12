@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Bosko Bauk"
-permalink: /member/bosko-bauk.html
+permalink: /members/bosko-bauk.html
 member: bosko-bauk
 ---

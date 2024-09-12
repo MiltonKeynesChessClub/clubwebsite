@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Reyansh Arora"
-permalink: /member/reyansh-arora.html
+permalink: /members/reyansh-arora.html
 member: reyansh-arora
 ---

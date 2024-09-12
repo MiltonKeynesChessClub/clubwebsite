@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Vincent Edwards"
-permalink: /member/vincent-edwards.html
+permalink: /members/vincent-edwards.html
 member: vincent-edwards
 ---

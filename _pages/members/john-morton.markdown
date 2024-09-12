@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "John Morton"
-permalink: /member/john-morton.html
+permalink: /members/john-morton.html
 member: john-morton
 ---

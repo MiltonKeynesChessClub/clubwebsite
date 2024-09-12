@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Teja Koripalli"
-permalink: /member/teja-koripalli.html
+permalink: /members/teja-koripalli.html
 member: teja-koripalli
 ---

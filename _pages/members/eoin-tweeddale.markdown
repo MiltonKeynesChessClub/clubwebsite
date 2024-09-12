@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Eoin Tweeddale"
-permalink: /member/eoin-tweeddale.html
+permalink: /members/eoin-tweeddale.html
 member: eoin-tweeddale
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "George Ward"
-permalink: /member/george-ward.html
+permalink: /members/george-ward.html
 member: george-ward
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Peter Hawes"
-permalink: /member/peter-hawes.html
+permalink: /members/peter-hawes.html
 member: peter-hawes
 ---

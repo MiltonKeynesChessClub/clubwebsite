@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Francesca Matta"
-permalink: /member/francesca-matta.html
+permalink: /members/francesca-matta.html
 member: francesca-matta
 ---

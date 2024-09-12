@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Mark Osborn"
-permalink: /member/mark-osborn.html
+permalink: /members/mark-osborn.html
 member: mark-osborn
 ---

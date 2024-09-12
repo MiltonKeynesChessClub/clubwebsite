@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Shankar Parameswaran"
-permalink: /member/shankar-parameswaran.html
+permalink: /members/shankar-parameswaran.html
 member: shankar-parameswaran
 ---

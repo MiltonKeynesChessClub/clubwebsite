@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Ashish Ganatra"
-permalink: /member/ashish-ganatra.html
+permalink: /members/ashish-ganatra.html
 member: ashish-ganatra
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Arnav Kommineni"
-permalink: /member/arnav-kommineni.html
+permalink: /members/arnav-kommineni.html
 member: arnav-kommineni
 ---

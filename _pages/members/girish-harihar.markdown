@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Girish Harihar"
-permalink: /member/girish-harihar.html
+permalink: /members/girish-harihar.html
 member: girish-harihar
 ---

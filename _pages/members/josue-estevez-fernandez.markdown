@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Josue Estevez Fernandez"
-permalink: /member/josue-estevez-fernandez.html
+permalink: /members/josue-estevez-fernandez.html
 member: josue-estevez-fernandez
 ---

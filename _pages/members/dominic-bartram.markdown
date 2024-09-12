@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Dominic Bartram"
-permalink: /member/dominic-bartram.html
+permalink: /members/dominic-bartram.html
 member: dominic-bartram
 ---

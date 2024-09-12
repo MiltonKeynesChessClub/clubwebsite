@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Harry Turnbull"
-permalink: /member/harry-turnbull.html
+permalink: /members/harry-turnbull.html
 member: harry-turnbull
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Sunny Arora"
-permalink: /member/sunny-arora.html
+permalink: /members/sunny-arora.html
 member: sunny-arora
 ---

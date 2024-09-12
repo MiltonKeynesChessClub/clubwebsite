@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Panagiotis Bogiatzoglou"
-permalink: /member/panagiotis-bogiatzoglou.html
+permalink: /members/panagiotis-bogiatzoglou.html
 member: panagiotis-bogiatzoglou
 ---

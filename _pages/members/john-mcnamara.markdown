@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "John McNamara"
-permalink: /member/john-mcnamara.html
+permalink: /members/john-mcnamara.html
 member: john-mcnamara
 ---

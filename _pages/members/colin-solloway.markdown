@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Colin Solloway"
-permalink: /member/colin-solloway.html
+permalink: /members/colin-solloway.html
 member: colin-solloway
 ---

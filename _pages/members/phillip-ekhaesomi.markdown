@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Phillip Ekhaesomi"
-permalink: /member/phillip-ekhaesomi.html
+permalink: /members/phillip-ekhaesomi.html
 member: phillip-ekhaesomi
 ---

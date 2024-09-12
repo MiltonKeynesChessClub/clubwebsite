@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Graham Smith"
-permalink: /member/graham-smith.html
+permalink: /members/graham-smith.html
 member: graham-smith
 ---

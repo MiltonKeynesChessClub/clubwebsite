@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Milosz Sibiga"
-permalink: /member/milosz-sibiga.html
+permalink: /members/milosz-sibiga.html
 member: milosz-sibiga
 ---

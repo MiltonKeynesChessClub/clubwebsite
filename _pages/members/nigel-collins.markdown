@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Nigel Collins"
-permalink: /member/nigel-collins.html
+permalink: /members/nigel-collins.html
 member: nigel-collins
 ---

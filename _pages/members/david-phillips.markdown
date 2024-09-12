@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "David Phillips"
-permalink: /member/david-phillips.html
+permalink: /members/david-phillips.html
 member: david-phillips
 ---

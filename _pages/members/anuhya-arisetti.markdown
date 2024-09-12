@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Anuhya Arisetti"
-permalink: /member/anuhya-arisetti.html
+permalink: /members/anuhya-arisetti.html
 member: anuhya-arisetti
 ---

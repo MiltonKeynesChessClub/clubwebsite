@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Kshetragna Gullapelly"
-permalink: /member/kshetragna-gullapelly.html
+permalink: /members/kshetragna-gullapelly.html
 member: kshetragna-gullapelly
 ---

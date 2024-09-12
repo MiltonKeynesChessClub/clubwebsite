@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Mikhail Korzun"
-permalink: /member/mikhail-korzun.html
+permalink: /members/mikhail-korzun.html
 member: mikhail-korzun
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Thomas Minty"
-permalink: /member/thomas-minty.html
+permalink: /members/thomas-minty.html
 member: thomas-minty
 ---

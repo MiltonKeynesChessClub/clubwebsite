@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Dominic Watson"
-permalink: /member/dominic-watson.html
+permalink: /members/dominic-watson.html
 member: dominic-watson
 ---

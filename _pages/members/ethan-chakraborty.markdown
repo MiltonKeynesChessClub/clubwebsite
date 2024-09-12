@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Ethan Chakraborty"
-permalink: /member/ethan-chakraborty.html
+permalink: /members/ethan-chakraborty.html
 member: ethan-chakraborty
 ---

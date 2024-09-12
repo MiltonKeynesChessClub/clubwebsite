@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Atila Besceli"
-permalink: /member/atila-besceli.html
+permalink: /members/atila-besceli.html
 member: atila-besceli
 ---

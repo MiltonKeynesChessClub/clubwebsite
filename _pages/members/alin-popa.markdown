@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Alin Popa"
-permalink: /member/alin-popa.html
+permalink: /members/alin-popa.html
 member: alin-popa
 ---

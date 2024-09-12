@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Florin Hristea"
-permalink: /member/florin-hristea.html
+permalink: /members/florin-hristea.html
 member: florin-hristea
 ---

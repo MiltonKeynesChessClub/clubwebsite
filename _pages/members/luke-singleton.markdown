@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Luke Singleton"
-permalink: /member/luke-singleton.html
+permalink: /members/luke-singleton.html
 member: luke-singleton
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Ayomide Mabogunje"
-permalink: /member/ayomide-mabogunje.html
+permalink: /members/ayomide-mabogunje.html
 member: ayomide-mabogunje
 ---

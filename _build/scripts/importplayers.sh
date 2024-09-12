@@ -52,7 +52,7 @@ while read member; do
   		echo "---
 layout: member
 title:  \"$name\"
-permalink: /member/${slug}.html
+permalink: /members/${slug}.html
 member: $slug
 ---" > "${MK_MEMBER_PAGES}/${slug}.markdown"
   	fi

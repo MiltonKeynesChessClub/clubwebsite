@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Sam Ezeh"
-permalink: /member/sam-ezeh.html
+permalink: /members/sam-ezeh.html
 member: sam-ezeh
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Veronica Poon"
-permalink: /member/veronica-poon.html
+permalink: /members/veronica-poon.html
 member: veronica-poon
 ---

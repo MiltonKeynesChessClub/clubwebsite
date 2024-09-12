@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "Matthew Finn"
-permalink: /member/matthew-finn.html
+permalink: /members/matthew-finn.html
 member: matthew-finn
 ---

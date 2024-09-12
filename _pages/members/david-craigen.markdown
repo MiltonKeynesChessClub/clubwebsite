@@ -1,6 +1,6 @@
 ---
 layout: member
 title:  "David Craigen"
-permalink: /member/david-craigen.html
+permalink: /members/david-craigen.html
 member: david-craigen
 ---
