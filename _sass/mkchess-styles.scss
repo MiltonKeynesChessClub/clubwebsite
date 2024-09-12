@@ -10,6 +10,7 @@
 			background: url("/assets/images/logo/logo.svg") no-repeat;
 			background-size: 230px 80px;
 			overflow: hidden;
+			min-width: 230px;
 		}
 	}
 
@@ -79,4 +80,12 @@ ul.toc__menu {
 .page__content > h2:first-child,
 .page__content > .sidebar__right:first-child + h2 {
 	margin-top: 0;
+}
+
+.navicon, .navicon::before, .navicon::after {
+	background: $mk-white-platinum;
+}
+
+.greedy-nav .hidden-links {
+	background: $mk-dark-brown;
 }
