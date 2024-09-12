@@ -9,7 +9,7 @@ layout: single
 		<dt>{{ officerrole.role }}</dt>
 		{% for memberslug in officerrole.members %}
 		  <dd>
-		    {% include member_link.html value=memberslug field="slug" %}
+		    {% include snippets/member_link.html value=memberslug field="slug" %}
 		  </dd>
 		{% endfor %}
 	{% endfor %}
@@ -20,7 +20,7 @@ layout: single
 	  {% assign memberslug = team[1].captain %}
 	  <dt>{{ team[1].name }} Captain</dt>
 	  <dd>
-	    {% include member_link.html value=memberslug field="slug" %}
+	    {% include snippets/member_link.html value=memberslug field="slug" %}
 	  </dd>
 	{% endfor %}
 </dl>

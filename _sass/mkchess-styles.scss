@@ -75,3 +75,8 @@ ul.toc__menu {
 		}
 	}
 }
+
+.page__content > h2:first-child,
+.page__content > .sidebar__right:first-child + h2 {
+	margin-top: 0;
+}

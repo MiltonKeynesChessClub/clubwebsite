@@ -1,0 +1,17 @@
+<div class="sidebar">
+  <nav class="nav__list">
+    <ul class="nav__items">
+      <li>
+        <span class="nav__sub-title">All members</span>
+
+        <ul>
+          {% for member in site.data.mkmembers %}
+            <li>
+               {% include snippets/member_link.html value=member.slug field="slug" %}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>

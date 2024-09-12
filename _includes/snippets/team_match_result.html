@@ -1,0 +1,25 @@
+<h4 id="{{ include.fixture.id }}">{{ include.fixture.hometeam }} vs {{ include.fixture.awayteam }}</h4>
+<p class="page__meta">
+  Result: {{ include.fixture.result }} on <time datetime="{{ include.fixture.date | date_to_xmlschema }}">{{ include.fixture.date | date: date_format }}</time>
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">{{ include.fixture.hometeam }}</th>
+      <th class="text-centered">Result</th>
+      <th colspan="2">{{ include.fixture.awayteam }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for game in include.games %}
+      <tr>
+        <td>{% include snippets/member_link.html value=game.home.name field="ecfname" %} ({{ game.home.color }})</td>
+        <td>{{ game.home.rating }}</td>
+        <td class="text-centered">{{ game.result }}</td>
+        <td>{% include snippets/member_link.html value=game.away.name field="ecfname" %} ({{ game.away.color }})</td>
+        <td>{{ game.away.rating }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

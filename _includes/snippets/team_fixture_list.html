@@ -1,0 +1,48 @@
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Home</th>
+      <th class="text-centered">Result</th>
+      <th>Away</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for fixture in include.fixtures %}
+      {% if fixture.hometeam == include.activeteam or fixture.awayteam == include.activeteam  %}
+        {% if fixture.result == "0 - 0" %}
+          {% assign status="pending" %}
+        {% else %}
+          {% assign status="completed" %}
+        {% endif %}
+
+        <tr{% if status == "pending" %} class="muted"{% endif %}>
+          <td>
+            {% if include.includematchlinks and status == "completed" %}
+              <a href="#{{ fixture.id }}">
+            {% endif %}
+
+            <time datetime="{{ fixture.date | date_to_xmlschema }}">{{ fixture.date | date: date_format }}</time>
+
+            {% if include.includematchlinks and status == "completed" %}
+              </a>
+            {% endif %}
+          </td>
+          <td>
+            <span{% if fixture.hometeam == include.activeteam %} class="active"{% endif %}>{{ fixture.hometeam }}</span>
+          </td>
+          <td class="text-centered">
+            {% if status == "pending" %}
+              TBC
+            {% else %}
+              {{ fixture.result }}
+            {% endif %}
+          </td>
+          <td>
+            <span{% if fixture.awayteam == include.activeteam %} class="active"{% endif %}>{{ fixture.awayteam }}</span>
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

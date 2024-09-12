@@ -1,0 +1,28 @@
+<table>
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Played</th>
+      <th>Won</th>
+      <th>Drawn</th>
+      <th>Lost</th>
+      <th>For</th>
+      <th>Against</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for divteam in include.leaguetable %}
+      <tr{% if divteam.team == include.activeteam %} class="active"{% endif %}>
+        <td>{{ divteam.team }}</td>
+        <td>{{ divteam.played }}</td>
+        <td>{{ divteam.won }}</td>
+        <td>{{ divteam.drawn }}</td>
+        <td>{{ divteam.lost }}</td>
+        <td>{{ divteam.for }}</td>
+        <td>{{ divteam.against }}</td>
+        <td>{{ divteam.points }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

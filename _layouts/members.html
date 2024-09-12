@@ -7,7 +7,7 @@ layout: single
 <ul>
 {% for member in site.data.mkmembers %}
   <li>
-    {% include member_link.html value=member.slug field="slug" %}
+    {% include snippets/member_link.html value=member.slug field="slug" %}
   </li>
 {% endfor %}
 </ul>

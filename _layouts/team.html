@@ -2,124 +2,35 @@
 layout: single
 ---
 
-{% assign team = site.data.mkteams[page.team] %}
-{% assign leaguetable = site.data._generated.bcl_table[team.division.id] %}
-{% assign fixtures = site.data._generated.bcl_fixtures[team.division.id] %}
+{% include scripts/teamseasonloader.liquid %}
 
+<h2>{{ page.title }} - {{ season }} Season</h2>
 {{ content }}
 
 <h2 id="team-members">Team members</h2>
-<p>
-  <strong>Captain</strong>: {% include member_link.html value=team.captain field="slug" %}
-</p>
-<ol>
-  {% for memberslug in team.members %}
-    <li>
-      {% include member_link.html value=memberslug field="slug" %}
-    </li>
-  {% endfor %}
-</ol>
+{% include snippets/team_members.html %}
 
-<h2 id="league-table">League table</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Team</th>
-      <th>Played</th>
-      <th>Won</th>
-      <th>Drawn</th>
-      <th>Lost</th>
-      <th>For</th>
-      <th>Against</th>
-      <th>Points</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for divteam in leaguetable %}
-      <tr{% if divteam.team == team.league_name %} class="active"{% endif %}>
-        <td>{{ divteam.team }}</td>
-        <td>{{ divteam.played }}</td>
-        <td>{{ divteam.won }}</td>
-        <td>{{ divteam.drawn }}</td>
-        <td>{{ divteam.lost }}</td>
-        <td>{{ divteam.for }}</td>
-        <td>{{ divteam.against }}</td>
-        <td>{{ divteam.points }}</td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% unless leaguetable %}
+  <h2 id="league-table">League table</h2>
+  <p><em class="muted">We do not yet have any data for this league.</em></p>
 
-<h2 id="fixtures">Fixtures</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Home</th>
-      <th class="text-centered">Result</th>
-      <th>Away</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for fixture in fixtures %}
-      {% if fixture.hometeam == team.league_name or fixture.awayteam == team.league_name  %}
-      <tr{% if fixture.result == "0 - 0" %} class="muted"{% endif %}>
-        <td><time datetime="{{ fixture.date | date_to_xmlschema }}">{{ fixture.date | date: date_format }}</time></td>
-        <td>
-          <span{% if fixture.hometeam == team.league_name %} class="active"{% endif %}>{{ fixture.hometeam }}</span>
-        </td>
-        <td class="text-centered">
-          {% if fixture.result == "0 - 0" %}
-            TBC
-          {% else %}
-            {{ fixture.result }}
-          {% endif %}
-        </td>
-        <td>
-          <span{% if fixture.awayteam == team.league_name %} class="active"{% endif %}>{{ fixture.awayteam }}</span>
-        </td>
-      </tr>
-      {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
+{% else %}
+  <h2 id="league-table">League table</h2>
+  {% include snippets/league_table.html leaguetable=leaguetable activeteam=leaguename %}
 
-<h2 id="full-results">Full results</h2>
-{% for fixture in fixtures %}
-  {% if fixture.hometeam == team.league_name or fixture.awayteam == team.league_name %}
-    {% if fixture.result != "0 - 0" %}
-      {% assign games = site.data._generated.bcl_matches[team.division.id] | where:"fixture",fixture.id %}
-      {% if games.size > 0 %}
-        <h4 id="{{ fixture.id }}">{{ fixture.hometeam }} vs {{ fixture.awayteam }}</h4>
-        <p class="page__meta">
-          Result: {{ fixture.result }} on <time datetime="{{ fixture.date | date_to_xmlschema }}">{{ fixture.date | date: date_format }}</time>
-        </p>
+  <h2 id="fixtures">Fixtures</h2>
+  {% include snippets/team_fixture_list.html fixtures=fixtures activeteam=leaguename includematchlinks=true %}
 
-        <table>
-          <thead>
-            <tr>
-              <th colspan="2">{{ fixture.hometeam }}</th>
-              <th class="text-centered">Result</th>
-              <th colspan="2">{{ fixture.awayteam }}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for game in games %}
-              <tr>
-                <td>{% include member_link.html value=game.home.name field="ecfname" %} ({{ game.home.color }})</td>
-                <td>{{ game.home.rating }}</td>
-                <td class="text-centered">{{ game.result }}</td>
-                <td>{% include member_link.html value=game.away.name field="ecfname" %} ({{ game.away.color }})</td>
-                <td>{{ game.away.rating }}</td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
+  <h2 id="full-results">Full results</h2>
+  {% for fixture in fixtures %}
+    {% if fixture.hometeam == leaguename or fixture.awayteam == leaguename %}
+      {% if fixture.result != "0 - 0" %}
+        {% assign games = matches | where:"fixture",fixture.id %}
+        {% if games.size > 0 %}
+          {% include snippets/team_match_result.html fixture=fixture games=games %}
+        {% endif %}
       {% endif %}
     {% endif %}
-  {% endif %}
-{% endfor %}
+  {% endfor %}
 
-
-
-
+{% endunless %}

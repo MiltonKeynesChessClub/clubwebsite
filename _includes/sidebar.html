@@ -1,3 +1,7 @@
+{% comment %}
+   Copied from minimal-mistakes them in order to add our own custom
+   side bar nav logic
+{% endcomment %}
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
@@ -18,10 +22,11 @@
   </div>
 {% endif %}
 
-{% if page.layout == "member" %}
-  {% include member_sidebar.html %}
-{% endif %}
 
-{% if page.layout contains "team" %}
-  {% include team_sidebar.html %}
+{% comment %}
+   MK Custom logic below
+{% endcomment %}
+
+{% if page.layout == "member" %}
+  {% include nav/member_sidebar.html %}
 {% endif %}

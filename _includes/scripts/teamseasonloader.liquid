@@ -1,0 +1,47 @@
+{% assign comps = site.data.general[ "competitions" ] %}
+
+{% comment %}
+   Figure out the current season for the page. If no
+   explicit season defined - take the latest season.
+{% endcomment %}
+{% assign seasonIsActive = false %}
+{% if page.season %}
+  {% assign season = page.season %}
+{% else %}
+  {% assign season = comps.bcl[0].season %}
+{% endif %}
+{% for s in comps.bcl %}
+	{% if s.season == season %}
+  		{% assign seasonIsActive = s.active %}
+  		{% break %}
+	{% endif %}
+{% endfor %}
+
+{% if page.leaguename %}
+  {% assign leaguename = page.leaguename %}
+{% else %}
+  {% assign leaguename = page.title %}
+{% endif %}
+
+{% comment %}
+	Giant case statement because Liquid does not seem
+	to be able to dynamically load data files when in subfolders
+	and I really want to use subfolders
+
+	TODO: make this not horrible!
+{% endcomment %}
+{% case season %}
+  {% when 2024 %}
+	{% assign leaguetable = site.data._generated.bcl[ "2024" ].table[ page.division ] %}
+	{% assign fixtures = site.data._generated.bcl[ "2024" ].fixtures[ page.division ] %}
+	{% assign matches = site.data._generated.bcl[ "2024" ].matches[ page.division ] %}
+
+  {% comment %}
+  {% when 2023 %}
+    {% assign leaguetable = site.data._generated.bcl[ "2023" ].table[ team.division ] %}
+	{% assign fixtures = site.data._generated.bcl[ "2023" ].fixtures[ team.division ] %}
+	{% assign matches = site.data._generated.bcl[ "2023" ].matches[ team.division ] %}
+
+	... etc.
+  {% endcomment %}
+{% endcase %}

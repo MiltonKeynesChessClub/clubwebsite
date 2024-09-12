@@ -17,7 +17,7 @@ TMP_MEMBER_JSON=$TMP_DIR/mkmembers.jsonl
 MEMBER_CSV=../../_data/mkmembers.csv
 ECF_DATA_DIR=../../_data/_generated
 ECF_DATA_FILE=$ECF_DATA_DIR/mkmemberecfdata.json
-MK_MEMBER_PAGES=../../members
+MK_MEMBER_PAGES=../../_pages/members
 ALL_CSV_HEADERS="\"ECF_code\",\"full_name\",\"member_no\",\"FIDE_no\",\"gender\",\"nation\",\"original_standard\",\"standard_original_category\",\"revised_standard\",\"standard_revised_category\",\"original_rapid\",\"rapid_origina l_category\",\"revised_rapid\",\"rapid_revised_category\",\"original_blitz\",\"blitz_original_category\",\"revised_blitz\",\"blitz_revised_category\",\"original_standard_online\",\"standard_online_original_ category\",\"revised_standard_online\",\"standard_online_revised_category\",\"original_rapid_online\",\"rapid_online_original_category\",\"revised_rapid_online\",\"rapid_online_revised_category\",\"origin al_blitz_online\",\"blitz_online_original_category\",\"revised_blitz_online\",\"blitz_online_revised_category\",\"club_code\",\"club_name\",\"title\""
 LIMITED_HEADERS=ECF_code,full_name,revised_standard,standard_revised_category,revised_rapid,rapid_revised_category,revised_blitz,blitz_revised_category,title
 
@@ -52,6 +52,7 @@ while read member; do
   		echo "---
 layout: member
 title:  \"$name\"
+permalink: /member/${slug}.html
 member: $slug
 ---" > "${MK_MEMBER_PAGES}/${slug}.markdown"
   	fi

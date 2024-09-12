@@ -26,14 +26,15 @@ exclude:
   - _build
   - .github
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
 # Markdown Processing
 kramdown:
   auto_ids: true
   toc_levels: 2..6
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: "_pages/teams"
+    values:
+      sidebar:
+        nav: teams

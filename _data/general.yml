@@ -1,0 +1,14 @@
+competitions:
+  bcl: # bedfordshire chess league
+  - season: 2025
+    active: true
+  - season: 2024
+    active: false
+
+  bic: # bedfordshire individual championships
+  - season: 2024
+    active: false
+
+  internal:
+  - season: 2024
+    active: false
