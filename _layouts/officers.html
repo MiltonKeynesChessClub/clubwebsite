@@ -5,7 +5,7 @@ layout: single
 {{ content }}
 
 <dl>
-	{% for officerrole in site.data.officers %}
+	{% for officerrole in site.data.mkchessclub.officers %}
 		<dt>{{ officerrole.role }}</dt>
 		{% for memberslug in officerrole.members %}
 		  <dd>

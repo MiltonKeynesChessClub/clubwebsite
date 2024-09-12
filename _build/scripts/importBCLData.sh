@@ -14,8 +14,8 @@ TMP_DIR=${TMP_DIR:-~/tmp}
 DIVISIONS="BCL Division 1
 BCL Division 2"
 
-ACTIVECHECK=$( yq ".competitions.bcl[0].active" ../../_data/general.yml )
-CURRENTSEASON=$( yq ".competitions.bcl[0].season" ../../_data/general.yml )
+ACTIVECHECK=$( yq ".competitions.bcl[0].active" ../../_data/mkchessclub.yml )
+CURRENTSEASON=$( yq ".competitions.bcl[0].season" ../../_data/mkchessclub.yml )
 ECF_DATA_DIR=../../_data/_generated/bcl/$CURRENTSEASON
 
 if [[ "$ACTIVECHECK" == "false" ]] ; then

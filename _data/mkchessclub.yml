@@ -1,0 +1,35 @@
+competitions:
+  bcl: # bedfordshire chess league
+  - season: 2025
+    active: false
+  - season: 2024
+    active: false
+
+  bic: # bedfordshire individual championships
+  - season: 2024
+    active: false
+
+  internal:
+  - season: 2024
+    active: false
+
+officers:
+  - role: Club chairman
+    members: james-alexander
+  - role: Club secretary
+    members: george-ward
+  - role: Club treasurer
+    members: alan-heath
+  - role: Tournament secretary
+    members: adrian-elwin
+  - role: Safeguarding officer
+    members: baird-mcclellan
+  - role: Deputy safeguarding officer
+    members: dominic-bartram
+  - role: Online & technical subcommittee
+    members:
+      - colin-solloway
+      - dominic-watson
+      - john-chandler
+      - michael-page
+      - sumit-bhalla
