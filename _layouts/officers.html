@@ -4,21 +4,19 @@ layout: single
 
 {{ content }}
 
-<dl>
+<dl class="dl-horizontal">
 	{% for officerrole in site.data.mkchessclub.officers %}
-		<dt>{{ officerrole.role }}</dt>
+		<dt>{{ officerrole.role }}:</dt>
 		{% for memberslug in officerrole.members %}
 		  <dd>
 		    {% include snippets/member_link.html value=memberslug field="slug" %}
 		  </dd>
 		{% endfor %}
 	{% endfor %}
-</dl>
 
-<dl>
 	{% for team in site.data.mkteams %}
 	  {% assign memberslug = team[1].captain %}
-	  <dt>{{ team[1].name }} Captain</dt>
+	  <dt>{{ team[1].name }} Captain:</dt>
 	  <dd>
 	    {% include snippets/member_link.html value=memberslug field="slug" %}
 	  </dd>

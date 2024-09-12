@@ -89,3 +89,23 @@ ul.toc__menu {
 .greedy-nav .hidden-links {
 	background: $mk-dark-brown;
 }
+
+dl.dl-horizontal {
+  display: grid;
+  grid-template-columns: max-content auto;
+
+  dt {
+  	margin-top: 0.5em;
+	grid-column-start: 1;
+  }
+
+  dt + dd {
+  	margin-top: 0.5em;
+  }
+
+  dd {
+  	margin-top: 0.2em;
+	grid-column-start: 2;
+  }
+}
+

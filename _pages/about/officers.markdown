@@ -6,4 +6,4 @@ sidebar:
   nav: about
 ---
 
-TODO: content
+The current committee members and other officers are as follows:
