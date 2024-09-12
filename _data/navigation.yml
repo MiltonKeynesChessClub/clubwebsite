@@ -7,8 +7,6 @@ main:
     url: /teams/
   - title: "Results"
     url: /results/
-  - title: "Contact"
-    url: /contact/
 
 about:
   - title: About the club
@@ -17,6 +15,8 @@ about:
       url: /about/
     - title: How to find us
       url: /about/location.html
+    - title: Contact us
+      url: /about/contact.html
     - title: Junior Chess
       url: /about/juniorchess.html
   - title: Members
