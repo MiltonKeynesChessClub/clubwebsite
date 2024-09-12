@@ -8,6 +8,56 @@ main:
   - title: "Results"
     url: /results/
 
+mainfull:
+  - title: "About"
+    children:
+    - title: About us
+      url: /about/
+    - title: How to find us
+      url: /about/location.html
+    - title: Contact us
+      url: /about/contact.html
+    - title: Junior Chess
+      url: /about/juniorchess.html
+  - title: Members
+    children:
+    - title: Club officers
+      url: /about/officers.html
+    - title: All Members
+      url: /about/players.html
+  - title: Documents
+    children:
+    - title: Privacy policy
+      url: /about/privacy-policy.html
+    - title: Safeguarding
+      url: /about/safeguarding.html
+    - title: Meetings and minutes
+      url: /about/meetings.html
+  - title: "Teams"
+    children:
+      - title: "Milton Keynes A"
+        url: /teams/mka.html
+      - title: "Milton Keynes B"
+        url: /teams/mkb.html
+      - title: "Milton Keynes C"
+        url: /teams/mkc.html
+      - title: "Open University"
+        url: /teams/ou.html
+  - title: "Internal competitions"
+    children:
+    - title: "Championship"
+      url: /internal/championship.html
+    - title: "Open Swiss"
+      url: /internal/openswiss.html
+    - title: "Open Knockout"
+      url: /internal/openknockout.html
+    - title: "U1800 Swiss"
+      url: /internal/u1800swiss.html
+    - title: "U1800 Knockout"
+      url: /internal/u1800knockout.html
+    - title: "U1400 Swiss"
+      url: /internal/u1400swiss.html
+
 about:
   - title: About the club
     children:
