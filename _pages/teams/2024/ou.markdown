@@ -1,6 +1,6 @@
 ---
 layout: team
-title: "Open university"
+title: "Open University"
 permalink: /teams/2024/ou.html
 season: 2024
 division: bcl-division-2

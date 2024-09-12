@@ -1,6 +1,6 @@
 ---
 layout: team
-title: "Open university"
+title: "Open University"
 permalink: /teams/ou.html
 division: bcl-division-2
 team: ou
