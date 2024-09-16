@@ -109,3 +109,57 @@ dl.dl-horizontal {
   }
 }
 
+.layout--all-play-all {
+	#main > article.page {
+		padding-right: 0;
+	}
+	#main > article.page:first-child {
+		width: 100%;
+		float: none;
+	}
+}
+
+table.all-play-all {
+	td, th {
+		text-align: center;
+		font-size: 0.8em;
+	}
+
+	.player-name {
+		text-align: right;
+		padding-right: 1em; // ensure some spacing
+	}
+
+	.all-play-all-result {
+		display: block;
+		padding: 0.2em;
+		border: 1px solid $mk-eerie-black;
+		font-size: 0.75em;
+	}
+	.all-play-all-result-w {
+		background-color: $mk-white-platinum;
+	}
+	.all-play-all-result-b {
+		background-color: $mk-eerie-black;
+		color: $mk-white-platinum;
+	}
+
+	.played {
+		color: $muted-text-color;
+	}
+
+	.score {
+		text-align: left;
+		padding-left: 2em;
+	}
+
+	tfoot {
+		td {
+			border-bottom: none;
+		}
+		.player-name-vertical {
+			writing-mode: vertical-rl;
+			vertical-align: top;
+		}
+	}
+}

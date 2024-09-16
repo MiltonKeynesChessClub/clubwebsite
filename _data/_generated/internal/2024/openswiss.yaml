@@ -1,0 +1,31 @@
+format: swiss
+nrounds: 5
+startdate: 2024-01-24
+timecomtrol: 35 moves in 70 minutes plus 10 minutes to finish the game together with a 10 second increment from move 1.
+table:
+  - player: dominic-bartram
+    startrating: 2042K
+    played: 3
+    score: 3
+    won: 3
+    lost: 0
+    drawn: 0
+    byes: 0
+    withdrawn: false
+    # some kind of support for "withdrawn"
+  #- etc.
+rounds:
+  - name: Round 1
+    deadline: 2024-08-01
+    complete: false
+    pairings:
+      - white: dominic-bartram
+        black: dominic-watson
+        result: 1-0
+        dateplayed: 2024-07-30
+      - white: brian-wilson
+        black: chomps-mcgraw
+      - white: grim-shackleton
+        result: bye
+      # - etc.
+  # - etc.

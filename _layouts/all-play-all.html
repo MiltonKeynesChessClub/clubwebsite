@@ -1,0 +1,44 @@
+---
+layout: single
+---
+
+{% assign results = site.data[ page.allplayallresult ] %}
+{% assign playercount = results.players.size %}
+
+{{ content }}
+
+<table class="all-play-all">
+	<thead>
+		<tr>
+			<th>Place</th>
+			<th class="player-name">Player</th>
+			<th colspan="{{ playercount }}">Results</th>
+			<th class="score">Score</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="2" class="dead-space">&nbsp;</td>
+			{% for player in results.players %}
+				<td class="player-name-vertical">
+					{% include snippets/member_link.html value=player.id field="slug" %}
+				</td>
+			{% endfor %}
+			<td class="dead-space">&nbsp;</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		{% for player in results.players %}
+			<tr>
+				<td>{{ player.place }}</td>
+				<td class="player-name">
+					{% include snippets/member_link.html value=player.id field="slug" %}
+				</td>
+				{% for playerb in results.players %}
+					{% include snippets/all_play_all_result.html playera=player.id playerb=playerb.id results=results.results %}
+				{% endfor %}
+				<td class="score">{{ player.score }} <span class="played">/ {{ player.played }}</span></td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>

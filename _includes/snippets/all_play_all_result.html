@@ -1,0 +1,35 @@
+{% assign score=null %}
+{% for result in include.results %}
+	{% if result.white == include.playera and result.black == include.playerb %}
+		{% assign colour="w" %}
+		{% case result.result %}
+			{% when "1-0" %}
+				{% assign score="1" %}
+			{% when "0-1" %}
+				{% assign score="0" %}
+			{% else %}
+				{% assign score="&frac12;" %}
+		{% endcase %}
+		{% break %}
+	{% elsif result.black == include.playera and result.white == include.playerb %}
+		{% assign colour="b" %}
+		{% case result.result %}
+			{% when "1-0" %}
+				{% assign score="0" %}
+			{% when "0-1" %}
+				{% assign score="1" %}
+			{% else %}
+				{% assign score="&frac12;" %}
+		{% endcase %}
+		{% break %}
+	{% endif %}
+{% endfor %}
+
+{% if score == null %}
+	<td>-</td>
+{% else %}
+	<td><span class="all-play-all-result all-play-all-result-{{ colour }}">{{ score }}</span></td>
+{% endif %}
+
+
+
