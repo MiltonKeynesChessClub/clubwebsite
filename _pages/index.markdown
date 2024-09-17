@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: home
+layout: splash
 title: Welcome
 excerpt: Welcome to the home of over-the-board chess in Milton Keynes. Join for competitive, friendly and casual chess!
 header:

@@ -3,7 +3,7 @@
 
 	Reason: add cachebusting to the main.css file
 {% endcomment %}
-{% assign cacheBust = site.time | date:'?v=%s' %}
+{% assign cachebust = site.time | date:'?v=%s' %}
 <meta charset="utf-8">
 
 {% include seo.html %}
@@ -23,7 +23,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | append: cacheBust }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | append: cachebust }}">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
