@@ -1,7 +1,27 @@
 colin-solloway:
-  name : "Colin Solloway"
-  bio  : "Todo, bio"
-  # avatar      : "/assets/images/bio-photo-2.jpg"
+  name   : "Colin Solloway"
+  avatar : "/assets/images/authors/colinsolloway.jpg"
+  bio: |
+    Colin has been a key and continued member of the Milton Keynes Chess Club
+    since 1974! Captain of the [Milton Keynes C](/teams/mkc.html) team and member
+    of the technical subcommittee.
+
+dominic-bartram:
+  name   : "Dominic Bartram"
+  bio: |
+    Dominic lives chess and sometimes plays Badminton. Often board 1 on the A team.
+  lichess: MeowMiauMeow
+
+dominic-watson:
+  name: "Dominic Watson"
+  avatar: "/assets/images/authors/dominicwatson.jpeg"
+  bio: |
+    Dominic is a recent joiner to the club and keen newbie. Currently playing
+    for the B team and a member of the technical subcommittee helping with
+    website builds and other online activities.
+  lichess: domwatson
+  chesscom: domwatson
+
   # links:
   #   - label: "Email"
   #     icon: "fas fa-fw fa-envelope-square"
