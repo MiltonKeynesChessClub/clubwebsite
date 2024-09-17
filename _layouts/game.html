@@ -1,0 +1,50 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% if page.white != blank %}
+	<dl class="dl-horizontal">
+		{% if page.event != blank %}
+			<dt>Event:</dt>
+			<dd>
+				{% if page.eventlink != blank %}
+					<a href="{{ page.eventlink }}">
+				{% endif %}
+				{{ page.event }}
+				{% if page.eventlink != blank %}
+					</a>
+				{% endif %}
+			</dd>
+		{% endif %}
+		{% if page.date != blank %}
+			<dt>Date:</dt>
+			<dd>
+				{{ page.date | date: "%-d %B %Y" }}
+			</dd>
+		{% endif %}
+		<dt>White:</dt>
+		<dd>
+			{% include snippets/member_link.html value=page.white field="slug" %}
+			{% if page.whiteelo != blank %}
+				({{ page.whiteelo }})
+			{% endif %}
+		</dd>
+		<dt>Black:</dt>
+		<dd>
+			{% include snippets/member_link.html value=page.black field="slug" %}
+			{% if page.blackelo != blank %}
+				({{ page.blackelo }})
+			{% endif %}
+		</dd>
+		<dt>Result:</dt>
+		<dd>{{ page.result }}</dd>
+	</dl>
+{% endif %}
+
+{% if page.pgn != blank %}
+  <script type="text/template" class="pgn-game">{{page.pgn}}</script>
+{% else %}
+<p><em>No PGN for this game has been uploaded.</em></p>
+{% endif %}

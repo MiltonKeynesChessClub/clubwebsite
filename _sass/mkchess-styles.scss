@@ -109,7 +109,7 @@ dl.dl-horizontal {
   }
 }
 
-.layout--all-play-all {
+.layout--all-play-all, .layout--game {
 	#main > article.page {
 		padding-right: 0;
 	}
@@ -162,4 +162,30 @@ table.all-play-all {
 			vertical-align: top;
 		}
 	}
+}
+
+.pgn-viewer-game.pgnvjs {
+	/* pgn viewer has some weird font styles, trying to fix them
+	   here
+	 */
+	.moves {
+		font-weight: normal;
+		font-family: $sans-serif;
+		font-size: 0.6em;
+
+		.comment {
+			border-bottom: none;
+			color: $muted-text-color;
+		}
+
+		move-number {
+			display: inline-block;
+			clear: both;
+		}
+
+		.variation move-number {
+			display: inline;
+		}
+	}
+
 }
