@@ -4,10 +4,35 @@ layout: single
 
 {{ content }}
 
-<ul>
-{% for member in site.data.mkmembers %}
-  <li>
-    {% include snippets/member_link.html value=member.slug field="slug" %}
-  </li>
-{% endfor %}
+<table class="datatable">
+	<thead>
+		<th>Member</th>
+		<th>Club role(s)</th>
+		<th><abbr title="English Chess Federation">ECF</abbr> Link</th>
+	</thead>
+	<tbody>
+		{% for member in site.data.mkmembers %}
+			<tr>
+				<td>{% include snippets/member_link.html value=member.slug field="slug" %}</td>
+				<td>
+					{% assign delim="" %}
+					{% for role in site.data.mkchessclub.officers %}
+						{% if role.members contains member.slug %}
+							{{ delim }}<abbr title="{{ role.role | strip_html }}">{{ role.shortkey }}</abbr>
+							{% assign delim='<span class="muted">/ </span>' %}
+						{% endif %}
+					{% endfor %}
+				</td>
+				<td>
+					{% if member.ecfcode %}
+
+						{% include snippets/ecf_link.html code=member.ecfcode %}
+					{% else %}
+						<em class="muted">N/A</em>
+					{% endif %}
+				</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
 </ul>

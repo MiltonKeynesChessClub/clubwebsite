@@ -189,3 +189,39 @@ table.all-play-all {
 	}
 
 }
+
+div.dt-container {
+	.dt-length, .dt-search, .dt-info, .dt-processing, .dt-paging {
+		font-size: 0.65em;
+	}
+
+	.dt-length, .dt-search {
+		label, select {
+			display: inline-block;
+		}
+
+		label {
+			margin: 0 0.5em;;
+		}
+	}
+
+	.dt-search {
+		position: relative;
+
+		&:before {
+	        font-family: 'FontAwesome';
+	        position: absolute;
+	        left: 10px;
+	        top: 2px;
+	        content: "\f002";
+	        color: $muted-text-color;
+    	}
+		label {
+			display: none;
+		}
+
+		.dt-input {
+			padding-left: 2em;
+		}
+	}
+}

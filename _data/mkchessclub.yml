@@ -15,18 +15,37 @@ competitions:
 
 officers:
   - role: Club chairman
+    shortkey: Ch
     members: james-alexander
   - role: Club secretary
+    shortkey: SEC
     members: george-ward
   - role: Club treasurer
+    shortkey: TR
     members: alan-heath
   - role: Tournament secretary
+    shortkey: TD
     members: adrian-elwin
   - role: Safeguarding officer
     members: baird-mcclellan
+    shortkey: SO
   - role: Deputy safeguarding officer
     members: dominic-bartram
+    shortkey: DSO
+  - role: Team A Captain
+    shortkey: CAPTA
+    members: adrian-elwin
+  - role: Team B Captain
+    shortkey: CAPTB
+    members: sumit-bhalla
+  - role: Team C Captain
+    shortkey: CAPTC
+    members: colin-solloway
+  - role: Open University Team Captain
+    shortkey: CAPTO
+    members: james-alexander
   - role: Online & technical subcommittee
+    shortkey: TECH
     members:
       - colin-solloway
       - dominic-watson
