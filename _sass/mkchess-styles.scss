@@ -5,12 +5,12 @@
 		background-color: $mk-dark-brown;
 
 		a.site-title {
-			padding: 80px 0 0 0;
+			padding: 70px 0 0 0;
 			height: 0;
-			background: url("/assets/images/logo/logo.svg") no-repeat;
-			background-size: 230px 80px;
+			background: url("/assets/images/logo/header-logo3.svg") no-repeat;
+			background-size: 292px 70px;
+			min-width: 292px;
 			overflow: hidden;
-			min-width: 230px;
 		}
 	}
 
