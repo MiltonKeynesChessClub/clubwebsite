@@ -5,6 +5,8 @@ main:
     url: /posts/
   - title: "Results"
     url: /results/
+  - title: "Contact us"
+    url: /about/contact.html
 
 about:
   - title: About the club
