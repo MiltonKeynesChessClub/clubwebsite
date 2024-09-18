@@ -40,6 +40,12 @@ defaults:
       sidebar:
         nav: teams
   - scope:
+      path: "_pages/about/members"
+    values:
+      sidebar:
+        nav: about
+      breadcrumbs: true
+  - scope:
       type: posts
     values:
       layout: single

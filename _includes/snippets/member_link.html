@@ -3,7 +3,7 @@
 
 {% if member.size > 0 %}
 	{% assign member = member[0] %}
-	<a href="/members/{{ member.slug }}.html"{% if member.slug == page.member %} class="active"{% endif %}>{{ member.name }}</a>
+	<a href="/about/members/{{ member.slug }}.html"{% if member.slug == page.member %} class="active"{% endif %}>{{ member.name }}</a>
 {% else %}
 	{{ memberdefault }}
 {% endif %}
