@@ -1,0 +1,25 @@
+{% assign sortedscores = include.players | group_by: "score" | sort: "name" | reverse %}
+
+<table class="standings-table">
+	<thead>
+		<tr>
+			<th class="standings-score">Score</th>
+			<th>Player</th>
+			<th><abbr title="Player's rating at the start of the tournament">Rating</abbr></th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for groupedscore in sortedscores %}
+			{% assign players = groupedscore.items | sort: "rating" | reverse %}
+			{% for player in players %}
+				<tr>
+					<td class="standings-score">{% include snippets/rendered_score.liquid score=player.score %}</td>
+					<td>{% include snippets/member_link.html value=player.id field="slug" %}</td>
+					<td class="muted">{{ player.rating }}</td>
+					<td><em class="muted">{{ player.notes }}</em></td>
+				</tr>
+			{% endfor %}
+		{% endfor %}
+	</tbody>
+</table>

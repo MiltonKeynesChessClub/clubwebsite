@@ -1,4 +1,4 @@
-round,board,white,whitepts,blackpts,black,date,result
+round,board,white,black,whitepts,blackpts,date,result
 1,1,john-mckeon,dominic-bartram,,,2024-03-28,0-1
 1,2,adrian-elwin,ashish-ganatra,,,2024-03-07,1-0
 1,3,vincent-edwards,graham-smith,,,2024-03-07,1-0
@@ -8,7 +8,7 @@ round,board,white,whitepts,blackpts,black,date,result
 1,7,michael-page,alan-heath,,,2024-03-28,0-1
 1,8,george-ward,sumit-bhalla,,,2024-04-25,1-0
 1,9,steven-wayne,dominic-watson,,,2024-03-07,0-1
-1,10,nick-pitts-tucker,dave-,,wells,2024-05-23,0-1
+1,10,nick-pitts-tucker,dave-wells,,,2024-05-23,0-1
 1,11,atila-besceli,john-mcnamara,,,2024-05-02,0-1
 ,,,,,,,
 2,1,dominic-bartram,dave-wells,1,1,2024-05-16,1-0
@@ -24,12 +24,12 @@ round,board,white,whitepts,blackpts,black,date,result
 2,11,matthew-jacques,bye,0,,,1-bye
 ,,,,,,,
 3,1,robert-whiteside,dominic-bartram,2,2,2024-07-04,0-1
-3,2,adrian-elwin,andrew-bowler,2,2,,,
+3,2,adrian-elwin,andrew-bowler,2,2,,tbc
 3,3,george-ward,james-alexander,1,1.5,2024-08-01,1/2-1/2
 3,4,vincent-edwards,alan-heath,1.5,1,2024-08-09,0-1
 3,5,john-mckeon,graham-smith,1,1,2024-07-18,0-1
 3,6,matthew-jacques,dominic-watson,1,1,2024-09-19,0-1
 3,7,dave-wells,john-mcnamara,1,1,2024-08-01,1/2-1/2
 3,8,steven-wayne,michael-page,0.5,1,2024-08-22,1-0
-3,9,atila-besceli,ashish-ganatra,0.5,0.5,,,
-3,10,sumit-bhalla,nigel-collins,0,0.5,,,
+3,9,atila-besceli,ashish-ganatra,0.5,0.5,,tbc
+3,10,sumit-bhalla,nigel-collins,0,0.5,,tbc

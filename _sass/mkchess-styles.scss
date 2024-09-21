@@ -201,6 +201,21 @@ table.all-play-all {
 	}
 }
 
+.swiss-results-table {
+	.board-number {
+		text-align: right;
+	}
+	.swiss-result {
+		text-align: center;
+	}
+}
+
+.standings-table {
+	.standings-score {
+		text-align: center;
+	}
+}
+
 .pgn-viewer-game.pgnvjs {
 	/* pgn viewer has some weird font styles, trying to fix them
 	   here
@@ -261,4 +276,10 @@ div.dt-container {
 			padding-left: 2em;
 		}
 	}
+}
+
+// utility
+
+.text-right {
+	text-align: right
 }

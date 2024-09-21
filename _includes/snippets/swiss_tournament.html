@@ -1,0 +1,43 @@
+{% comment %}
+This include takes care of rendering all of the details of a swiss tournament. It expects
+include.data to contain "rounds", "players" and "pairings". For example, see:
+_data/results/internal/2024/openswiss/ directory.
+
+NB. Lack of indentation here due to how the template is included and rendered in markdown. Indentation
+gets treated as a code quote rather than actual markup.
+{% endcomment %}
+
+{% assign rounds = include.data.rounds %}
+{% assign completerounds = rounds | where:"complete",true %}
+{% assign activeround = rounds | where:"active",true | first %}
+{% assign players = include.data.players %}
+{% assign allpairings = include.data.pairings %}
+{% assign pendinggames = allpairings | where:"round",activeround.number | where:"result","tbc" %}
+
+{% comment %} FINAL standings IF all rounds complete {% endcomment %}
+{% if completerounds.size == rounds.size %}
+<h3 id="final-standings">Final standings</h3>
+{% include snippets/swiss_standings.html players=players %}
+
+{% comment %} Show pending games if not complete and we have any {% endcomment %}
+{% elsif activeround.size and pendinggames.size > 0 %}
+
+<h3 id="pending-results">Pending results for round {{ activeround.number }}</h3>
+{% include snippets/swiss_pending_results.html round=activeround pairings=pendinggames players=players %}
+{% endif %}
+
+{% comment %} Drop into another include to output the table for each round {% endcomment %}
+{% for round in rounds %}
+{% assign pairings = allpairings | where: "round",round.number %}
+{% include snippets/swiss_round.html players=players pairings=pairings round=round %}
+{% endfor %}
+
+
+{% comment %} IF we're not complete, output the current standings {% endcomment %}
+{% if completerounds.size < rounds.size %}
+<h3 id="standings">Standings</h3>
+
+The current standings are as follows:
+
+{% include snippets/swiss_standings.html players=players %}
+{% endif %}
