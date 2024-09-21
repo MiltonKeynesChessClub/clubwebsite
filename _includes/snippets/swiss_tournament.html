@@ -14,6 +14,22 @@ gets treated as a code quote rather than actual markup.
 {% assign allpairings = include.data.pairings %}
 {% assign pendinggames = allpairings | where:"round",activeround.number | where:"result","tbc" %}
 
+{% if include.director.size > 0 or include.timecontrol.size > 0 %}
+<dl class="dl-horizontal">
+	{% if include.director.size > 0 %}
+		<dt>Tournament director:</dt>
+		<dd>
+			{% include snippets/member_link.html value=include.director field="slug" %}
+		</dd>
+	{% endif %}
+	{% if include.timecontrol.size > 0 %}
+		<dt>Time control:</dt>
+		<dd>{{ include.timecontrol }}</dd>
+	{% endif %}
+</dl>
+{% endif %}
+
+
 {% comment %} FINAL standings IF all rounds complete {% endcomment %}
 {% if completerounds.size == rounds.size %}
 <h3 id="final-standings">Final standings</h3>
