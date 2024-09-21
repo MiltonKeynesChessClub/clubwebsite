@@ -1,0 +1,16 @@
+white,black,result
+alan-heath,graham-smith,1/2-1/2
+graham-smith,vincent-edwards,1-0
+michael-page,graham-smith,0-1
+graham-smith,nick-pitts-tucker,1-bye
+atila-besceli,graham-smith,1/2-1/2
+vincent-edwards,alan-heath,0-1
+alan-heath,michael-page,1/2-1/2
+nick-pitts-tucker,alan-heath,0-1
+alan-heath,atila-besceli,1-0
+michael-page,vincent-edwards,0-1
+vincent-edwards,nick-pitts-tucker,1-bye
+atila-besceli,vincent-edwards,1/2-1/2
+nick-pitts-tucker,michael-page,bye-1
+michael-page,atila-besceli,1-0
+atila-besceli,nick-pitts-tucker,1-bye

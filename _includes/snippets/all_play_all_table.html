@@ -1,7 +1,8 @@
-{% assign results = site.data[ include.datafile ] %}
-{% assign playercount = results.players.size %}
-{% assign includeplace = results.players[0].place %}
-{% assign includerating = results.players[0].rating %}
+{% assign players = include.results.players %}
+{% assign results = include.results.pairings %}
+{% assign playercount = players.size %}
+{% assign includeplace = players[0].place %}
+{% assign includerating = players[0].rating %}
 
 <table class="all-play-all">
 	<thead>
@@ -20,7 +21,7 @@
 	<tfoot>
 		<tr>
 			<td colspan="2" class="dead-space">&nbsp;</td>
-			{% for player in results.players %}
+			{% for player in players %}
 				<td class="player-name-vertical">
 					{% include snippets/member_link.html value=player.id field="slug" %}
 				</td>
@@ -29,7 +30,7 @@
 		</tr>
 	</tfoot>
 	<tbody>
-		{% for player in results.players %}
+		{% for player in players %}
 			<tr>
 				{% if includeplace %}
 					<td>{{ player.place }}</td>
@@ -40,8 +41,8 @@
 				{% if includerating %}
 					<td>{{ player.rating }}</td>
 				{% endif %}
-				{% for playerb in results.players %}
-					{% include snippets/all_play_all_result.html playera=player.id playerb=playerb.id results=results.results %}
+				{% for playerb in players %}
+					{% include snippets/all_play_all_result.html playera=player.id playerb=playerb.id results=results %}
 				{% endfor %}
 				<td class="score">
 					{% if player.score %}
