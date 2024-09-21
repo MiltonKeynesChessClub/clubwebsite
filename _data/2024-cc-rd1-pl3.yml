@@ -1,0 +1,67 @@
+players:
+  - id: adrian-elwin
+    rating: 2034
+    score: 4
+  - id: andrew-bowler
+    rating: 1850
+    score: 5
+  - id: john-mcnamara
+    rating: 1685
+    score: 2
+  - id: matthew-jacques
+    rating: 1443
+    score: 2.5
+  - id: steven-wayne
+    rating: 1315
+    score: 2
+  - id: dexter-caplin-lazard
+    rating: 1093
+    score: 0
+
+results:
+  - white: andrew-bowler
+    black: adrian-elwin
+    result: 1-0
+  - white: adrian-elwin
+    black: john-mcnamara
+    result: 1-0
+  - white: matthew-jacques
+    black: adrian-elwin
+    result: 0-1
+  - white: adrian-elwin
+    black: steven-wayne
+    result: 1-0
+  - white: dexter-caplin-lazard
+    black: adrian-elwin
+    result: bye-1
+  - white: john-mcnamara
+    black: andrew-bowler
+    result: 0-1
+  - white: andrew-bowler
+    black: matthew-jacques
+    result: 1-0
+  - white: steven-wayne
+    black: andrew-bowler
+    result: 0-1
+  - white: andrew-bowler
+    black: dexter-caplin-lazard
+    result: 1-0
+  - white: matthew-jacques
+    black: john-mcnamara
+    result: 1-0
+  - white: john-mcnamara
+    black: steven-wayne
+    result: 1-0
+  - white: dexter-caplin-lazard
+    black: john-mcnamara
+    result: bye-1
+  - white: steven-wayne
+    black: matthew-jacques
+    result: 1/2-1/2
+  - white: matthew-jacques
+    black: dexter-caplin-lazard
+    result: 1-bye
+  - white: dexter-caplin-lazard
+    black: steven-wayne
+    result: bye-1
+

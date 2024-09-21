@@ -40,7 +40,7 @@ defaults:
       sidebar:
         nav: teams
   - scope:
-      path: "_pages/about/members"
+      path: "_pages/about"
     values:
       sidebar:
         nav: about

@@ -1,0 +1,67 @@
+players:
+  - id: graham-smith
+    rating: 1952
+    score: 4
+  - id: alan-heath
+    rating: 1809
+    score: 4
+  - id: vincent-edwards
+    rating: 1556
+    score: 2.5
+  - id: michael-page
+    rating: 1442
+    score: 2.5
+  - id: nick-pitts-tucker
+    rating: ur
+    score: 0
+  - id: atila-besceli
+    rating: ur
+    score: 2
+
+results:
+  - white: alan-heath
+    black: graham-smith
+    result: 1/2-1/2
+  - white: graham-smith
+    black: vincent-edwards
+    result: 1-0
+  - white: michael-page
+    black: graham-smith
+    result: 0-1
+  - white: graham-smith
+    black: nick-pitts-tucker
+    result: 1-bye
+  - white: atila-besceli
+    black: graham-smith
+    result: 1/2-1/2
+  - white: vincent-edwards
+    black: alan-heath
+    result: 0-1
+  - white: alan-heath
+    black: michael-page
+    result: 1/2-1/2
+  - white: nick-pitts-tucker
+    black: alan-heath
+    result: 0-1
+  - white: alan-heath
+    black: atila-besceli
+    result: 1-0
+  - white: michael-page
+    black: vincent-edwards
+    result: 0-1
+  - white: vincent-edwards
+    black: nick-pitts-tucker
+    result: 1-bye
+  - white: atila-besceli
+    black: vincent-edwards
+    result: 1/2-1/2
+  - white: nick-pitts-tucker
+    black: michael-page
+    result: bye-1
+  - white: michael-page
+    black: atila-besceli
+    result: 1-0
+  - white: atila-besceli
+    black: nick-pitts-tucker
+    result: 1-bye
+

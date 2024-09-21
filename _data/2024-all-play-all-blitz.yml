@@ -1,7 +1,7 @@
 players:
   - id: adrian-elwin
     place: "1st"
-    score: "8&frac12;"
+    score: 8.5
     played: 9
   - id: eoin-tweeddale
     place: "2nd"
@@ -9,7 +9,7 @@ players:
     played: 11
   - id: james-alexander
     place: "3rd"
-    score: "6&frac12;"
+    score: 6.5
     played: 9
   - id: thomas-evans
     place: "=4th"
@@ -21,7 +21,7 @@ players:
     played: 10
   - id: peter-hawes
     place: "6th"
-    score: "4&frac12;"
+    score: 4.5
     played: 10
   - id: george-ward
     place: "7th"
@@ -29,7 +29,7 @@ players:
     played: 6
   - id: david-phillips
     place: "8th"
-    score: "3&frac12;"
+    score: 3.5
     played: 10
   - id: patrick-harrison
     place: "=9th"

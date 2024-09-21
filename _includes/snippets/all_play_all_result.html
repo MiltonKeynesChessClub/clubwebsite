@@ -7,6 +7,12 @@
 				{% assign score="1" %}
 			{% when "0-1" %}
 				{% assign score="0" %}
+			{% when "bye-1" %}
+				{% assign score="-" %}
+			{% when "1-bye" %}
+				{% assign score="+" %}
+			{% when "tbc" %}
+				{% assign score="?" %}
 			{% else %}
 				{% assign score="&frac12;" %}
 		{% endcase %}
@@ -18,6 +24,12 @@
 				{% assign score="0" %}
 			{% when "0-1" %}
 				{% assign score="1" %}
+			{% when "bye-1" %}
+				{% assign score="+" %}
+			{% when "1-bye" %}
+				{% assign score="-" %}
+			{% when "tbc" %}
+				{% assign score="?" %}
 			{% else %}
 				{% assign score="&frac12;" %}
 		{% endcase %}
@@ -26,7 +38,7 @@
 {% endfor %}
 
 {% if score == null %}
-	<td>-</td>
+	<td class="muted">-</td>
 {% else %}
 	<td><span class="all-play-all-result all-play-all-result-{{ colour }}">{{ score }}</span></td>
 {% endif %}
