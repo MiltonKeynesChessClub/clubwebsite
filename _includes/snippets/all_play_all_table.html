@@ -46,7 +46,7 @@
 				{% endfor %}
 				<td class="score">
 					{% if player.score %}
-						{% include snippets/rendered_score.liquid score=player.score %}
+						{% include snippets/rendered_score.html score=player.score %}
 						{% if player.played %}
 							<span class="played">/ {{ player.played }}</span>
 						{% endif %}

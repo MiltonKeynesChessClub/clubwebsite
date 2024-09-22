@@ -14,9 +14,9 @@
 			{% assign players = groupedscore.items | sort: "rating" | reverse %}
 			{% for player in players %}
 				<tr>
-					<td class="standings-score">{% include snippets/rendered_score.liquid score=player.score %}</td>
+					<td class="standings-score">{% include snippets/rendered_score.html score=player.score %}</td>
 					<td>{% include snippets/member_link.html value=player.id field="slug" %}</td>
-					<td class="muted">{{ player.rating }}</td>
+					<td class="muted">{% include snippets/rating.html rating=player.rating %}</td>
 					<td><em class="muted">{{ player.notes }}</em></td>
 				</tr>
 			{% endfor %}

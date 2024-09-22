@@ -13,40 +13,5 @@ _Round has not yet started._
 {% if include.round.active == "true" %}
 _All games to be completed by **{{ include.round.deadline | date: "%-d %B, %Y" }}**. Please contact the tournament director if there are any problems meeting the deadline._
 {% endif %}
-<table class="swiss-results-table">
-	<thead>
-		<tr>
-			<th class="board-number"><abbr title="Board number">#</abbr></th>
-			<th>White</th>
-			<th><abbr title="White player's rating at the start of the tournament">WR</abbr></th>
-			<th><abbr title="White player's score coming into this round">WS</abbr></th>
-			<th class="swiss-result">Result</th>
-			<th><abbr title="Black player's score coming into this round">BS</abbr></th>
-			<th><abbr title="Black player's rating at the start of the tournament">BR</abbr></th>
-			<th>Black</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for pairing in include.pairings %}
-			{% assign w = include.players | where: "id",pairing.white %}
-			{% assign b = include.players | where: "id",pairing.black %}
-			<tr>
-				<td class="board-number">{{ pairing.board }}.</td>
-				<td>{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
-				<td class="muted">{{ w[0].rating }}</td>
-				<td class="muted">{{ pairing.whitepts | default:"-" }}</td>
-				<td class="swiss-result">
-					{% if pairing.result == "tbc" %}
-						<span class="muted">-</span>
-					{% else %}
-						{{ pairing.result }}
-					{% endif %}
-				</td>
-				<td class="muted">{{ pairing.blackpts | default:"-" }}</td>
-				<td class="muted">{{ b[0].rating }}</td>
-				<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
-			</tr>
-		{% endfor %}
-	</tbody>
-</table>
+{% include snippets/swiss_results_table.html round=include.round pairings=include.pairings players=include.players %}
 {% endif %}

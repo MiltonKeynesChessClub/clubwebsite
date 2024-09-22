@@ -1,0 +1,42 @@
+<table class="swiss-results-table">
+	<thead>
+		<tr>
+			<th class="text-right" colspan="3">White</th>
+			<th class="swiss-result">vs</th>
+			<th colspan="3">Black</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for pairing in include.pairings %}
+			{% assign w = include.players | where: "id",pairing.white | first %}
+			{% assign b = include.players | where: "id",pairing.black | first %}
+			<tr>
+				<td class="text-right muted" title="White player's rating at the start of the tournament">
+					{% include snippets/rating.html rating=w.rating %}
+				</td>
+				<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+				<td class="text-center muted" title="White player's score coming into this round">
+					{% if pairing.whitepts.size > 0 %}
+						({% include snippets/rendered_score.html score=pairing.whitepts %})
+					{% endif %}
+				</td>
+				<td class="swiss-result">
+					{% if include.result == "vs" %}
+						<span class="muted">vs</span>
+					{% else %}
+						{% include snippets/result.html result=pairing.result %}
+					{% endif %}
+				</td>
+				<td class="muted text-center" title="White player's score coming into this round">
+					{% if pairing.blackpts.size > 0 %}
+						({% include snippets/rendered_score.html score=pairing.blackpts %})
+					{% endif %}
+				</td>
+				<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+				<td class="muted" title="Black player's rating at the start of the tournament">
+					{% include snippets/rating.html rating=b.rating %}
+				</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>

@@ -39,7 +39,10 @@ gets treated as a code quote rather than actual markup.
 {% elsif activeround.size and pendinggames.size > 0 %}
 
 <h3 id="pending-results">Pending results for round {{ activeround.number }}</h3>
-{% include snippets/swiss_pending_results.html round=activeround pairings=pendinggames players=players %}
+The following results are pending for round {{ activeround.number }}.
+Please arrange your games by **{{ activeround.deadline | date: "%-d %B, %Y" }}**
+and contact the tournament director if there any problems meeting the deadline.
+{% include snippets/swiss_results_table.html round=activeround pairings=pendinggames players=players result="vs" %}
 {% endif %}
 
 {% comment %} Drop into another include to output the table for each round {% endcomment %}

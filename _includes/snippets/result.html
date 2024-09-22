@@ -1,0 +1,15 @@
+{% assign splitscore = include.result | split: "-" %}
+{% assign whitescore = splitscore[0] %}
+{% assign blackscore = splitscore[1] %}
+
+{% if include.result == "tbc" %}
+	<span class="muted">-</span>
+{% elsif splitscore.size == 2 %}
+	{% include snippets/rendered_score.html score=whitescore %}
+	-
+	{% include snippets/rendered_score.html score=blackscore %}
+{% else %}
+	{% include snippets/rendered_score.html score=include.result %}
+{% endif %}
+
+

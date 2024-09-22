@@ -1,0 +1,10 @@
+{% case include.score %}
+{% when "1/2" %}
+	&frac12;
+{% when "def" %}
+	<abbr title="defaulted">def</abbr>
+{% when "w/o" %}
+	<abbr>w/o</abbr>
+{% else %}
+	{{ include.score | replace: ".5", "&frac12;" | replace: "0&frac12;", "&frac12;" }}
+{% endcase %}

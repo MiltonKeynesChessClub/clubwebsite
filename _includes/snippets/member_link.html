@@ -1,8 +1,12 @@
-{% assign member = site.data.mkmembers | where:include.field,include.value %}
-{% assign memberdefault = include.value %}
-{% if member.size > 0 %}
-{% assign member = member[0] %}
-<a href="/about/members/{{ member.slug }}.html"{% if member.slug == page.member %} class="active"{% endif %}>{{ member.name }}</a>
+{% if include.value == "bye" %}
+	<em class="muted">bye</em>
 {% else %}
-{{ memberdefault }}
+	{% assign member = site.data.mkmembers | where:include.field,include.value %}
+	{% assign memberdefault = include.value %}
+	{% if member.size > 0 %}
+	{% assign member = member[0] %}
+	<a href="/about/members/{{ member.slug }}.html"{% if member.slug == page.member %} class="active"{% endif %}>{{ member.name }}</a>
+	{% else %}
+	{{ memberdefault }}
+	{% endif %}
 {% endif %}
