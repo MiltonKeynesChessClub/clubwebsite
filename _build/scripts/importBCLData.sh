@@ -16,7 +16,7 @@ BCL Division 2"
 
 ACTIVECHECK=$( yq ".competitions.bcl[0].active" ../../_data/mkchessclub.yml )
 CURRENTSEASON=$( yq ".competitions.bcl[0].season" ../../_data/mkchessclub.yml )
-ECF_DATA_DIR=../../_data/_generated/bcl/$CURRENTSEASON
+ECF_DATA_DIR=../../_data/results/bcl/$CURRENTSEASON
 
 if [[ "$ACTIVECHECK" == "false" ]] ; then
 	echo "Aborting fetching of BCL results. Current season is over, awaiting next one to start."

@@ -68,14 +68,14 @@ results:
       url: /results/2024/club-championship.html
     - title: "Open Swiss"
       url: /results/2024/open-swiss.html
-    - title: "Open Knockout"
-      url: /
     - title: "U1800 Swiss"
       url: /results/2024/u1800-swiss.html
-    - title: "U1800 Knockout"
-      url: /
     - title: "U1400 Swiss"
       url: /results/2024/u1400-swiss.html
+    - title: "Open Knockout"
+      url: /
+    - title: "U1800 Knockout"
+      url: /
     - title: "All Play All Blitz"
       url: /results/2024/all-play-all-blitz.html
   - title: 2024/5 Befordshire League
