@@ -23,35 +23,11 @@
   {% assign leaguename = page.title %}
 {% endif %}
 
-{% comment %}
+{% assign season = season | append: "" %}
 
-{% assign leaguetable = site.data[ "results" ][ "bcl" ][ season ][ "table" ][ page.division ] %}
-{% assign fixtures = site.data[ "results" ][ "bcl" ][ season ][ "fixtures" ][ page.division ] %}
-{% assign matches = site.data[ "results" ][ "bcl" ][ season ][ "matches" ][ page.division ] %}
 
-  Giant case statement because Liquid does not seem
-	to be able to dynamically load data files when in subfolders
-	and I really want to use subfolders
 
-	TODO: make this not horrible!
-{% endcomment %}
+{% assign leaguetable = site.data.results.bcl[ season ].table[ page.division ] %}
+{% assign fixtures = site.data.results.bcl[ season ].fixtures[ page.division ] %}
+{% assign matches = site.data.results.bcl[ season ].matches[ page.division ] %}
 
-{% case season %}
-  {% when 2024 %}
-  {% assign leaguetable = site.data.results.bcl[ "2024" ].table[ page.division ] %}
-  {% assign fixtures = site.data.results.bcl[ "2024" ].fixtures[ page.division ] %}
-  {% assign matches = site.data.results.bcl[ "2024" ].matches[ page.division ] %}
-  {% when 2025 %}
-  {% assign leaguetable = site.data.results.bcl[ "2025" ].table[ page.division ] %}
-  {% assign fixtures = site.data.results.bcl[ "2025" ].fixtures[ page.division ] %}
-  {% assign matches = site.data.results.bcl[ "2025" ].matches[ page.division ] %}
-
-  {% comment %}
-  {% when 2023 %}
-    {% assign leaguetable = site.data._generated.bcl[ "2023" ].table[ team.division ] %}
-  {% assign fixtures = site.data._generated.bcl[ "2023" ].fixtures[ team.division ] %}
-  {% assign matches = site.data._generated.bcl[ "2023" ].matches[ team.division ] %}
-
-  ... etc.
-  {% endcomment %}
-{% endcase %}
