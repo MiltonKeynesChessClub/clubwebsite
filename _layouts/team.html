@@ -8,6 +8,10 @@ layout: single
 {{ content }}
 
 <h2 id="team-members">Team members</h2>
+
+{% unless page.teamintro == blank %}
+  <p>{{ page.teamintro}}</p>
+{% endunless %}
 {% include snippets/team_members.html %}
 
 {% unless leaguetable %}

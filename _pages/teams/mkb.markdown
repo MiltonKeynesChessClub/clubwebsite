@@ -6,6 +6,7 @@ division: bcl-division-2
 team: mkb
 captain: sumit-bhalla
 season: 2025
+teamintro: Meet the talented players of the Milton Keynes B Team, who are dedicated to showcasing our club’s competitive spirit in every match. Every game is an opportunity for us to grow and represent our community.
 members:
 - andrew-bowler
 - alan-heath
@@ -18,11 +19,7 @@ toc_sticky: true
 header:
   overlay_image: /assets/images/banners/team.jpg
   overlay_filter: rgba( 0,0,0,0.8)
+excerpt: Welcome to the Milton Keynes B Team Fixtures Page!
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Here, you'll find all the essential details about our upcoming matches in the Beds League. As the team captain, I'm honored to lead a group of highly skilled and passionate players, each bringing unique strategies and enthusiasm to the chessboard.
