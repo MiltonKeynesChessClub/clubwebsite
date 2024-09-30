@@ -6,10 +6,6 @@ sidebar:
   nav: about
 ---
 
-{% assign test = site.data.results.internal[ "2024" ].championship.finalpool %}
-
-<h1>{{ test.size }}</h1>
-
 Our chess club welcomes players of all abilities. Although we do not provide any form tuition,
 beginners...
 

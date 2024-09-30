@@ -17,7 +17,8 @@
 				<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
 				<td class="text-center muted" title="White player's score coming into this round">
 					{% if pairing.whitepts.size > 0 %}
-						({% include snippets/rendered_score.html score=pairing.whitepts %})
+						{% capture score %}{% include snippets/rendered_score.html score=pairing.whitepts %}{% endcapture %}
+						({{ score | strip_newlines | strip }})
 					{% endif %}
 				</td>
 				<td class="swiss-result">
@@ -27,9 +28,10 @@
 						{% include snippets/result.html result=pairing.result %}
 					{% endif %}
 				</td>
-				<td class="muted text-center" title="White player's score coming into this round">
+				<td class="muted text-center" title="Black player's score coming into this round">
 					{% if pairing.blackpts.size > 0 %}
-						({% include snippets/rendered_score.html score=pairing.blackpts %})
+						{% capture score %}{% include snippets/rendered_score.html score=pairing.blackpts %}{% endcapture %}
+						({{ score | strip_newlines | strip }})
 					{% endif %}
 				</td>
 				<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
