@@ -81,13 +81,13 @@ results:
   - title: 2024/5 Befordshire League
     children:
     - title: "Milton Keynes A"
-      url: /
+      url: /teams/mka.html
     - title: "Milton Keynes B"
-      url: /
+      url: /teams/mkb.html
     - title: "Milton Keynes C"
-      url: /
+      url: /teams/mkc.html
     - title: "Open University"
-      url: /
+      url: /teams/ou.html
 
   - title: Archive
     children:

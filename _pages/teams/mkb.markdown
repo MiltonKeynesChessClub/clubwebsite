@@ -5,10 +5,11 @@ permalink: /teams/mkb.html
 division: bcl-division-2
 team: mkb
 captain: sumit-bhalla
+season: 2025
 members:
+- andrew-bowler
 - alan-heath
 - george-ward
-- giuseppe-spigapiena
 - dominic-watson
 - thomas-evans
 - sumit-bhalla

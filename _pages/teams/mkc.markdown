@@ -5,6 +5,7 @@ permalink: /teams/mkc.html
 division: bcl-division-2
 team: mkc
 captain: colin-solloway
+season: 2025
 members:
  - dave-wells
  - colin-solloway

@@ -38,7 +38,7 @@ defaults:
       path: "_pages/teams"
     values:
       sidebar:
-        nav: teams
+        nav: results
   - scope:
       path: "_pages/about"
     values:

@@ -5,13 +5,13 @@ permalink: /teams/mka.html
 team: mka
 division: bcl-division-1
 captain: adrian-elwin
+season: 2025
 members:
   - eoin-tweeddale
   - dominic-bartram
   - adrian-elwin
   - graham-smith
   - robert-whiteside
-  - andrew-bowler
 toc: true
 toc_sticky: true
 header:

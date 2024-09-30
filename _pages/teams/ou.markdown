@@ -5,6 +5,7 @@ permalink: /teams/ou.html
 division: bcl-division-2
 team: ou
 captain: james-alexander
+season: 2025
 members:
   - james-alexander
   - vincent-edwards
