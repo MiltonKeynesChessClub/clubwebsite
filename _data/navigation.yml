@@ -73,9 +73,9 @@ results:
     - title: "U1400 Swiss"
       url: /results/2024/u1400-swiss.html
     - title: "Open Knockout"
-      url: /
+      url: /results/2024/open-ko.html
     - title: "U1800 Knockout"
-      url: /
+      url: /results/2024/u1800-ko.html
     - title: "All Play All Blitz"
       url: /results/2024/all-play-all-blitz.html
   - title: 2024/5 Befordshire League
@@ -89,17 +89,17 @@ results:
     - title: "Open University"
       url: /teams/ou.html
 
-  - title: Archive
-    children:
-      - title: "2023/4 Season"
-        url: /results/internal/2023/
-      - title: "2022/3 Season"
-        url: /results/internal/2023/
-      - title: "2021/2 Season"
-        url: /results/internal/2023/
-      - title: "2020/1 Season"
-        url: /results/internal/2023/
-      - title: "2019/0 Season"
-        url: /results/internal/2023/
-      - title: "2018/9 Season"
-        url: /results/internal/2023/
+  # - title: Archive
+  #   children:
+  #     - title: "2023/4 Season"
+  #       url: /results/internal/2023/
+  #     - title: "2022/3 Season"
+  #       url: /results/internal/2023/
+  #     - title: "2021/2 Season"
+  #       url: /results/internal/2023/
+  #     - title: "2020/1 Season"
+  #       url: /results/internal/2023/
+  #     - title: "2019/0 Season"
+  #       url: /results/internal/2023/
+  #     - title: "2018/9 Season"
+  #       url: /results/internal/2023/

@@ -1,0 +1,9 @@
+id,name,complete,active,plate,notes
+main1,First round draw,true,false,false,
+main2,Second Round Draw,true,false,false,Second round abandoned. Moving straight to the third round!
+main3,Third Round Draw,false,true,false,
+main4,Semi final,false,false,false,
+main5,Final round,false,false,false,
+plate1,First round plate,false,true,true,
+plate2,Plate semi-final,false,false,true,
+plate3,Plate final,false,false,true,

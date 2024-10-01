@@ -1,0 +1,70 @@
+{% comment %}
+This include takes care of rendering all of the details of a knockout tournament. It expects
+include.data to contain "rounds", "players" and "pairings". For example, see:
+_data/results/internal/2024/openko/ directory.
+
+NB. Lack of indentation here due to how the template is included and rendered in markdown. Indentation
+gets treated as a code quote rather than actual markup.
+{% endcomment %}
+
+{% assign rounds = include.data.rounds | where:"plate",false %}
+{% assign completerounds = rounds | where:"complete",true %}
+{% assign activeround = rounds | where:"active",true | first %}
+{% assign players = include.data.players %}
+{% assign allpairings = include.data.pairings %}
+{% assign pendinggames = allpairings | where:"round",activeround.id | where:"result","tbc" %}
+
+{% if include.director.size > 0 or include.timecontrol.size > 0 %}
+<dl class="dl-horizontal">
+	{% if include.director.size > 0 %}
+		<dt>Tournament director:</dt>
+		<dd>
+			{% include snippets/member_link.html value=include.director field="slug" %}
+		</dd>
+	{% endif %}
+	{% if include.timecontrol.size > 0 %}
+		<dt>Time control:</dt>
+		<dd>{{ include.timecontrol }}</dd>
+	{% endif %}
+</dl>
+{% endif %}
+
+{% if include.rules.size > 0 %}
+{{ include.rules | markdown }}
+{% endif %}
+
+<h2 id="main-event">Main event</h2>
+<p>See details for the "main event" below and for the "<a href="#plate-event">Plate</a>" sub-event for those who are knocked out in the first round further below.</p>
+
+{% if activeround.size and pendinggames.size > 0 %}
+<h3 id="pending-results">Pending results</h3>
+The following results are pending for {{ activeround.name }}. Please arrange your games as soon as possible.
+{% include snippets/swiss_results_table.html round=activeround pairings=pendinggames players=players result="vs" %}
+{% endif %}
+
+{% comment %} Drop into another include to output the table for each round {% endcomment %}
+{% for round in rounds %}
+{% assign pairings = allpairings | where: "round",round.id %}
+{% include snippets/ko_round.html players=players pairings=pairings round=round %}
+{% endfor %}
+
+{% assign rounds = include.data.rounds | where:"plate",true %}
+{% assign completerounds = rounds | where:"complete",true %}
+{% assign activeround = rounds | where:"active",true | first %}
+{% assign pendinggames = allpairings | where:"round",activeround.id | where:"result","tbc" %}
+
+{% if rounds.size %}
+<h2 id="plate-event">Plate</h2>
+<p>The knockout plate is a knockout tournament for those players knocked out of the first round of the <a href="#main-event">main event</a>.</p>
+{% if activeround.size and pendinggames.size > 0 %}
+<h3 id="plate-pending-results">Pending results</h3>
+The following results are pending for {{ activeround.name }}. Please arrange your games as soon as possible.
+{% include snippets/swiss_results_table.html round=activeround pairings=pendinggames players=players result="vs" %}
+{% endif %}
+
+{% comment %} Drop into another include to output the table for each round {% endcomment %}
+{% for round in rounds %}
+{% assign pairings = allpairings | where: "round",round.id %}
+{% include snippets/ko_round.html players=players pairings=pairings round=round %}
+{% endfor %}
+{% endif %}

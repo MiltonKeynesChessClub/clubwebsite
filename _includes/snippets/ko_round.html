@@ -1,0 +1,23 @@
+<h3 id="round-{{ include.round.id }}">
+	{{ include.round.name }}
+	{% if include.round.complete == "true" %}
+		(completed)
+	{% elsif include.round.active == "true" %}
+		(active)
+	{% endif %}
+</h3>
+
+{% assign roundpairings = include.pairings | filter:"round",include.round.id %}
+
+{% if include.round.notes.size > 0 %}
+<em class="muted">{{ include.round.notes }}</em>
+{% endif %}
+
+{% if roundpairings.size == 0 %}
+_Round has not yet started._
+{% else %}
+{% if include.round.active == "true" and include.round.deadline.size > 0 %}
+_All games to be completed by **{{ include.round.deadline | date: "%-d %B, %Y" }}**. Please contact the tournament director if there are any problems meeting the deadline._
+{% endif %}
+{% include snippets/swiss_results_table.html round=include.round pairings=include.pairings players=include.players %}
+{% endif %}
