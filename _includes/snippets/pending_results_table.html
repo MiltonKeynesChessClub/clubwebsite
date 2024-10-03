@@ -1,0 +1,20 @@
+<table class="swiss-results-table">
+	<thead>
+		<tr>
+			<th class="text-right">White</th>
+			<th class="swiss-result">vs</th>
+			<th>Black</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for pairing in include.pairings %}
+			<tr>
+				<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+				<td class="swiss-result">
+					<span class="muted">vs</span>
+				</td>
+				<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>

@@ -46,6 +46,13 @@ defaults:
         nav: about
       breadcrumbs: true
   - scope:
+      path: "_pages/about/members"
+    values:
+      sidebar:
+        nav: about
+      toc: true
+      toc_sticky: true
+  - scope:
       type: posts
     values:
       layout: single

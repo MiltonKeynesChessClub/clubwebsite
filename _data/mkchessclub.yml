@@ -11,7 +11,7 @@ competitions:
 
   internal:
   - season: 2024
-    active: false
+    active: true
 
 officers:
   - role: Club chairman

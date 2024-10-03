@@ -1,0 +1,59 @@
+{% assign activeinternaseason = site.data.mkchessclub.competitions.internal | where:"active",true | first %}
+{% if activeinternaseason.size > 0 %}
+	{% assign seasonyear = activeinternaseason.season | append: "" %}
+	{% capture pendinggames %}
+		{% for t in site.data.results.internal[ seasonyear ] %}
+			{% assign tourneyid = t[0] %}
+			{% assign tourney = t[1] %}
+			{% if tourney.pairings.size > 0 %}
+				{% assign pending = tourney.pairings | where:"white",include.member | where:"result","tbc" %}
+				{% assign pendingblack = tourney.pairings | where:"black",include.member | where:"result","tbc" %}
+				{% assign pending = pending | concat: pendingblack %}
+
+				{% for pairing in pending %}
+<tr>
+<td><a href="{{ tourney.meta.url }}">{{ tourney.meta.name }}</a></td>
+<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+<td class="swiss-result"><span class="muted">vs</span></td>
+<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+</tr>
+				{% endfor %}
+			{% else %}
+				{% for g in tourney %}
+					{% assign group = g[1] %}
+					{% if group.pairings.size > 0 %}
+						{% assign pending = group.pairings | where:"result","tbc" %}
+						{% for pairing in pending %}
+							{% if pairing.white == include.member or pairing.black == include.member %}
+<tr>
+<td><a href="{{ tourney.meta.url }}">{{ tourney.meta.name }}</a></td>
+<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+<td class="swiss-result"><span class="muted">vs</span></td>
+<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+</tr>
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+	{% endcapture %}
+{% endif %}
+
+{% if pendinggames.size > 0 %}
+<h2 id="pending">Pending games</h2>
+<p>The following internal competition games are pending results for {% include snippets/member_link.html value=include.member field="slug" %}.</p>
+<table class="swiss-results-table">
+	<thead>
+		<tr>
+			<th>Tournament</th>
+			<th class="text-right">White</th>
+			<th class="swiss-result">vs</th>
+			<th>Black</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{ pendinggames }}
+	</tbody>
+</table>
+{% endif %}
