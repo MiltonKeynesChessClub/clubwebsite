@@ -6,6 +6,14 @@ layout: single
 
 {{ content }}
 
+{% if member.ecfcode != blank %}
+<div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+        <li><a href="https://rating.englishchess.org.uk/v2/new/player.php?ECF_code={{ member.ecfcode }}"><i class="fa fa-fw fa-chart-line" aria-hidden="true"></i><span class="label">English Chess Federation: {{ member.ecfcode }}</span></a></li>
+    </ul>
+</div>
+{% endif %}
+
 {% include snippets/player_league_info.html member=member %}
 
 <h2 id="internal-competions">Internal competitions</h2>

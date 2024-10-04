@@ -2,67 +2,67 @@
 
 bcl-division-1:
   - fixture: bcl-division-1-thu-3rd-oct-2024-bedford-b-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Botteley, Michael T
+      rating: 1949
       color: B
       team: Bedford B
     away:
-      name:  
-      rating: 000
+      name: Bartram, Dominic
+      rating: 2064
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3rd-oct-2024-bedford-b-v-milton-keynes-a
-    result:  
+    result: ½ - ½
     home:
-      name:  
-      rating: 000
+      name: Bodily, Richard T
+      rating: 1953
       color: W
       team: Bedford B
     away:
-      name:  
-      rating: 000
+      name: Elwin, Adrian G
+      rating: 2050
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3rd-oct-2024-bedford-b-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Pike, Steve C
+      rating: 1862
       color: B
       team: Bedford B
     away:
-      name:  
-      rating: 000
+      name: Tweeddale, Eoin
+      rating: 2049
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3rd-oct-2024-bedford-b-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Dairi, Ramsey
+      rating: 1856
       color: W
       team: Bedford B
     away:
-      name:  
-      rating: 000
+      name: Smith, Graham
+      rating: 1921
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3rd-oct-2024-bedford-b-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Walker, Robert S
+      rating: 1745
       color: B
       team: Bedford B
     away:
-      name:  
-      rating: 000
+      name: Whiteside, Robert
+      rating: 1906
       color: W
       team: Milton Keynes A
 

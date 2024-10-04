@@ -7,9 +7,9 @@ division: bcl-division-1
 captain: adrian-elwin
 season: 2025
 members:
-  - eoin-tweeddale
   - dominic-bartram
   - adrian-elwin
+  - eoin-tweeddale
   - graham-smith
   - robert-whiteside
 toc: true

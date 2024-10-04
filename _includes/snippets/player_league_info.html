@@ -10,7 +10,7 @@
 		{% for match in leaguematches %}
 			{% if match.home.name == include.member.ecfname or match.away.name == include.member.ecfname %}
 				{% capture resulthtml %}
-{% include snippets/player_league_result.html match=match member=include.member %}
+{% include snippets/player_league_result.html match=match member=include.member seasonyear=seasonyear league=leagueid %}
 				{% endcapture %}
 				{% assign allresults = allresults | append: resulthtml %}
 			{% endif %}
@@ -26,14 +26,28 @@
 			{% endif %}
 		{% endfor %}
 		{%- capture teaminfo -%}
-<p>For the current {{ seasonyear }} season, {% include snippets/member_link.html value=include.member.slug field="slug" %} is <strong>board {{ boardno }}</strong> for the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
+<p>For the {{ seasonyear }} season, {% include snippets/member_link.html value=include.member.slug field="slug" %} is <strong>board {{ boardno }}</strong> for the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
 		{%- endcapture -%}
 	{% endif %}
 {% if teaminfo.size > 0 or allresults.size > 0 %}
-<h2 id="player-team">Bedfordshire league</h2>
+<h2 id="player-team">Bedfordshire league, {{seasonyear}}</h2>
 {{ teaminfo }}
 {% if allresults.size > 0 %}
+<h3 id="player-league-results">Results</h3>
+<p>Bedfordshire team league results for the {{ seasonyear }} season:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Date/fixture</th>
+			<th class="text-right">White</th>
+			<th class="text-center">Result</th>
+			<th>Black</th>
+		</tr>
+	</thead>
+	<tbody>
 {{ allresults }}
+	</tbody>
+</table>
 {% endif %}
 {% endif %}
 {% endif %}
