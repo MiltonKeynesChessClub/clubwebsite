@@ -1,0 +1,14 @@
+{% if include.match.home.color == "W" %}
+	{% assign white = include.match.home %}
+	{% assign black = include.match.away %}
+{% else %}
+	{% assign white = include.match.away %}
+	{% assign black = include.match.home %}
+{% endif %}
+<tr>
+	<td>{{ white.team }}</td>
+	<td>{% include snippets/member_link.html value=white.name field="ecfname" %}</td>
+	<th class="text-centered">{% include snippets/result.html result=include.match.result %}</th>
+	<td>{% include snippets/member_link.html value=black.name field="ecfname" %}</td>
+	<td>{{ black.team }}</td>
+</tr>

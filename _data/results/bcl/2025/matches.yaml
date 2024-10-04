@@ -1954,67 +1954,67 @@ bcl-division-1:
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3rd-oct-2024-milton-keynes-b-v-open-university
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Bowler, Andrew
+      rating: 1747
       color: B
       team: Milton Keynes B
     away:
-      name:  
-      rating: 000
+      name: Alexander, NO'D James
+      rating: 1869
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-3rd-oct-2024-milton-keynes-b-v-open-university
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Heath, Alan
+      rating: 1823
       color: W
       team: Milton Keynes B
     away:
-      name:  
-      rating: 000
+      name: Edwards, Vincent
+      rating: 1629
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-3rd-oct-2024-milton-keynes-b-v-open-university
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Ward, George
+      rating: 1780
       color: B
       team: Milton Keynes B
     away:
-      name:  
-      rating: 000
+      name: Jacques, Matthew
+      rating: 1463
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-3rd-oct-2024-milton-keynes-b-v-open-university
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Watson, Dominic
+      rating: 1726
       color: W
       team: Milton Keynes B
     away:
-      name:  
-      rating: 000
+      name: Lazard, Dexter
+      rating: 1293
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-3rd-oct-2024-milton-keynes-b-v-open-university
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Bhalla, Sumit
+      rating: 1435
       color: B
       team: Milton Keynes B
     away:
-      name:  
-      rating: 000
+      name: Osborn, Mark
+      rating: 1281
       color: W
       team: Open University
 

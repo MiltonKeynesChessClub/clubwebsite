@@ -1,0 +1,39 @@
+{% assign activebclseason = site.data.mkchessclub.competitions.bcl | where:"active",true | first %}
+{% if activebclseason.size > 0 %}
+	{% assign seasonyear = activebclseason.season | append: "" %}
+	{% assign teampage = site.pages | where:"layout","team" | where:"season",seasonyear | where:"members",include.member.slug | first %}
+	{% assign matches = site.data.results.bcl[ seasonyear ].matches %}
+	{% assign allresults = "" %}
+	{% for league in matches %}
+		{% assign leagueid = league[ 0 ] %}
+		{% assign leaguematches = league[ 1 ] %}
+		{% for match in leaguematches %}
+			{% if match.home.name == include.member.ecfname or match.away.name == include.member.ecfname %}
+				{% capture resulthtml %}
+{% include snippets/player_league_result.html match=match member=include.member %}
+				{% endcapture %}
+				{% assign allresults = allresults | append: resulthtml %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+
+	{% if teampage.size > 0 %}
+		{% assign boardno = 0 %}
+		{% for member in teampage.members %}
+			{% assign boardno = boardno | plus: 1 %}
+			{% if member == include.member.slug %}
+				{% break %}
+			{% endif %}
+		{% endfor %}
+		{%- capture teaminfo -%}
+<p>For the current {{ seasonyear }} season, {% include snippets/member_link.html value=include.member.slug field="slug" %} is <strong>board {{ boardno }}</strong> for the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
+		{%- endcapture -%}
+	{% endif %}
+{% if teaminfo.size > 0 or allresults.size > 0 %}
+<h2 id="player-team">Bedfordshire league</h2>
+{{ teaminfo }}
+{% if allresults.size > 0 %}
+{{ allresults }}
+{% endif %}
+{% endif %}
+{% endif %}

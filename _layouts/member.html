@@ -2,10 +2,11 @@
 layout: single
 ---
 
-{% assign member = site.data.mkmembers | filter:"slug",page.member | first %}
+{% assign member = site.data.mkmembers | where:"slug",page.member | first %}
 
 {{ content }}
 
-<p>TODO: more content here needed. Recent games - team link and board number. ECF link, etc.</p>
+{% include snippets/player_league_info.html member=member %}
 
+<h2 id="internal-competions">Internal competitions</h2>
 {% include snippets/player_pending_games.html member=page.member %}
