@@ -2,13 +2,15 @@
 {% if include.match.home.color == "W" %}
 	{% assign white = include.match.home %}
 	{% assign black = include.match.away %}
+	{% assign result = include.match.result %}
 {% else %}
 	{% assign white = include.match.away %}
 	{% assign black = include.match.home %}
+	{% assign result = include.match.result | split: "-" | reverse | join: "-" %}
 {% endif %}
 <tr>
 	<td><span title="{{ fixture.hometeam }} vs {{ fixture.awayteam}}">{{ fixture.date }}</span></td>
 	<td class="text-right"><span class="muted">({% include snippets/rating.html rating=white.rating %})</span> {% include snippets/member_link.html value=white.name field="ecfname" %}</td>
-	<td class="text-centered">{% include snippets/result.html result=include.match.result %}</td>
+	<td class="text-centered">{% include snippets/result.html result=result %}</td>
 	<td>{% include snippets/member_link.html value=black.name field="ecfname" %} <span class="muted">({% include snippets/rating.html rating=black.rating %})</span></td>
 </tr>
