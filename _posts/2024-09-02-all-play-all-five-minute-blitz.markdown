@@ -2,6 +2,7 @@
 title:  "All Play All Five Minute Blitz"
 date:   2024-09-02 17:29:42 +01008
 author: colin-solloway
+categories: news
 ---
 
 Thank you to everyone who turned out to assist in the annual stock take last Thursday.

@@ -2,6 +2,7 @@
 title:  "2024 AGM Agenda"
 date:   2024-08-21 17:29:42 +01008
 author: colin-solloway
+categories: meetings
 excerpt: Agenda for the Annual General Meeting of Milton Keynes Chess Club, to be held at 19:45 on Thursday, 5th September 2024 in the Berrill Café at the Open University.
 toc: true
 toc_sticky: true

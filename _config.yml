@@ -40,6 +40,11 @@ defaults:
       sidebar:
         nav: results
   - scope:
+      path: "_pages/posts"
+    values:
+      sidebar:
+        nav: posts
+  - scope:
       path: "_pages/about"
     values:
       sidebar:

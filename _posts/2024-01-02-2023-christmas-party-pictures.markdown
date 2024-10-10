@@ -2,6 +2,7 @@
 title:  "2023 Christmas Party Pictures"
 date:   2024-01-02
 author: colin-solloway
+categories: news
 excerpt: Our annual chess club Christmas party, incorporating the usual rapid play tournament and much munching of mince pies, was enjoyed by all.
 gallery:
   - url: /assets/images/christmasparty2023/christmasparty01.jpg
