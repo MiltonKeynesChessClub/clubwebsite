@@ -9,12 +9,7 @@ sidebar:
 ---
 
 {% capture rules %}
-Toss for colour. If the first game is drawn:
-
-1. Play a second game with colours reversed at the same time control.
-2. If that game is also drawn, play a pair of games, one with white, one with black, with 20 minutes plus 10 seconds increment each per game.
-3. If the score is 1-all, play a pair of games with 7 minutes plus 3 seconds increment each per game..
-4. If those are also 1-all. repeat the 7+3 pairs of games until a winner emerges.
+{% include snippets/standard_ko_rules.html %}
 {% endcapture %}
 
 {% assign tourney = site.data.results.internal[ "2024" ].u1800ko %}

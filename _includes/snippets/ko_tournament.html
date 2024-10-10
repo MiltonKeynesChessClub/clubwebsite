@@ -14,24 +14,7 @@ gets treated as a code quote rather than actual markup.
 {% assign allpairings = include.data.pairings %}
 {% assign pendinggames = allpairings | where:"round",activeround.id | where:"result","tbc" %}
 
-{% if include.director.size > 0 or include.timecontrol.size > 0 %}
-<dl class="dl-horizontal">
-	{% if include.director.size > 0 %}
-		<dt>Tournament director:</dt>
-		<dd>
-			{% include snippets/member_link.html value=include.director field="slug" %}
-		</dd>
-	{% endif %}
-	{% if include.timecontrol.size > 0 %}
-		<dt>Time control:</dt>
-		<dd>{{ include.timecontrol }}</dd>
-	{% endif %}
-</dl>
-{% endif %}
-
-{% if include.rules.size > 0 %}
-{{ include.rules | markdown }}
-{% endif %}
+{% include snippets/tourney_info.html director=include.director timecontrol=include.timecontrol rules=include.rules %}
 
 <h2 id="main-event">Main event</h2>
 <p>See details for the "main event" below and for the "<a href="#plate-event">Plate</a>" sub-event for those who are knocked out in the first round further below.</p>
