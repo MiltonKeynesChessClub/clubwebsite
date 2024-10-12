@@ -36,34 +36,6 @@ about:
     - title: Meetings and minutes
       url: /about/meetings.html
 
-teams:
-  - title: Teams
-    url: /teams/
-  - title: Milton Keynes A
-    children:
-      - title: "2024/5 season"
-        url: /teams/mka.html
-      - title: "2023/4 season"
-        url: /teams/2024/mka.html
-  - title: Milton Keynes B
-    children:
-      - title: "2024/5 season"
-        url: /teams/mkb.html
-      - title: "2023/4 season"
-        url: /teams/2024/mkb.html
-  - title: Milton Keynes C
-    children:
-      - title: "2024/5 season"
-        url: /teams/mkc.html
-      - title: "2023/4 season"
-        url: /teams/2024/mkc.html
-  - title: Open University
-    children:
-      - title: "2024/5 season"
-        url: /teams/ou.html
-      - title: "2023/4 season"
-        url: /teams/2024/ou.html
-
 posts:
   - title: All posts
     url: /posts/
