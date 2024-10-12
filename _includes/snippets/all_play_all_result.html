@@ -1,4 +1,5 @@
 {% assign score=null %}
+{% assign game=null %}
 {% for result in include.results %}
 	{% if result.white == include.playera and result.black == include.playerb %}
 		{% assign colour="w" %}
@@ -16,6 +17,7 @@
 			{% else %}
 				{% assign score="&frac12;" %}
 		{% endcase %}
+		{% assign game=result %}
 		{% break %}
 	{% elsif result.black == include.playera and result.white == include.playerb %}
 		{% assign colour="b" %}
@@ -33,6 +35,7 @@
 			{% else %}
 				{% assign score="&frac12;" %}
 		{% endcase %}
+		{% assign game=result %}
 		{% break %}
 	{% endif %}
 {% endfor %}
@@ -40,7 +43,34 @@
 {% if score == null %}
 	<td class="muted">-</td>
 {% else %}
-	<td><span class="all-play-all-result all-play-all-result-{{ colour }}">{{ score }}</span></td>
+	{% assign gameid = game.white | append: game.black | append: game.result | md5 %}
+	<td>
+		<button class="all-play-all-result all-play-all-result-{{ colour }}" popovertarget="game-popover-{{ gameid }}">{{ score }}</button>
+		<div id="game-popover-{{ gameid }}" popover class="popover">
+			<table class="swiss-results-table">
+				<thead>
+					<tr>
+						<th class="text-right">White</th>
+						<th class="swiss-result">vs</th>
+						<th>Black</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="text-right">{% include snippets/member_link.html value=game.white field="slug" %}</td>
+						<td class="swiss-result">
+							{% if game.result == "tbc" %}
+								<span class="muted">vs</span>
+							{% else %}
+								{% include snippets/result.html result=game.result %}
+							{% endif %}
+						</td>
+						<td>{% include snippets/member_link.html value=game.black field="slug" %}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</td>
 {% endif %}
 
 

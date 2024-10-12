@@ -65,8 +65,8 @@
 		font-size: 0.7em;
 	}
 
-	div {
-		p, li, blockquote, address, dd, dt {
+	div, .popover {
+		table, p, li, blockquote, address, dd, dt, td, a {
 			font-size: 1em;
 		}
 	}
@@ -175,7 +175,7 @@ table.all-play-all {
 
 	.all-play-all-result {
 		display: block;
-		padding: 0.2em;
+		padding: 0.2em 0.5em;
 		border: 1px solid $mk-eerie-black;
 		font-size: 0.75em;
 	}
@@ -291,4 +291,14 @@ div.dt-container {
 }
 .text-center {
 	text-align: center
+}
+
+[popover] {
+	border: 3px solid $mk-pine-green;
+	padding: 1em;
+}
+
+::backdrop {
+  backdrop-filter: blur(2px);
+  background: rgba(0,0,0,0.4);
 }
