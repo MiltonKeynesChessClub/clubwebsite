@@ -1,9 +1,9 @@
 <table class="swiss-results-table">
 	<thead>
 		<tr>
-			<th class="text-right" colspan="3">White</th>
+			<th class="text-right" {% unless include.includeratingandscore == false %}colspan="3"{% endunless %}>White</th>
 			<th class="swiss-result">vs</th>
-			<th colspan="3">Black</th>
+			<th {% unless include.includeratingandscore == false %}colspan="3"{% endunless %}>Black</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -12,16 +12,20 @@
 			{% assign b = include.players | where: "id",pairing.black | first %}
 			<tr>
 				{% if pairing.white.size > 0 %}
-					<td class="text-right muted" title="White player's rating at the start of the tournament">
-						{% include snippets/rating.html rating=w.rating %}
-					</td>
+					{% unless include.includeratingandscore == false %}
+						<td class="text-right muted" title="White player's rating at the start of the tournament">
+							{% include snippets/rating.html rating=w.rating %}
+						</td>
+					{% endunless %}
 					<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
-					<td class="text-center muted" title="White player's score coming into this round">
-						{% if pairing.whitepts.size > 0 %}
-							{% capture score %}{% include snippets/rendered_score.html score=pairing.whitepts %}{% endcapture %}
-							({{ score | strip_newlines | strip }})
-						{% endif %}
-					</td>
+					{% unless include.includeratingandscore == false %}
+						<td class="text-center muted" title="White player's score coming into this round">
+							{% if pairing.whitepts.size > 0 %}
+								{% capture score %}{% include snippets/rendered_score.html score=pairing.whitepts %}{% endcapture %}
+								({{ score | strip_newlines | strip }})
+							{% endif %}
+						</td>
+					{% endunless %}
 				{% else %}
 					<td colspan="3">&nbsp;</td>
 				{% endif %}
@@ -33,16 +37,20 @@
 					{% endif %}
 				</td>
 				{% if pairing.black.size > 0 %}
-					<td class="muted text-center" title="Black player's score coming into this round">
-						{% if pairing.blackpts.size > 0 %}
-							{% capture score %}{% include snippets/rendered_score.html score=pairing.blackpts %}{% endcapture %}
-							({{ score | strip_newlines | strip }})
-						{% endif %}
-					</td>
+					{% unless include.includeratingandscore == false %}
+						<td class="muted text-center" title="Black player's score coming into this round">
+							{% if pairing.blackpts.size > 0 %}
+								{% capture score %}{% include snippets/rendered_score.html score=pairing.blackpts %}{% endcapture %}
+								({{ score | strip_newlines | strip }})
+							{% endif %}
+						</td>
+					{% endunless %}
 					<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
-					<td class="muted" title="Black player's rating at the start of the tournament">
-						{% include snippets/rating.html rating=b.rating %}
-					</td>
+					{% unless include.includeratingandscore == false %}
+						<td class="muted" title="Black player's rating at the start of the tournament">
+							{% include snippets/rating.html rating=b.rating %}
+						</td>
+					{% endunless %}
 				{% else %}
 					<td colspan="3">&nbsp;</td>
 				{% endif %}

@@ -1,9 +1,14 @@
+{% if include.swiss.size > 0 and include.swiss == true %}
+	{% assign includeratingandscore = true %}
+{% else %}
+	{% assign includeratingandscore = false %}
+{% endif %}
 <table class="swiss-results-table">
 	<thead>
 		<tr>
-			<th class="text-right" colspan="3">{% if include.colourtbc %}Player 1{% else %}White{% endif %}</th>
+			<th class="text-right" {% if includeratingandscore == true }} %}colspan="3"{% endif %}>{% if include.colourtbc %}Player 1{% else %}White{% endif %}</th>
 			<th class="swiss-result">vs</th>
-			<th colspan="3">{% if include.colourtbc %}Player 2{% else %}White{% endif %}</th>
+			<th {% if includeratingandscore == true }} %}colspan="3"{% endif %}>{% if include.colourtbc %}Player 2{% else %}White{% endif %}</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -12,16 +17,20 @@
 			{% assign b = include.players | where: "id",pairing.black | first %}
 			<tr>
 				{% if pairing.white.size > 0 %}
+					{% if includeratingandscore == true }} %}
 					<td class="text-right muted" title="White player's rating at the start of the tournament">
 						{% include snippets/rating.html rating=w.rating %}
 					</td>
+					{% endif %}
 					<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+					{% if includeratingandscore == true }} %}
 					<td class="text-center muted" title="White player's score coming into this round">
 						{% if pairing.whitepts.size > 0 %}
 							{% capture score %}{% include snippets/rendered_score.html score=pairing.whitepts %}{% endcapture %}
 							({{ score | strip_newlines | strip }})
 						{% endif %}
 					</td>
+					{% endif %}
 				{% else %}
 					<td colspan="3">&nbsp;</td>
 				{% endif %}
@@ -29,16 +38,20 @@
 					<span class="muted">vs</span>
 				</td>
 				{% if pairing.black.size > 0 %}
+					{% if includeratingandscore == true }} %}
 					<td class="muted text-center" title="Black player's score coming into this round">
 						{% if pairing.blackpts.size > 0 %}
 							{% capture score %}{% include snippets/rendered_score.html score=pairing.blackpts %}{% endcapture %}
 							({{ score | strip_newlines | strip }})
 						{% endif %}
 					</td>
+					{% endif %}
 					<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+					{% if includeratingandscore == true }} %}
 					<td class="muted" title="Black player's rating at the start of the tournament">
 						{% include snippets/rating.html rating=b.rating %}
 					</td>
+					{% endif %}
 				{% else %}
 					<td colspan="3">&nbsp;</td>
 				{% endif %}

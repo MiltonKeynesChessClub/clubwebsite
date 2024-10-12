@@ -28,7 +28,7 @@ gets treated as a code quote rather than actual markup.
 The following results are pending for round {{ activeround.number }}.
 Please arrange your games by **{{ activeround.deadline | date: "%-d %B, %Y" }}**
 and contact the tournament director if there any problems meeting the deadline.
-{% include snippets/tournament_pairing_table.html round=activeround pairings=pendinggames players=players %}
+{% include snippets/tournament_pairing_table.html round=activeround pairings=pendinggames players=players swiss=true %}
 {% endif %}
 
 {% comment %} Drop into another include to output the table for each round {% endcomment %}

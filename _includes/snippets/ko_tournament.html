@@ -42,7 +42,7 @@ The following results are pending for {{ activeround.name }}. Please arrange you
 {% if activeround.size and pendinggames.size > 0 %}
 <h3 id="plate-pending-results">Pending results</h3>
 The following results are pending for {{ activeround.name }}. Please arrange your games as soon as possible.
-{% include snippets/swiss_results_table.html round=activeround pairings=pendinggames players=players result="vs" %}
+{% include snippets/tournament_pairing_table.html round=activeround pairings=pendinggames players=players colourtbc=true %}
 {% endif %}
 
 {% comment %} Drop into another include to output the table for each round {% endcomment %}
