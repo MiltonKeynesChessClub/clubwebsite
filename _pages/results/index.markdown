@@ -12,7 +12,10 @@ Here you can find this season's results and pairings for Milton Keynes Chess Clu
 
 {% for section in site.data.navigation.results %}
 ## {{ section.title }}
+
+<ul>
 	{% for p in section.children %}
-* [{{ p.title }}]({{ p.url }})
+	<li><a href="{{ p.url }}">{{ p.title }}</a></li>
 	{% endfor %}
+</ul>
 {% endfor %}
