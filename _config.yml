@@ -40,6 +40,11 @@ defaults:
       sidebar:
         nav: results
   - scope:
+      path: "_pages/posts"
+    values:
+      sidebar:
+        nav: posts
+  - scope:
       path: "_pages/about"
     values:
       sidebar:
@@ -57,5 +62,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: true
       related: true

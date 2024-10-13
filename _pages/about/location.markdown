@@ -10,6 +10,10 @@ The Milton Keynes Chess Club meets and plays their home matches at the Open Univ
 
 <address>Berrill Cafe, Walton Hall, Milton Keynes, Buckinghamshire, MK7 6AA.</address>
 
+## Parking
+
+There is ample parking at the open university and you will never have any problems finding a space! See the map below for the nearest parking location to the Berrill Cafe.
+
 ## Campus map
 
 The map below shows where to park and the location of the Chess Club within the university campus. [View or download the full image](/assets/images/campusmap2024.jpg).

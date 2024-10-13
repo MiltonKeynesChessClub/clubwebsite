@@ -26,7 +26,12 @@
 			{% endif %}
 		{% endfor %}
 		{%- capture teaminfo -%}
-<p>For the {{ seasonyear }} season, {% include snippets/member_link.html value=include.member.slug field="slug" %} is <strong>board {{ boardno }}</strong> for the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
+<p>For the {{ seasonyear }} season, {% include snippets/member_link.html value=include.member.slug field="slug" %} is
+	<strong>board {{ boardno }}</strong>
+	{% if teampage.captain == include.member.slug %}
+		and <strong>team captain</strong>
+	{% endif %}
+	for the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
 		{%- endcapture -%}
 	{% endif %}
 {% if teaminfo.size > 0 or allresults.size > 0 %}

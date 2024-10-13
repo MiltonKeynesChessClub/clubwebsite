@@ -14,9 +14,13 @@ sidebar:
 {% assign pool3 = site.data.results.internal[ "2024" ].championship.pool3 %}
 {% assign pool4 = site.data.results.internal[ "2024" ].championship.pool4 %}
 
-
+{% capture rules %}
+In each pool, all players play each other. See pairings chart for colour.
 The top player from each group to go through to the Final as will the best 2 second placed players.
 All ties will be resolved by a normal-speed playoff game and then, if necessary, pairs of rapid-play game.
+{% endcapture %}
+
+{% include snippets/tourney_info.html rules=rules director="adrian-elwin" timecontrol="35 moves in 70 minutes plus 10 minutes to finish the game together with a 10 second increment from move 1." %}
 
 # Final pool
 

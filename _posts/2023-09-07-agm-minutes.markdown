@@ -2,6 +2,7 @@
 title:  "2023 AGM Minutes"
 date:   2023-09-07 17:29:42 +01008
 author: colin-solloway
+categories: meetings
 toc: true
 toc_sticky: true
 excerpt: Minutes of the Annual General Meeting of Milton Keynes Chess Club, held on Thursday, 7th September 2023 in the Hub, Open University.

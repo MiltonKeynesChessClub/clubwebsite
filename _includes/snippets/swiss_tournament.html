@@ -14,21 +14,7 @@ gets treated as a code quote rather than actual markup.
 {% assign allpairings = include.data.pairings %}
 {% assign pendinggames = allpairings | where:"round",activeround.number | where:"result","tbc" %}
 
-{% if include.director.size > 0 or include.timecontrol.size > 0 %}
-<dl class="dl-horizontal">
-	{% if include.director.size > 0 %}
-		<dt>Tournament director:</dt>
-		<dd>
-			{% include snippets/member_link.html value=include.director field="slug" %}
-		</dd>
-	{% endif %}
-	{% if include.timecontrol.size > 0 %}
-		<dt>Time control:</dt>
-		<dd>{{ include.timecontrol }}</dd>
-	{% endif %}
-</dl>
-{% endif %}
-
+{% include snippets/tourney_info.html director=include.director timecontrol=include.timecontrol rules=include.rules %}
 
 {% comment %} FINAL standings IF all rounds complete {% endcomment %}
 {% if completerounds.size == rounds.size %}
@@ -42,7 +28,7 @@ gets treated as a code quote rather than actual markup.
 The following results are pending for round {{ activeround.number }}.
 Please arrange your games by **{{ activeround.deadline | date: "%-d %B, %Y" }}**
 and contact the tournament director if there any problems meeting the deadline.
-{% include snippets/swiss_results_table.html round=activeround pairings=pendinggames players=players result="vs" %}
+{% include snippets/tournament_pairing_table.html round=activeround pairings=pendinggames players=players swiss=true %}
 {% endif %}
 
 {% comment %} Drop into another include to output the table for each round {% endcomment %}

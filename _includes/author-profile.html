@@ -2,7 +2,7 @@
 {% assign member = site.data.mkmembers | where: "slug", author %}
 {% assign member = member[0] %}
 {% assign author = site.data.authors[author] | default: author %}
-{% capture defaulthome %}/members/{{ member.slug }}.html{% endcapture %}
+{% capture defaulthome %}/about/members/{{ member.slug }}.html{% endcapture %}
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 

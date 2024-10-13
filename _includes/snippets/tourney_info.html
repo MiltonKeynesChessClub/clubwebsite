@@ -1,0 +1,20 @@
+{% if include.director.size > 0 or include.timecontrol.size > 0 or include.rules.size > 0 %}
+<div class="notice--info">
+	<dl class="dl-horizontal">
+		{% if include.director.size > 0 %}
+			<dt>Tournament director:</dt>
+			<dd>
+				{% include snippets/member_link.html value=include.director field="slug" %}
+			</dd>
+		{% endif %}
+		{% if include.timecontrol.size > 0 %}
+			<dt>Time control:</dt>
+			<dd>{{ include.timecontrol }}</dd>
+		{% endif %}
+		{% if include.rules.size > 0 %}
+			<dt>Tournament rules:</dt>
+			<dd>{{ include.rules | markdown }}</dd>
+		{% endif %}
+	</dl>
+</div>
+{% endif %}
