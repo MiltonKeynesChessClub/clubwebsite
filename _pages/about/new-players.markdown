@@ -8,9 +8,18 @@ sidebar:
   nav: about
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+New players are warmly welcome to the club. <a href="mailto:{{ 'contact@miltonkeyneschessclub.co.uk' | encode_email }}">Contact us via email</a> to say hello and we'll help you get started.
+
+## What to expect
+
+On your first visit, someone should be around to welcome you and show you around. In the Berrill Cafe, we have an area for casual chess and another for team and internal competitions. In the casual area, players find games and play each other without any prior arrangement - this is a great place to start!
+
+## Becoming a member
+
+There are no special requirements to becoming a member. We have an annual membership fee of &pound;15 and a concessionary rate of &pound;10 for (TODO: verify this and who can get it. Also, verify pro-rata rate for those joining late).
+
+In addition, those wanting to take part in rated matches such as internal competitions and team matches, will need to register for membership with the [English Chess Federation](https://www.englishchess.org.uk/ecf-membership-rates-and-joining-details/).
+
+## Junior chess
+
+Due to circumstances outside our control, the Milton Keynes Chess Club is unable to accept junior players at this time.
