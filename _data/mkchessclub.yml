@@ -47,7 +47,6 @@ officers:
   - role: Online & technical subcommittee
     shortkey: TECH
     members:
-      - colin-solloway
       - dominic-watson
       - john-chandler
       - michael-page
