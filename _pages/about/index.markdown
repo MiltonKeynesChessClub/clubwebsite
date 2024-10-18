@@ -13,7 +13,7 @@ We are part of the [Bedfordshire Chess League](https://lms.englishchess.org.uk/l
 
 You can see all our team results and fixtures, as well as results and pairings for internal tournaments in our [results area](/results/).
 
-We welcome and our actively seeking new players to the club. Check out our [guide for new players](/about/new-players.html) for more information about making your first visits to the club.
+We welcome and are actively seeking new players to the club. Check out our [guide for new players](/about/new-players.html) for more information about making your first visits to the club.
 
 TODO some imagery would be nice.
 
