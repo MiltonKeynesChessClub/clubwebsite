@@ -8,7 +8,7 @@ sidebar:
   nav: about
 ---
 
-New players are warmly welcome to the club. <a href="mailto:{{ 'contact@miltonkeyneschessclub.co.uk' | encode_email }}">Contact us via email</a> to say hello and we'll help you get started.
+We welcome and are actively seeking new members to the club. <a href="mailto:{{ 'contact@miltonkeyneschessclub.co.uk' | encode_email }}">Contact us via email</a> to say hello and we'll help you get started.
 
 ## What to expect
 

@@ -11,7 +11,7 @@ header:
       url: "/about"
 feature_row:
   - title: "New players"
-    excerpt: "We warmly welcome new players of all abilities. Check out our guide for first time visitors to the club."
+    excerpt: "We welcome and are actively seeking new players of all abilities. Check out our guide for first time visitors to the club."
     url: "/about/new-players.html"
     btn_class: "btn--primary"
     btn_label: "Guide for new players"
