@@ -8,7 +8,7 @@
 # * yq: https://github.com/mikefarah/yq
 # * jq: https://jqlang.github.io/jq/
 
-LMS_ORG=123451 # Bedfordshire Chess Assoc.
+LMS_ORG=308 # Bedfordshire Chess Assoc.
 LMS_ENDPOINT=https://lms.englishchess.org.uk/lms/lmsrest/league
 TMP_DIR=${TMP_DIR:-~/tmp}
 DIVISIONS="BCL Division 1
@@ -42,9 +42,9 @@ function fetchresults() {
 		DIVSLUG=$( slugify "$DIVISION" )
 
 		mkdir -p "$TMP_DIR/$DIVSLUG"
-		curl -s -XPOST -F org="$LMS_ORG" -F name="$DIVISION" -o "$TMP_DIR/$DIVSLUG/table.json" "${LMS_ENDPOINT}/table.json"
-		curl -s -XPOST -F org="$LMS_ORG" -F name="$DIVISION" -o "$TMP_DIR/$DIVSLUG/fixtures.json" "${LMS_ENDPOINT}/event.json"
-		curl -s -XPOST -F org="$LMS_ORG" -F name="$DIVISION" -o "$TMP_DIR/$DIVSLUG/results.json" "${LMS_ENDPOINT}/match.json"
+		curl -s -XPOST --header "Content-Type: application/json" --data '{"org":"$LMS_ORG","name":"$DIVISION"}' -o "$TMP_DIR/$DIVSLUG/table.json" "${LMS_ENDPOINT}/table"
+		curl -s -XPOST --header "Content-Type: application/json" --data '{"org":"$LMS_ORG","name":"$DIVISION"}' -o "$TMP_DIR/$DIVSLUG/fixtures.json" "${LMS_ENDPOINT}/event"
+		curl -s -XPOST --header "Content-Type: application/json" --data '{"org":"$LMS_ORG","name":"$DIVISION"}' -o "$TMP_DIR/$DIVSLUG/results.json" "${LMS_ENDPOINT}/match"
 
 		processresults "$DIVSLUG"
 	done <<< "$DIVISIONS"
