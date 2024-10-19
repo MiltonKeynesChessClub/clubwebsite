@@ -5,6 +5,7 @@ layout: single
 {{ content }}
 
 {% if page.white != blank %}
+<div class="notice--info">
 	<dl class="dl-horizontal">
 		{% if page.event != blank %}
 			<dt>Event:</dt>
@@ -41,6 +42,7 @@ layout: single
 		<dt>Result:</dt>
 		<dd>{{ page.result }}</dd>
 	</dl>
+</div>
 {% endif %}
 
 {% if page.pgn != blank %}

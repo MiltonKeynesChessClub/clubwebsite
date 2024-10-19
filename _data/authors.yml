@@ -1,6 +1,6 @@
 colin-solloway:
-  name   : "Colin Solloway"
-  avatar : "/assets/images/authors/colinsolloway.jpg"
+  name: "Colin Solloway"
+  avatar: "/assets/images/authors/colinsolloway.jpg"
   bio: |
     Colin has been a key and continued member of the Milton Keynes Chess Club
     since 1974! Captain of the [Milton Keynes C](/teams/mkc.html) team and member
@@ -11,6 +11,19 @@ dominic-bartram:
   bio: |
     Dominic lives chess and sometimes plays Badminton. Often board 1 on the A team.
   lichess: MeowMiauMeow
+
+adrian-elwin:
+  name: "Adrian Elwin"
+  bio: |
+    Adrian is a (very) long standing member of the club and key figure in Bedfordshire and English chess.
+    Check out his website for further chess information, news and results in the wider Bedfordshire area.
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://adrianelwin.co.uk/"
+
+john-mckeon:
+  name: "John McKeon"
 
 dominic-watson:
   name: "Dominic Watson"
