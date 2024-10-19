@@ -65,8 +65,15 @@
 		font-size: 0.7em;
 	}
 
-	div, .popover {
-		table, p, li, blockquote, address, dd, dt, td {
+	div {
+		p, li, blockquote, address, dd, dt {
+			font-size: 1em;
+		}
+	}
+
+	.popover {
+		font-size: 1em;
+		td, th {
 			font-size: 1em;
 		}
 	}
@@ -301,4 +308,15 @@ div.dt-container {
 ::backdrop {
   backdrop-filter: blur(2px);
   background: rgba(0,0,0,0.4);
+}
+
+div {
+	h2:first-child {
+		margin-top: 0;
+	}
+}
+
+ul.social-icons {
+	list-style-type: none;
+	padding-left: 0;
 }

@@ -6,22 +6,23 @@ layout: single
 
 {% capture keyinfo %}
 	{% if member.ecfcode != blank %}
-<div class="author__urls-wrapper">
-    <ul class="author__urls social-icons">
-        <li><a href="https://rating.englishchess.org.uk/v2/new/player.php?ECF_code={{ member.ecfcode }}"><i class="fa fa-fw fa-chart-line" aria-hidden="true"></i><span class="label">English Chess Federation: {{ member.ecfcode }}</span></a></li>
-		{% for role in site.data.mkchessclub.officers %}
-			{% if role.members contains member.slug %}
-				<li><a href="/about/officers.html"><i class="fa fa-fw fa-user" aria-hidden="true"></i><span class="label">{{ role.role }}</span></a></li>
-			{% endif %}
-		{% endfor %}
-    </ul>
-</div>
+
+<ul class="social-icons">
+    <li><a href="https://rating.englishchess.org.uk/v2/new/player.php?ECF_code={{ member.ecfcode }}"><i class="fa fa-fw fa-chart-line" aria-hidden="true"></i> <span class="label">English Chess Federation: {{ member.ecfcode }}</span></a></li>
+	{% for role in site.data.mkchessclub.officers %}
+		{% if role.members contains member.slug %}
+			<li><a href="/about/officers.html"><i class="fa fa-fw fa-user" aria-hidden="true"></i> <span class="label">{{ role.role }}</span></a></li>
+		{% endif %}
+	{% endfor %}
+</ul>
 	{% endif %}
 {% endcapture %}
 {% if content.size > 0 or keyinfo.size > 0 %}
-<h2 id="key-info">Key info</h2>
+<div class="notice--info">
+	<h2 id="key-info">Key info</h2>
 {{ keyinfo }}
 {{ content }}
+</div>
 {% endif %}
 
 
