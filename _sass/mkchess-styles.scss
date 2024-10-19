@@ -23,50 +23,14 @@
 	margin-bottom: 0;
 }
 
-.initial-content .breadcrumbs {
-	ol {
-		width: auto;
-		float: none;
-		border-bottom: 1px solid $mk-border-colour;
-		padding-bottom: 0.5em;
 
-		> li {
-			font-size: 0.9em;
-		}
-
-		> li:first-child {
-			a > span {
-				visibility: hidden;
-				display: inline-block;
-				white-space: nowrap;
-				width: 1.2em;
-
-				&:before {
-					font-family: FontAwesome;
-				    display: inline-block;
-    				content: '\f015';
-    				visibility: visible;
-				}
-			}
-		}
-
-		.current {
-			font-weight: normal;
-		}
-
-		.sep {
-			color: $muted-text-color;
-		}
-	}
-}
-
-.page__content {
+.page__content, .archive, .archive__item {
 	p, li, blockquote, address, dd, dt {
 		font-size: 0.7em;
 	}
 
 	div {
-		p, li, blockquote, address, dd, dt {
+		li, blockquote, address, dd, dt {
 			font-size: 1em;
 		}
 	}
@@ -81,6 +45,10 @@
 	address {
 		margin-bottom: 1.3em;
 	}
+}
+
+.archive__item h2 {
+	font-size: 0.7em
 }
 
 .page__footer {

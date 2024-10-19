@@ -39,11 +39,11 @@ posts:
     url: /posts/
     children:
     - title: News
-      url: /posts/news.html
+      url: /news
     - title: Game reports
-      url: /posts/games.html
+      url: /games
     - title: Meetings and minutes
-      url: /posts/meetings.html
+      url: /meetings
 
 results:
   - title: 2023/4 Internal competitions
