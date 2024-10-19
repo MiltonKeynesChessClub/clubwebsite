@@ -51,6 +51,12 @@
 	font-size: 0.7em
 }
 
+.feature__item .archive__item {
+	h2, p {
+		font-size: 1em;
+	}
+}
+
 .page__footer {
 	color: $mk-white-platinum;
 }
