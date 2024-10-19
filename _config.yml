@@ -27,9 +27,8 @@ exclude:
   - _build
   - .github
 
-
 analytics:
-  provider               : "google"
+  provider               : "google-gtag"
   google:
     tracking_id          : "G-38KQRT08VQ"
     anonymize_ip         : true
