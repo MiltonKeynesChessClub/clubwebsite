@@ -1,12 +1,12 @@
 ## Milton Keynes Chess Website Repository
 
-This is the source repository for the [Milton Keynes Chess Club website](https://www.miltonkeyneschessclub.co.uk). Currently in ALPHA, it is deploying to https://mkchess.domwatson.codes.
+This is the source repository for the [Milton Keynes Chess Club website](https://www.mkchessclub.co.uk).
 
 ### Overview
 
 The website is built using the [Jekyll static site generator](https://jekyllrb.com/) framework and built on the [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 
-The site is hosted using [Github Pages](https://pages.github.com/) and this is configured in the settings of the [Github repo](https://github.com/MiltonKeynesChessClub/www.miltonkeyneschessclub.co.uk). Anytime code is pushed to the `main` branch, then a pipeline is triggered to build the static pages and publish changes to the website.
+The site is hosted using [Github Pages](https://pages.github.com/) and this is configured in the settings of the [Github repo](https://github.com/MiltonKeynesChessClub/www.mkchessclub.co.uk). Anytime code is pushed to the `main` branch, then a pipeline is triggered to build the static pages and publish changes to the website.
 
 ### Getting the website running locally
 
