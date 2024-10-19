@@ -62,7 +62,7 @@ defaults:
       type: posts
     values:
       layout: single
-      permalink: /:categories/:year-:month-:day-:title:output_ext
+      permalink: /posts/:categories/:year-:month-:day-:title:output_ext
       show_date: true
       related: true
       author_profile: true

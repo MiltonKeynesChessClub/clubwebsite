@@ -4,9 +4,9 @@ main:
   - title: "Results"
     url: /results/
   - title: "News"
-    url: /news
+    url: /posts/news
   - title: "Games"
-    url: /games
+    url: /posts/games
   - title: "Contact us"
     url: /about/contact.html
 
@@ -41,11 +41,11 @@ posts:
     url: /posts/
     children:
     - title: News
-      url: /news
+      url: /posts/news
     - title: Game reports
-      url: /games
+      url: /posts/games
     - title: Meetings and minutes
-      url: /meetings
+      url: /posts/meetings
 
 results:
   - title: 2023/4 Internal competitions

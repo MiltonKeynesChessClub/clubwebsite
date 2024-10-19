@@ -2,7 +2,7 @@
 title: "Game reports"
 excerpt: View games that our Milton Keynes Chess Club members have submitted.
 layout: category
-permalink: /games
+permalink: /posts/games
 taxonomy: games
 sidebar:
   nav: posts
