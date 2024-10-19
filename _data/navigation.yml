@@ -42,8 +42,6 @@ posts:
       url: /posts/news.html
     - title: Game reports
       url: /posts/games.html
-    - title: Match reports
-      url: /posts/matchreports.html
     - title: Meetings and minutes
       url: /posts/meetings.html
 

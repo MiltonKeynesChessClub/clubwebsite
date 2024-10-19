@@ -27,6 +27,13 @@ exclude:
   - _build
   - .github
 
+
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : "G-38KQRT08VQ"
+    anonymize_ip         : true
+
 # Markdown Processing
 kramdown:
   auto_ids: true
