@@ -11,7 +11,7 @@ Welcome to the club website refresh! In the 2024 AGM, a motion was put forward a
 The new site aims to be:
 
 1. **Accessible to all**, on mobile and on desktop devices
-2. **Open to collaboration**. You can find the source code and make pull requests in our [github repo](https://github.com/MiltonKeynesChessClub/www.mkchessclub.co.uk)
+2. **Open to collaboration**. You can find the source code and make pull requests in our [github repo](https://github.com/MiltonKeynesChessClub/clubwebsite)
 3. **Free to host**. The site is built using the Jekyll static website generator and hosted for free using Github Pages. No cost and no servers to maintain :)
 
 Feedback and content is very welcome! Message someone from the [technical subcommittee](/about/officers.html) or find them for a chat on a club night.
