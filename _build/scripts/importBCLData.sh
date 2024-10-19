@@ -42,9 +42,9 @@ function fetchresults() {
 		DIVSLUG=$( slugify "$DIVISION" )
 
 		mkdir -p "$TMP_DIR/$DIVSLUG"
-		curl -s -XPOST --header "Content-Type: application/json" --data '{"org":"$LMS_ORG","name":"$DIVISION"}' -o "$TMP_DIR/$DIVSLUG/table.json" "${LMS_ENDPOINT}/table"
-		curl -s -XPOST --header "Content-Type: application/json" --data '{"org":"$LMS_ORG","name":"$DIVISION"}' -o "$TMP_DIR/$DIVSLUG/fixtures.json" "${LMS_ENDPOINT}/event"
-		curl -s -XPOST --header "Content-Type: application/json" --data '{"org":"$LMS_ORG","name":"$DIVISION"}' -o "$TMP_DIR/$DIVSLUG/results.json" "${LMS_ENDPOINT}/match"
+		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/table.json" "${LMS_ENDPOINT}/table"
+		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/fixtures.json" "${LMS_ENDPOINT}/event"
+		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/results.json" "${LMS_ENDPOINT}/match"
 
 		processresults "$DIVSLUG"
 	done <<< "$DIVISIONS"
@@ -127,7 +127,7 @@ function processFixtures() {
 		echo ""                                >> $TARGETFILE
 
 		GAME_NAME="$FIXTURE_HOMETEAM v $FIXTURE_AWAYTEAM"
-		GAME_INDEX=$( jq "map(.title==\"${GAME_NAME}\") | index(true)" "$RESULTSSRCFILE" )
+		GAME_INDEX=$( jq "map(.title | startswith(\"${GAME_NAME}\")) | index(true)" "$RESULTSSRCFILE" )
 
 		if [[ -n $GAME_INDEX && "$GAME_INDEX" != "null" ]] ; then
 			processFixtureGames "$DIVSLUG" "$RESULTSSRCFILE" "$FIXTURE_ID" $GAME_INDEX "$FIXTURE_HOMETEAM" "$FIXTURE_AWAYTEAM"
@@ -146,17 +146,19 @@ function processFixtureGames() {
 	TARGETFILE=$ECF_DATA_DIR/matches.yaml
 
 	for i in $(seq 0 $(($GAMECOUNT-1))); do
-		GAME_HOMECOLOUR=$( jq --raw-output ".[$GAME_INDEX].data[$i][0]" "$SRCFILE" );
-		GAME_BOARD=$( jq --raw-output ".[$GAME_INDEX].data[$i][1]" "$SRCFILE" );
+		# the indexes of this result data are out of whack somewhat. A little trial and
+		# error
+		GAME_BOARD=$( jq --raw-output ".[$GAME_INDEX].data[$i][0]" "$SRCFILE" );
 		GAME_HOMEPLAYER=$( jq --raw-output ".[$GAME_INDEX].data[$i][2]" "$SRCFILE" );
-		GAME_HOMERATING=$( jq --raw-output ".[$GAME_INDEX].data[$i][3]" "$SRCFILE" );
+		GAME_HOMERATING=$( jq --raw-output ".[$GAME_INDEX].data[$i][1]" "$SRCFILE" );
 		GAME_RESULT=$( jq --raw-output ".[$GAME_INDEX].data[$i][4]" "$SRCFILE" );
 		GAME_AWAYPLAYER=$( jq --raw-output ".[$GAME_INDEX].data[$i][5]" "$SRCFILE" );
-		GAME_AWAYRATING=$( jq --raw-output ".[$GAME_INDEX].data[$i][6]" "$SRCFILE" );
-
-		if [[ "$GAME_HOMECOLOUR" == "B" ]] ; then
+		GAME_AWAYRATING=$( jq --raw-output ".[$GAME_INDEX].data[$i][7]" "$SRCFILE" );
+		if [[ $((i % 2)) -eq 0 ]]; then
+			GAME_HOMECOLOUR="B"
 			GAME_AWAYCOLOUR="W"
 		else
+			GAME_HOMECOLOUR="W"
 			GAME_AWAYCOLOUR="B"
 		fi
 
