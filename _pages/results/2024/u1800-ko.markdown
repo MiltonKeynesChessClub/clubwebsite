@@ -4,8 +4,6 @@ title:  "2024 Under 1800 Knockout"
 permalink: "/results/2024/u1800-ko.html"
 toc: true
 toc_sticky: true
-sidebar:
-  nav: results
 ---
 
 {% capture rules %}

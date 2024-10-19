@@ -4,8 +4,6 @@ title:  "2024 Open Swiss"
 permalink: "/results/2024/open-swiss.html"
 toc: true
 toc_sticky: true
-sidebar:
-  nav: results
 ---
 
 {% assign tourney = site.data.results.internal[ "2024" ].openswiss %}

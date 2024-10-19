@@ -4,8 +4,6 @@ title:  "2024 Club Championship"
 permalink: "/results/2024/club-championship.html"
 toc: true
 toc_sticky: true
-sidebar:
-  nav: results
 ---
 
 {% assign finalpool = site.data.results.internal[ "2024" ].championship.finalpool %}

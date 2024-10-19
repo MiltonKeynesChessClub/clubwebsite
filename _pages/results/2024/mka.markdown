@@ -1,7 +1,7 @@
 ---
 layout: team
 title: "Milton Keynes A"
-permalink: /teams/mka.html
+permalink: /results/2024/mka.html
 team: mka
 division: bcl-division-1
 captain: adrian-elwin

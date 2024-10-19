@@ -6,13 +6,7 @@ excerpt: |
   Contact the Milton Keynes Chess Club
 sidebar:
   nav: about
-header:
-  overlay_image: /assets/images/banners/contact.jpg
-  overlay_filter: rgba( 0,0,0,0.5)
 ---
-
-
-## New players and general enquiries
 
 To get in touch with general enquiries and for new players wanting to find out more about the club, please send an email to [contact@mkchessclub.co.uk](mailto:{{ 'contact@mkchessclub.co.uk' | encode_email }})
 

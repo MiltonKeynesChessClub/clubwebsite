@@ -1,7 +1,7 @@
 ---
 layout: team
 title: "Open University"
-permalink: /teams/ou.html
+permalink: /results/2024/ou.html
 division: bcl-division-2
 team: ou
 captain: james-alexander

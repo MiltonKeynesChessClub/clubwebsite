@@ -4,8 +4,6 @@ title:  "2024 Open Knockout"
 permalink: "/results/2024/open-ko.html"
 toc: true
 toc_sticky: true
-sidebar:
-  nav: results
 ---
 
 {% capture rules %}

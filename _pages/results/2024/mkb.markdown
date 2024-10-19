@@ -1,7 +1,7 @@
 ---
 layout: team
 title: "Milton Keynes B"
-permalink: /teams/mkb.html
+permalink: /results/2024/mkb.html
 division: bcl-division-2
 team: mkb
 captain: sumit-bhalla

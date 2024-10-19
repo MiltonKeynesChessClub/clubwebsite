@@ -294,3 +294,36 @@ ul.social-icons {
 	list-style-type: none;
 	padding-left: 0;
 }
+
+.initial-content .breadcrumbs {
+	ol {
+		width: auto;
+		float: none;
+		border-bottom: 1px solid $mk-border-colour;
+		padding-bottom: 0.5em;
+		> li {
+			font-size: 0.9em;
+		}
+		> li:first-child {
+			a > span {
+				visibility: hidden;
+				display: inline-block;
+				white-space: nowrap;
+				width: 1.2em;
+				&:before {
+					font-family: FontAwesome;
+				    display: inline-block;
+    				content: '\f015';
+    				visibility: visible;
+				}
+			}
+		}
+		.current {
+			font-weight: normal;
+		}
+
+		.sep {
+			color: $muted-text-color;
+		}
+	}
+}

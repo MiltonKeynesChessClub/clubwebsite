@@ -1,7 +1,7 @@
 ---
 layout: team
 title: "Milton Keynes C"
-permalink: /teams/mkc.html
+permalink: /results/2024/mkc.html
 division: bcl-division-2
 team: mkc
 captain: colin-solloway

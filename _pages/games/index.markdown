@@ -6,7 +6,6 @@ permalink: /games
 taxonomy: games
 sidebar:
   nav: posts
-
 ---
 
 Here you can find an archive of various interesting games uploaded by our members.

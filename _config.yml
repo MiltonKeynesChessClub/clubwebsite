@@ -39,35 +39,31 @@ kramdown:
   toc_levels: 2..6
 
 # Front matter defaults
+breadcrumbs: true
 defaults:
   - scope:
-      path: "_pages/teams"
+      path: "_pages/results"
     values:
       sidebar:
         nav: results
-  - scope:
-      path: "_pages/posts"
-    values:
-      sidebar:
-        nav: posts
   - scope:
       path: "_pages/about"
     values:
       sidebar:
         nav: about
-      breadcrumbs: true
   - scope:
       path: "_pages/about/members"
     values:
-      sidebar:
-        nav: about
       toc: true
       toc_sticky: true
+      sidebar:
+        nav: about
   - scope:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: false
+      permalink: /:categories/:year-:month-:day-:title:output_ext
       show_date: true
       related: true
+      author_profile: true
+      read_time: false
