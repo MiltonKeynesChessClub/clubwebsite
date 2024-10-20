@@ -1,0 +1,17 @@
+name: Import results
+on:
+  workflow_dispatch:
+#  schedule:
+#    - cron: "33 1 * * *" # 01:33am every day
+jobs:
+  importresults:
+    name: Import results
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run import
+        run: |
+          _build/scripts/importBCLData.sh
