@@ -17,3 +17,7 @@ jobs:
         working-directory: ./_build/scripts
         run: |
           ./importBCLData.sh
+
+      - name: Check for changes
+        run: |
+          git status && git diff
