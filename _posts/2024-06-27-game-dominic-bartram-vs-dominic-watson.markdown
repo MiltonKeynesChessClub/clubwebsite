@@ -2,7 +2,6 @@
 layout: game
 title:  "Game report: Dominic Bartram vs Dominic Watson"
 date:   2024-06-27
-author: dominic-bartram
 categories: games
 excerpt: This game report from Dominic Bartram is all about the importance of king safety before launching an attack!
 event: Milton Keynes Club Championship 2024 - Group 2

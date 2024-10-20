@@ -15,3 +15,5 @@ The new site aims to be:
 3. **Free to host**. The site is built using the Jekyll static website generator and hosted for free using Github Pages. No cost and no servers to maintain :)
 
 Feedback and content is very welcome! Message someone from the [technical subcommittee](/about/officers.html) or find them for a chat on a club night.
+
+It remains to say a huge thank you to [Colin](/about/members/colin-solloway.html) who has created and maintained the previous website for the last 9 years.

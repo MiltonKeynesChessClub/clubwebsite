@@ -1,0 +1,10 @@
+{% assign membergames = site.posts | where:"categories","games" | where: "white",include.member.slug %}
+{% assign blackgames = site.posts | where:"categories","games" | where: "black",include.member.slug %}
+{% assign membergames = membergames | concat: blackgames | sort:"date desc" %}
+
+{% if membergames.size > 0 %}
+	<h2 id="player-game-reports">Games Reports</h2>
+	{%- for post in membergames -%}
+  		{% include archive-single.html %}
+	{%- endfor -%}
+{% endif %}

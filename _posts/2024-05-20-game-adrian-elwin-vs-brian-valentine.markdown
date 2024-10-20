@@ -2,7 +2,6 @@
 layout: game
 title:  "Game report: Adrian Elwin vs Brian Valentine"
 date:   2024-05-20
-author: adrian-elwin
 categories: games
 excerpt: Game report from Adrian Elwin from his Beds County Championship match against Leighton Buzzard's Brian Valentine.
 event: Bedforshire County Championship 2024

@@ -2,7 +2,6 @@
 layout: game
 title:  "Game report: Stephen Ledger vs Dominic Watson"
 date:   2024-01-04
-author: dominic-watson
 categories: games
 excerpt: Here is Dominic's shock victory against Stephen Ledger in the first round of the Bedfordshire Individual Championship 2024. A combination of time of and opening study and perhaps a bit of a Christmas hangover for Steve led to a shaky but nice finish and Dominic's best win to date by far!
 event: Bedforshire County Championship 2024

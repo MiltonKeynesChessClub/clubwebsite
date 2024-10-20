@@ -1,0 +1,8 @@
+{% assign posts = site.posts | where: "author",include.member.slug %}
+
+{% if posts.size > 0 %}
+	<h2 id="player-posts">Player posts</h2>
+	{%- for post in posts -%}
+  		{% include archive-single.html %}
+	{%- endfor -%}
+{% endif %}
