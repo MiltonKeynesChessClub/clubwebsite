@@ -8,7 +8,7 @@ sidebar:
   nav: about
 ---
 
-We welcome and are actively seeking new members to the club. <a href="mailto:{{ 'contact@mkchessclub.co.uk' | encode_email }}">Contact us via email</a> to say hello and we'll help you get started.
+We welcome and are actively seeking new members to the club. [Contact us](https://forms.zoho.eu/miltonkeyneschessclubgm1/form/Contactus) to say hello and we'll help you get started.
 
 ## What to expect
 

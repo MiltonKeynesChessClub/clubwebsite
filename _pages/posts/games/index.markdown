@@ -9,5 +9,7 @@ sidebar:
 ---
 
 Here you can find an archive of various interesting games uploaded by our members.
-Send your game reports to [webmasters@mkchessclub.co.uk](mailto:{{ 'webmasters@mkchessclub.co.uk' | encode_email }})
+To submit your own games, please use our [feedback, posts and games form](https://forms.zoho.eu/miltonkeyneschessclubgm1/form/Websitefeedbacksuggestionsandgames).
 to immortalise your chess greatness!
+
+---
