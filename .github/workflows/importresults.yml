@@ -1,8 +1,7 @@
 name: Import results
 on:
-  workflow_dispatch:
-#  schedule:
-#    - cron: "33 1 * * *" # 01:33am every day
+  schedule:
+    - cron: "33 1,7,13,19 * * *" # at 33m past the hour, four times a day
 jobs:
   importresults:
     name: Import results

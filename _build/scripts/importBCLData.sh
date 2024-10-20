@@ -39,6 +39,7 @@ function fetchresults() {
 	resetGeneratedFiles
 
 	while IFS= read -r DIVISION; do
+		echo "Fetching and processing results for ${DIVISION}..."
 		DIVSLUG=$( slugify "$DIVISION" )
 
 		mkdir -p "$TMP_DIR/$DIVSLUG"
@@ -62,8 +63,11 @@ function fetchresults() {
 			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Results file size for $DIVISION: ${resultssize}b"
 			exit 1;
 		fi
+		echo "...data fetched from ECF LMS. Processing..."
 
 		processresults "$DIVSLUG"
+
+		echo "Finished fetching and processing results for ${DIVISION}."
 	done <<< "$DIVISIONS"
 }
 
