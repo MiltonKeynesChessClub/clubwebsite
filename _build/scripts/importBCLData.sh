@@ -8,8 +8,8 @@
 # * yq: https://github.com/mikefarah/yq
 # * jq: https://jqlang.github.io/jq/
 
-LMS_ORG=308 # Bedfordshire Chess Assoc.
-LMS_ENDPOINT=https://lms.englishchess.org.uk/lms/lmsrest/league
+LMS_ORG=${LMS_ORG:-308} # Bedfordshire Chess Assoc.
+LMS_ENDPOINT=${LMS_ENDPOINT:-https://lms.englishchess.org.uk/lms/lmsrest/league}
 TMP_DIR=${TMP_DIR:-~/tmp}
 DIVISIONS="BCL Division 1
 BCL Division 2"
@@ -45,6 +45,23 @@ function fetchresults() {
 		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/table.json" "${LMS_ENDPOINT}/table"
 		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/fixtures.json" "${LMS_ENDPOINT}/event"
 		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/results.json" "${LMS_ENDPOINT}/match"
+
+		tablesize=$( stat --printf="%s" "$TMP_DIR/$DIVSLUG/table.json" )
+		fixturessize=$( stat --printf="%s" "$TMP_DIR/$DIVSLUG/fixtures.json" )
+		resultssize=$( stat --printf="%s" "$TMP_DIR/$DIVSLUG/results.json" )
+
+		if (( tablesize < 250 )); then
+			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Table file size for $DIVISION: ${tablesize}b"
+			exit 1;
+		fi
+		if (( fixturessize < 1500 )); then
+			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Fixtures file size for $DIVISION: ${fixturessize}b"
+			exit 1;
+		fi
+		if (( resultssize < 15000 )); then
+			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Results file size for $DIVISION: ${resultssize}b"
+			exit 1;
+		fi
 
 		processresults "$DIVSLUG"
 	done <<< "$DIVISIONS"
