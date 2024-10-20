@@ -9,7 +9,7 @@ sidebar:
 ---
 
 Here you can find an archive of various interesting games uploaded by our members.
-To submit your own games, please use our [feedback, posts and games form](https://forms.zoho.eu/miltonkeyneschessclubgm1/form/Websitefeedbacksuggestionsandgames).
+For website suggestions, posts and featured PGN games, please use our [feedback, posts and games form]({{ site.data.mkchessclub.feedbackform }}).
 to immortalise your chess greatness!
 
 ---
