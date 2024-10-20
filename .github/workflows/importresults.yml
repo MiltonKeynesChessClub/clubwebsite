@@ -12,6 +12,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Run import
+        working-directory: ./_build/scripts
         run: |
-          _build/scripts/importBCLData.sh
+          ./importBCLData.sh
