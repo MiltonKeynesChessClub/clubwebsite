@@ -14,6 +14,4 @@ To get in touch with general enquiries and for new players wanting to find out m
 
 To report internal tournament results, use: [results@mkchessclub.co.uk](mailto:{{ 'results@mkchessclub.co.uk' | encode_email }}).
 
-For safeguarding issues, please use: [safeguarding@mkchessclub.co.uk](mailto:{{ 'safeguarding@mkchessclub.co.uk' | encode_email }}).
-
 For website suggestions, posts and featured PGN games, please use: [webmasters@mkchessclub.co.uk](mailto:{{ 'webmasters@mkchessclub.co.uk' | encode_email }})
