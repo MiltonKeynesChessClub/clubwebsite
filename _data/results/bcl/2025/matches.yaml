@@ -2734,66 +2734,66 @@ bcl-division-2:
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: 0000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: 0000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
