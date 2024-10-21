@@ -29,6 +29,10 @@
 		font-size: 0.7em;
 	}
 
+	li > ul li {
+		font-size: 1em;
+	}
+
 	div {
 		li, blockquote, address, dd, dt {
 			font-size: 1em;

@@ -15,8 +15,6 @@ about:
     children:
     - title: About us
       url: /about/
-    - title: Our Constituion
-      url: /about/constitution.html
     - title: How to find us
       url: /about/location.html
     - title: Contact us
@@ -31,6 +29,8 @@ about:
       url: /about/members
   - title: Documents
     children:
+    - title: Our Constituion
+      url: /about/constitution.html
     - title: Privacy policy
       url: /about/privacy-policy.html
     - title: Safeguarding
