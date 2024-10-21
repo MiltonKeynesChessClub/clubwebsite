@@ -6,7 +6,7 @@ categories: games
 excerpt: Game report for John McKeon's win over Paul Endersby in the Under 1850 Knockout in 2022. Can you see white black resigns here?!
 event: Milton Keynes Under 1850 Knockout, 2022 - Round 3
 white: john-mckeon
-black: paul-endersby
+black: Paul Endersby
 result: 1-0
 whiteelo: 1586
 blackelo: 1586

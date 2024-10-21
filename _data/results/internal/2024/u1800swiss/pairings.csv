@@ -1,13 +1,13 @@
 round,board,white,black,whitepts,blackpts,date,result
-1,1,david-webber,george-ward,,,def-w/o
-1,2,dominic-watson,elliot-long,,,2024-03-28,1-0
+1,1,David Webber,george-ward,,,def-w/o
+1,2,dominic-watson,Elliot Long,,,2024-03-28,1-0
 1,3,matthew-jacques,dave-wells,,,2024-03-07,0-1
 1,4,bosko-bauk,michael-page,,,2024-03-21,1/2-1/2
 1,5,mark-osborn,john-mcnamara,,,2024-06-20,0-1
 1,6,colin-solloway,steven-wayne,,,2024-03-28,1-0
 1,7,nick-pitts-tucker,john-mckeon,,,2024-04-11,0-1
 1,8,peter-hawes,guilherme-rezende,,,2024-03-07,1-0
-1,9,john-morton,vincent-edwards,,,2024-03-21,0-1
+1,9,John Morton,vincent-edwards,,,2024-03-21,0-1
 1,10,nigel-collins,steve-tomlin,,,2024-03-14,1-0
 1,11,atila-besceli,david-phillips,,,tbc
 1,12,giuseppe-spigapiena,bye,,,tbc
@@ -19,7 +19,7 @@ round,board,white,black,whitepts,blackpts,date,result
 2,5,giuseppe-spigapiena,colin-solloway,1,1,2024-05-23,1-0
 2,6,john-mckeon,bosko-bauk,1,0.5,2024-05-09,1-0
 2,7,michael-page,matthew-jacques,0.5,0,2024-07-18,1-0
-2,8,elliot-long,john-morton,0,0,,tbc
+2,8,Elliot Long,John Morton,0,0,,tbc
 2,9,guilherme-rezende,mark-osborn,0,0,2024-05-16,1-0
 2,10,steven-wayne,atila-besceli,0,+,,tbc
 2,11,steve-tomlin,nick-pitts-tucker,0,0,,def-w/o
@@ -31,6 +31,6 @@ round,board,white,black,whitepts,blackpts,date,result
 3,5,colin-solloway,guilherme-rezende,1,1,2024-09-19,0-1
 3,6,peter-hawes,david-phillips,1,+,2024-09-19,0-1
 3,7,atila-besceli,vincent-edwards,1+,1,2024-08-22,0-1
-3,8,bosko-bauk,elliot-long,0.5,+,,tbc
-3,9,john-morton,matthew-jacques,+,0,,tbc
+3,8,bosko-bauk,Elliot Long,0.5,+,,tbc
+3,9,John Morton,matthew-jacques,+,0,,tbc
 3,10,mark-osborn,steven-wayne,0,0,,tbc
