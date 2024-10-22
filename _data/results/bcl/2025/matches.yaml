@@ -2409,66 +2409,66 @@ bcl-division-2:
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: W
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: W
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
