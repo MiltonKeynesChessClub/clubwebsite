@@ -1,18 +1,33 @@
 {% assign honours = site.data.results.honourroll | where:"player",include.member.name %}
 {% if honours.size > 0 %}
 <h2 id="player-honours">Player honours</h2>
+	{% assign currentseason = honours[0].season | append: "" %}
+<h3 id="player-honours-{{ currentseason }}">{{ currentseason }} season</h3>
 <table>
 	<thead>
 		<tr>
-			<th>Season</th>
 			<th>Event</th>
 			<th>Place</th>
 		</tr>
 	</thead>
 	<tbody>
 		{% for honour in honours %}
+			{% assign honourseason = honour.season | append: "" %}
+			{% if honourseason != currentseason %}
+				{% assign currentseason = honourseason %}
+	</tbody>
+</table>
+<h3 id="player-honours-{{ currentseason }}">{{ currentseason }} season</h3>
+<table>
+	<thead>
+		<tr>
+			<th>Event</th>
+			<th>Place</th>
+		</tr>
+	</thead>
+	<tbody>
+			{% endif %}
 			<tr>
-				<td>{{ honour.season }}</td>
 				<td>{{ honour.event }}</td>
 				<td>{{ honour.place }}</td>
 			</tr>

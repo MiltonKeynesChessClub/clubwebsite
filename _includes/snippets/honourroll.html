@@ -1,0 +1,45 @@
+{% assign honours = site.data.results.honourroll %}
+{% assign currentseason = honours[0].season | append: "" %}
+{% assign currentevent = honours[0].event %}
+
+<h2 id="season-{{ currentseason }}">{{ currentseason }} season</h2>
+<h3 id="season-{{ currentseason }}-event-{{ currentevent  | slugify: "pretty" }}">{{ currentevent }}</h3>
+<table>
+	<thead>
+		<tr>
+			<th>Place</th>
+			<th>Player</th>
+		</tr>
+	</thead>
+	<tbody>
+{% for honour in honours %}
+	{% assign honourseason = honour.season | append: "" %}
+	{% assign honourevent = honour.event | append: "" %}
+	{% if honourseason != currentseason or honourevent != currentevent %}
+	</tbody>
+</table>
+		{% if honourseason != currentseason  %}
+			{% assign currentseason = honourseason %}
+<h2 id="season-{{ currentseason }}">{{ currentseason }} season</h2>
+		{% endif %}
+		{% if honourevent != currentevent %}
+			{% assign currentevent = honourevent %}
+<h3 id="season-{{ currentseason }}-event-{{ currentevent  | slugify: "pretty" }}">{{ currentevent }}</h3>
+		{% endif %}
+<table>
+	<thead>
+		<tr>
+			<th>Place</th>
+			<th>Player</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% endif %}
+
+	<tr>
+		<td>{{ honour.place }}</td>
+		<td>{% include snippets/member_link.html field="name" value=honour.player %}</td>
+	</tr>
+{% endfor %}
+	</tbody>
+</table>

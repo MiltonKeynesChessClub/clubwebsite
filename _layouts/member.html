@@ -2,15 +2,15 @@
 layout: single
 ---
 
-{% assign member = site.data.mkmembers | where:"slug",page.member | first %}
+{% assign pagemember = site.data.mkmembers | where:"slug",page.member | first %}
 
 {% capture keyinfo %}
-	{% if member.ecfcode != blank %}
+	{% if pagemember.ecfcode != blank %}
 
 <ul class="social-icons">
-    <li><a href="https://rating.englishchess.org.uk/v2/new/player.php?ECF_code={{ member.ecfcode }}"><i class="fa fa-fw fa-chart-line" aria-hidden="true"></i> <span class="label">English Chess Federation: {{ member.ecfcode }}</span></a></li>
+    <li><a href="https://rating.englishchess.org.uk/v2/new/player.php?ECF_code={{ pagemember.ecfcode }}"><i class="fa fa-fw fa-chart-line" aria-hidden="true"></i> <span class="label">English Chess Federation: {{ pagemember.ecfcode }}</span></a></li>
 	{% for role in site.data.mkchessclub.officers %}
-		{% if role.members contains member.slug %}
+		{% if role.members contains pagemember.slug %}
 			<li><a href="/about/officers.html"><i class="fa fa-fw fa-user" aria-hidden="true"></i> <span class="label">{{ role.role }}</span></a></li>
 		{% endif %}
 	{% endfor %}
@@ -26,8 +26,8 @@ layout: single
 {% endif %}
 
 
-{% include snippets/player_league_info.html member=member %}
-{% include snippets/player_internal_info.html member=member %}
-{% include snippets/player_honour_roll.html member=member %}
-{% include snippets/player_games.html member=member %}
-{% include snippets/player_posts.html member=member %}
+{% include snippets/player_league_info.html member=pagemember %}
+{% include snippets/player_internal_info.html member=pagemember %}
+{% include snippets/player_honour_roll.html member=pagemember %}
+{% include snippets/player_games.html member=pagemember %}
+{% include snippets/player_posts.html member=pagemember %}
