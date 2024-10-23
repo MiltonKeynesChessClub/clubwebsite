@@ -14,6 +14,10 @@ The new site aims to be:
 2. **Open to collaboration**. You can find the source code and make pull requests in our [github repo](https://github.com/MiltonKeynesChessClub/clubwebsite)
 3. **Free to host**. The site is built using the Jekyll static website generator and hosted for free using Github Pages. No cost and no servers to maintain :)
 
-Feedback and content is very welcome! Message someone from the [technical subcommittee](/about/officers.html) or find them for a chat on a club night.
+Feedback and content is very welcome! You can:
 
-It remains to say a huge thank you to [Colin](/about/members/colin-solloway.html) who has created and maintained the previous website for the last 9 years.
+* Use our  [feedback, posts and games form]({{ site.data.mkchessclub.feedbackform }})
+* Send an email to [webmaster@miltonkeyneschessclub.co.uk](mailto:{{ 'webmaster@miltonkeyneschessclub.co.uk' | encode_email }})
+* Find a member of the [technical subcommittee](/about/officers.html) for a chat on a club night.
+
+It remains to say a huge thank you to [Colin](/about/members/colin-solloway.html) who has created and maintained the previous website for the last 8 years.
