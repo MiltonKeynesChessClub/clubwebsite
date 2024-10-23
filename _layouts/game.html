@@ -4,22 +4,22 @@ layout: single
 
 {{ content }}
 
-{% if page.white != blank %}
+{% if page.white.size > 0 %}
 <div class="notice--info">
 	<dl class="dl-horizontal">
-		{% if page.event != blank %}
+		{% if page.event.size > 0 %}
 			<dt>Event:</dt>
 			<dd>
-				{% if page.eventlink != blank %}
+				{% if page.eventlink.size > 0 %}
 					<a href="{{ page.eventlink }}">
 				{% endif %}
 				{{ page.event }}
-				{% if page.eventlink != blank %}
+				{% if page.eventlink.size > 0 %}
 					</a>
 				{% endif %}
 			</dd>
 		{% endif %}
-		{% if page.date != blank %}
+		{% if page.date.size > 0 %}
 			<dt>Date:</dt>
 			<dd>
 				{{ page.date | date: "%-d %B %Y" }}
@@ -28,14 +28,14 @@ layout: single
 		<dt>White:</dt>
 		<dd>
 			{% include snippets/member_link.html value=page.white field="slug" %}
-			{% if page.whiteelo != blank %}
+			{% if page.whiteelo.size > 0 %}
 				({{ page.whiteelo }})
 			{% endif %}
 		</dd>
 		<dt>Black:</dt>
 		<dd>
 			{% include snippets/member_link.html value=page.black field="slug" %}
-			{% if page.blackelo != blank %}
+			{% if page.blackelo.size > 0 %}
 				({{ page.blackelo }})
 			{% endif %}
 		</dd>
