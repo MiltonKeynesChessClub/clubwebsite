@@ -9,6 +9,7 @@ season: 2025
 members:
   - james-alexander
   - vincent-edwards
+  - nigel-collins
   - matthew-jacques
   - david-phillips
   - dexter-caplin-lazard

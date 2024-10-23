@@ -7,7 +7,7 @@ sidebar:
   nav: about
 ---
 
-The Milton Keynes Chess Club is a place for keen chess players of all abilitities to meet for friendly and competitive chess. We meet on thursday evenings from 7.15pm at the [Berrill Cafe at the Open University Campus](/about/location.html) where you will find players playing friendly games, internal competitions and team league matches.
+The Milton Keynes Chess Club is a place for keen chess players of all abilitities to meet for friendly and competitive chess. We meet on thursday evenings from 7.30pm at the [Berrill Cafe at the Open University Campus](/about/location.html) where you will find players playing friendly games, internal competitions and team league matches.
 
 ## Competitive chess
 
