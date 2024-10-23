@@ -197,67 +197,67 @@ bcl-division-1:
       team: Luton A
 
   - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result:  
+    result: ½ - ½
     home:
-      name:  
-      rating: 000
+      name: O'Brien, Thomas P
+      rating: 1946
       color: B
       team: Luton A
     away:
-      name: 000
-      rating: null
+      name: Elwin, Adrian G
+      rating: 2050
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Hudson, Julian
+      rating: 2019
       color: W
       team: Luton A
     away:
-      name: 000
-      rating: null
+      name: Tweeddale, Eoin
+      rating: 2049
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Vora, Samir
+      rating: 1812
       color: B
       team: Luton A
     away:
-      name: 000
-      rating: null
+      name: Meichel, Eric B
+      rating: 0000
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Singh, Damanjeet
+      rating: 1750
       color: W
       team: Luton A
     away:
-      name: 000
-      rating: null
+      name: Smith, Graham
+      rating: 1921
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result:  
+    result: ½ - ½
     home:
-      name:  
-      rating: 000
+      name: Rashad, Faisal
+      rating: 0000
       color: B
       team: Luton A
     away:
-      name: 000
-      rating: null
+      name: Bowler, Andrew
+      rating: 1887
       color: W
       team: Milton Keynes A
 
@@ -2409,66 +2409,66 @@ bcl-division-2:
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: W
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: W
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: Default
     home:
-      name:  
-      rating: 000
+      name: Default
+      rating: 0000
       color: B
       team: Open University
     away:
-      name: 000
+      name: 0000
       rating: null
       color: W
       team: Milton Keynes C
