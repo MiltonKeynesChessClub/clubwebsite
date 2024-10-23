@@ -1,6 +1,6 @@
 ---
 title:  "Site design refresh"
-date:   2024-09-17
+date:   2024-10-23
 author: dominic-watson
 categories: news
 excerpt: Welcome to the club website refresh, 2024!

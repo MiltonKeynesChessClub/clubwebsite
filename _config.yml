@@ -33,6 +33,15 @@ analytics:
     tracking_id          : "G-38KQRT08VQ"
     anonymize_ip         : true
 
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/people/Milton-Keynes-Chess-Club/61567743985942/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MiltonKeynesChessClub"
+
 # Markdown Processing
 kramdown:
   auto_ids: true
