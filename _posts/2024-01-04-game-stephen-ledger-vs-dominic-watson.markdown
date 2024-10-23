@@ -11,21 +11,7 @@ result: 0-1
 whiteelo: 2096
 blackelo: 1686
 annotator: dominic-watson
-pgn: |
-  [Event "Bedfordshire Individual Championship 2023/24"]
-  [Site "Open University"]
-  [Date "2024/01/04"]
-  [Round "1"]
-  [White "Stephen C Ledger"]
-  [Black "Dominic Watson"]
-  [Result "0-1"]
-  [Termination "White resigned"]
-  [Annotator "Dominic Watson"]
-  [Variant "Standard"]
-  [ECO "A45"]
-  [Opening "Trompowsky Attack"]
-  1. d4 1... Nf6 2. Bg5 { I had a bunch of time off over Christmas and had looked up Steven's games online and found a handful of games as white, but all quite old. Had seen he played d4 and Trompowski after 1.. Nf6. So I over prepared on lines in that opening and without a doubt gave me an edge here, at least on time and going into the middle game. Was basically theory up until move 12. } 2... d5 3. Bxf6 3... exf6 4. e3 4... Bd6 5. c4 5... dxc4 6. Bxc4 6... O-O 7. Nc3 7... f5 8. Nf3 8... Nd7 9. Qc2 9... Nf6 10. O-O 10... a6 11. Rac1 11... b5 12. Bd3 12... g6 { Arriving at my aimed structure that mitigates the doubled pawn and lack of center control. At this point I think I had around 30m more on my clock. } 13. Rfd1 13... Bb7 14. Ne5? 14... Qe7?! 15. f4? 15... c5 16. Re1 16... Rac8 17. Qf2 17... Rfe8 18. a3 18... c4 19. Be2 19... Ne4 { Planning on kicking the Knight that while it looked potent on e4 was eventually kickable. } 20. Nxe4 20... Bxe4 21. h3 21... f6 22. Nf3 22... Bc7?! (22... Bd5 23. Bd1 Bc7 24. Re2 Ba5 25. Bc2 Qd7 26. Nh2 Bb6 27. Nf1 Kg7 28. Bd1 Ba5 29. Nd2) 23. Nd2 23... Ba5 24. Bf3?! { Steven getting very low on time at this point. } 24... Bxf3 25. gxf3 25... c3 26. bxc3 26... Bxc3 27. Re2? 27... Qxa3 28. Rd1 28... Qe7 29. Nf1 29... Rcd8 30. Ng3 30... b4 31. Rd3?! 31... a5 32. Ra2?! {  [%csl Ga2,Gb4,Gd4] } 32... b3 { I used a little time here - torn between Qb7 and this force of exchange. I didn't like the passed pawn on the d file and was starting to feel the pressure of being in a strong position with eyes on the board. But decided on this line rather than trying to keep hold of the pawns. } 33. Rxc3 33... bxa2 34. Qxa2+ 34... Qf7 35. Qxa5 35... Ra8 36. Qc5 36... Qf8?? { My heart rate increasing and starting to panic, even though I had lots of time on the clock. } 37. Qd5+?! 37... Kh8 38. Nf1 38... Ra3?! 39. Rc7 39... Re7?! 40. Qc5?! 40... Re8 41. Qc6 41... Raa8 42. Qd7 42... Qg8 43. Rb7?? 43... g5 { I think the only move here and thankfully it came to me. Was starting to fear the worst with King stuck and all pieces defending. } 44. fxg5? 44... Qxg5+ 45. Kh1 45... Qg6 46. Ng3?! 46... Rg8 { } 47. Qc7 { } 47... Ra1+ { } 48. Kh2 { [%cal Gg6g3] } 48... f4 { } { Adrian pointed out that Qxg3 worked here. But this felt like the right approach and was pleased to find it. Either blockades the h2-b8 diagonal, or allows ..Qc2 } 49. Qxf4 { } 49... Qc2+ { } { White resigns } 0-1
-
+pgn: /assets/pgn/stephen-ledger-vs-dominic-watson-2024-01-04.pgn
 ---
 
 Here is Dominic's shock victory against Stephen Ledger in the first round of the Bedfordshire Individual Championship 2024.

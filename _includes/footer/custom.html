@@ -1,25 +1,27 @@
 <script>
-	// quick and dirty way to convert pgn's in a game into a board.
-	( function( $ ){
+    // quick and dirty way to convert pgn's in a game into a board.
+    ( function( $ ){
 
-		$( "script.pgn-game" ).each( function(){
-			var pgn = $( this ).html()
-			  , containerId = "_" + Math.round(new Date().getTime() + (Math.random() * 100)); // random
+        $( ".pgn-game" ).each( function(){
+            var $pgnDiv = $( this );
 
-			$( this ).after( $( '<div class="pgn-viewer-game" id="' + containerId + '"></div>' ) );
+            $.get( $pgnDiv.data( "url" ), function( pgn ){
+                var containerId = "_" + Math.round(new Date().getTime() + (Math.random() * 100));
+                $pgnDiv.after( $( '<div class="pgn-viewer-game" id="' + containerId + '"></div>' ) );
 
-    		var board = PGNV.pgnView( containerId, {
-    			pgn: pgn,
-    			theme: 'brown',
-    			pieceStyle: 'wikipedia',
-    			showCoords: false,
-    			boardSize: '400px',
-    			width: '100%',
-    			layout: 'left'
-    		});
-		} );
+                var board = PGNV.pgnView( containerId, {
+                    pgn: pgn,
+                    theme: 'brown',
+                    pieceStyle: 'wikipedia',
+                    showCoords: false,
+                    boardSize: '400px',
+                    width: '100%',
+                    layout: 'left'
+                });
+            } );
+        } );
 
         $( ".datatable" ).DataTable();
 
-	} )( jQuery );
+    } )( jQuery );
 </script>

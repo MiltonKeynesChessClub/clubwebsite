@@ -10,15 +10,7 @@ black: Paul Endersby
 result: 1-0
 whiteelo: 1586
 blackelo: 1586
-pgn: |
-  [Event "Milton Keynes  Under 1850 Knockout - Round 3"]
-  [Date "2022-11-17"]
-  [White "John E McKeon (1586)"]
-  [Black "Paul Endersby (1586)"]
-  [Date "2022-11-17"]
-  [Result "1-0"]
-  [ECO "B07"]
-  1. d4 Nf6 2. Nc3 g6 3. e4 d6 4. Be3 Bg7 5. f3 O-O 6. Qd2 a6 7. h4 e5 8. d5 Nh5 9. g4 Ng3 10. Rh2 Nxf1 11. Kxf1 h5 12. Bh6 Kh7 13. Bxg7 Kxg7 14. gxh5 gxh5 15. Rg2+ Kh7 16. Rg5 Qf6 17. Rxh5+ Kg7 18. Qg2+ 1-0
+pgn: /assets/pgn/john-mckeon-vs-paul-endersby-2022-11-17.pgn
 ---
 
 Game report for John McKeon's win over Paul Endersby in the Under 1850 Knockout in 2022. Can you see why black resigns here?!

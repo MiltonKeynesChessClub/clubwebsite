@@ -41,12 +41,16 @@ layout: single
 		</dd>
 		<dt>Result:</dt>
 		<dd>{{ page.result }}</dd>
+		{% if page.pgn.size > 0 %}
+			<dt>PGN:</dt>
+			<dd><a href="{{ page.pgn | relative_url }}">Download PGN</a></dd>
+		{% endif %}
 	</dl>
 </div>
 {% endif %}
 
-{% if page.pgn != blank %}
-  <script type="text/template" class="pgn-game">{{page.pgn}}</script>
+{% if page.pgn.size > 0 %}
+  <div class="pgn-game" data-url="{{ page.pgn }}"></div>
 {% else %}
 <p><em>No PGN for this game has been uploaded.</em></p>
 {% endif %}
