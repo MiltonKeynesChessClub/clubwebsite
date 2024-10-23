@@ -1,0 +1,22 @@
+{% assign honours = site.data.results.honourroll | where:"player",include.member.name %}
+{% if honours.size > 0 %}
+<h2 id="player-honours">Player honours</h2>
+<table>
+	<thead>
+		<tr>
+			<th>Season</th>
+			<th>Event</th>
+			<th>Place</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for honour in honours %}
+			<tr>
+				<td>{{ honour.season }}</td>
+				<td>{{ honour.event }}</td>
+				<td>{{ honour.place }}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+{% endif %}
