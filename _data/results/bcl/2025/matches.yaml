@@ -2344,67 +2344,67 @@ bcl-division-2:
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: ½ - ½
     home:
-      name:  
-      rating: 000
+      name: Hale, Jack
+      rating: 1801
       color: B
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Cox, Lucian
+      rating: 1674
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Gill, Peter S
+      rating: 1650
       color: W
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: McMorran, Richard
+      rating: 1640
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Griffiths, George
+      rating: 1557
       color: B
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Walker, Nigel B
+      rating: 1472
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Craigen, David
+      rating: 1617
       color: W
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Kapustynski , Kryzsztof 
+      rating: 1600
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Sharp, Wolf
+      rating: 1450
       color: B
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Goodman, James
+      rating: 1871
       color: W
       team: Bedford E
 
