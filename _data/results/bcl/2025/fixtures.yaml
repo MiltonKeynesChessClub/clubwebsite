@@ -297,7 +297,7 @@ bcl-division-2:
     date: Thu 31 Oct 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result:  ½ - 4½
 
   - id: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
     hometeam: Open University
@@ -339,17 +339,17 @@ bcl-division-2:
     status: OU
     result: 0 - 0
 
-  - id: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    hometeam: Bedford D
-    awayteam: Milton Keynes C
+  - id: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
+    hometeam: Milton Keynes B
+    awayteam: Luton C
     date: Thu 21 Nov 24
     time: "19:30"
     status: OU
     result: 0 - 0
 
-  - id: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
-    hometeam: Milton Keynes B
-    awayteam: Luton C
+  - id: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    hometeam: Bedford D
+    awayteam: Milton Keynes C
     date: Thu 21 Nov 24
     time: "19:30"
     status: OU

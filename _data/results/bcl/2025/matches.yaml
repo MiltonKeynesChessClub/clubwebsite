@@ -2344,131 +2344,131 @@ bcl-division-2:
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: ½ - ½
     home:
-      name:  
-      rating: 000
+      name: Hale, Jack
+      rating: 1801
       color: B
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Cox, Lucian
+      rating: 1674
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Gill, Peter S
+      rating: 1650
       color: W
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: McMorran, Richard
+      rating: 1640
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Griffiths, George
+      rating: 1557
       color: B
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Walker, Nigel B
+      rating: 1472
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Craigen, David
+      rating: 1617
       color: W
       team: Bedford D
     away:
-      name: 000
-      rating: null
+      name: Kapustynski , Kryzsztof 
+      rating: 1600
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Sharp, Wolf
+      rating: 1450
+      color: B
+      team: Bedford D
+    away:
+      name: Goodman, James
+      rating: 1871
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
     result:  
     home:
       name:  
       rating: 000
       color: B
-      team: Bedford D
+      team: Open University
     away:
       name: 000
       rating: null
       color: W
-      team: Bedford E
-
-  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: Default
-    home:
-      name: Default
-      rating: 0000
-      color: B
-      team: Open University
-    away:
-      name: 0000
-      rating: null
-      color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: Default
+    result:  
     home:
-      name: Default
-      rating: 0000
+      name:  
+      rating: 000
       color: W
       team: Open University
     away:
-      name: 0000
+      name: 000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: Default
+    result:  
     home:
-      name: Default
-      rating: 0000
+      name:  
+      rating: 000
       color: B
       team: Open University
     away:
-      name: 0000
+      name: 000
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: Default
+    result:  
     home:
-      name: Default
-      rating: 0000
+      name:  
+      rating: 000
       color: W
       team: Open University
     away:
-      name: 0000
+      name: 000
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: Default
+    result:  
     home:
-      name: Default
-      rating: 0000
+      name:  
+      rating: 000
       color: B
       team: Open University
     away:
-      name: 0000
+      name: 000
       rating: null
       color: W
       team: Milton Keynes C
@@ -2733,71 +2733,6 @@ bcl-division-2:
       color: W
       team: Luton C
 
-  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result: Default
-    home:
-      name: Default
-      rating: 0000
-      color: B
-      team: Bedford D
-    away:
-      name: 0000
-      rating: null
-      color: W
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result: Default
-    home:
-      name: Default
-      rating: 0000
-      color: W
-      team: Bedford D
-    away:
-      name: 0000
-      rating: null
-      color: B
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result: Default
-    home:
-      name: Default
-      rating: 0000
-      color: B
-      team: Bedford D
-    away:
-      name: 0000
-      rating: null
-      color: W
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result: Default
-    home:
-      name: Default
-      rating: 0000
-      color: W
-      team: Bedford D
-    away:
-      name: 0000
-      rating: null
-      color: B
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result: Default
-    home:
-      name: Default
-      rating: 0000
-      color: B
-      team: Bedford D
-    away:
-      name: 0000
-      rating: null
-      color: W
-      team: Milton Keynes C
-
   - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
     result:  
     home:
@@ -2862,6 +2797,71 @@ bcl-division-2:
       rating: null
       color: W
       team: Luton C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result:  
+    home:
+      name:  
+      rating: 000
+      color: B
+      team: Bedford D
+    away:
+      name: 000
+      rating: null
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result:  
+    home:
+      name:  
+      rating: 000
+      color: W
+      team: Bedford D
+    away:
+      name: 000
+      rating: null
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result:  
+    home:
+      name:  
+      rating: 000
+      color: B
+      team: Bedford D
+    away:
+      name: 000
+      rating: null
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result:  
+    home:
+      name:  
+      rating: 000
+      color: W
+      team: Bedford D
+    away:
+      name: 000
+      rating: null
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result:  
+    home:
+      name:  
+      rating: 000
+      color: B
+      team: Bedford D
+    away:
+      name: 000
+      rating: null
+      color: W
+      team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
     result:  
