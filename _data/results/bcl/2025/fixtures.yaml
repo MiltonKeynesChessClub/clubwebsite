@@ -296,7 +296,7 @@ bcl-division-2:
     awayteam: Bedford E
     date: Thu 31 Oct 24
     time: "19:30"
-    status: OU
+    status: OV
     result:  ½ - 4½
 
   - id: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
@@ -304,8 +304,8 @@ bcl-division-2:
     awayteam: Milton Keynes C
     date: Thu 31 Oct 24
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 3 - 2
 
   - id: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
     hometeam: Luton C

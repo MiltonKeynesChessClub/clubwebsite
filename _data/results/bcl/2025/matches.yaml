@@ -2409,67 +2409,67 @@ bcl-division-2:
       team: Bedford E
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Alexander, NO'D James
+      rating: 1869
       color: B
       team: Open University
     away:
-      name: 000
-      rating: null
+      name: Wells, Dave
+      rating: 1683
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Edwards, Vincent
+      rating: 1629
       color: W
       team: Open University
     away:
-      name: 000
-      rating: null
+      name: McNamara, John
+      rating: 1590
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Collins, Nigel
+      rating: 1501
       color: B
       team: Open University
     away:
-      name: 000
-      rating: null
+      name: Keane, Richard C
+      rating: 1550
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: 0 - 1
     home:
-      name:  
-      rating: 000
+      name: Phillips, David
+      rating: 1436
       color: W
       team: Open University
     away:
-      name: 000
-      rating: null
+      name: McKeon, John E
+      rating: 1511
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result:  
+    result: 1 - 0
     home:
-      name:  
-      rating: 000
+      name: Osborn, Mark
+      rating: 1281
       color: B
       team: Open University
     away:
-      name: 000
-      rating: null
+      name: Page, Michael
+      rating: 1439
       color: W
       team: Milton Keynes C
 
