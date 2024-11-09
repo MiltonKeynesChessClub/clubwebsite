@@ -2,1951 +2,1951 @@
 
 bcl-division-1:
   - fixture: bcl-division-1-thu-3-oct-24-bedford-b-v-milton-keynes-a
-    result: 0 - 1
+    result: null
     home:
-      name: Botteley, Michael T
-      rating: 1949
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: Bartram, Dominic
-      rating: 2064
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3-oct-24-bedford-b-v-milton-keynes-a
-    result: ½ - ½
+    result: null
     home:
-      name: Bodily, Richard T
-      rating: 1953
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: Elwin, Adrian G
-      rating: 2050
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3-oct-24-bedford-b-v-milton-keynes-a
-    result: 0 - 1
+    result: null
     home:
-      name: Pike, Steve C
-      rating: 1862
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: Tweeddale, Eoin
-      rating: 2049
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3-oct-24-bedford-b-v-milton-keynes-a
-    result: 0 - 1
+    result: null
     home:
-      name: Dairi, Ramsey
-      rating: 1856
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: Smith, Graham
-      rating: 1921
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-3-oct-24-bedford-b-v-milton-keynes-a
-    result: 0 - 1
+    result: null
     home:
-      name: Walker, Robert S
-      rating: 1745
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: Whiteside, Robert
-      rating: 1906
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-8-oct-24-leighton-buzzard-b-v-leighton-buzzard-a
-    result: 0 - 1
+    result: null
     home:
-      name: Williamson, Kevin J
-      rating: 1847
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: Tukpetov, Evgeny
-      rating: 2286
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-8-oct-24-leighton-buzzard-b-v-leighton-buzzard-a
-    result: 0 - 1
+    result: null
     home:
-      name: Matthews, Adrian MS
-      rating: 1809
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: Sharp, John R
-      rating: 2173
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-8-oct-24-leighton-buzzard-b-v-leighton-buzzard-a
-    result: ½ - ½
+    result: null
     home:
-      name: Taylor, Peter
-      rating: 1810
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: Kenworthy, Gary
-      rating: 2092
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-8-oct-24-leighton-buzzard-b-v-leighton-buzzard-a
-    result: 0 - 1
+    result: null
     home:
-      name: Dorn, C Fred H
-      rating: 1746
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: Law, Stephen
-      rating: 2000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-8-oct-24-leighton-buzzard-b-v-leighton-buzzard-a
-    result: Valentine, Brian J
+    result: null
     home:
-      name: Default
-      rating: 0000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-10-oct-24-bedford-a-v-luton-a
-    result: 1 - 0
+    result: null
     home:
-      name: Ledger, Stephen C
-      rating: 2125
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: Hudson, Julian
-      rating: 2019
+      name: null
+      rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-10-oct-24-bedford-a-v-luton-a
-    result: 1 - 0
+    result: null
     home:
-      name: Gardner, James
-      rating: 2103
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: O'Brien, Thomas P
-      rating: 1946
+      name: null
+      rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-thu-10-oct-24-bedford-a-v-luton-a
-    result: 1 - 0
+    result: null
     home:
-      name: Arulnandhy, Ravi
-      rating: 2065
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: Singh, Damanjeet
-      rating: 1750
+      name: null
+      rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-10-oct-24-bedford-a-v-luton-a
-    result: 1 - 0
+    result: null
     home:
-      name: Collacott, Nick
-      rating: 1970
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: Joseph, Michael
-      rating: 1688
+      name: null
+      rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-thu-10-oct-24-bedford-a-v-luton-a
-    result: ½ - ½
+    result: null
     home:
-      name: Habershon, Paul F
-      rating: 1957
-      color: B
-      team: Bedford A
-    away:
-      name: Juhasz, Aleksandar
-      rating: 1613
-      color: W
-      team: Luton A
-
-  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result: ½ - ½
-    home:
-      name: O'Brien, Thomas P
-      rating: 1946
-      color: B
-      team: Luton A
-    away:
-      name: Elwin, Adrian G
-      rating: 2050
-      color: W
-      team: Milton Keynes A
-
-  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result: 0 - 1
-    home:
-      name: Hudson, Julian
-      rating: 2019
-      color: W
-      team: Luton A
-    away:
-      name: Tweeddale, Eoin
-      rating: 2049
-      color: B
-      team: Milton Keynes A
-
-  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result: 0 - 1
-    home:
-      name: Vora, Samir
-      rating: 1812
-      color: B
-      team: Luton A
-    away:
-      name: Meichel, Eric B
-      rating: 2020
-      color: W
-      team: Milton Keynes A
-
-  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result: 0 - 1
-    home:
-      name: Singh, Damanjeet
-      rating: 1750
-      color: W
-      team: Luton A
-    away:
-      name: Smith, Graham
-      rating: 1921
-      color: B
-      team: Milton Keynes A
-
-  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
-    result: ½ - ½
-    home:
-      name: Rashad, Faisal
-      rating: 1727
-      color: B
-      team: Luton A
-    away:
-      name: Bowler, Andrew
-      rating: 1887
-      color: W
-      team: Milton Keynes A
-
-  - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
-    result:  
-    home:
-      name:  
-      rating: 000
-      color: B
-      team: Bedford B
-    away:
-      name: 000
-      rating: null
-      color: W
-      team: Bedford A
-
-  - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
-    result:  
-    home:
-      name:  
-      rating: 000
-      color: W
-      team: Bedford B
-    away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Luton A
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Luton A
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Luton A
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Luton A
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-22-oct-24-luton-a-v-milton-keynes-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Luton A
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
+      rating: null
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Bedford B
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-7-nov-24-bedford-b-v-bedford-a
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Bedford B
+    away:
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-thu-7-nov-24-milton-keynes-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-7-nov-24-milton-keynes-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-7-nov-24-milton-keynes-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-7-nov-24-milton-keynes-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-7-nov-24-milton-keynes-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-12-dec-24-milton-keynes-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-thu-12-dec-24-milton-keynes-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-thu-12-dec-24-milton-keynes-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-thu-12-dec-24-milton-keynes-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-thu-12-dec-24-milton-keynes-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-23-jan-25-milton-keynes-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-23-jan-25-milton-keynes-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-thu-23-jan-25-milton-keynes-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-23-jan-25-milton-keynes-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-thu-23-jan-25-milton-keynes-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-6-feb-25-bedford-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-6-feb-25-bedford-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-thu-6-feb-25-bedford-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-6-feb-25-bedford-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-thu-6-feb-25-bedford-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-b-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-b-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-b-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-b-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-thu-13-feb-25-bedford-b-v-leighton-buzzard-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-13-mar-25-bedford-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-13-mar-25-bedford-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-13-mar-25-bedford-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-13-mar-25-bedford-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-thu-13-mar-25-bedford-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford B
 
   - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford B
 
   - fixture: bcl-division-1-thu-3-apr-25-bedford-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-3-apr-25-bedford-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-thu-3-apr-25-bedford-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-thu-3-apr-25-bedford-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton A
 
   - fixture: bcl-division-1-thu-3-apr-25-bedford-b-v-luton-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Leighton Buzzard A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes A
 
   - fixture: bcl-division-1-tue-22-apr-25-luton-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-22-apr-25-luton-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-22-apr-25-luton-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-22-apr-25-luton-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Leighton Buzzard B
 
   - fixture: bcl-division-1-tue-22-apr-25-luton-a-v-leighton-buzzard-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton A
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Leighton Buzzard B
@@ -1954,3641 +1954,3641 @@ bcl-division-1:
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Bowler, Andrew
-      rating: 1887
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: Alexander, NO'D James
-      rating: 1869
+      name: null
+      rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Heath, Alan
-      rating: 1823
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: Edwards, Vincent
-      rating: 1629
+      name: null
+      rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Ward, George
-      rating: 1780
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: Jacques, Matthew
-      rating: 1463
+      name: null
+      rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
-    result: 0 - 1
+    result: null
     home:
-      name: Watson, Dominic
-      rating: 1726
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: Lazard, Dexter
-      rating: 1293
+      name: null
+      rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Bhalla, Sumit
-      rating: 1435
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: Osborn, Mark
-      rating: 1281
+      name: null
+      rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-8-oct-24-luton-c-v-luton-b
-    result: ½ - ½
+    result: null
     home:
-      name: Mirza, Humayun
-      rating: 1626
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: Gladysz, Marek
-      rating: 1818
+      name: null
+      rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-tue-8-oct-24-luton-c-v-luton-b
-    result: 0 - 1
+    result: null
     home:
-      name: Hayden, Tim
-      rating: 1598
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: Vora, Samir
-      rating: 1812
+      name: null
+      rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-tue-8-oct-24-luton-c-v-luton-b
-    result: ½ - ½
+    result: null
     home:
-      name: Patel, Daven
-      rating: 1439
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: Jones, Dixon H
-      rating: 1665
+      name: null
+      rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-tue-8-oct-24-luton-c-v-luton-b
-    result: 0 - 1
+    result: null
     home:
-      name: Welton, Desmond S
-      rating: 1270
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: Juhasz, Aleksandar
-      rating: 1613
+      name: null
+      rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-tue-8-oct-24-luton-c-v-luton-b
-    result: 1 - 0
+    result: null
     home:
-      name: Zaidi, Qasim
-      rating: 0000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: Stanchev, Milen
-      rating: 0000
+      name: null
+      rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-10-oct-24-bedford-c-v-bedford-d
-    result: 1 - 0
+    result: null
     home:
-      name: Shields, Callum T
-      rating: 1765
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: Hale, Jack
-      rating: 1801
+      name: null
+      rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-10-oct-24-bedford-c-v-bedford-d
-    result: 1 - 0
+    result: null
     home:
-      name: Potts, Alexander
-      rating: 1706
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: Griffiths, George
-      rating: 1557
+      name: null
+      rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-10-oct-24-bedford-c-v-bedford-d
-    result: ½ - ½
+    result: null
     home:
-      name: Grimditch, James
-      rating: 1562
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: Gill, Peter S
-      rating: 1650
+      name: null
+      rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-10-oct-24-bedford-c-v-bedford-d
-    result: 0 - 1
+    result: null
     home:
-      name: Hylton, Cedric
-      rating: 1462
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: Kapustynski , Kryzsztof 
-      rating: 1600
+      name: null
+      rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-10-oct-24-bedford-c-v-bedford-d
-    result: 0 - 1
+    result: null
     home:
-      name: Dairi, Daniella
-      rating: 0821
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: Madhadi, Rishik
-      rating: 1295
+      name: null
+      rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-15-oct-24-luton-b-v-open-university
-    result: ½ - ½
+    result: null
     home:
-      name: Gladysz, Marek
-      rating: 1818
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: Alexander, NO'D James
-      rating: 1869
+      name: null
+      rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-15-oct-24-luton-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Vora, Samir
-      rating: 1812
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: Edwards, Vincent
-      rating: 1629
+      name: null
+      rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-tue-15-oct-24-luton-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Jones, Dixon H
-      rating: 1665
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: Phillips, David
-      rating: 1436
+      name: null
+      rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-15-oct-24-luton-b-v-open-university
-    result: 0 - 1
+    result: null
     home:
-      name: Juhasz, Aleksandar
-      rating: 1613
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: Lazard, Dexter
-      rating: 1293
+      name: null
+      rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-tue-15-oct-24-luton-b-v-open-university
-    result: 1 - 0
+    result: null
     home:
-      name: Zaidi, Qasim
-      rating: 0000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: Osborn, Mark
-      rating: 1281
+      name: null
+      rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
-    result: 1 - 0
+    result: null
     home:
-      name: Cox, Lucian
-      rating: 1674
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: Shields, Callum T
-      rating: 1765
-      color: W
-      team: Bedford C
-
-  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
-    result: 1 - 0
-    home:
-      name: McMorran, Richard
-      rating: 1640
-      color: W
-      team: Bedford E
-    away:
-      name: Potts, Alexander
-      rating: 1706
-      color: B
-      team: Bedford C
-
-  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
-    result: ½ - ½
-    home:
-      name: Walker, Nigel B
-      rating: 1472
-      color: B
-      team: Bedford E
-    away:
-      name: Grimditch, James
-      rating: 1562
-      color: W
-      team: Bedford C
-
-  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
-    result: 0 - 1
-    home:
-      name: Goodman, James
-      rating: 1871
-      color: W
-      team: Bedford E
-    away:
-      name: Dairi, Mahmoud
-      rating: 1295
-      color: B
-      team: Bedford C
-
-  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
-    result: 1 - 0
-    home:
-      name: Cox, R David
-      rating: 1296
-      color: B
-      team: Bedford E
-    away:
-      name: Craigen, David
-      rating: 1617
-      color: W
-      team: Bedford C
-
-  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
-    result: 0 - 1
-    home:
-      name: Wells, Dave
-      rating: 1683
-      color: B
-      team: Milton Keynes C
-    away:
-      name: Bowler, Andrew
-      rating: 1887
-      color: W
-      team: Milton Keynes B
-
-  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
-    result: 0 - 1
-    home:
-      name: Solloway, Colin J
-      rating: 1663
-      color: W
-      team: Milton Keynes C
-    away:
-      name: Heath, Alan
-      rating: 1823
-      color: B
-      team: Milton Keynes B
-
-  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
-    result: 0 - 1
-    home:
-      name: McNamara, John
-      rating: 1590
-      color: B
-      team: Milton Keynes C
-    away:
-      name: Ward, George
-      rating: 1780
-      color: W
-      team: Milton Keynes B
-
-  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
-    result: ½ - ½
-    home:
-      name: McKeon, John E
-      rating: 1511
-      color: W
-      team: Milton Keynes C
-    away:
-      name: Watson, Dominic
-      rating: 1726
-      color: B
-      team: Milton Keynes B
-
-  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
-    result: 0 - 1
-    home:
-      name: Page, Michael
-      rating: 1439
-      color: B
-      team: Milton Keynes C
-    away:
-      name: Evans, Thomas
-      rating: 1695
-      color: W
-      team: Milton Keynes B
-
-  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result: ½ - ½
-    home:
-      name: Hale, Jack
-      rating: 1801
-      color: B
-      team: Bedford D
-    away:
-      name: Cox, Lucian
-      rating: 1674
-      color: W
-      team: Bedford E
-
-  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result: 0 - 1
-    home:
-      name: Gill, Peter S
-      rating: 1650
-      color: W
-      team: Bedford D
-    away:
-      name: McMorran, Richard
-      rating: 1640
-      color: B
-      team: Bedford E
-
-  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result: 0 - 1
-    home:
-      name: Griffiths, George
-      rating: 1557
-      color: B
-      team: Bedford D
-    away:
-      name: Walker, Nigel B
-      rating: 1472
-      color: W
-      team: Bedford E
-
-  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result: 0 - 1
-    home:
-      name: Craigen, David
-      rating: 1617
-      color: W
-      team: Bedford D
-    away:
-      name: Kapustynski , Kryzsztof 
-      rating: 1600
-      color: B
-      team: Bedford E
-
-  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
-    result: 0 - 1
-    home:
-      name: Sharp, Wolf
-      rating: 1450
-      color: B
-      team: Bedford D
-    away:
-      name: Goodman, James
-      rating: 1871
-      color: W
-      team: Bedford E
-
-  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: 1 - 0
-    home:
-      name: Alexander, NO'D James
-      rating: 1869
-      color: B
-      team: Open University
-    away:
-      name: Wells, Dave
-      rating: 1683
-      color: W
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: 1 - 0
-    home:
-      name: Edwards, Vincent
-      rating: 1629
-      color: W
-      team: Open University
-    away:
-      name: McNamara, John
-      rating: 1590
-      color: B
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: 0 - 1
-    home:
-      name: Collins, Nigel
-      rating: 1501
-      color: B
-      team: Open University
-    away:
-      name: Keane, Richard C
-      rating: 1550
-      color: W
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: 0 - 1
-    home:
-      name: Phillips, David
-      rating: 1436
-      color: W
-      team: Open University
-    away:
-      name: McKeon, John E
-      rating: 1511
-      color: B
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
-    result: 1 - 0
-    home:
-      name: Osborn, Mark
-      rating: 1281
-      color: B
-      team: Open University
-    away:
-      name: Page, Michael
-      rating: 1439
-      color: W
-      team: Milton Keynes C
-
-  - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
-    result:  
-    home:
-      name:  
-      rating: 000
-      color: B
-      team: Luton C
-    away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
-  - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
-    result:  
+  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
-      team: Luton C
+      team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
-  - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
-    result:  
+  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
+      color: B
+      team: Bedford E
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Bedford E
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Bedford E
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes C
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes C
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes C
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes C
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-17-oct-24-milton-keynes-c-v-milton-keynes-b
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes C
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Bedford D
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Bedford D
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Bedford D
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Bedford D
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-31-oct-24-bedford-d-v-bedford-e
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Bedford D
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Open University
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Open University
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Open University
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Open University
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Open University
+    away:
+      name: null
+      rating: null
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
+    result: null
+    home:
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
+      rating: null
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: W
+      team: Luton C
+    away:
+      name: null
+      rating: null
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-5-nov-24-luton-c-v-bedford-c
+    result: null
+    home:
+      name: null
+      rating: null
+      color: B
+      team: Luton C
+    away:
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-7-nov-24-milton-keynes-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-7-nov-24-milton-keynes-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-7-nov-24-milton-keynes-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-7-nov-24-milton-keynes-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-7-nov-24-milton-keynes-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-12-dec-24-bedford-d-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-12-dec-24-bedford-d-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-12-dec-24-bedford-d-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-12-dec-24-bedford-d-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-12-dec-24-bedford-d-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-12-dec-24-open-university-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-12-dec-24-open-university-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-12-dec-24-open-university-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-12-dec-24-open-university-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-12-dec-24-open-university-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-tue-14-jan-25-luton-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-tue-14-jan-25-luton-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-tue-14-jan-25-luton-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-tue-14-jan-25-luton-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-tue-14-jan-25-luton-b-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-e-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-e-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-e-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-e-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-23-jan-25-bedford-e-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-30-jan-25-bedford-d-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-30-jan-25-bedford-d-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-30-jan-25-bedford-d-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-30-jan-25-bedford-d-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-30-jan-25-bedford-d-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-30-jan-25-milton-keynes-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-30-jan-25-milton-keynes-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-30-jan-25-milton-keynes-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-30-jan-25-milton-keynes-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-30-jan-25-milton-keynes-c-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-6-feb-25-bedford-e-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-6-feb-25-bedford-e-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-6-feb-25-bedford-e-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-6-feb-25-bedford-e-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-6-feb-25-bedford-e-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-6-feb-25-milton-keynes-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-6-feb-25-milton-keynes-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-6-feb-25-milton-keynes-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-6-feb-25-milton-keynes-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-6-feb-25-milton-keynes-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-13-feb-25-open-university-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-13-feb-25-open-university-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-13-feb-25-open-university-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-13-feb-25-open-university-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-13-feb-25-open-university-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford E
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-27-mar-25-bedford-d-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-27-mar-25-bedford-d-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-27-mar-25-bedford-d-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-27-mar-25-bedford-d-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-thu-27-mar-25-bedford-d-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-27-mar-25-milton-keynes-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-mar-25-milton-keynes-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-mar-25-milton-keynes-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-mar-25-milton-keynes-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford E
 
   - fixture: bcl-division-2-thu-27-mar-25-milton-keynes-c-v-bedford-e
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford E
 
   - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-3-apr-25-bedford-d-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-3-apr-25-bedford-d-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-3-apr-25-bedford-d-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-3-apr-25-bedford-d-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes B
 
   - fixture: bcl-division-2-thu-3-apr-25-bedford-d-v-milton-keynes-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford D
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes B
 
   - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Open University
 
   - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Open University
 
   - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford C
 
   - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Open University
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford C
 
   - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton C
 
   - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton C
 
   - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Bedford D
 
   - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Luton B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Bedford D
 
   - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Bedford C
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Milton Keynes C
 
   - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B
 
   - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: W
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: B
       team: Luton B
 
   - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
-    result:  
+    result: null
     home:
-      name:  
-      rating: 000
+      name: null
+      rating: null
       color: B
       team: Milton Keynes B
     away:
-      name: 000
+      name: null
       rating: null
       color: W
       team: Luton B

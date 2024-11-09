@@ -39,7 +39,7 @@ bcl-division-1:
     date: Thu 7 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result:  ½ - 4½
 
   - id: bcl-division-1-thu-7-nov-24-milton-keynes-a-v-leighton-buzzard-b
     hometeam: Milton Keynes A
@@ -47,7 +47,7 @@ bcl-division-1:
     date: Thu 7 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
     hometeam: Leighton Buzzard A
@@ -313,7 +313,7 @@ bcl-division-2:
     date: Tue 5 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-2-thu-7-nov-24-milton-keynes-b-v-bedford-e
     hometeam: Milton Keynes B
@@ -321,7 +321,7 @@ bcl-division-2:
     date: Thu 7 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4½ -  ½
 
   - id: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
     hometeam: Bedford C
