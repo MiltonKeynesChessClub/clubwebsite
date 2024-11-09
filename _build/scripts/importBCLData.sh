@@ -59,7 +59,7 @@ function fetchresults() {
 			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Fixtures file size for $DIVISION: ${fixturessize}b"
 			exit 1;
 		fi
-		if (( resultssize < 1500 )); then
+		if (( resultssize < 15000 )); then
 			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Results file size for $DIVISION: ${resultssize}b"
 			exit 1;
 		fi
