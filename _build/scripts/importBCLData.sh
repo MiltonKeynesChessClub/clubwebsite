@@ -59,7 +59,7 @@ function fetchresults() {
 			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Fixtures file size for $DIVISION: ${fixturessize}b"
 			exit 1;
 		fi
-		if (( resultssize < 15000 )); then
+		if (( resultssize < 1500 )); then
 			echo "Exiting early - we do not appear to have enough data! Did something go wrong? Results file size for $DIVISION: ${resultssize}b"
 			exit 1;
 		fi
@@ -169,12 +169,12 @@ function processFixtureGames() {
 	for i in $(seq 0 $(($GAMECOUNT-1))); do
 		# the indexes of this result data are out of whack somewhat. A little trial and
 		# error
-		GAME_BOARD=$( jq --raw-output ".[$GAME_INDEX].data[$i][0]" "$SRCFILE" );
-		GAME_HOMEPLAYER=$( jq --raw-output ".[$GAME_INDEX].data[$i][2]" "$SRCFILE" );
-		GAME_HOMERATING=$( jq --raw-output ".[$GAME_INDEX].data[$i][1]" "$SRCFILE" );
-		GAME_RESULT=$( jq --raw-output ".[$GAME_INDEX].data[$i][4]" "$SRCFILE" );
-		GAME_AWAYPLAYER=$( jq --raw-output ".[$GAME_INDEX].data[$i][5]" "$SRCFILE" );
-		GAME_AWAYRATING=$( jq --raw-output ".[$GAME_INDEX].data[$i][7]" "$SRCFILE" );
+		GAME_BOARD=$( jq --raw-output ".[$GAME_INDEX].data[$i].board" "$SRCFILE" );
+		GAME_HOMEPLAYER=$( jq --raw-output ".[$GAME_INDEX].data[$i].hname" "$SRCFILE" );
+		GAME_HOMERATING=$( jq --raw-output ".[$GAME_INDEX].data[$i].hrating" "$SRCFILE" );
+		GAME_RESULT=$( jq --raw-output ".[$GAME_INDEX].data[$i].result" "$SRCFILE" );
+		GAME_AWAYPLAYER=$( jq --raw-output ".[$GAME_INDEX].data[$i].aname" "$SRCFILE" );
+		GAME_AWAYRATING=$( jq --raw-output ".[$GAME_INDEX].data[$i].arating" "$SRCFILE" );
 		if [[ $((i % 2)) -eq 0 ]]; then
 			GAME_HOMECOLOUR="B"
 			GAME_AWAYCOLOUR="W"
