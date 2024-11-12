@@ -514,12 +514,12 @@ bcl-division-2:
     result: 1 - 0
     home:
       name: Zaidi, Qasim
-      rating: 0000
+      rating: 1250
       color: B
       team: Luton C
     away:
       name: Stanchev, Milen
-      rating: 0000
+      rating: 1450
       color: W
       team: Luton B
 
@@ -644,7 +644,7 @@ bcl-division-2:
     result: 1 - 0
     home:
       name: Zaidi, Qasim
-      rating: 0000
+      rating: 1250
       color: B
       team: Luton B
     away:
@@ -714,7 +714,7 @@ bcl-division-2:
       team: Bedford E
     away:
       name: Craigen, David
-      rating: 1617
+      rating: 1400
       color: W
       team: Bedford C
 
@@ -787,7 +787,7 @@ bcl-division-2:
     result: ½ - ½
     home:
       name: Hale, Jack
-      rating: 1801
+      rating: 1750
       color: B
       team: Bedford D
     away:
@@ -826,7 +826,7 @@ bcl-division-2:
     result: 0 - 1
     home:
       name: Craigen, David
-      rating: 1617
+      rating: 1400
       color: W
       team: Bedford D
     away:
@@ -844,7 +844,7 @@ bcl-division-2:
       team: Bedford D
     away:
       name: Goodman, James
-      rating: 1871
+      rating: 1500
       color: W
       team: Bedford E
 

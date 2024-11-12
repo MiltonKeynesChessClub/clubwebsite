@@ -272,7 +272,7 @@ bcl-division-2:
     awayteam: Open University
     date: Tue 15 Oct 24
     time: "19:30"
-    status: OV
+    status: OU
     result: 3½ - 1½
 
   - id: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
@@ -296,7 +296,7 @@ bcl-division-2:
     awayteam: Bedford E
     date: Thu 31 Oct 24
     time: "19:30"
-    status: OV
+    status: OU
     result:  ½ - 4½
 
   - id: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
