@@ -391,6 +391,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard B
 
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
+    result: ½ - ½
+    home:
+      name: Williamson, Kevin J
+      rating: 1847
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: O'Brien, Thomas P
+      rating: 1946
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
+    result: ½ - ½
+    home:
+      name: Matthews, Adrian MS
+      rating: 1809
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Hudson, Julian
+      rating: 2019
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Taylor, Peter
+      rating: 1810
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Rashad, Faisal
+      rating: 1727
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
+    result: 1 - 0
+    home:
+      name: Woodward, Ian P
+      rating: 1781
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Gladysz, Marek
+      rating: 1818
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
+    result: 0(def) - 1
+    home:
+      name: Default
+      rating: 0000
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: W
+      team: Luton A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
