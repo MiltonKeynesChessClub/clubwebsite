@@ -391,6 +391,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard B
 
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
+    result: 1 - 0
+    home:
+      name: Sharp, John R
+      rating: 2173
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Bodily, Richard T
+      rating: 1953
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Kenworthy, Gary
+      rating: 2092
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Dairi, Ramsey
+      rating: 1856
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Law, Stephen
+      rating: 2000
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Hunt, Peter
+      rating: 1973
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Pike, Steve C
+      rating: 1862
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Valentine, Brian J
+      rating: 1872
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Walker, Robert S
+      rating: 1745
+      color: W
+      team: Bedford B
+
   - fixture: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
     result: ½ - ½
     home:
