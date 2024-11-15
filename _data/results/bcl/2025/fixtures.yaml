@@ -54,8 +54,8 @@ bcl-division-1:
     awayteam: Bedford B
     date: Tue 12 Nov 24
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 2½ - 2½
 
   - id: bcl-division-1-tue-12-nov-24-leighton-buzzard-b-v-luton-a
     hometeam: Leighton Buzzard B
@@ -63,7 +63,7 @@ bcl-division-1:
     date: Tue 12 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
     hometeam: Bedford A
@@ -272,7 +272,7 @@ bcl-division-2:
     awayteam: Open University
     date: Tue 15 Oct 24
     time: "19:30"
-    status: OV
+    status: OU
     result: 3½ - 1½
 
   - id: bcl-division-2-thu-17-oct-24-bedford-e-v-bedford-c
@@ -296,7 +296,7 @@ bcl-division-2:
     awayteam: Bedford E
     date: Thu 31 Oct 24
     time: "19:30"
-    status: OV
+    status: OU
     result:  ½ - 4½
 
   - id: bcl-division-2-thu-31-oct-24-open-university-v-milton-keynes-c
@@ -329,7 +329,7 @@ bcl-division-2:
     date: Thu 14 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
     hometeam: Bedford E
@@ -337,7 +337,7 @@ bcl-division-2:
     date: Thu 14 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
     hometeam: Milton Keynes B
