@@ -1173,3 +1173,133 @@ bcl-division-2:
       color: W
       team: Bedford E
 
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Shields, Callum T
+      rating: 1765
+      color: B
+      team: Bedford C
+    away:
+      name: Bowler, Andrew
+      rating: 1887
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+    away:
+      name: Heath, Alan
+      rating: 1823
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Grimditch, James
+      rating: 1562
+      color: B
+      team: Bedford C
+    away:
+      name: Ward, George
+      rating: 1780
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: W
+      team: Bedford C
+    away:
+      name: Evans, Thomas
+      rating: 1695
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Dairi, Daniella
+      rating: 0821
+      color: B
+      team: Bedford C
+    away:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
+    result: 0 - 1
+    home:
+      name: Cox, Lucian
+      rating: 1674
+      color: B
+      team: Bedford E
+    away:
+      name: Mirza, Humayun
+      rating: 1626
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
+    result: 1 - 0
+    home:
+      name: Walker, Nigel B
+      rating: 1472
+      color: W
+      team: Bedford E
+    away:
+      name: Pye, Andrew
+      rating: 0000
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
+    result: 0 - 1
+    home:
+      name: Goodman, James
+      rating: 1500
+      color: B
+      team: Bedford E
+    away:
+      name: Stanchev, Milen
+      rating: 1450
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
+    result: 0 - 1
+    home:
+      name: Madhadi, Rishik
+      rating: 1295
+      color: W
+      team: Bedford E
+    away:
+      name: Lewis, Richard
+      rating: 0000
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
+    result: 1 - 0
+    home:
+      name: Hylton, Cedric
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Welton, Desmond S
+      rating: 1270
+      color: W
+      team: Luton C
+

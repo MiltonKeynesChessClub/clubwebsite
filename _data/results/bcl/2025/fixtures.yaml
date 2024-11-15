@@ -329,7 +329,7 @@ bcl-division-2:
     date: Thu 14 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-14-nov-24-bedford-e-v-luton-c
     hometeam: Bedford E
@@ -337,7 +337,7 @@ bcl-division-2:
     date: Thu 14 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
     hometeam: Milton Keynes B
