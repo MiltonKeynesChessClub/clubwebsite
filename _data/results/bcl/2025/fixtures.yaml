@@ -345,7 +345,7 @@ bcl-division-2:
     date: Thu 21 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 5 - 0
 
   - id: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
     hometeam: Bedford D
@@ -353,7 +353,7 @@ bcl-division-2:
     date: Thu 21 Nov 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
     hometeam: Milton Keynes C

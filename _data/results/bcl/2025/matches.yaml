@@ -1303,3 +1303,133 @@ bcl-division-2:
       color: W
       team: Luton C
 
+  - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 1887
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Mirza, Humayun
+      rating: 1626
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Heath, Alan
+      rating: 1823
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Ward, George
+      rating: 1780
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Montgomery, Peter
+      rating: 1614
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Stanchev, Milen
+      rating: 1450
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-21-nov-24-milton-keynes-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Bhalla, Sumit
+      rating: 1435
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Welton, Desmond S
+      rating: 1270
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Hale, Jack
+      rating: 1750
+      color: B
+      team: Bedford D
+    away:
+      name: Wells, Dave
+      rating: 1683
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Gill, Peter S
+      rating: 1650
+      color: W
+      team: Bedford D
+    away:
+      name: McNamara, John
+      rating: 1590
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Griffiths, George
+      rating: 1557
+      color: B
+      team: Bedford D
+    away:
+      name: Keane, Richard C
+      rating: 1550
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Evans, Andy
+      rating: 1485
+      color: W
+      team: Bedford D
+    away:
+      name: McKeon, John E
+      rating: 1511
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-21-nov-24-bedford-d-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Sharp, Wolf
+      rating: 1450
+      color: B
+      team: Bedford D
+    away:
+      name: Page, Michael
+      rating: 1439
+      color: W
+      team: Milton Keynes C
+
