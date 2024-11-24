@@ -3,10 +3,11 @@ title:  "Bedford C vs Milton Keynes B, 2024: The lower boards deliver"
 date:   2024-11-14
 author: andrew-bowler
 categories: matchreports
+team: mkb
+fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
 excerpt: A good performance, with the bottom three boards bringing home the result.
 toc: true
 toc_sticky: true
-fixture: bcl-division-2-thu-14-nov-24-bedford-c-v-milton-keynes-b
 ---
 
 A good performance, with the bottom three boards bringing home the result. The play on the top two boards was less impressive, but we escaped with two draws.

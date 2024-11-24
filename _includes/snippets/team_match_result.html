@@ -1,10 +1,10 @@
-{% assign post = site.posts | where:"fixture", include.fixture.id  %}
+{% assign matchreports = site.posts | where:"categories", "matchreports" | where:"fixture", include.fixture.id | where:"team", page.team  %}
 
 <h4 id="{{ include.fixture.id }}">{{ include.fixture.hometeam }} vs {{ include.fixture.awayteam }}</h4>
 <p class="page__meta">
-  Result: {{ include.fixture.result }} on <time datetime="{{ include.fixture.date | date_to_xmlschema }}">{{ include.fixture.date | date: date_format }}</time>{% if post.size > 0 %},
+  Result: {{ include.fixture.result }} on <time datetime="{{ include.fixture.date | date_to_xmlschema }}">{{ include.fixture.date | date: date_format }}</time>{% if matchreports.size > 0 %},
 
-    <i class="fa fa-fw fa-file-alt"></i> <a href="{{ post.url }}">View match report</a>{% endif %}
+    <i class="fa fa-fw fa-file-alt"></i> <a href="{{ matchreports[0].url }}">View match report</a>{% endif %}
 </p>
 
 <table>
