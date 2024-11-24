@@ -73,6 +73,7 @@ defaults:
       layout: single
       permalink: /posts/:categories/:year-:month-:day-:title:output_ext
       show_date: true
+      show_author: true
       related: true
       author_profile: false
       read_time: false

@@ -1,7 +1,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Results"
+  - title: "Results & Fixtures"
     url: /results/
   - title: "News"
     url: /posts/news
@@ -44,6 +44,8 @@ posts:
     children:
     - title: News
       url: /posts/news
+    - title: Match reports
+      url: /posts/matchreports
     - title: Game reports
       url: /posts/games
     - title: Meetings and minutes
@@ -78,6 +80,8 @@ results:
       url: /results/2024/ou.html
   - title: Archive
     children:
+      - title: "Match reports"
+        url: /posts/matchreports
       - title: "Internal roll of honour"
         url: /results/rollofhonour.html
 

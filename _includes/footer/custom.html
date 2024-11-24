@@ -21,6 +21,27 @@
             } );
         } );
 
+        $( ".fen-position" ).each( function(){
+            var $pgnDiv     = $( this )
+              , fen         = $pgnDiv.text()
+              , containerId = "_" + Math.round(new Date().getTime() + (Math.random() * 100));
+
+            $pgnDiv.after( $( '<div class="pgn-viewer-game pgn-viewer-position" id="' + containerId + '"></div>' ) );
+            $pgnDiv.remove();
+
+            PGNV.pgnBoard( containerId, {
+                position: fen,
+                theme: 'sportverlag',
+                pieceStyle: 'wikipedia',
+                showCoords: false,
+                boardSize: '300px',
+                width: '100%',
+                layout: 'top',
+                resizable:false
+            });
+
+        } );
+
         $( ".datatable" ).DataTable();
 
     } )( jQuery );
