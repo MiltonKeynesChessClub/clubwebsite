@@ -36,14 +36,12 @@ plays QXh7+, which leads to mate.
 
 Another, possibly more sophisticated, plan is 25.c4 with the idea of increasing
 pressure on g7 with Qb2, but the first plan is simpler to follow.
-In the game I didn’t consider either of these plans playing the weaker 25.Bf3?!,
-and after Callum’s clever response 25. . . Ne6! much of my advantage had
+In the game I didn't consider either of these plans playing the weaker 25.Bf3?!,
+and after Callum's clever response 25. . . Ne6! much of my advantage had
 disappeared. Not content with playing one poor move, I responded with
 26.RXg7? (After the game, Callum pointed out that I could have simply
-
-played 26.Be3, which leaves white with the better game.) and the game con-
-tinued 26. . . NXg7 27.f6 Re5 (I thought that this was forced, but 27. . . Rfe8!
-
+played 26.Be3, which leaves white with the better game.) and the game continued
+26. . . NXg7 27.f6 Re5 (I thought that this was forced, but 27. . . Rfe8!
 wins material.) 28.fXg7+ QXg7+ 29.Rg1 Qf7 30.Rg3 Qf4. At this point
 Callum offered a draw, but I thought that there was still some life in the
 position so played on, even though black is a little better here.
@@ -64,21 +62,23 @@ considering 54.. . . h4!. So, I let my guard down too early, and played the
 worst move I have for a very long time! I do not know what Callum was
 thinking, but he was short of time, and had been playing for the draw since
 his offer on move 30. I suspect he took with the bishop with the pawn as the
-draw is then beyond doubt. The moral here is to keep concentrating until
+draw is then beyond doubt.
+
+**The moral here is to keep concentrating until
 the end, and even if you have been under pressure for most of a game, keep
-looking for winning opportunities as your opponent can err on each move.
+looking for winning opportunities as your opponent can err on each move.**
 
 <h2 id="board2">Board 2 - Alex Potts vs Alan Heath</h2>
 
-Alex played the Bishop’s Opening, so Alan was up against his own preferred
+Alex played the Bishop's Opening, so Alan was up against his own preferred
 opening. Alan accepted a couple of structural weakness to start a king side
-attack, but when this didn’t break through he was left with a difficult po-
-sition. Alex then found a neat idea that enabled him to go into a winning
+attack, but when this didn't break through he was left with a difficult position.
+Alex then found a neat idea that enabled him to go into a winning
 endgame with a knight and pawns against pawns. Unfortunately for Alex
 he allowed the ending to become a pawn race with both players queening
 a pawn, after which Alex had a queen and knight and Alan a queen. This
 ending is a textbook draw, and Alan had no difficulties holding the draw. (It
-later transpired that Alan could have won Alex’s queen instead of taking his
+later transpired that Alan could have won Alex's queen instead of taking his
 last pawn, but that would have been a very cruel fate for Alex!)
 
 <h2 id="board3">Board 3 - James Grimditch vs George Ward</h2>
@@ -86,19 +86,19 @@ last pawn, but that would have been a very cruel fate for Alex!)
 George played a Colle Opening and a fairly equal position arose. Pieces came
 off so that George had a queen, rook and knight against a queen, rook and
 bishop with equal numbers of pawns. The last time I looked George had
-managed to get his queen into black’s back rank, but it didn’t look terminal
+managed to get his queen into black's back rank, but it didn't look terminal
 for James. However, George produced his usual magic, and not long after
-had notched up the team’s first win.
+had notched up the team's first win.
 
 <h2 id="board4">Board 3 - Mahmoud Dairi vs Thomas Evans</h2>
 
 This game started with an f4 Sicilian Defence, but after a few moves looked
-more like an Advanced French Defence. Thomas probably released the cen-
-tral tension a bit too early. This resulted in a fairly equal position, but one
+more like an Advanced French Defence. Thomas probably released the central
+tension a bit too early. This resulted in a fairly equal position, but one
 without a clear plan for black. Mahmoud built up an attack on the king
 side, which looked threatening, but Thomas defended well, neutralising the
-threats to his king. Once Mahmoud’s attack had fizzled out his own king was
-more vulnerable. Thomas advanced his rook to c2 along the open c-file, and
+threats to his king. Once Mahmoud's attack had fizzled out his own king was
+more vulnerable. Thomas advanced his rook to c2 along the open c file, and
 a few moves later it combined with his queen to deliver mate on g2. Another
 impressive performance by Thomas.
 
