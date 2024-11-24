@@ -40,8 +40,8 @@ In the game I didn't consider either of these plans playing the weaker 25.Bf3?!,
 and after Callum's clever response 25. . . Ne6! much of my advantage had
 disappeared. Not content with playing one poor move, I responded with
 26.RXg7? (After the game, Callum pointed out that I could have simply
-played 26.Be3, which leaves white with the better game.) and the game continued
-26. . . NXg7 27.f6 Re5 (I thought that this was forced, but 27. . . Rfe8!
+played 26.Be3, which leaves white with the better game.) and the game continued 26. . . NXg7 27.f6 Re5 (I
+thought that this was forced, but 27. . . Rfe8!
 wins material.) 28.fXg7+ QXg7+ 29.Rg1 Qf7 30.Rg3 Qf4. At this point
 Callum offered a draw, but I thought that there was still some life in the
 position so played on, even though black is a little better here.
