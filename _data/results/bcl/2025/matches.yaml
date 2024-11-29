@@ -1433,3 +1433,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: B
+      team: Open University
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Edwards, Vincent
+      rating: 1629
+      color: W
+      team: Open University
+    away:
+      name: Griffiths, George
+      rating: 1557
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Phillips, David
+      rating: 1436
+      color: B
+      team: Open University
+    away:
+      name: Kapustynski , Kryzsztof 
+      rating: 1600
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Lazard, Dexter
+      rating: 1293
+      color: W
+      team: Open University
+    away:
+      name: Evans, Andy
+      rating: 1485
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Osborn, Mark
+      rating: 1281
+      color: B
+      team: Open University
+    away:
+      name: Craigen, David
+      rating: 1400
+      color: W
+      team: Bedford D
+
