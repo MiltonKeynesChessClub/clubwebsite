@@ -10,6 +10,7 @@ members:
  - dave-wells
  - colin-solloway
  - john-mcnamara
+ - richard-keane
  - john-mckeon
  - michael-page
 toc: true
