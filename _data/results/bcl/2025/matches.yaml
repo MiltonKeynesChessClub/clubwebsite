@@ -1433,6 +1433,71 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Wells, Dave
+      rating: 1683
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Shields, Callum T
+      rating: 1765
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
+    result: 1 - 0
+    home:
+      name: McNamara, John
+      rating: 1590
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Potts, Alexander
+      rating: 1706
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Keane, Richard C
+      rating: 1550
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Grimditch, James
+      rating: 1562
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
+    result: ½ - ½
+    home:
+      name: McKeon, John E
+      rating: 1511
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-28-nov-24-milton-keynes-c-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Page, Michael
+      rating: 1439
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Hylton, Cedric
+      rating: 1300
+      color: W
+      team: Bedford C
+
   - fixture: bcl-division-2-thu-28-nov-24-open-university-v-bedford-d
     result: ½ - ½
     home:
