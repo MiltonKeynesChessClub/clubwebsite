@@ -377,7 +377,7 @@ bcl-division-2:
     date: Tue 3 Dec 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
     hometeam: Bedford C
