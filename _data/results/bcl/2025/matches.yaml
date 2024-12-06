@@ -586,6 +586,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard A
 
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Botteley, Michael T
+      rating: 1949
+      color: B
+      team: Bedford B
+    away:
+      name: Williamson, Kevin J
+      rating: 1847
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Bodily, Richard T
+      rating: 1953
+      color: W
+      team: Bedford B
+    away:
+      name: Matthews, Adrian MS
+      rating: 1809
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Dairi, Ramsey
+      rating: 1856
+      color: B
+      team: Bedford B
+    away:
+      name: Taylor, Alistair
+      rating: 1775
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Pike, Steve C
+      rating: 1862
+      color: W
+      team: Bedford B
+    away:
+      name: Dorn, C Fred H
+      rating: 1746
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Walker, Robert S
+      rating: 1745
+      color: B
+      team: Bedford B
+    away:
+      name: Gallagher, Sean
+      rating: 1604
+      color: W
+      team: Leighton Buzzard B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university

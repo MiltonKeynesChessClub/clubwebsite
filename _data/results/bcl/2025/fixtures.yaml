@@ -70,7 +70,7 @@ bcl-division-1:
     awayteam: Leighton Buzzard A
     date: Thu 5 Dec 24
     time: "19:30"
-    status: OU
+    status: OV
     result: 3 - 2
 
   - id: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
@@ -78,8 +78,8 @@ bcl-division-1:
     awayteam: Leighton Buzzard B
     date: Thu 5 Dec 24
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 3 - 2
 
   - id: bcl-division-1-thu-12-dec-24-milton-keynes-a-v-bedford-a
     hometeam: Milton Keynes A
