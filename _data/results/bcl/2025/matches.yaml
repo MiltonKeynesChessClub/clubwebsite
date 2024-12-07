@@ -521,6 +521,136 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Ledger, Stephen C
+      rating: 2125
+      color: B
+      team: Bedford A
+    away:
+      name: Tukpetov, Evgeny
+      rating: 2286
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Gardner, James
+      rating: 2103
+      color: W
+      team: Bedford A
+    away:
+      name: Sharp, John R
+      rating: 2173
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Arulnandhy, Ravi
+      rating: 2065
+      color: B
+      team: Bedford A
+    away:
+      name: Kenworthy, Gary
+      rating: 2092
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Collacott, Nick
+      rating: 1970
+      color: W
+      team: Bedford A
+    away:
+      name: Law, Stephen
+      rating: 2000
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Habershon, Paul F
+      rating: 1957
+      color: B
+      team: Bedford A
+    away:
+      name: Valentine, Brian J
+      rating: 1872
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Botteley, Michael T
+      rating: 1949
+      color: B
+      team: Bedford B
+    away:
+      name: Williamson, Kevin J
+      rating: 1847
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Bodily, Richard T
+      rating: 1953
+      color: W
+      team: Bedford B
+    away:
+      name: Matthews, Adrian MS
+      rating: 1809
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Dairi, Ramsey
+      rating: 1856
+      color: B
+      team: Bedford B
+    away:
+      name: Taylor, Alistair
+      rating: 1775
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Pike, Steve C
+      rating: 1862
+      color: W
+      team: Bedford B
+    away:
+      name: Dorn, C Fred H
+      rating: 1746
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-5-dec-24-bedford-b-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Walker, Robert S
+      rating: 1745
+      color: B
+      team: Bedford B
+    away:
+      name: Gallagher, Sean
+      rating: 1604
+      color: W
+      team: Leighton Buzzard B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
@@ -1562,4 +1692,134 @@ bcl-division-2:
       rating: 1400
       color: W
       team: Bedford D
+
+  - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Vora, Samir
+      rating: 1812
+      color: B
+      team: Luton B
+    away:
+      name: Bowler, Andrew
+      rating: 1887
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Gladysz, Marek
+      rating: 1818
+      color: W
+      team: Luton B
+    away:
+      name: Ward, George
+      rating: 1780
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Joseph, Michael
+      rating: 1688
+      color: B
+      team: Luton B
+    away:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Jones, Dixon H
+      rating: 1665
+      color: W
+      team: Luton B
+    away:
+      name: Bhalla, Sumit
+      rating: 1435
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-3-dec-24-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: B
+      team: Luton B
+    away:
+      name: Spigapiena, Giuseppe
+      rating: 1992
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
+    result: 1 - 0
+    home:
+      name: Shields, Callum T
+      rating: 1765
+      color: B
+      team: Bedford C
+    away:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+    away:
+      name: Edwards, Vincent
+      rating: 1629
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
+    result: ½ - ½
+    home:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: B
+      team: Bedford C
+    away:
+      name: Phillips, David
+      rating: 1436
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Hylton, Cedric
+      rating: 1300
+      color: W
+      team: Bedford C
+    away:
+      name: Lazard, Dexter
+      rating: 1293
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-5-dec-24-bedford-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Dairi, Daniella
+      rating: 0821
+      color: B
+      team: Bedford C
+    away:
+      name: Osborn, Mark
+      rating: 1281
+      color: W
+      team: Open University
 
