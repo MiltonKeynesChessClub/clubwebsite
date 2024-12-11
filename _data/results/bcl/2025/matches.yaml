@@ -1823,3 +1823,68 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Mirza, Humayun
+      rating: 1626
+      color: B
+      team: Luton C
+    away:
+      name: Wells, Dave
+      rating: 1683
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton C
+    away:
+      name: McNamara, John
+      rating: 1590
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Zaidi, Qasim
+      rating: 1250
+      color: B
+      team: Luton C
+    away:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: Luton C
+    away:
+      name: McKeon, John E
+      rating: 1511
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-10-dec-24-luton-c-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Shahzad, Riyaan
+      rating: 1400
+      color: B
+      team: Luton C
+    away:
+      name: Page, Michael
+      rating: 1439
+      color: W
+      team: Milton Keynes C
+
