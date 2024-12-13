@@ -87,7 +87,7 @@ bcl-division-1:
     date: Thu 12 Dec 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
     hometeam: Luton A
@@ -400,8 +400,8 @@ bcl-division-2:
     awayteam: Luton B
     date: Thu 12 Dec 24
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 4 - 1
 
   - id: bcl-division-2-thu-12-dec-24-open-university-v-bedford-e
     hometeam: Open University
@@ -409,7 +409,7 @@ bcl-division-2:
     date: Thu 12 Dec 24
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
     hometeam: Milton Keynes B
