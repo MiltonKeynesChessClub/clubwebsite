@@ -20,13 +20,13 @@ bcl-division-1:
     points: 6
 
   - team: Leighton Buzzard A
-    played: 3
-    won: 1
+    played: 4
+    won: 2
     drawn: 1
     lost: 1
-    for: 9
-    against: 6
-    points: 3
+    for: 13
+    against: 7
+    points: 5
 
   - team: Bedford B
     played: 4
@@ -38,12 +38,12 @@ bcl-division-1:
     points: 3
 
   - team: Luton A
-    played: 3
+    played: 4
     won: 1
     drawn: 0
-    lost: 2
-    for: 4½
-    against: 10½
+    lost: 3
+    for: 5½
+    against: 14½
     points: 2
 
   - team: Leighton Buzzard B

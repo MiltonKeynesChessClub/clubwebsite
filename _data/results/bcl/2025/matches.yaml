@@ -716,6 +716,71 @@ bcl-division-1:
       color: W
       team: Bedford A
 
+  - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: O'Brien, Thomas P
+      rating: 1946
+      color: B
+      team: Luton A
+    away:
+      name: Tukpetov, Evgeny
+      rating: 2286
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Rashad, Faisal
+      rating: 1727
+      color: W
+      team: Luton A
+    away:
+      name: Kenworthy, Gary
+      rating: 2092
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Hudson, Julian
+      rating: 2019
+      color: B
+      team: Luton A
+    away:
+      name: Law, Stephen
+      rating: 2000
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Vora, Samir
+      rating: 1812
+      color: W
+      team: Luton A
+    away:
+      name: Valentine, Brian J
+      rating: 1872
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-17-dec-24-luton-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Joseph, Michael
+      rating: 1688
+      color: B
+      team: Luton A
+    away:
+      name: Taylor, Alistair
+      rating: 1775
+      color: W
+      team: Leighton Buzzard A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
