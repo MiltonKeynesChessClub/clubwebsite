@@ -1,0 +1,18 @@
+{% comment %}
+This include takes care of rendering all of the details of a ladder tournament. It expects
+include.data to contain "table", and "pairings". For example, see:
+_data/results/internal/2024/ladder/ directory.
+
+NB. Lack of indentation here due to how the template is included and rendered in markdown. Indentation
+gets treated as a code quote rather than actual markup.
+{% endcomment %}
+
+{% assign allpairings = include.data.pairings %}
+
+{% include snippets/tourney_info.html director=include.director timecontrol=include.timecontrol %}
+
+<h2 id="standings">Standings</h2>
+{% include snippets/ladder-table.html players=include.data.table %}
+
+<h2 id="results">Results</h2>
+{% include snippets/swiss_results_table.html pairings=include.data.pairings includeratingandscore=false includedate=true %}

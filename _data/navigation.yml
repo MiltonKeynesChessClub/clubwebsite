@@ -68,6 +68,8 @@ results:
       url: /results/2024/u1800-ko.html
     - title: "All Play All Blitz"
       url: /results/2024/all-play-all-blitz.html
+    - title: "Ladder"
+      url: /results/2024/ladder.html
   - title: 2024/5 Befordshire League
     children:
     - title: "Milton Keynes A"

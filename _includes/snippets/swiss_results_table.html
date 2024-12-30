@@ -4,6 +4,9 @@
 			<th class="text-right" {% unless include.includeratingandscore == false %}colspan="3"{% endunless %}>White</th>
 			<th class="swiss-result">vs</th>
 			<th {% unless include.includeratingandscore == false %}colspan="3"{% endunless %}>Black</th>
+			{% if include.includedate == true %}
+				<th>Date</th>
+			{% endif %}
 		</tr>
 	</thead>
 	<tbody>
@@ -53,6 +56,9 @@
 					{% endunless %}
 				{% else %}
 					<td colspan="3">&nbsp;</td>
+				{% endif %}
+				{% if include.includedate == true %}
+					<td>{{ pairing.date | date: "%d %b, %Y" }}</td>
 				{% endif %}
 			</tr>
 		{% endfor %}

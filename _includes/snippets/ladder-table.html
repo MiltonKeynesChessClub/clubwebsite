@@ -1,0 +1,16 @@
+<table class="standings-table">
+	<thead>
+		<tr>
+			<th class="standings-score">Position</th>
+			<th>Player</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for p in include.players %}
+			<tr>
+				<td class="standings-score">{{ p.position }}</td>
+				<td>{% include snippets/member_link.html value=p.player field="slug" %}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
