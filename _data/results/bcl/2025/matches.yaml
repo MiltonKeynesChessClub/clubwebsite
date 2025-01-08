@@ -781,6 +781,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard A
 
+  - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: O'Brien, Thomas P
+      rating: 1946
+      color: B
+      team: Luton A
+    away:
+      name: Bodily, Richard T
+      rating: 1953
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
+    result: 1 - 0
+    home:
+      name: Rashad, Faisal
+      rating: 1727
+      color: W
+      team: Luton A
+    away:
+      name: Dairi, Ramsey
+      rating: 1856
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Vora, Samir
+      rating: 1812
+      color: B
+      team: Luton A
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Joseph, Michael
+      rating: 1688
+      color: W
+      team: Luton A
+    away:
+      name: Pike, Steve C
+      rating: 1862
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-7-jan-25-luton-a-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Jones, Dixon H
+      rating: 1665
+      color: B
+      team: Luton A
+    away:
+      name: Walker, Robert S
+      rating: 1745
+      color: W
+      team: Bedford B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
