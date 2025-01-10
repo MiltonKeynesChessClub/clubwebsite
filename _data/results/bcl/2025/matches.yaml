@@ -846,6 +846,71 @@ bcl-division-1:
       color: W
       team: Bedford B
 
+  - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Bartram, Dominic
+      rating: 2064
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Tukpetov, Evgeny
+      rating: 2286
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Tweeddale, Eoin
+      rating: 2049
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Kenworthy, Gary
+      rating: 2092
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Elwin, Adrian G
+      rating: 2050
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Law, Stephen
+      rating: 2000
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Hunt, Peter
+      rating: 1973
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-9-jan-25-milton-keynes-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Whiteside, Robert
+      rating: 1906
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Valentine, Brian J
+      rating: 1872
+      color: W
+      team: Leighton Buzzard A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
@@ -2212,4 +2277,134 @@ bcl-division-2:
       rating: 1296
       color: W
       team: Bedford E
+
+  - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 1887
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Heath, Alan
+      rating: 1823
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Griffiths, George
+      rating: 1557
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Ward, George
+      rating: 1780
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Evans, Andy
+      rating: 1485
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Craigen, David
+      rating: 1400
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-9-jan-25-milton-keynes-b-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Bhalla, Sumit
+      rating: 1435
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Madhadi, Rishik
+      rating: 1295
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
+    result: 1 - 0
+    home:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: B
+      team: Open University
+    away:
+      name: Mirza, Humayun
+      rating: 1626
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
+    result: 1 - 0
+    home:
+      name: Edwards, Vincent
+      rating: 1629
+      color: W
+      team: Open University
+    away:
+      name: Hayden, Tim
+      rating: 1598
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
+    result: 0 - 1
+    home:
+      name: Phillips, David
+      rating: 1436
+      color: B
+      team: Open University
+    away:
+      name: Stanchev, Milen
+      rating: 1450
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
+    result: 1 - 0
+    home:
+      name: Lazard, Dexter
+      rating: 1293
+      color: W
+      team: Open University
+    away:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
+    result: 1 - 0
+    home:
+      name: Osborn, Mark
+      rating: 1281
+      color: B
+      team: Open University
+    away:
+      name: Welton, Desmond S
+      rating: 1270
+      color: W
+      team: Luton C
 

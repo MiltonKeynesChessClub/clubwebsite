@@ -110,8 +110,8 @@ bcl-division-1:
     awayteam: Leighton Buzzard A
     date: Thu 9 Jan 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 2½ - 2½
 
   - id: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
     hometeam: Leighton Buzzard A
@@ -416,16 +416,16 @@ bcl-division-2:
     awayteam: Bedford D
     date: Thu 9 Jan 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 4 - 1
 
   - id: bcl-division-2-thu-9-jan-25-open-university-v-luton-c
     hometeam: Open University
     awayteam: Luton C
     date: Thu 9 Jan 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 4 - 1
 
   - id: bcl-division-2-tue-14-jan-25-luton-b-v-bedford-e
     hometeam: Luton B
