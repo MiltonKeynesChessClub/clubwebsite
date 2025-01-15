@@ -966,7 +966,7 @@ bcl-division-1:
   - fixture: bcl-division-1-tue-14-jan-25-leighton-buzzard-a-v-leighton-buzzard-b
     result: 0 - 1
     home:
-      name: Default
+      name: Winter, Charlie
       rating: 0000
       color: B
       team: Leighton Buzzard A
