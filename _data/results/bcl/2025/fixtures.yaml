@@ -440,8 +440,8 @@ bcl-division-2:
     awayteam: Bedford D
     date: Tue 21 Jan 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 0 - 5
 
   - id: bcl-division-2-thu-23-jan-25-bedford-c-v-luton-b
     hometeam: Bedford C

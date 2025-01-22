@@ -2538,3 +2538,68 @@ bcl-division-2:
       color: W
       team: Bedford E
 
+  - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Montgomery, Peter
+      rating: 1614
+      color: B
+      team: Luton C
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Patel, Daven
+      rating: 1439
+      color: W
+      team: Luton C
+    away:
+      name: Gill, Peter S
+      rating: 1650
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Zaidi, Qasim
+      rating: 1250
+      color: B
+      team: Luton C
+    away:
+      name: Evans, Andy
+      rating: 1485
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: Luton C
+    away:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-21-jan-25-luton-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Shahzad, Riyaan
+      rating: 1400
+      color: B
+      team: Luton C
+    away:
+      name: Madhadi, Rishik
+      rating: 1295
+      color: W
+      team: Bedford D
+
