@@ -127,7 +127,7 @@ bcl-division-1:
     date: Thu 23 Jan 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-1-thu-6-feb-25-bedford-a-v-bedford-b
     hometeam: Bedford A
@@ -449,7 +449,7 @@ bcl-division-2:
     date: Thu 23 Jan 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4½ -  ½
 
   - id: bcl-division-2-thu-23-jan-25-bedford-e-v-milton-keynes-c
     hometeam: Bedford E
@@ -457,7 +457,7 @@ bcl-division-2:
     date: Thu 23 Jan 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4½ -  ½
 
   - id: bcl-division-2-thu-30-jan-25-bedford-d-v-bedford-c
     hometeam: Bedford D
