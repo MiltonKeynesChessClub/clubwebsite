@@ -465,15 +465,15 @@ bcl-division-2:
     date: Thu 30 Jan 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-2-thu-30-jan-25-milton-keynes-c-v-luton-b
     hometeam: Milton Keynes C
     awayteam: Luton B
     date: Thu 30 Jan 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 2½ - 2½
 
   - id: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
     hometeam: Luton B
