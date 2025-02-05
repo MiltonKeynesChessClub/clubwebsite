@@ -2928,3 +2928,68 @@ bcl-division-2:
       color: W
       team: Luton B
 
+  - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Vora, Samir
+      rating: 1812
+      color: B
+      team: Luton B
+    away:
+      name: Patel, Daven
+      rating: 1439
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Gladysz, Marek
+      rating: 1818
+      color: W
+      team: Luton B
+    away:
+      name: Hayden, Tim
+      rating: 1598
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Jones, Dixon H
+      rating: 1665
+      color: B
+      team: Luton B
+    away:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
+    result: 1 - 0
+    home:
+      name: Stanchev, Milen
+      rating: 1450
+      color: W
+      team: Luton B
+    away:
+      name: Shahzad, Riyaan
+      rating: 1400
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-tue-4-feb-25-luton-b-v-luton-c
+    result: 0(def) - 0(def)
+    home:
+      name: Default
+      rating: 0000
+      color: B
+      team: Luton B
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Luton C
+
