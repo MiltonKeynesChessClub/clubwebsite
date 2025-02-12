@@ -3188,3 +3188,68 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Mirza, Humayun
+      rating: 1626
+      color: B
+      team: Luton C
+    away:
+      name: Cox, Lucian
+      rating: 1674
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
+    result: ½ - ½
+    home:
+      name: Hayden, Tim
+      rating: 1598
+      color: W
+      team: Luton C
+    away:
+      name: McMorran, Richard
+      rating: 1640
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: Luton C
+    away:
+      name: Walker, Nigel B
+      rating: 1472
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Patel, Daven
+      rating: 1439
+      color: W
+      team: Luton C
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-11-feb-25-luton-c-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Shahzad, Riyaan
+      rating: 1400
+      color: B
+      team: Luton C
+    away:
+      name: Cox, R David
+      rating: 1296
+      color: W
+      team: Bedford E
+
