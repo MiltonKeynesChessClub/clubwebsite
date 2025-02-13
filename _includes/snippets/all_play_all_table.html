@@ -16,7 +16,6 @@
 			{% endif %}
 			<th colspan="{{ playercount }}">Results</th>
 			<th class="score">Score</th>
-			<th class="score">Place</th>
 		</tr>
 	</thead>
 	<tfoot>
@@ -51,11 +50,6 @@
 						{% if player.played %}
 							<span class="played">/ {{ player.played }}</span>
 						{% endif %}
-					{% endif %}
-				</td>
-				<td class="score">
-					{% if player.place %}
-						{{ player.place }}
 					{% endif %}
 				</td>
 			</tr>
