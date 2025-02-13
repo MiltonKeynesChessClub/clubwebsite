@@ -1,7 +1,7 @@
-id,rating,score
-adrian-elwin,2034,4
-andrew-bowler,1850,5
-john-mcnamara,1685,2
+id,rating,score,place
+andrew-bowler,1850,5,1st
+adrian-elwin,2034,4,2nd
 matthew-jacques,1443,2.5
+john-mcnamara,1685,2
 steven-wayne,1315,2
 dexter-caplin-lazard,1093,0

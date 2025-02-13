@@ -1,6 +1,6 @@
-id,rating,score
-graham-smith,1952,4
-alan-heath,1809,4
+id,rating,score,place
+graham-smith,1952,4,=1st
+alan-heath,1809,4,=1st
 vincent-edwards,1556,2.5
 michael-page,1442,2.5
 nick-pitts-tucker,ur,0

@@ -1,7 +1,7 @@
-id,rating,score
-eoin-tweeddale,2066,5
-graham-smith,1952,4
-adrian-elwin,2034,4
+id,rating,score,place
+eoin-tweeddale,2066,5,1st
+graham-smith,1952,4,=2nd
+adrian-elwin,2034,4,=2nd
 dominic-bartram,2062,2.5
 alan-heath,1809,2
 andrew-bowler,1850,2
