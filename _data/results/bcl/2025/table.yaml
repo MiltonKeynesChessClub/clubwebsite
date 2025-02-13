@@ -2,13 +2,13 @@
 
 bcl-division-1:
   - team: Bedford A
-    played: 4
+    played: 5
     won: 4
-    drawn: 0
+    drawn: 1
     lost: 0
-    for: 15
-    against: 5
-    points: 8
+    for: 17½
+    against: 7½
+    points: 9
 
   - team: Milton Keynes A
     played: 6
@@ -29,13 +29,13 @@ bcl-division-1:
     points: 6
 
   - team: Bedford B
-    played: 5
+    played: 6
     won: 1
-    drawn: 2
+    drawn: 3
     lost: 2
-    for: 9
-    against: 16
-    points: 4
+    for: 11½
+    against: 18½
+    points: 5
 
   - team: Luton A
     played: 6
@@ -58,40 +58,49 @@ bcl-division-1:
 
 bcl-division-2:
   - team: Milton Keynes B
-    played: 7
-    won: 7
+    played: 8
+    won: 8
     drawn: 0
     lost: 0
-    for: 30
-    against: 5
-    points: 14
+    for: 34½
+    against: 5½
+    points: 16
 
   - team: Open University
-    played: 7
+    played: 8
     won: 4
-    drawn: 1
+    drawn: 2
     lost: 2
-    for: 18½
-    against: 16½
-    points: 9
-
-  - team: Milton Keynes C
-    played: 7
-    won: 3
-    drawn: 1
-    lost: 3
-    for: 16½
-    against: 18½
-    points: 7
+    for: 21
+    against: 19
+    points: 10
 
   - team: Luton B
-    played: 7
-    won: 3
+    played: 8
+    won: 4
     drawn: 1
     lost: 3
-    for: 16½
+    for: 20½
     against: 18½
-    points: 7
+    points: 9
+
+  - team: Bedford E
+    played: 9
+    won: 4
+    drawn: 1
+    lost: 4
+    for: 21½
+    against: 23½
+    points: 8
+
+  - team: Milton Keynes C
+    played: 8
+    won: 3
+    drawn: 2
+    lost: 3
+    for: 19
+    against: 21
+    points: 8
 
   - team: Bedford D
     played: 8
@@ -100,15 +109,6 @@ bcl-division-2:
     lost: 4
     for: 19
     against: 21
-    points: 6
-
-  - team: Bedford E
-    played: 7
-    won: 3
-    drawn: 1
-    lost: 3
-    for: 17½
-    against: 17½
     points: 6
 
   - team: Bedford C
@@ -121,11 +121,11 @@ bcl-division-2:
     points: 4
 
   - team: Luton C
-    played: 7
+    played: 9
     won: 2
     drawn: 0
-    lost: 5
-    for: 10
-    against: 25
+    lost: 7
+    for: 11½
+    against: 32½
     points: 4
 
