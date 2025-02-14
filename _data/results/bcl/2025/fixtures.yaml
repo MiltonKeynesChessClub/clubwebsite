@@ -143,7 +143,7 @@ bcl-division-1:
     date: Thu 13 Feb 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-1-thu-13-feb-25-bedford-b-v-leighton-buzzard-a
     hometeam: Bedford B
@@ -151,7 +151,7 @@ bcl-division-1:
     date: Thu 13 Feb 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-1-tue-25-feb-25-leighton-buzzard-a-v-bedford-a
     hometeam: Leighton Buzzard A
@@ -504,7 +504,7 @@ bcl-division-2:
     awayteam: Bedford E
     date: Tue 11 Feb 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1½ - 3½
 
   - id: bcl-division-2-thu-13-feb-25-open-university-v-milton-keynes-b
@@ -513,7 +513,7 @@ bcl-division-2:
     date: Thu 13 Feb 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
     hometeam: Bedford E
