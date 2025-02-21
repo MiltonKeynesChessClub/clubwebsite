@@ -512,7 +512,7 @@ bcl-division-2:
     awayteam: Milton Keynes B
     date: Thu 13 Feb 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1½ - 3½
 
   - id: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
@@ -528,7 +528,7 @@ bcl-division-2:
     awayteam: Milton Keynes C
     date: Thu 20 Feb 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 5 - 0
 
   - id: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
