@@ -3448,3 +3448,133 @@ bcl-division-2:
       color: W
       team: Milton Keynes B
 
+  - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Cox, Lucian
+      rating: 1674
+      color: B
+      team: Bedford E
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
+    result: ½ - ½
+    home:
+      name: McMorran, Richard
+      rating: 1640
+      color: W
+      team: Bedford E
+    away:
+      name: Gill, Peter S
+      rating: 1650
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Walker, Nigel B
+      rating: 1472
+      color: B
+      team: Bedford E
+    away:
+      name: Griffiths, George
+      rating: 1557
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford E
+    away:
+      name: Craigen, David
+      rating: 1400
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-20-feb-25-bedford-e-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Hylton, Cedric
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Madhadi, Rishik
+      rating: 1295
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 1887
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Wells, Dave
+      rating: 1683
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Heath, Alan
+      rating: 1823
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Solloway, Colin J
+      rating: 1663
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Ward, George
+      rating: 1780
+      color: B
+      team: Milton Keynes B
+    away:
+      name: McNamara, John
+      rating: 1590
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+    away:
+      name: McKeon, John E
+      rating: 1511
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-20-feb-25-milton-keynes-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Evans, Thomas
+      rating: 1695
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Page, Michael
+      rating: 1439
+      color: W
+      team: Milton Keynes C
+
