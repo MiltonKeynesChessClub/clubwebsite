@@ -159,7 +159,7 @@ bcl-division-1:
     date: Tue 25 Feb 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
     hometeam: Leighton Buzzard B
@@ -167,7 +167,7 @@ bcl-division-1:
     date: Tue 25 Feb 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
     hometeam: Leighton Buzzard B
