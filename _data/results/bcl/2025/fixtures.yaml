@@ -158,7 +158,7 @@ bcl-division-1:
     awayteam: Bedford A
     date: Tue 25 Feb 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1 - 4
 
   - id: bcl-division-1-tue-25-feb-25-leighton-buzzard-b-v-milton-keynes-a
@@ -166,7 +166,7 @@ bcl-division-1:
     awayteam: Milton Keynes A
     date: Tue 25 Feb 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1½ - 3½
 
   - id: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
