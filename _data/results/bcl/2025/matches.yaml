@@ -3708,3 +3708,133 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
+    result: ½ - ½
+    home:
+      name: Shields, Callum T
+      rating: 1765
+      color: B
+      team: Bedford C
+    away:
+      name: Cox, Lucian
+      rating: 1674
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+    away:
+      name: McMorran, Richard
+      rating: 1640
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Grimditch, James
+      rating: 1562
+      color: B
+      team: Bedford C
+    away:
+      name: Walker, Nigel B
+      rating: 1472
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: W
+      team: Bedford C
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-27-feb-25-bedford-c-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Dairi, Daniella
+      rating: 0821
+      color: B
+      team: Bedford C
+    away:
+      name: Cox, R David
+      rating: 1296
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
+    result: ½ - ½
+    home:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: B
+      team: Open University
+    away:
+      name: Gladysz, Marek
+      rating: 1818
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
+    result: 0 - 1
+    home:
+      name: Edwards, Vincent
+      rating: 1629
+      color: W
+      team: Open University
+    away:
+      name: Jones, Dixon H
+      rating: 1665
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
+    result: 0 - 1
+    home:
+      name: Phillips, David
+      rating: 1436
+      color: B
+      team: Open University
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
+    result: 0 - 1
+    home:
+      name: Lazard, Dexter
+      rating: 1293
+      color: W
+      team: Open University
+    away:
+      name: Stanchev, Milen
+      rating: 1450
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-27-feb-25-open-university-v-luton-b
+    result: 1 - 0
+    home:
+      name: Osborn, Mark
+      rating: 1281
+      color: B
+      team: Open University
+    away:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton B
+
