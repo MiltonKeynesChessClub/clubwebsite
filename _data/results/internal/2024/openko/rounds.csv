@@ -1,7 +1,7 @@
 id,name,complete,active,plate,notes
 main1,First round draw,true,false,false,
 main2,Second Round Draw,true,false,false,
-main3,Third Round Draw,false,true,false,
+main3,Third Round Draw,true,false,false,
 main4,Fourth round,false,true,false,
 main5,Final,false,false,false,
 plate1,First round plate,false,true,true,
