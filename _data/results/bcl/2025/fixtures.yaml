@@ -560,7 +560,7 @@ bcl-division-2:
     awayteam: Luton C
     date: Thu 6 Mar 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 2½ - 2½
 
   - id: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
@@ -568,7 +568,7 @@ bcl-division-2:
     awayteam: Luton B
     date: Thu 6 Mar 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 3 - 2
 
   - id: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
