@@ -553,7 +553,7 @@ bcl-division-2:
     date: Thu 6 Mar 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 5 - 0
 
   - id: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
     hometeam: Bedford D
@@ -561,7 +561,7 @@ bcl-division-2:
     date: Thu 6 Mar 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
     hometeam: Bedford E
@@ -569,7 +569,7 @@ bcl-division-2:
     date: Thu 6 Mar 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
     hometeam: Luton B

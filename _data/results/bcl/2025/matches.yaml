@@ -3838,3 +3838,198 @@ bcl-division-2:
       color: W
       team: Luton B
 
+  - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 1887
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Shields, Callum T
+      rating: 1765
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Heath, Alan
+      rating: 1823
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Potts, Alexander
+      rating: 1706
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Ward, George
+      rating: 1780
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Grimditch, James
+      rating: 1562
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-6-mar-25-milton-keynes-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Bhalla, Sumit
+      rating: 1435
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Hylton, Cedric
+      rating: 1300
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
+    result: ½ - ½
+    home:
+      name: Hale, Jack
+      rating: 1750
+      color: B
+      team: Bedford D
+    away:
+      name: Mirza, Humayun
+      rating: 1626
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
+    result: ½ - ½
+    home:
+      name: Gill, Peter S
+      rating: 1650
+      color: W
+      team: Bedford D
+    away:
+      name: Montgomery, Peter
+      rating: 1614
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
+    result: ½ - ½
+    home:
+      name: Griffiths, George
+      rating: 1557
+      color: B
+      team: Bedford D
+    away:
+      name: Hayden, Tim
+      rating: 1598
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
+    result: 1 - 0
+    home:
+      name: Sharp, Wolf
+      rating: 1450
+      color: W
+      team: Bedford D
+    away:
+      name: Patel, Daven
+      rating: 1439
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-d-v-luton-c
+    result: 0 - 1
+    home:
+      name: Madhadi, Rishik
+      rating: 1295
+      color: B
+      team: Bedford D
+    away:
+      name: Welton, Desmond S
+      rating: 1270
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
+    result: 1 - 0
+    home:
+      name: McMorran, Richard
+      rating: 1640
+      color: B
+      team: Bedford E
+    away:
+      name: Gladysz, Marek
+      rating: 1818
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
+    result: 0 - 1
+    home:
+      name: Walker, Nigel B
+      rating: 1472
+      color: W
+      team: Bedford E
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
+    result: 0 - 1
+    home:
+      name: Dairi, Daniella
+      rating: 0821
+      color: B
+      team: Bedford E
+    away:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
+    result: 1 - 0
+    home:
+      name: Default
+      rating: 0000
+      color: W
+      team: Bedford E
+    away:
+      name: Default
+      rating: 0000
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-6-mar-25-bedford-e-v-luton-b
+    result: 1 - 0
+    home:
+      name: Default
+      rating: 0000
+      color: B
+      team: Bedford E
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Luton B
+
