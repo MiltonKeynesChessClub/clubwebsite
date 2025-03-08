@@ -41,10 +41,19 @@ round,board,white,black,whitepts,blackpts,date,result
 4,4,john-mckeon,david-phillips,2,1+,2024-10-07,0-1
 4,5,guilherme-rezende,nigel-collins,2,1.5+,,tbc
 4,6,bosko-bauk,peter-hawes,1.5,1,,tbc
-4,7,atila-besceli,michael-page,1,1.5,,tbc
+4,7,atila-besceli,michael-page,1,1.5,2024-12-05,1-0
 4,8,matthew-jacques,mark-osborn,0+,1,,def-w/o
 4,9,colin-solloway,,1,,,def-0
-4,10,steven-wayne,bye,0,,,tbc
+4,10,steven-wayne,bye,0,,,bye-0
+,,,,,,
+5,1,george-ward,dominic-watson,4,4,,tbc
+5,2,vincent-edwards,guilherme-rezende,3,2+,,tbc
+5,3,david-phillips,dave-wells,2+,2+,,tbc
+5,4,john-mcnamara,giuseppe-spigapiena,2.5,2,,tbc
+5,5,mark-osborn,bosko-bauk,2,1.5+,,tbc
+5,6,john-mckeon,atila-besceli,2,2,,tbc
+5,7,peter-hawes,colin-solloway,1+,1,,tbc
+5,8,steven-wayne,michael-page,1,1.5,,tbc
 
 
 
