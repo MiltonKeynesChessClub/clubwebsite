@@ -27,4 +27,5 @@ feature_row:
     btn_label: "Find us"
 ---
 
+{% include snippets/junior-chess.html %}
 {% include feature_row %}

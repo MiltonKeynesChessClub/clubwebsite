@@ -8,6 +8,8 @@ sidebar:
   nav: about
 ---
 
+{% include snippets/junior-chess.html %}
+
 We welcome and are actively seeking new members to the club. [Contact us](https://forms.zoho.eu/miltonkeyneschessclubgm1/form/Contactus) to say hello and we'll help you get started.
 
 ## What to expect

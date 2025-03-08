@@ -8,6 +8,8 @@ sidebar:
   nav: about
 ---
 
+{% include snippets/junior-chess.html %}
+
 To get in touch with general enquiries and for new players wanting to find out more about the club, please use our [contact form]({{ site.data.mkchessclub.contactform }})
 
 ## Internal addresses
