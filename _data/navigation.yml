@@ -52,6 +52,20 @@ posts:
       url: /posts/meetings
 
 results:
+  - title: 2024/5 Internal competitions
+    children:
+    - title: "Championship"
+      url: /results/2025/club-championship.html
+    - title: "Open Swiss"
+      url: /results/2025/open-swiss.html
+    - title: "U1800 Swiss"
+      url: /results/2025/u1800-swiss.html
+    - title: "Open Knockout"
+      url: /results/2025/open-ko.html
+    - title: "U1800 Knockout"
+      url: /results/2025/u1800-ko.html
+    - title: "Ladder"
+      url: /results/2025/ladder.html
   - title: 2023/4 Internal competitions
     children:
     - title: "Championship"

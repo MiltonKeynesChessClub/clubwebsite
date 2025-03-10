@@ -12,7 +12,7 @@ _Round has not yet started._
 {% else %}
 {% if include.round.active == "true" %}
 {% if include.round.deadline == "ASAP" %}
-_All games to be completed by **as soon as possible**. Please contact the tournament director if there are any problems with scheduling.
+_All games to be completed by **as soon as possible**. Please contact the tournament director if there are any problems with scheduling._
 {% else %}
 _All games to be completed by **{{ include.round.deadline | date: "%-d %B, %Y" }}**. Please contact the tournament director if there are any problems meeting the deadline._
 {% endif %}
