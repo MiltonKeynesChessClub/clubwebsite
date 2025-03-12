@@ -182,8 +182,8 @@ bcl-division-1:
     awayteam: Luton A
     date: Tue 11 Mar 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 5 - 0
 
   - id: bcl-division-1-thu-13-mar-25-bedford-a-v-milton-keynes-a
     hometeam: Bedford A
@@ -576,8 +576,8 @@ bcl-division-2:
     awayteam: Milton Keynes C
     date: Tue 11 Mar 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 5 - 0
 
   - id: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
     hometeam: Bedford E

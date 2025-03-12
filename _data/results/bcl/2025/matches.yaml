@@ -1366,6 +1366,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Tukpetov, Evgeny
+      rating: 2286
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Hudson, Julian
+      rating: 2019
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Sharp, John R
+      rating: 2173
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: O'Brien, Thomas P
+      rating: 1946
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Hunt, Peter
+      rating: 1973
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Law, Stephen
+      rating: 2000
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Jones, Dixon H
+      rating: 1665
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Valentine, Brian J
+      rating: 1872
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Montgomery, Peter
+      rating: 1614
+      color: W
+      team: Luton A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
@@ -4032,4 +4097,69 @@ bcl-division-2:
       rating: 0000
       color: W
       team: Luton B
+
+  - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Vora, Samir
+      rating: 1812
+      color: B
+      team: Luton B
+    away:
+      name: Wells, Dave
+      rating: 1683
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Gladysz, Marek
+      rating: 1818
+      color: W
+      team: Luton B
+    away:
+      name: Solloway, Colin J
+      rating: 1663
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Singh, Damanjeet
+      rating: 1750
+      color: B
+      team: Luton B
+    away:
+      name: McNamara, John
+      rating: 1590
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton B
+    away:
+      name: McKeon, John E
+      rating: 1511
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-11-mar-25-luton-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Shahzad, Riyaan
+      rating: 1400
+      color: B
+      team: Luton B
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Milton Keynes C
 
