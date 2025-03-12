@@ -1366,6 +1366,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Williamson, Kevin J
+      rating: 1847
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Bodily, Richard T
+      rating: 1953
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Taylor, Peter
+      rating: 1810
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Dairi, Ramsey
+      rating: 1856
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Woodward, Ian P
+      rating: 1781
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
+    result: 1 - 0
+    home:
+      name: Dorn, C Fred H
+      rating: 1746
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Pike, Steve C
+      rating: 1862
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-b-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Gallagher, Sean
+      rating: 1604
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Walker, Robert S
+      rating: 1745
+      color: W
+      team: Bedford B
+
   - fixture: bcl-division-1-tue-11-mar-25-leighton-buzzard-a-v-luton-a
     result: 1 - 0
     home:
