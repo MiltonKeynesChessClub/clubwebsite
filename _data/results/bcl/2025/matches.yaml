@@ -4228,3 +4228,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Cox, Lucian
+      rating: 1674
+      color: B
+      team: Bedford E
+    away:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
+    result: 1 - 0
+    home:
+      name: McMorran, Richard
+      rating: 1640
+      color: W
+      team: Bedford E
+    away:
+      name: Edwards, Vincent
+      rating: 1629
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Walker, Nigel B
+      rating: 1472
+      color: B
+      team: Bedford E
+    away:
+      name: Jacques, Matthew
+      rating: 1463
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+    away:
+      name: Lazard, Dexter
+      rating: 1293
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-13-mar-25-bedford-e-v-open-university
+    result: 1 - 0
+    home:
+      name: Cox, R David
+      rating: 1296
+      color: B
+      team: Bedford E
+    away:
+      name: Osborn, Mark
+      rating: 1281
+      color: W
+      team: Open University
+

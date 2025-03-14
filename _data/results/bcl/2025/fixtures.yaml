@@ -585,7 +585,7 @@ bcl-division-2:
     date: Thu 13 Mar 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
     hometeam: Luton C

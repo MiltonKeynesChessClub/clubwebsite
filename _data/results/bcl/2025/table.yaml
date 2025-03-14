@@ -76,22 +76,22 @@ bcl-division-2:
     points: 13
 
   - team: Bedford E
-    played: 12
+    played: 13
     won: 5
     drawn: 3
-    lost: 4
-    for: 29½
-    against: 30½
+    lost: 5
+    for: 31½
+    against: 33½
     points: 12
 
   - team: Open University
-    played: 10
-    won: 4
+    played: 11
+    won: 5
     drawn: 2
     lost: 4
-    for: 24
-    against: 26
-    points: 10
+    for: 27
+    against: 28
+    points: 12
 
   - team: Bedford D
     played: 10
