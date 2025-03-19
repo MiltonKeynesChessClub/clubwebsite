@@ -4358,3 +4358,68 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Montgomery, Peter
+      rating: 1614
+      color: B
+      team: Luton C
+    away:
+      name: Bowler, Andrew
+      rating: 1887
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Hayden, Tim
+      rating: 1598
+      color: W
+      team: Luton C
+    away:
+      name: Spigapiena, Giuseppe
+      rating: 1992
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Patel, Daven
+      rating: 1439
+      color: B
+      team: Luton C
+    away:
+      name: Ward, George
+      rating: 1780
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: Luton C
+    away:
+      name: Watson, Dominic
+      rating: 1726
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-2-tue-18-mar-25-luton-c-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Welton, Desmond S
+      rating: 1270
+      color: B
+      team: Luton C
+    away:
+      name: Osborn, Mark
+      rating: 1281
+      color: W
+      team: Milton Keynes B
+
