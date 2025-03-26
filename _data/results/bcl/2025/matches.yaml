@@ -1561,6 +1561,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Hudson, Julian
+      rating: 2019
+      color: B
+      team: Luton A
+    away:
+      name: Ledger, Stephen C
+      rating: 2125
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
+    result: 0 - 1
+    home:
+      name: O'Brien, Thomas P
+      rating: 1946
+      color: W
+      team: Luton A
+    away:
+      name: Arulnandhy, Ravi
+      rating: 2065
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Singh, Damanjeet
+      rating: 1750
+      color: B
+      team: Luton A
+    away:
+      name: Collacott, Nick
+      rating: 1970
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: W
+      team: Luton A
+    away:
+      name: Habershon, Paul F
+      rating: 1957
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-25-mar-25-luton-a-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Jones, Dixon H
+      rating: 1665
+      color: B
+      team: Luton A
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
