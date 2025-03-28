@@ -600,8 +600,8 @@ bcl-division-2:
     awayteam: Open University
     date: Thu 27 Mar 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 1½ - 3½
 
   - id: bcl-division-2-thu-27-mar-25-milton-keynes-c-v-bedford-e
     hometeam: Milton Keynes C
@@ -609,7 +609,7 @@ bcl-division-2:
     date: Thu 27 Mar 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3½ - 1½
 
   - id: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
     hometeam: Luton B
