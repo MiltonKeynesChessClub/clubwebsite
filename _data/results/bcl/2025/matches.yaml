@@ -1626,6 +1626,71 @@ bcl-division-1:
       color: W
       team: Bedford A
 
+  - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Tweeddale, Eoin
+      rating: 2049
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Bodily, Richard T
+      rating: 1953
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
+    result: 1 - 0
+    home:
+      name: Bartram, Dominic
+      rating: 2064
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Dairi, Ramsey
+      rating: 1856
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
+    result: 1 - 0
+    home:
+      name: Meichel, Eric B
+      rating: 2020
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Smith, Graham
+      rating: 1921
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Pike, Steve C
+      rating: 1862
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-27-mar-25-milton-keynes-a-v-bedford-b
+    result: 1 - 0
+    home:
+      name: Whiteside, Robert
+      rating: 1906
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Walker, Robert S
+      rating: 1745
+      color: W
+      team: Bedford B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
