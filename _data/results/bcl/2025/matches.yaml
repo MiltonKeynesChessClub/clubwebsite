@@ -4683,3 +4683,68 @@ bcl-division-2:
       color: W
       team: Bedford E
 
+  - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Singh, Damanjeet
+      rating: 1750
+      color: B
+      team: Luton B
+    away:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Jones, Dixon H
+      rating: 1665
+      color: W
+      team: Luton B
+    away:
+      name: Grimditch, James
+      rating: 1562
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: B
+      team: Luton B
+    away:
+      name: Evans, Andy
+      rating: 1485
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton B
+    away:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-1-apr-25-luton-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Welton, Desmond S
+      rating: 1270
+      color: B
+      team: Luton B
+    away:
+      name: Hylton, Cedric
+      rating: 1300
+      color: W
+      team: Bedford C
+
