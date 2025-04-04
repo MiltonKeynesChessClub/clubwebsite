@@ -215,7 +215,7 @@ bcl-division-1:
     date: Thu 3 Apr 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4½ -  ½
 
   - id: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
     hometeam: Leighton Buzzard B
@@ -625,7 +625,7 @@ bcl-division-2:
     date: Thu 3 Apr 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result:  ½ - 4½
 
   - id: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
     hometeam: Luton C
