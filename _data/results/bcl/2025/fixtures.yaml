@@ -214,7 +214,7 @@ bcl-division-1:
     awayteam: Luton A
     date: Thu 3 Apr 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 4½ -  ½
 
   - id: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
@@ -624,7 +624,7 @@ bcl-division-2:
     awayteam: Milton Keynes B
     date: Thu 3 Apr 25
     time: "19:30"
-    status: OU
+    status: OV
     result:  ½ - 4½
 
   - id: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
