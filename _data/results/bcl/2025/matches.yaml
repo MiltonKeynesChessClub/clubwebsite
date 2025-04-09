@@ -4878,3 +4878,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes B
 
+  - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
+    result: ½ - ½
+    home:
+      name: Mirza, Humayun
+      rating: 1626
+      color: B
+      team: Luton C
+    away:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Patel, Daven
+      rating: 1439
+      color: W
+      team: Luton C
+    away:
+      name: Edwards, Vincent
+      rating: 1629
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Zaidi, Qasim
+      rating: 1250
+      color: B
+      team: Luton C
+    away:
+      name: Phillips, David
+      rating: 1436
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
+    result: 1 - 0
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: Luton C
+    away:
+      name: Lazard, Dexter
+      rating: 1293
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-tue-8-apr-25-luton-c-v-open-university
+    result: 1 - 0
+    home:
+      name: Welton, Desmond S
+      rating: 1270
+      color: B
+      team: Luton C
+    away:
+      name: Osborn, Mark
+      rating: 1281
+      color: W
+      team: Open University
+
