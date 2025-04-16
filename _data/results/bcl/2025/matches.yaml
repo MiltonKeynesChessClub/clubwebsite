@@ -1756,6 +1756,71 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Matthews, Adrian MS
+      rating: 1809
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Ledger, Stephen C
+      rating: 2125
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Taylor, Peter
+      rating: 1810
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Arulnandhy, Ravi
+      rating: 2065
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Woodward, Ian P
+      rating: 1781
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Habershon, Paul F
+      rating: 1957
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: 1 - 0
+    home:
+      name: Dorn, C Fred H
+      rating: 1746
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Gallagher, Sean
+      rating: 1604
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
