@@ -1756,6 +1756,136 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Matthews, Adrian MS
+      rating: 1809
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Ledger, Stephen C
+      rating: 2125
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Taylor, Peter
+      rating: 1810
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Arulnandhy, Ravi
+      rating: 2065
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Woodward, Ian P
+      rating: 1781
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Habershon, Paul F
+      rating: 1957
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: 1 - 0
+    home:
+      name: Dorn, C Fred H
+      rating: 1746
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Gallagher, Sean
+      rating: 1604
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Tukpetov, Evgeny
+      rating: 2286
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Tweeddale, Eoin
+      rating: 2049
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Kenworthy, Gary
+      rating: 2092
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Elwin, Adrian G
+      rating: 2050
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Hunt, Peter
+      rating: 1973
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Law, Stephen
+      rating: 2000
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Smith, Graham
+      rating: 1921
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-15-apr-25-leighton-buzzard-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Valentine, Brian J
+      rating: 1872
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Whiteside, Robert
+      rating: 1906
+      color: W
+      team: Milton Keynes A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-3-oct-24-milton-keynes-b-v-open-university
