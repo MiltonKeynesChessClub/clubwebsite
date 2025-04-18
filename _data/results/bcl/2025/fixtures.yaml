@@ -641,7 +641,7 @@ bcl-division-2:
     date: Thu 17 Apr 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
     hometeam: Milton Keynes C
@@ -649,7 +649,7 @@ bcl-division-2:
     date: Thu 17 Apr 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
     hometeam: Bedford C

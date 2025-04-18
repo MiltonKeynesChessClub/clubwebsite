@@ -5073,3 +5073,133 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Alexander, NO'D James
+      rating: 1869
+      color: B
+      team: Open University
+    away:
+      name: Taylor, Alex
+      rating: 1941
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Edwards, Vincent
+      rating: 1629
+      color: W
+      team: Open University
+    away:
+      name: Shields, Callum T
+      rating: 1765
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Keane, Richard C
+      rating: 1550
+      color: B
+      team: Open University
+    away:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Phillips, David
+      rating: 1436
+      color: W
+      team: Open University
+    away:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-apr-25-open-university-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Osborn, Mark
+      rating: 1281
+      color: B
+      team: Open University
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
+    result: ½ - ½
+    home:
+      name: Watson, Dominic
+      rating: 1726
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Mirza, Humayun
+      rating: 1626
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
+    result: ½ - ½
+    home:
+      name: Solloway, Colin J
+      rating: 1663
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Montgomery, Peter
+      rating: 1614
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
+    result: 0 - 1
+    home:
+      name: McNamara, John
+      rating: 1590
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Hayden, Tim
+      rating: 1598
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
+    result: ½ - ½
+    home:
+      name: McKeon, John E
+      rating: 1511
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Lewis, Richard
+      rating: 1350
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-17-apr-25-milton-keynes-c-v-luton-c
+    result: ½ - ½
+    home:
+      name: Page, Michael
+      rating: 1439
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Welton, Desmond S
+      rating: 1270
+      color: W
+      team: Luton C
+
