@@ -93,39 +93,39 @@ bcl-division-2:
     against: 37
     points: 12
 
-  - team: Milton Keynes C
-    played: 12
-    won: 4
-    drawn: 2
-    lost: 6
-    for: 24½
-    against: 35½
-    points: 10
-
   - team: Bedford D
-    played: 12
-    won: 2
-    drawn: 4
-    lost: 6
-    for: 26
-    against: 34
-    points: 8
-
-  - team: Luton C
     played: 13
     won: 3
+    drawn: 4
+    lost: 6
+    for: 29
+    against: 36
+    points: 10
+
+  - team: Milton Keynes C
+    played: 13
+    won: 4
+    drawn: 2
+    lost: 7
+    for: 26½
+    against: 38½
+    points: 10
+
+  - team: Luton C
+    played: 14
+    won: 4
     drawn: 2
     lost: 8
-    for: 20
-    against: 44
-    points: 8
+    for: 24
+    against: 45
+    points: 10
 
   - team: Bedford C
-    played: 12
+    played: 13
     won: 2
     drawn: 3
-    lost: 7
-    for: 23½
-    against: 36½
+    lost: 8
+    for: 24½
+    against: 40½
     points: 7
 

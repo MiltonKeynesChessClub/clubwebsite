@@ -656,16 +656,16 @@ bcl-division-2:
     awayteam: Luton C
     date: Thu 24 Apr 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 1 - 4
 
   - id: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
     hometeam: Milton Keynes C
     awayteam: Bedford D
     date: Thu 24 Apr 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 2 - 3
 
   - id: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
     hometeam: Luton B

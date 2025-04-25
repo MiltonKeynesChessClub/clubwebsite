@@ -5203,3 +5203,133 @@ bcl-division-2:
       color: W
       team: Luton C
 
+  - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
+    result: 0 - 1
+    home:
+      name: Shields, Callum T
+      rating: 1765
+      color: B
+      team: Bedford C
+    away:
+      name: D'Cruz, Damon
+      rating: 1850
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
+    result: ½ - ½
+    home:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+    away:
+      name: Mirza, Humayun
+      rating: 1626
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
+    result: 0 - 1
+    home:
+      name: Grimditch, James
+      rating: 1562
+      color: B
+      team: Bedford C
+    away:
+      name: Montgomery, Peter
+      rating: 1614
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
+    result: 0 - 1
+    home:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: W
+      team: Bedford C
+    away:
+      name: Hayden, Tim
+      rating: 1598
+      color: B
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-24-apr-25-bedford-c-v-luton-c
+    result: ½ - ½
+    home:
+      name: Dairi, Daniella
+      rating: 0821
+      color: B
+      team: Bedford C
+    away:
+      name: Welton, Desmond S
+      rating: 1270
+      color: W
+      team: Luton C
+
+  - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Wells, Dave
+      rating: 1683
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Solloway, Colin J
+      rating: 1663
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Gill, Peter S
+      rating: 1650
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
+    result: ½ - ½
+    home:
+      name: McNamara, John
+      rating: 1590
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Kapustynski , Kryzsztof 
+      rating: 1600
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
+    result: 1 - 0
+    home:
+      name: McKeon, John E
+      rating: 1511
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-24-apr-25-milton-keynes-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Page, Michael
+      rating: 1439
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Crihana, Mihai
+      rating: 0000
+      color: W
+      team: Bedford D
+
