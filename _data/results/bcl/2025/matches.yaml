@@ -5333,3 +5333,68 @@ bcl-division-2:
       color: W
       team: Bedford D
 
+  - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Vora, Samir
+      rating: 1812
+      color: B
+      team: Luton B
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Gladysz, Marek
+      rating: 1818
+      color: W
+      team: Luton B
+    away:
+      name: Gill, Peter S
+      rating: 1650
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Singh, Damanjeet
+      rating: 1750
+      color: B
+      team: Luton B
+    away:
+      name: Kapustynski , Kryzsztof 
+      rating: 1600
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Zaidi, Qasim
+      rating: 1250
+      color: W
+      team: Luton B
+    away:
+      name: Crihana, Mihai
+      rating: 0000
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-29-apr-25-luton-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Shahzad, Riyaan
+      rating: 1400
+      color: B
+      team: Luton B
+    away:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+
