@@ -5398,3 +5398,68 @@ bcl-division-2:
       color: W
       team: Bedford D
 
+  - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Shields, Callum T
+      rating: 1765
+      color: B
+      team: Bedford C
+    away:
+      name: Wells, Dave
+      rating: 1683
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Potts, Alexander
+      rating: 1706
+      color: W
+      team: Bedford C
+    away:
+      name: Solloway, Colin J
+      rating: 1663
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Grimditch, James
+      rating: 1562
+      color: B
+      team: Bedford C
+    away:
+      name: McNamara, John
+      rating: 1590
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Dairi, Mahmoud
+      rating: 1295
+      color: W
+      team: Bedford C
+    away:
+      name: McKeon, John E
+      rating: 1511
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-1-may-25-bedford-c-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Hylton, Cedric
+      rating: 1300
+      color: B
+      team: Bedford C
+    away:
+      name: Page, Michael
+      rating: 1439
+      color: W
+      team: Milton Keynes C
+
