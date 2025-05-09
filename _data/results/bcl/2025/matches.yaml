@@ -5528,3 +5528,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 1887
+      color: B
+      team: Milton Keynes B
+    away:
+      name: D'Cruz, Damon
+      rating: 1850
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Heath, Alan
+      rating: 1823
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Gladysz, Marek
+      rating: 1818
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Ward, George
+      rating: 1780
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1613
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Watson, Dominic
+      rating: 1726
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Jones, Dixon H
+      rating: 1665
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-2-thu-8-may-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Bhalla, Sumit
+      rating: 1435
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton B
+
