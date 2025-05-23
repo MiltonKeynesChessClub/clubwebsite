@@ -10,7 +10,7 @@ competitions:
 
   internal:
   - season: 2024
-    active: true
+    active: false
   - season: 2025
     active: true
 
