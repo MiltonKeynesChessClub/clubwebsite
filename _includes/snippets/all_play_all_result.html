@@ -12,6 +12,10 @@
 				{% assign score="-" %}
 			{% when "1-bye" %}
 				{% assign score="+" %}
+			{% when "+--" %}
+				{% assign score="+" %}
+			{% when "--+" %}
+				{% assign score="-" %}
 			{% when "tbc" %}
 				{% assign score="?" %}
 			{% else %}
@@ -72,6 +76,3 @@
 		</div>
 	</td>
 {% endif %}
-
-
-
