@@ -12,9 +12,9 @@
 				{% assign score="-" %}
 			{% when "1-bye" %}
 				{% assign score="+" %}
-			{% when "1-def" %}
+			{% when "+--" %}
 				{% assign score="+" %}
-			{% when "def-1" %}
+			{% when "--+" %}
 				{% assign score="-" %}
 			{% when "tbc" %}
 				{% assign score="?" %}
@@ -34,10 +34,10 @@
 				{% assign score="+" %}
 			{% when "1-bye" %}
 				{% assign score="-" %}
-			{% when "1-def" %}
-				{% assign score="-" %}
-			{% when "def-1" %}
+			{% when "+--" %}
 				{% assign score="+" %}
+			{% when "--+" %}
+				{% assign score="-" %}
 			{% when "tbc" %}
 				{% assign score="?" %}
 			{% else %}
