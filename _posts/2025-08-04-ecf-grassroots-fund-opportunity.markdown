@@ -1,6 +1,6 @@
 ---
 title:  "ECF Grassroots Fund - Funding Opportunity for Chess Initiatives"
-date:   2025-01-27
+date:   2025-08-04
 author: dominic-watson
 categories: news
 excerpt: The English Chess Federation's Grassroots Fund has over £5,000 still available for the East of England region. Applications for Tranche 5 close on 1st September 2025.
