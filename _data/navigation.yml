@@ -3,7 +3,7 @@ main:
     url: /about/
   - title: "Results & Fixtures"
     url: /results/
-  - title: "News"
+  - title: "News & Posts"
     url: /posts/news
   - title: "Games"
     url: /posts/games
