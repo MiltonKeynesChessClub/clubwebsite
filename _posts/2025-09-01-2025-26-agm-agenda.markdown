@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "2025-26 AGM Agenda"
 date: 2025-09-01
 categories: meetings
 author: george-ward
+excerpt: The agenda for the 2025-26 Annual General Meeting has been published.
 ---
 
 The agenda for the 2025-26 Annual General Meeting has been published. The meeting will cover the following items:
