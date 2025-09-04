@@ -4,9 +4,7 @@ main:
   - title: "Results & Fixtures"
     url: /results/
   - title: "News & Posts"
-    url: /posts/news
-  - title: "Games"
-    url: /posts/games
+    url: /posts/
   - title: "Contact us"
     url: /about/contact.html
 
