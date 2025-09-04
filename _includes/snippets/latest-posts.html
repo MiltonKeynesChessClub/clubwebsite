@@ -1,0 +1,15 @@
+<div class="latest-posts">
+  <h3 class="latest-posts__title">Latest Posts</h3>
+  <div class="latest-posts__list">
+    {% for post in site.posts limit:3 %}
+      <div class="latest-posts__item">
+        <p class="latest-posts__item-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </p>
+        <h4 class="latest-posts__item-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h4>
+      </div>
+    {% endfor %}
+  </div>
+</div>
