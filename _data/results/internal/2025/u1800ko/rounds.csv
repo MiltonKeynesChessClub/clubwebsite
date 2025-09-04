@@ -1,2 +1,4 @@
 id,name,complete,active,plate,notes
-main1,First round draw,false,true,false,
+main1,First round draw,true,false,false,
+main2,Second round draw,false,true,false,
+plate1,First round plate,false,true,true,
