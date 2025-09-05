@@ -12,8 +12,6 @@ Here you can find the 2024 season's results and pairings for Milton Keynes Chess
 
 ## 2024/5 Bedfordshire League
 
-Fixtures and results for our 4 Bedfordshire League teams:
-
 <ul>
 	<li><a href="/results/2024/mka.html">Milton Keynes A</a></li>
 	<li><a href="/results/2024/mkb.html">Milton Keynes B</a></li>
