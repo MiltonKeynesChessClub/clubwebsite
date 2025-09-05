@@ -16,4 +16,4 @@ To get in touch with general enquiries and for new players wanting to find out m
 
 To report internal tournament results, use: [results@miltonkeyneschessclub.co.uk](mailto:{{ 'results@miltonkeyneschessclub.co.uk' | encode_email }}).
 
-For website suggestions, posts and featured PGN games, please use our [feedback, posts and games form]({{ site.data.mkchessclub.feedbackform }}).
+For website suggestions, posts and featured PGN games, please use email [webmaster@miltonkeyneschessclub.co.uk](mailto:{{ 'webmaster@miltonkeyneschessclub.co.uk' | encode_email }}).
