@@ -18,20 +18,14 @@
 	{% endfor %}
 
 	{% if teampage.size > 0 %}
-		{% assign boardno = 0 %}
-		{% for member in teampage.members %}
-			{% assign boardno = boardno | plus: 1 %}
-			{% if member == include.member.slug %}
-				{% break %}
-			{% endif %}
-		{% endfor %}
 		{%- capture teaminfo -%}
 <p>For the {{ seasonyear }} season, {% include snippets/member_link.html value=include.member.slug field="slug" %} is
-	<strong>board {{ boardno }}</strong>
 	{% if teampage.captain == include.member.slug %}
-		and <strong>team captain</strong>
+		the <strong>team captain</strong> for
+	{% else %}
+		a member of
 	{% endif %}
-	for the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
+	the <a href="{{ teampage.permalink }}">{{ teampage.title }}</a> team.</p>
 		{%- endcapture -%}
 	{% endif %}
 {% if teaminfo.size > 0 or allresults.size > 0 %}

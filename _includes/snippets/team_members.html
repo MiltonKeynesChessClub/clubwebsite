@@ -1,10 +1,10 @@
 <p>
   <strong>Captain</strong>: {% include snippets/member_link.html value=page.captain field="slug" %}
 </p>
-<ol>
+<ul>
   {% for memberslug in page.members %}
     <li>
       {% include snippets/member_link.html value=memberslug field="slug" %}
     </li>
   {% endfor %}
-</ol>
+</ul>

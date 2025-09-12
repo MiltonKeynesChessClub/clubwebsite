@@ -3,6 +3,8 @@ feedbackform: https://forms.zohopublic.eu/miltonkeyneschessclubgm1/form/Websitef
 
 competitions:
   bcl: # bedfordshire chess league
+  - season: 2026
+    active: false
   - season: 2025
     active: false
   - season: 2024
@@ -42,6 +44,9 @@ officers:
   - role: Team C Captain
     shortkey: CAPTC
     members: colin-solloway
+  - role: Team D Captain
+    shortkey: CAPTD
+    members: dominic-watson
   - role: Open University Team Captain
     shortkey: CAPTO
     members: james-alexander

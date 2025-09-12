@@ -64,6 +64,18 @@ results:
       url: /results/2025/u1800-ko.html
     - title: "Ladder"
       url: /results/2025/ladder.html
+  - title: 2025/6 Bedfordshire League
+    children:
+    - title: "Milton Keynes A"
+      url: /results/2025/mka.html
+    - title: "Milton Keynes B"
+      url: /results/2025/mkb.html
+    - title: "Milton Keynes C"
+      url: /results/2025/mkc.html
+    - title: "Milton Keynes D"
+      url: /results/2025/mkd.html
+    - title: "Open University"
+      url: /results/2025/ou.html
   - title: Archive
     children:
       - title: "2023/4 Season"
