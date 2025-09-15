@@ -8,8 +8,8 @@
 		{% assign tourneyid = t[0] %}
 		{% assign tourney = t[1] %}
 		{% if tourney.pairings.size > 0 %}
-			{% assign playerpairings = tourney.pairings | where:"white",include.member.slug %}
-			{% assign playerblackpairings = tourney.pairings | where:"black",include.member.slug %}
+			{% assign playerpairings = tourney.pairings | where:"white",include.member.name %}
+			{% assign playerblackpairings = tourney.pairings | where:"black",include.member.name %}
 			{% assign playerpairings = playerpairings | concat: playerblackpairings | sort:"date" %}
 
 			{% for pairing in playerpairings %}
@@ -17,9 +17,9 @@
 					{% capture pendingresult %}
 <tr>
 	<td><a href="{{ tourney.meta.url }}">{{ tourney.meta.name }}</a></td>
-	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
 	<td class="swiss-result"><span class="muted">vs</span></td>
-	<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+	<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
 </tr>
 					{% endcapture %}
 					{% assign pendinggames = pendinggames | append: pendingresult %}
@@ -27,9 +27,9 @@
 					{% capture result %}
 <tr>
 	<td><a href="{{ tourney.meta.url }}">{{ tourney.meta.name }}</a></td>
-	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
 	<td class="swiss-result">{% include snippets/result.html result=pairing.result %}</td>
-	<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+	<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
 </tr>
 					{% endcapture %}
 					{% assign results = results | append: result %}
@@ -40,8 +40,8 @@
 			{% for g in tourney %}
 				{% assign group = g[1] %}
 				{% if group.pairings.size > 0 %}
-					{% assign playerpairings = group.pairings | where:"white",include.member.slug %}
-					{% assign playerblackpairings = group.pairings | where:"black",include.member.slug %}
+					{% assign playerpairings = group.pairings | where:"white",include.member.name %}
+					{% assign playerblackpairings = group.pairings | where:"black",include.member.name %}
 					{% assign playerpairings = playerpairings | concat: playerblackpairings | sort:"date" %}
 
 					{% for pairing in playerpairings %}
@@ -49,9 +49,9 @@
 							{% capture pendingresult %}
 <tr>
 	<td><a href="{{ tourney.meta.url }}">{{ tourney.meta.name }}</a></td>
-	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
 	<td class="swiss-result"><span class="muted">vs</span></td>
-	<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+	<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
 </tr>
 							{% endcapture %}
 							{% assign pendinggames = pendinggames | append: pendingresult %}
@@ -59,9 +59,9 @@
 							{% capture result %}
 <tr>
 	<td><a href="{{ tourney.meta.url }}">{{ tourney.meta.name }}</a></td>
-	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+	<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
 	<td class="swiss-result">{% include snippets/result.html result=pairing.result %}</td>
-	<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+	<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
 </tr>
 							{% endcapture %}
 							{% assign results = results | append: result %}
