@@ -1,15 +1,15 @@
-id,place,score,played
-adrian-elwin,1st,8.5,9
-eoin-tweeddale,2nd,7,11
-james-alexander,3rd,6.5,9
-thomas-evans,=4th,6,9
-guilherme-rezende,=4th,6,10
-peter-hawes,6th,4.5,10
-george-ward,7th,4,6
-david-phillips,8th,3.5,10
-patrick-harrison,=9th,3,10
-alan-heath,=9th,3,10
-sumit-bhalla,11th,2,11
-vincent-edwards,12th,2,10
-giuseppe-spigapiena,13th,1,2
-atila-besceli,14th,0,1
+name,place,score,played
+Adrian Elwin,1st,8.5,9
+Eoin Tweeddale,2nd,7,11
+James Alexander,3rd,6.5,9
+Thomas Evans,=4th,6,9
+Guilherme Rezende,=4th,6,10
+Peter Hawes,6th,4.5,10
+George Ward,7th,4,6
+David Phillips,8th,3.5,10
+Patrick Harrison,=9th,3,10
+Alan Heath,=9th,3,10
+Sumit Bhalla,11th,2,11
+Vincent Edwards,12th,2,10
+Giuseppe Spigapiena,13th,1,2
+Atila Besceli,14th,0,1

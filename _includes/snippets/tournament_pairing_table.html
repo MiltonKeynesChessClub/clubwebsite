@@ -22,7 +22,7 @@
 						{% include snippets/rating.html rating=w.rating %}
 					</td>
 					{% endif %}
-					<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+					<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
 					{% if includeratingandscore == true }} %}
 					<td class="text-center muted" title="White player's score coming into this round">
 						{% if pairing.whitepts.size > 0 %}
@@ -46,7 +46,7 @@
 						{% endif %}
 					</td>
 					{% endif %}
-					<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+					<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
 					{% if includeratingandscore == true }} %}
 					<td class="muted" title="Black player's rating at the start of the tournament">
 						{% include snippets/rating.html rating=b.rating %}

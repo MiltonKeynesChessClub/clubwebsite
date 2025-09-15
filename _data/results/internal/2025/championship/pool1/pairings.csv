@@ -1,16 +1,16 @@
-white,black,result
-robert-whiteside,eoin-tweeddale,0-1
-eoin-tweeddale,george-ward,1-0
-colin-solloway,eoin-tweeddale,0-1
-eoin-tweeddale,michael-page,0-1
-giacomo-lorenzini,eoin-tweeddale,tbc
-george-ward,robert-whiteside,0-1
-robert-whiteside,colin-solloway,1/2-1/2
-michael-page,robert-whiteside,0-1
-robert-whiteside,giacomo-lorenzini,tbc
-colin-solloway,george-ward,1-0
-george-ward,michael-page,tbc
-giacomo-lorenzini,george-ward,tbc
-michael-page,colin-solloway,tbc
-colin-solloway,giacomo-lorenzini,tbc
-giacomo-lorenzini,michael-page,0-1
+pool,round,white,black,date,result
+pool1,1,Robert Whiteside,Eoin Tweeddale,,0-1
+pool1,1,Eoin Tweeddale,George Ward,,1-0
+pool1,1,Colin Solloway,Eoin Tweeddale,,0-1
+pool1,1,Eoin Tweeddale,Michael Page,,0-1
+pool1,1,Giacomo Lorenzini,Eoin Tweeddale,,tbc
+pool1,1,George Ward,Robert Whiteside,,0-1
+pool1,1,Robert Whiteside,Colin Solloway,,1/2-1/2
+pool1,1,Michael Page,Robert Whiteside,,0-1
+pool1,1,Robert Whiteside,Giacomo Lorenzini,,tbc
+pool1,1,Colin Solloway,George Ward,,1-0
+pool1,1,George Ward,Michael Page,,tbc
+pool1,1,Giacomo Lorenzini,George Ward,,tbc
+pool1,1,Michael Page,Colin Solloway,,tbc
+pool1,1,Colin Solloway,Giacomo Lorenzini,,tbc
+pool1,1,Giacomo Lorenzini,Michael Page,,0-1

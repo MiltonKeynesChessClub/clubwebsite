@@ -1,7 +1,7 @@
-id,rating,score,place
-graham-smith,1952,4,=1st
-alan-heath,1809,4,=1st
-vincent-edwards,1556,2.5
-michael-page,1442,2.5
-nick-pitts-tucker,ur,0
-atila-besceli,ur,2
+name,rating,score,place
+Graham Smith,1952,4,=1st
+Alan Heath,1809,4,=1st
+Vincent Edwards,1556,2.5
+Michael Page,1442,2.5
+Nick Pitts-tucker,ur,0
+Atila Besceli,ur,2

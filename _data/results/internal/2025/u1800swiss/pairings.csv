@@ -1,28 +1,28 @@
 round,board,white,black,whitepts,blackpts,date,result
-1,1,dominic-watson,john-chandler,,,2025-05-29,0-1
-1,2,john-mckeon,vincent-edwards,,,2025-05-08,0-1
-1,3,dave-wells,michael-page,,,2025-08-21,1-0
-1,4,steven-wayne,florin-hristea,,,2025-03-09,+--
-1,5,colin-solloway,mark-osborn,,,2025-05-29,1-0
-1,6,olajide-mabogunje,john-mcnamara,,,2025-06-12,0-1
-1,7,atila-besceli,ozan-senturk,,,2025-07-10,0-1
-1,8,rikin-burse,bosko-bauk,,,2025-03-20,1-0
-1,9,matthew-jacques,richard-keane,,,2025-06-05,0-1
-2,1,vincent-edwards,steven-wayne,1,1,2025-07-03,1-0
-2,2,john-chandler,dave-wells,1,1,2025-07-31,0-1
-2,3,ozan-senturk,colin-solloway,1,1,,tbc
-2,4,john-mcnamara,rikin-burse,1,1,2025-07-31,1-0
-2,5,richard-keane,dominic-watson,1,0,2025-08-07,1/2-1/2
-2,6,michael-page,atila-besceli,0,0,,tbc
-2,7,mark-osborn,john-mckeon,0,0,2025-07-24,1/2-1/2
-2,8,bosko-bauk,olajide-mabogunje,0,0,2025-07-24,0-1
-2,9,matthew-jacques,,0,,bye
-3,1,dave-wells,vincent-edwards,2,2,,tbc
-3,2,colin-solloway,john-mcnamara,1+,2,,tbc
-3,3,ozan-senturk,richard-keane,1+,1.5,,tbc
-3,4,olajide-mabogunje,john-chandler,1,1,,tbc
-3,5,rikin-burse,matthew-jacques,1,1,,tbc
-3,6,steven-wayne,john-mckeon,1,0.5,2025-09-11,1-0
-3,7,dominic-watson,mark-osborn,0.5,0.5,2025-09-11,1-0
-3,8,atila-besceli,bosko-bauk,0+,0,,tbc
-3,9,michael-page,bye,0+,,,
+1,1,Dominic Watson,John Chandler,,,29/05/2025,0-1
+1,2,John McKeon,Vincent Edwards,,,08/05/2025,0-1
+1,3,Dave Wells,Michael Page,,,21/08/2025,1-0
+1,4,Steven Wayne,Florin Hristea,,,11/09/2025,1-0
+1,5,Colin Solloway,Mark Osborn,,,29/05/2025,1-0
+1,6,Olajide Mabogunje,John McNamara,,,12/06/2025,0-1
+1,7,Atila Besceli,Ozan Senturk,,,20/03/2025,0-1
+1,8,Rikin Burse,Bosko Bauk,,,20/03/2025,1-0
+1,9,Matthew Jacques,Richard Keane,,,05/06/2025,0-1
+2,1,Vincent Edwards,Steven Wayne,1,1,03/07/2025,1-0
+2,2,John Chandler,Dave Wells,1,1,31/07/2025,0-1
+2,3,Ozan Senturk,Colin Solloway,1,1,,tbc
+2,4,John McNamara,Rikin Burse,1,1,31/07/2025,1-0
+2,5,Richard Keane,Dominic Watson,1,0,07/08/2025,1/2-1/2
+2,6,Michael Page,Atila Besceli,0,0,,tbc
+2,7,Mark Osborn,John McKeon,0,0,24/07/2025,1/2-1/2
+2,8,Bosko Bauk,Olajide Mabogunje,0,0,24/07/2025,0-1
+2,9,Matthew Jacques,,0,0,,bye
+3,1,Dave Wells,Vincent Edwards,2,2,,tbc
+3,2,Colin Solloway,John McNamara,1+,2,,tbc
+3,3,Ozan Senturk,Richard Keane,1+,1.5,,tbc
+3,4,Olajide Mabogunje,John Chandler,1,1,,tbc
+3,5,Rikin Burse,Matthew Jacques,1,1,,tbc
+3,6,Steven Wayne,John McKeon,1,0.5,11/09/2025,1-0
+3,7,Dominic Watson,Mark Osborn,0.5,0.5,11/09/2025,1-0
+3,8,Atila Besceli,Bosko Bauk,0+,0,,tbc
+3,9,Michael Page,,0+,0,,bye

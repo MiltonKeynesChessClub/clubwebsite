@@ -1,11 +1,11 @@
-white,black,result
-james-alexander,graham-smith,1/2-1/2
-graham-smith,vincent-edwards,1-0
-matthew-jacques,graham-smith,1-0
-graham-smith,rikin-burse,1-0
-vincent-edwards,james-alexander,0-1
-james-alexander,matthew-jacques,1-0
-rikin-burse,james-alexander,0-1
-matthew-jacques,vincent-edwards,1/2-1/2
-vincent-edwards,rikin-burse,0-1
-rikin-burse,matthew-jacques,tbc
+pool,round,white,black,date,result
+pool4,1,James Alexander,Graham Smith,,1/2-1/2
+pool4,1,Graham Smith,Vincent Edwards,,1-0
+pool4,1,Matthew Jacques,Graham Smith,,1-0
+pool4,1,Graham Smith,Rikin Burse,,1-0
+pool4,1,Vincent Edwards,James Alexander,,0-1
+pool4,1,James Alexander,Matthew Jacques,,1-0
+pool4,1,Rikin Burse,James Alexander,,0-1
+pool4,1,Matthew Jacques,Vincent Edwards,,1/2-1/2
+pool4,1,Vincent Edwards,Rikin Burse,,0-1
+pool4,1,Rikin Burse,Matthew Jacques,,tbc

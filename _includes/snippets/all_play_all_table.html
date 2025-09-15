@@ -23,7 +23,7 @@
 			<td colspan="2" class="dead-space">&nbsp;</td>
 			{% for player in players %}
 				<td class="player-name-vertical">
-					{% include snippets/member_link.html value=player.id field="slug" %}
+					{% include snippets/member_link.html value=player.name field="name" %}
 				</td>
 			{% endfor %}
 			<td class="dead-space">&nbsp;</td>
@@ -36,13 +36,13 @@
 					<td>{{ player.place }}</td>
 				{% endif %}
 				<td class="player-name">
-					{% include snippets/member_link.html value=player.id field="slug" %}
+					{% include snippets/member_link.html value=player.name field="name" %}
 				</td>
 				{% if includerating %}
 					<td>{{ player.rating }}</td>
 				{% endif %}
 				{% for playerb in players %}
-					{% include snippets/all_play_all_result.html playera=player.id playerb=playerb.id results=results %}
+					{% include snippets/all_play_all_result.html playera=player.name playerb=playerb.name results=results %}
 				{% endfor %}
 				<td class="score">
 					{% if player.score %}

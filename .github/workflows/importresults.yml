@@ -16,6 +16,7 @@ jobs:
         working-directory: ./_build/scripts
         run: |
           ./importBCLData.sh
+          ./importInternalCompetitions.sh
 
       - name: Push new results back to github
         run: |

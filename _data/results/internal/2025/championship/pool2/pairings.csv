@@ -1,16 +1,16 @@
-white,black,result
-giuseppe-spigapiena,adrian-elwin,0-1
-adrian-elwin,dominic-watson,1-0
-florin-hristea,adrian-elwin,--+
-adrian-elwin,steven-wayne,1-0
-ozan-senturk,adrian-elwin,1-0
-dominic-watson,giuseppe-spigapiena,1-0
-giuseppe-spigapiena,florin-hristea,+--
-steven-wayne,giuseppe-spigapiena,0-1
-giuseppe-spigapiena,ozan-senturk,1/2-1/2
-florin-hristea,dominic-watson,--+
-dominic-watson,steven-wayne,0-1
-ozan-senturk,dominic-watson,1-0
-steven-wayne,florin-hristea,+--
-florin-hristea,ozan-senturk,--+
-ozan-senturk,steven-wayne,1-0
+pool,round,white,black,date,result
+pool2,1,Giuseppe Spigapiena,Adrian Elwin,,0-1
+pool2,1,Adrian Elwin,Dominic Watson,,1-0
+pool2,1,Florin Hristea,Adrian Elwin,,def-1
+pool2,1,Adrian Elwin,Steven Wayne,,1-0
+pool2,1,Ozan Senturk,Adrian Elwin,,1-0
+pool2,1,Dominic Watson,Giuseppe Spigapiena,,1-0
+pool2,1,Giuseppe Spigapiena,Florin Hristea,,1-def
+pool2,1,Steven Wayne,Giuseppe Spigapiena,,0-1
+pool2,1,Giuseppe Spigapiena,Ozan Senturk,,1/2-1/2
+pool2,1,Florin Hristea,Dominic Watson,,def-1
+pool2,1,Dominic Watson,Steven Wayne,,0-1
+pool2,1,Ozan Senturk,Dominic Watson,,1-0
+pool2,1,Steven Wayne,Florin Hristea,,1-def
+pool2,1,Florin Hristea,Ozan Senturk,,def-1
+pool2,1,Ozan Senturk,Steven Wayne,,1-0

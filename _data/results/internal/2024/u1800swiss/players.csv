@@ -1,24 +1,24 @@
-id,rating,score
-george-ward,1761,5
-dominic-watson,1722,4
-john-mcnamara,1658,3.5
-guilherme-rezende,0,3
-vincent-edwards,1556,3
-mark-osborn,1328,3
-john-mckeon,1593,3
-david-phillips,1475,2
-dave-wells,1663,2
-steven-wayne,1315,2
-giuseppe-spigapiena,0,2
-atila-besceli,0,2
-bosko-bauk,1661,1.5
-michael-page,1442,1.5
-nigel-collins,1504,1.5
-colin-solloway,1654,1
-peter-hawes,1580,1
+Name,Rating,Score
+George Ward,1761,5
+Dominic Watson,1722,4
+John Mcnamara,1658,3.5
+Guilherme Rezende,0,3
+Vincent Edwards,1556,3
+Mark Osborn,1328,3
+John Mckeon,1593,3
+David Phillips,1475,2
+Dave Wells,1663,2
+Steven Wayne,1315,2
+Giuseppe Spigapiena,0,2
+Atila Besceli,0,2
+Bosko Bauk,1661,1.5
+Michael Page,1442,1.5
+Nigel Collins,1504,1.5
+Colin Solloway,1654,1
+Peter Hawes,1580,1
 Elliot Long,1460,0
-matthew-jacques,1443,0
+Matthew Jacques,1443,0
 John Morton,0,0
 David Webber,1470,0
-nick-pitts-tucker,0,0
+Nick Pitts-tucker,0,0
 Steve Tomlin,0,0

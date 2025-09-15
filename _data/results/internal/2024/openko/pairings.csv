@@ -1,43 +1,36 @@
-round,white,black,date,result
-main1,vincent-edwards,David Webber,,w/o-def
-main1,Ashish Ganatra,michael-page,,
-main1,eoin-tweeddale,nick-pitts-tucker,2024-03-07,1-0
-main1,atila-besceli,john-mcnamara,2024-06-28,1-0
-main1,adrian-elwin,Elliot Long,2024-07-18,1-0
-main1,george-ward,robert-whiteside,2024-02-29,1-0
-main1,dave-wells,nigel-collins,2024-03-28,1-0
-main1,james-alexander,steven-wayne,2024-03-21,1-0
-main1,matthew-jacques,john-mckeon,2024-06-05,1/2-1/2
-main1,alan-heath,dominic-watson,2024-04-04,0-1
-main1,sumit-bhalla,andrew-bowler,2024-03-07,0-1
-main1,john-mckeon,matthew-jacques,2024-07-11,0-1
-,,,,
-main2,vincent-edwards,james-alexander,2024-07-04,0-1
-main2,george-ward,adrian-elwin,2024-08-15,0-1
-main2,eoin-tweeddale,dave-wells,2024-06-27,1-0
-main2,atila-besceli,,,
-main2,michael-page,,,
-main2,matthew-jacques,,,
-main2,dominic-watson,,,
-main2,andrew-bowler,,,
-,,,,
-main3,atila-besceli,andrew-bowler,2024-11-28,0-1
-main3,dominic-watson,michael-page,2024-10-10,1-0
-main3,adrian-elwin,james-alexander,2025-02-20,1-0
-main3,eoin-tweeddale,matthew-jacques,2024-09-12,1-0
-,,,,
-main4,dominic-watson,andrew-bowler,2025-03-13,0-1
-main4,eoin-tweeddale,adrian-elwin,2025-02-28,1-0
-,,,,,
-main5,eoin-tweeddale,andrew-bowler,2025-04-24,1-0
-,,,,
-plate1,alan-heath,john-mcnamara,2024-07-25,1/2-1/2
-plate1,sumit-bhalla,john-mckeon,2024-08-15,0-1
-plate1,steven-wayne,nigel-collins,,tbc
-plate1,robert-whiteside,elliot-long,,w/o-def
-plate1,john-mcnamara,alan-heath,2024-08-22,0-1
-,,,,
-plate2,alan-heath,steven-wayne,2025-02-27,1-0
-plate2,robert-whiteside,john-mckeon,2025-04-03,1-0
-,,,,
-plate3,robert-whiteside,alan-heath,2025-05-29,1-0
+pool,round,white,black,date,result
+main,1,Vincent Edwards,David Webber,,w/o-def
+main,1,Ashish Ganatra,Michael Page,,
+main,1,Eoin Tweeddale,Nick Pitts-tucker,2024-03-07,1-0
+main,1,Atila Besceli,John Mcnamara,2024-06-28,1-0
+main,1,Adrian Elwin,Elliot Long,2024-07-18,1-0
+main,1,George Ward,Robert Whiteside,2024-02-29,1-0
+main,1,Dave Wells,Nigel Collins,2024-03-28,1-0
+main,1,James Alexander,Steven Wayne,2024-03-21,1-0
+main,1,Matthew Jacques,John Mckeon,2024-06-05,1/2-1/2
+main,1,Alan Heath,Dominic Watson,2024-04-04,0-1
+main,1,Sumit Bhalla,Andrew Bowler,2024-03-07,0-1
+main,1,John Mckeon,Matthew Jacques,2024-07-11,0-1
+main,2,Vincent Edwards,James Alexander,2024-07-04,0-1
+main,2,George Ward,Adrian Elwin,2024-08-15,0-1
+main,2,Eoin Tweeddale,Dave Wells,2024-06-27,1-0
+main,2,Atila Besceli,,,
+main,2,Michael Page,,,
+main,2,Matthew Jacques,,,
+main,2,Dominic Watson,,,
+main,2,Andrew Bowler,,,
+main,3,Atila Besceli,Andrew Bowler,2024-11-28,0-1
+main,3,Dominic Watson,Michael Page,2024-10-10,1-0
+main,3,Adrian Elwin,James Alexander,2025-02-20,1-0
+main,3,Eoin Tweeddale,Matthew Jacques,2024-09-12,1-0
+main,4,Dominic Watson,Andrew Bowler,2025-03-13,0-1
+main,4,Eoin Tweeddale,Adrian Elwin,2025-02-28,1-0
+main,5,Eoin Tweeddale,Andrew Bowler,2025-04-24,1-0
+plate,1,Alan Heath,John Mcnamara,2024-07-25,1/2-1/2
+plate,1,Sumit Bhalla,John Mckeon,2024-08-15,0-1
+plate,1,Steven Wayne,Nigel Collins,,tbc
+plate,1,Robert Whiteside,Elliot Long,,w/o-def
+plate,1,John Mcnamara,Alan Heath,2024-08-22,0-1
+plate,2,Alan Heath,Steven Wayne,2025-02-27,1-0
+plate,2,Robert Whiteside,John Mckeon,2025-04-03,1-0
+plate,3,Robert Whiteside,Alan Heath,2025-05-29,1-0

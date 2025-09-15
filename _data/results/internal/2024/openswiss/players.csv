@@ -1,23 +1,23 @@
-id,rating,score,notes
-andrew-bowler,1850,5,
-alan-heath,1809,3.5,
-dominic-bartram,2062,3.5,
-adrian-elwin,2034,3.5,
-robert-whiteside,1939,3.5,
-graham-smith,1952,3,
-james-alexander,1879,3,
-george-ward,1761,2.5,
-john-mcnamara,1658,2.5,
-dominic-watson,1722,2,
-john-mckeon,1593,2,
-dave-wells,1663,1.5,
+Name,Rating,Score
+Andrew Bowler,1850,5,
+Alan Heath,1809,3.5,
+Dominic Bartram,2062,3.5,
+Adrian Elwin,2034,3.5,
+Robert Whiteside,1939,3.5,
+Graham Smith,1952,3,
+James Alexander,1879,3,
+George Ward,1761,2.5,
+John Mcnamara,1658,2.5,
+Dominic Watson,1722,2,
+John Mckeon,1593,2,
+Dave Wells,1663,1.5,
 Ashish Ganatra,1579,0.5+,
-vincent-edwards,1556,2.5,
-nigel-collins,1504,0.5+,
-David Webber,1470,0,withdrawn
-matthew-jacques,1443,1,
-michael-page,1442,1.5,
-sumit-bhalla,1431,0+,
-steven-wayne,1315,1.5
-nick-pitts-tucker,ur,0,withdrawn
-atila-besceli,ur,1+,
+Vincent Edwards,1556,2.5,
+Nigel Collins,1504,0.5+,
+David Webber,1470,0
+Matthew Jacques,1443,1,
+Michael Page,1442,1.5,
+Sumit Bhalla,1431,0+,
+Steven Wayne,1315,1.5
+Nick Pitts-tucker,ur,0
+Atila Besceli,ur,1+,

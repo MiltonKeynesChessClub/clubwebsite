@@ -1,37 +1,26 @@
-round,white,black,date,result
-main1,matthew-jacques,george-ward,2025-08-07,0-1
-main1,james-alexander,adrian-elwin,2025-05-01,0-1
-main1,michael-page,florin-hristea,2025-03-09,w/o-def
-main1,giacomo-lorenzini,dominic-bartram,,tbc
-main1,dave-wells,robert-whiteside,2025-08-28,0-1
-main1,john-mcnamara,rikin-burse,2025-03-15,0-1
-main1,john-mckeon,giuseppe-spigapiena,2025-08-07,0-1
-main1,colin-solloway,vincent-edwards,2025-05-15,1-0
-main1,alan-heath,steven-wayne,2025-04-10,0-1
-main1,andrew-bowler,graham-smith,2025-06-05,1-0
-main1,guilherme-rezende,richard-keane,2025-07-17,1-0
-main2,michael-page,adrian-elwin,,tbc
-main2,Giacomo Lorenzini/Dominic Bartram,robert-whiteside,,tbc
-main2,rikin-burse,guilherme-rezende,,tbc
-main2,george-ward,bye,,-
-main2,giuseppe-spigapiena,bye,,-
-main2,colin-solloway,bye,,-
-main2,steven-wayne,bye,,-
-main2,andrew-bowler,bye,,-
-main3,colin-solloway,giuseppe-spigapiena,,tbc
-main3,Michael Page/Adrian Elwin,Rikin Burse/Guilherme Rezende,,tbc
-main3,george-ward,steven-wayne,,tbc
-main3,Giacomo Lorenzini/Dominic Bartram/Robert Whiteside,andrew-bowler,tbc
-plate1,graham-smith,vincent-edwards,,tbc
-plate1,john-mckeon,richard-keane,,tbc
-plate1,matthew-jacques,bye,,
-plate1,giacomo-lorenzini,bye,,
-plate1,dominic-bartram,bye,,
-plate1,dave-wells,bye,,
-plate1,john-mcnamara,bye,,
-plate1,alan-heath,bye,,
-plate1,james-alexander,bye,,
-plate2,Graham Smith/Vincent Edwards,james-alexander,,tbc
-plate2,dave-wells,Giacomo Lorenzini/Dominic Bartram,,tbc
-plate2,alan-heath,matthew-jacques,,tbc
-plate2,John Mckeon/Richard Keane,john-mcnamara,,tbc
+pool,round,white,black,date,result
+main,1,Matthew Jacques,George Ward,07/08/2025,0-1
+main,1,James Alexander,Adrian Elwin,01/05/2025,0-1
+main,1,Michael Page,Florin Hristea,,1-def
+main,1,Giacomo Lorenzini,Dominic Bartram,,tbc
+main,1,Dave Wells,Robert Whiteside,28/08/2025,0-1
+main,1,John McNamara,Rikin Burse,15/03/2025,0-1
+main,1,Giuseppe Spigapiena,John McKeon,03/07/2025,1/2-1/2
+main,1,Colin Solloway,Vincent Edwards,15/05/2025,1-0
+main,1,Alan Heath,Steven Wayne,10/04/2025,0-1
+main,1,Andrew Bowler,Graham Smith,05/06/2025,1-0
+main,1,Guilherme Rezende,Richard Keane,17/07/2025,1-0
+main,1,John McKeon,Giuseppe Spigapiena,07/08/2025,0-1
+main,2,Michael Page,Adrian Elwin,,tbc
+main,2,Giacomo Lorenzini or Dominic Bartram,Robert Whiteside,,tbc
+main,2,Rikin Burse,Guilherme Rezende,,tbc
+main,3,Colin Solloway,Giuseppe Spigapiena,,tbc
+main,3,Michael Page or Adrian Elwin,Rikin Burse or Guilherme Rezende,,tbc
+main,3,George Ward,Steven Wayne,,tbc
+main,3,Giacomo Lorenzini or Dominic Bartram or Robert Whiteside,Andrew Bowler,,tbc
+plate,1,Graham Smith,Vincent Edwards,,tbc
+plate,1,John McKeon,Richard Keane,,tbc
+plate,2,Graham Smith or Vincent Edwards,James Alexander,,tbc
+plate,2,Dave Wells,Giacomo Lorenzini or Dominic Bartram,,tbc
+plate,2,Alan Heath,Matthew Jacques,,tbc
+plate,2,John McKeon or Richard Keane,John McNamara,,tbc

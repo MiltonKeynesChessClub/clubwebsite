@@ -1,24 +1,24 @@
-id,rating,score
-dominic-bartram,2048,2
-adrian-elwin,1987,2
-andrew-bowler,1961,2
-alan-heath,1842,2
-guilherme-rezende,1710,1.5
-richard-keane,1576,1.5
-matthew-jacques,1443,1.5
-giacomo-lorenzini,ur,1.5
-robert-whiteside,1885,1
-giuseppe-spigapiena,1858,1
-george-ward,1823,1
-dominic-watson,1766,1
-shivam-sahoo,1754,1
-dave-wells,1643,1
-colin-solloway,1620,1
-john-mckeon,1433,1
-rikin-burse,ur,1
-james-alexander,1937,0
-vincent-edwards,1674,0
-florin-hristea,1620,0
-john-mcnamara,1608,0
-michael-page,1407,0
-steven-wayne,1364,0
+Name,Rating,Score
+Dominic Bartram,2048,2
+Adrian Elwin,1987,2
+Andrew Bowler,1961,2
+Alan Heath,1842,2
+Guilherme Rezende,1710,1.5
+Richard Keane,1576,1.5
+Matthew Jacques,1443,1.5
+Giacomo Lorenzini,ur,1.5
+Robert Whiteside,1885,1
+Giuseppe Spigapiena,1858,1
+James Alexander,1837,1
+George Ward,1823,1
+Dominic Watson,1766,1
+Shivam Sahoo,1754,1
+Dave Wells,1643,1
+Colin Solloway,1620,1
+John McKeon,1433,1
+Rikin Burse,ur,1
+Vincent Edwards,1674,0
+Florin Hristea,1620,0
+John McNamara,1608,0
+Michael Page,1407,0
+Steven Wayne,1364,0

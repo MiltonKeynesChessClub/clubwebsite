@@ -1,18 +1,18 @@
-round,white,black,date,result
-main1,john-mcnamara,john-mckeon,2025-04-10,1-0
-main1,steven-wayne,colin-solloway,2025-05-22,0-1
-main1,rikin-burse,vincent-edwards,2025-05-01,1/2-1/2
-main1,matthew-jacques,olajide-mabogunje,2025-05-29,0-1
-main1,bosko-bauk,florin-hristea,2025-03-09,w/o-def
-main1,giacomo-lorenzini,michael-page,2025-07-03,1-0
-main1,mark-osborn,ozan-senturk,2025-08-14,0-1
-main1,richard-keane,dave-wells,2025-05-22,1-0
-main1,vincent-edwards,rikin-burse,2025-05-29,0-1
-main2,ozan-senturk,olajide-mabogunje,,tbc
-main2,richard-keane,rikin-burse,,tbc
-main2,john-mcnamara,bosko-bauk,,tbc
-main2,colin-solloway,giacomo-lorenzini,,tbc
-plate1,steven-wayne,mark-osborn,,tbc
-plate1,michael-page,john-mckeon,,tbc
-plate1,matthew-jacques,vincent-edwards,,tbc
-plate1,dave-wells,bye,,-
+pool,round,white,black,date,result
+main,1,John McNamara,John McKeon,10/04/2025,1-0
+main,1,Steven Wayne,Colin Solloway,22/05/2025,0-1
+main,1,Rikin Burse,Vincent Edwards,01/05/2025,1/2-1/2
+main,1,Matthew Jacques,Olajide Mabogunje,29/05/2025,0-1
+main,1,Bosko Bauk,Florin Hristea,,1-def
+main,1,Giacomo Lorenzini,Michael Page,03/07/2025,1-0
+main,1,Mark Osborn,Ozan Senturk,14/08/2025,0-1
+main,1,Richard Keane,Dave Wells,22/05/2025,1-0
+main,1,Vincent Edwards,Rikin Burse,29/05/2025,0-1
+main,2,Ozan Senturk,Olajide Mabogunje,,tbc
+main,2,Richard Keane,Rikin Burse,,tbc
+main,2,John McNamara,Bosko Bauk,,tbc
+main,2,Colin Solloway,Giacomo Lorenzini,,tbc
+plate,1,Steven Wayne,Mark Osborn,,tbc
+plate,1,Michael Page,John McKeon,,tbc
+plate,1,Matthew Jacques,Vincent Edwards,,tbc
+plate,1,Dave Wells,,,bye

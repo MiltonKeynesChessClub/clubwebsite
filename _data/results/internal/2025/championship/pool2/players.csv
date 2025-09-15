@@ -1,7 +1,7 @@
-id,rating,score,place
-ozan-senturk,ur,4.5,1st
-adrian-elwin,1987,4,2nd
-giuseppe-spigapiena,1858,2.5,
-dominic-watson,1766,2,
-steven-wayne,1364,2,
-florin-hristea,1620,0,
+name,rating,score,place
+Ozan Senturk,ur,4.5,1st
+Adrian Elwin,1987,4,2nd
+Giuseppe Spigapiena,1858,2.5,3rd
+Dominic Watson,1766,2,
+Steven Wayne,1364,2,
+Florin Hristea,1620,0,

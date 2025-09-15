@@ -1,4 +1,4 @@
-<h3 id="round-{{ include.round.id }}">
+<h3 id="round-{{ include.round.pool }}-{{ include.round.number }}">
 	{{ include.round.name }}
 	{% if include.round.complete == "true" %}
 		(completed)
@@ -7,7 +7,7 @@
 	{% endif %}
 </h3>
 
-{% assign roundpairings = include.pairings | filter:"round",include.round.id %}
+{% assign roundpairings = include.pairings | filter:"round",include.round.number | filter:"pool",include.round.pool %}
 
 {% if include.round.notes.size > 0 %}
 <em class="muted">{{ include.round.notes }}</em>

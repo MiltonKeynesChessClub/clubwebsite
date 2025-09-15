@@ -1,0 +1,369 @@
+#!/bin/bash
+
+CSV_FILE="$1"
+ROOT_DIR="$2"
+SLUG="$3"
+
+if [[ ! -f "$CSV_FILE" ]]; then
+    echo "CSV file not found: $CSV_FILE"
+    exit 1
+fi
+
+# Create output directory if it doesn't exist
+mkdir -p "$ROOT_DIR/$SLUG"
+
+# Generate players.csv
+echo "Name,Rating,Score" > "$ROOT_DIR/$SLUG/players.csv"
+
+# Use awk to process the CSV and extract unique players with their data
+awk -F',' '
+BEGIN {
+    # Skip header row
+    getline
+}
+{
+    # Process White player
+    if ($6 != "" && $6 != "bye") {
+        white_name = $6
+        white_rating = $7
+        result = $11
+        
+        # Calculate points from result
+        white_pts = 0
+        if (result == "1-0") {
+            white_pts = 1
+        } else if (result == "0-1") {
+            white_pts = 0
+        } else if (result == "1/2-1/2") {
+            white_pts = 0.5
+        } else if (result == "bye") {
+            white_pts = 1
+        } else if (result == "white defaulted") {
+            white_pts = 0
+        } else if (result == "black defaulted") {
+            white_pts = 1
+        } else if (result == "tbc") {
+            white_pts = 0  # tbc games don't count for points
+        }
+        
+        # Only process if we have a valid name and completed game
+        if (white_name != "" && result != "tbc") {
+            # Store first rating found for this player
+            if (!(white_name in first_rating)) {
+                first_rating[white_name] = white_rating
+            }
+            # Add to total score
+            if (white_name in total_score) {
+                total_score[white_name] += white_pts
+            } else {
+                total_score[white_name] = white_pts
+            }
+        } else if (white_name != "" && result == "tbc") {
+            # Store first rating found for this player even if game not completed
+            if (!(white_name in first_rating)) {
+                first_rating[white_name] = white_rating
+            }
+            # Initialize total score if not exists
+            if (!(white_name in total_score)) {
+                total_score[white_name] = 0
+            }
+        }
+    }
+    
+    # Process Black player
+    if ($8 != "" && $8 != "bye") {
+        black_name = $8
+        black_rating = $9
+        result = $11
+        
+        # Calculate points from result
+        black_pts = 0
+        if (result == "1-0") {
+            black_pts = 0
+        } else if (result == "0-1") {
+            black_pts = 1
+        } else if (result == "1/2-1/2") {
+            black_pts = 0.5
+        } else if (result == "bye") {
+            black_pts = 0  # bye only gives points to white
+        } else if (result == "white defaulted") {
+            black_pts = 1
+        } else if (result == "black defaulted") {
+            black_pts = 0
+        } else if (result == "tbc") {
+            black_pts = 0  # tbc games don't count for points
+        }
+        
+        # Only process if we have a valid name and completed game
+        if (black_name != "" && result != "tbc") {
+            # Store first rating found for this player
+            if (!(black_name in first_rating)) {
+                first_rating[black_name] = black_rating
+            }
+            # Add to total score
+            if (black_name in total_score) {
+                total_score[black_name] += black_pts
+            } else {
+                total_score[black_name] = black_pts
+            }
+        } else if (black_name != "" && result == "tbc") {
+            # Store first rating found for this player even if game not completed
+            if (!(black_name in first_rating)) {
+                first_rating[black_name] = black_rating
+            }
+            # Initialize total score if not exists
+            if (!(black_name in total_score)) {
+                total_score[black_name] = 0
+            }
+        }
+    }
+}
+END {
+    # Output all players
+    for (player in total_score) {
+        rating = first_rating[player]
+        # Convert 0 rating to "ur" for unrated
+        if (rating == "0" || rating == "") {
+            rating = "ur"
+        }
+        print player "," rating "," total_score[player]
+    }
+}' "$CSV_FILE" | sort -t',' -k3,3nr -k2,2nr >> "$ROOT_DIR/$SLUG/players.csv"
+
+echo "Generated players.csv for $SLUG tournament"
+
+# Generate pairings.csv
+echo "round,board,white,black,whitepts,blackpts,date,result" > "$ROOT_DIR/$SLUG/pairings.csv"
+
+# Use awk to process the CSV and generate pairings with cumulative points
+awk -F',' '
+BEGIN {
+    # Skip header row
+    getline
+}
+{
+    round = $4
+    board = $5
+    white = $6
+    black = $8
+    date = $10
+    result = $11
+    
+    # Skip bye entries
+    if (white == "bye" || black == "bye") {
+        next
+    }
+    
+    # Store the game data for processing
+    games[round][board] = white "," black "," date "," result
+}
+END {
+    # Generate pairings with cumulative points
+    for (round_num = 1; round_num <= 10; round_num++) {
+        if (round_num in games) {
+            for (board_num in games[round_num]) {
+                split(games[round_num][board_num], game_data, ",")
+                white = game_data[1]
+                black = game_data[2]
+                date = game_data[3]
+                result = game_data[4]
+                
+                # Calculate points going into this round
+                white_cumulative = ""
+                black_cumulative = ""
+                
+                if (round_num == 1) {
+                    # Round 1: no previous points
+                    white_cumulative = ""
+                    black_cumulative = ""
+                } else {
+                    # Calculate points from previous rounds
+                    white_prev_points = 0
+                    black_prev_points = 0
+                    white_missing = 0
+                    black_missing = 0
+                    
+                    # Count points from previous rounds
+                    for (prev_round = 1; prev_round < round_num; prev_round++) {
+                        if (prev_round in games) {
+                            for (prev_board in games[prev_round]) {
+                                split(games[prev_round][prev_board], prev_game_data, ",")
+                                prev_white = prev_game_data[1]
+                                prev_black = prev_game_data[2]
+                                prev_result = prev_game_data[4]
+                                
+                                # Calculate points from result
+                                prev_white_pts = 0
+                                prev_black_pts = 0
+                                is_completed = 0
+                                
+                                if (prev_result == "1-0") {
+                                    prev_white_pts = 1
+                                    prev_black_pts = 0
+                                    is_completed = 1
+                                } else if (prev_result == "0-1") {
+                                    prev_white_pts = 0
+                                    prev_black_pts = 1
+                                    is_completed = 1
+                                } else if (prev_result == "1/2-1/2") {
+                                    prev_white_pts = 0.5
+                                    prev_black_pts = 0.5
+                                    is_completed = 1
+                                } else if (prev_result == "bye") {
+                                    prev_white_pts = 1
+                                    prev_black_pts = 0
+                                    is_completed = 1
+                                } else if (prev_result == "white defaulted") {
+                                    prev_white_pts = 0
+                                    prev_black_pts = 1
+                                    is_completed = 1
+                                } else if (prev_result == "black defaulted") {
+                                    prev_white_pts = 1
+                                    prev_black_pts = 0
+                                    is_completed = 1
+                                } else if (prev_result == "tbc") {
+                                    is_completed = 0
+                                }
+                                
+                                if (prev_white == white) {
+                                    if (is_completed) {
+                                        white_prev_points += prev_white_pts
+                                    } else {
+                                        white_missing++
+                                    }
+                                }
+                                if (prev_black == white) {
+                                    if (is_completed) {
+                                        white_prev_points += prev_black_pts
+                                    } else {
+                                        white_missing++
+                                    }
+                                }
+                                if (prev_white == black) {
+                                    if (is_completed) {
+                                        black_prev_points += prev_white_pts
+                                    } else {
+                                        black_missing++
+                                    }
+                                }
+                                if (prev_black == black) {
+                                    if (is_completed) {
+                                        black_prev_points += prev_black_pts
+                                    } else {
+                                        black_missing++
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    # Format cumulative points with + suffix for missing results
+                    if (white_prev_points > 0 || white_missing > 0) {
+                        white_cumulative = white_prev_points
+                        for (i = 1; i <= white_missing; i++) {
+                            white_cumulative = white_cumulative "+"
+                        }
+                    } else if (round_num > 1) {
+                        # Show 0 if no points and no missing results
+                        white_cumulative = "0"
+                    }
+                    
+                    if (black_prev_points > 0 || black_missing > 0) {
+                        black_cumulative = black_prev_points
+                        for (i = 1; i <= black_missing; i++) {
+                            black_cumulative = black_cumulative "+"
+                        }
+                    } else if (round_num > 1) {
+                        # Show 0 if no points and no missing results
+                        black_cumulative = "0"
+                    }
+                }
+                
+                # Output the pairing
+                print round_num "," board_num "," white "," black "," white_cumulative "," black_cumulative "," date "," result
+            }
+        }
+    }
+}' "$CSV_FILE" >> "$ROOT_DIR/$SLUG/pairings.csv"
+
+echo "Generated pairings.csv for $SLUG tournament"
+
+# Update rounds.csv if it exists in source directory
+if [[ -f "$ROOT_DIR/$SLUG/rounds.csv" ]]; then
+    # Copy rounds.csv to output directory if it doesn't exist
+    if [[ ! -f "$ROOT_DIR/$SLUG/rounds.csv" ]]; then
+        cp "$ROOT_DIR/$SLUG/rounds.csv" "$ROOT_DIR/$SLUG/rounds.csv"
+    fi
+    echo "Updating rounds.csv for $SLUG tournament"
+
+    # Create a temporary file for the updated rounds
+    temp_rounds=$(mktemp)
+
+    # Process rounds.csv and update flags based on source data
+    awk -F',' '
+    BEGIN {
+        # Read the source CSV to determine round status
+        line_count = 0
+        while ((getline line < "'"$CSV_FILE"'") > 0) {
+            line_count++
+            if (line_count == 1) {
+                # Skip header
+                continue
+            }
+            split(line, fields, ",")
+            round_num = fields[4]
+            result = fields[11]
+            
+            # Track rounds that exist in source data
+            rounds_in_source[round_num] = 1
+            
+            # Check if this round has any incomplete games
+            if (result == "tbc") {
+                # This is an incomplete game
+                rounds_incomplete[round_num] = 1
+            }
+        }
+        close("'"$CSV_FILE"'")
+
+        # Process the rounds.csv file
+        round_count = 0
+    }
+    {
+        if (NR == 1) {
+            # Header row
+            print $0
+            next
+        }
+
+        round_num = $1
+        complete = $2
+        active = $3
+        deadline = $4
+
+        # Determine status based on source data
+        if (round_num in rounds_in_source) {
+            if (round_num in rounds_incomplete) {
+                # Round exists but has incomplete games
+                complete = "false"
+                active = "true"
+            } else {
+                # Round exists and all games are complete
+                complete = "true"
+                active = "false"
+            }
+        } else {
+            # Round not in source data
+            complete = "false"
+            active = "false"
+        }
+
+        print round_num "," complete "," active "," deadline
+    }' "$ROOT_DIR/$SLUG/rounds.csv" > "$temp_rounds"
+
+    # Replace the original rounds.csv with the updated version
+    mv "$temp_rounds" "$ROOT_DIR/$SLUG/rounds.csv"
+
+    echo "Updated rounds.csv with active/completed flags"
+else
+    echo "No rounds.csv found for $SLUG tournament"
+fi

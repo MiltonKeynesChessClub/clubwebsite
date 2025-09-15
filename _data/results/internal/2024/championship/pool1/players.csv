@@ -1,7 +1,7 @@
-id,rating,score,place
-eoin-tweeddale,2066,4.5,1st
-james-alexander,1879,3.5,=2nd
-guilherme-rezende,ur,3.5,=2nd
-george-ward,1761,1.5
+name,rating,score,place
+Eoin Tweeddale,2066,4.5,1st
+James Alexander,1879,3.5,=2nd
+Guilherme Rezende,ur,3.5,=2nd
+George Ward,1761,1.5
 David Webber,1470,0
-sumit-bhalla,1431,1
+Sumit Bhalla,1431,1

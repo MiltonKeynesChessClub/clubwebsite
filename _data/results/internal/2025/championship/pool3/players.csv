@@ -1,7 +1,7 @@
-id,rating,score,place
-alan-heath,1843,4.5,
-andrew-bowler,1961,4,
-richard-keane,1576,2,
-guilherme-rezende,1710,1.5,
-mark-osborn,1280,1,
-alin-popa,1482,0,
+name,rating,score,place
+Alan Heath,1843,4.5,
+Andrew Bowler,1961,4,
+Richard Keane,1576,2,
+Guilherme Rezende,1710,1.5,
+Mark Osborn,1280,1,
+Alin Popa,1482,0,

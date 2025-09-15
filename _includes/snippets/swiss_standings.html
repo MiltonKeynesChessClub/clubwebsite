@@ -1,4 +1,4 @@
-{% assign sortedscores = include.players | group_by: "score" | sort: "name" | reverse %}
+{% assign sortedscores = include.players | group_by: "Score" %}
 
 <table class="standings-table">
 	<thead>
@@ -6,18 +6,16 @@
 			<th class="standings-score">Score</th>
 			<th>Player</th>
 			<th><abbr title="Player's rating at the start of the tournament">Rating</abbr></th>
-			<th>Notes</th>
 		</tr>
 	</thead>
 	<tbody>
 		{% for groupedscore in sortedscores %}
-			{% assign players = groupedscore.items | sort: "rating" | reverse %}
+			{% assign players = groupedscore.items | sort: "Rating" | reverse %}
 			{% for player in players %}
 				<tr>
-					<td class="standings-score">{% include snippets/rendered_score.html score=player.score %}</td>
-					<td>{% include snippets/member_link.html value=player.id field="slug" %}</td>
-					<td class="muted">{% include snippets/rating.html rating=player.rating %}</td>
-					<td><em class="muted">{{ player.notes }}</em></td>
+					<td class="standings-score">{% include snippets/rendered_score.html score=player.Score %}</td>
+					<td>{% include snippets/member_link.html value=player.Name field="name" %}</td>
+					<td class="muted">{% include snippets/rating.html rating=player.Rating %}</td>
 				</tr>
 			{% endfor %}
 		{% endfor %}

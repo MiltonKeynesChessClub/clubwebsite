@@ -1,6 +1,6 @@
-id,rating,score,place
-james-alexander,1837,3.5,
-graham-smith,1946,2.5,
-matthew-jacques,1455,1.5,
-rikin-burse,ur,1,
-vincent-edwards,1674,0.5,
+name,rating,score,place
+James Alexander,1837,3.5,
+Graham Smith,1946,2.5,
+Matthew Jacques,1455,1.5,
+Rikin Burse,ur,1,
+Vincent Edwards,1674,0.5,

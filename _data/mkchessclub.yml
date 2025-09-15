@@ -15,6 +15,7 @@ competitions:
     active: false
   - season: 2025
     active: true
+    googlesheet: https://docs.google.com/spreadsheets/d/1TbPGc69g5ydxMCT3jtu21cJ26PGx7J2rheEAzaJ2vZM/export?format=csv&gid=0
 
 officers:
   - role: Club chairman

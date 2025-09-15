@@ -7,12 +7,12 @@ NB. Lack of indentation here due to how the template is included and rendered in
 gets treated as a code quote rather than actual markup.
 {% endcomment %}
 
-{% assign rounds = include.data.rounds | where:"plate",false %}
+{% assign rounds = include.data.rounds | where:"pool","main" %}
 {% assign completerounds = rounds | where:"complete",true %}
 {% assign activeround = rounds | where:"active",true | first %}
 {% assign players = include.data.players %}
 {% assign allpairings = include.data.pairings %}
-{% assign pendinggames = allpairings | where:"round",activeround.id | where:"result","tbc" %}
+{% assign pendinggames = allpairings | where:"round",activeround.number | where:"pool","main" | where:"result","tbc" %}
 
 {% include snippets/tourney_info.html director=include.director timecontrol=include.timecontrol rules=include.rules %}
 
@@ -27,14 +27,14 @@ The following results are pending for {{ activeround.name }}. Please arrange you
 
 {% comment %} Drop into another include to output the table for each round {% endcomment %}
 {% for round in rounds %}
-{% assign pairings = allpairings | where: "round",round.id %}
+{% assign pairings = allpairings | where: "round",round.number | where: "pool",round.pool %}
 {% include snippets/ko_round.html players=players pairings=pairings round=round %}
 {% endfor %}
 
-{% assign rounds = include.data.rounds | where:"plate",true %}
+{% assign rounds = include.data.rounds | where:"pool","plate" %}
 {% assign completerounds = rounds | where:"complete",true %}
 {% assign activeround = rounds | where:"active",true | first %}
-{% assign pendinggames = allpairings | where:"round",activeround.id | where:"result","tbc" %}
+{% assign pendinggames = allpairings | where:"round",activeround.number | where:"pool","plate" | where:"result","tbc" %}
 
 {% if rounds.size %}
 <h2 id="plate-event">Plate</h2>
@@ -47,7 +47,7 @@ The following results are pending for {{ activeround.name }}. Please arrange you
 
 {% comment %} Drop into another include to output the table for each round {% endcomment %}
 {% for round in rounds %}
-{% assign pairings = allpairings | where: "round",round.id %}
+{% assign pairings = allpairings | where: "round",round.number | where: "pool",round.pool %}
 {% include snippets/ko_round.html players=players pairings=pairings round=round %}
 {% endfor %}
 {% endif %}

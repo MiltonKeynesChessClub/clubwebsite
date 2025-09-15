@@ -1,40 +1,33 @@
-round,white,black,date,result
-main1,john-mckeon,george-ward,2024-05-02,0-1
-main1,steven-wayne,John Morton,2024-04-18,1-0
-main1,dave-wells,guilherme-rezende,2024-03-21,1-0
-main1,atila-besceli,dominic-watson,2024-03-14,1-0
-main1,john-mcnamara,vincent-edwards,2024-04-04,0-1
-main1,chris-judd,michael-page,2024-04-04,0-1
-main1,nick-pitts-tucker,giuseppe-spigapiena,2024-04-18,0-1
-main1,david-phillips,Elliot Long,2024-03-21,0-1
-main1,David Webber,matthew-jacques,,def-w/o
-main1,colin-solloway,bye,,
-,,,,
-main2,colin-solloway,matthew-jacques,2024-07-04,1-0
-main2,steven-wayne,michael-page,2024-06-27,1-0
-main2,george-ward,,,
-main2,atila-besceli,,,
-main2,dave-wells,,,
-main2,vincent-edwards,,,
-main2,giuseppe-spigapiena,,,
-main2,Elliot Long,,,
-,,,,
-main3,giuseppe-spigapiena,atila-besceli,2024-09-12,1-0
-main3,vincent-edwards,steven-wayne,2024-08-01,1-0
-main3,dave-wells,george-ward,2024-07-18,0-1
-main3,colin-solloway,Elliot Long,,tbc
-,,,,
-main4,giuseppe-spigapiena,vincent-edwards,,1-0
-main4,colin-solloway,george-ward,2025-01-16,0-1
-,,,
-main5,giuseppe-spigapiena,george-ward,2025-03-13,0-1
-,,,,
-plate1,nick-pitts-tucker,guilherme-rezende,,def-w/o
-plate1,John Morton,david-phillips,,def-w/o
-plate1,dominic-watson,john-mcnamara,2024-07-18,1-0
-plate1,john-mckeon,chris-judd,2024-06-13,1-0
-,,,,
-plate2,guilherme-rezende,david-phillips,2025-03-27,0-1
-plate2,dominic-watson,john-mckeon,2024-12-12,1-0
-,,,,
-plate3,david-phillips,dominic-watson,2025-05-16,1-0
+pool,round,white,black,date,result
+main,1,John Mckeon,George Ward,2024-05-02,0-1
+main,1,Steven Wayne,John Morton,2024-04-18,1-0
+main,1,Dave Wells,Guilherme Rezende,2024-03-21,1-0
+main,1,Atila Besceli,Dominic Watson,2024-03-14,1-0
+main,1,John Mcnamara,Vincent Edwards,2024-04-04,0-1
+main,1,Chris Judd,Michael Page,2024-04-04,0-1
+main,1,Nick Pitts-tucker,Giuseppe Spigapiena,2024-04-18,0-1
+main,1,David Phillips,Elliot Long,2024-03-21,0-1
+main,1,David Webber,Matthew Jacques,,def-w/o
+main,1,Colin Solloway,bye,,
+main,2,Colin Solloway,Matthew Jacques,2024-07-04,1-0
+main,2,Steven Wayne,Michael Page,2024-06-27,1-0
+main,2,George Ward,,,
+main,2,Atila Besceli,,,
+main,2,Dave Wells,,,
+main,2,Vincent Edwards,,,
+main,2,Giuseppe Spigapiena,,,
+main,2,Elliot Long,,,
+main,3,Giuseppe Spigapiena,Atila Besceli,2024-09-12,1-0
+main,3,Vincent Edwards,Steven Wayne,2024-08-01,1-0
+main,3,Dave Wells,George Ward,2024-07-18,0-1
+main,3,Colin Solloway,Elliot Long,,tbc
+main,4,Giuseppe Spigapiena,Vincent Edwards,,1-0
+main,4,Colin Solloway,George Ward,2025-01-16,0-1
+main,5,Giuseppe Spigapiena,George Ward,2025-03-13,0-1
+plate,1,Nick Pitts-tucker,Guilherme Rezende,,def-w/o
+plate,1,John Morton,David Phillips,,def-w/o
+plate,1,Dominic Watson,John Mcnamara,2024-07-18,1-0
+plate,1,John Mckeon,Chris Judd,2024-06-13,1-0
+plate,2,Guilherme Rezende,David Phillips,2025-03-27,0-1
+plate,2,Dominic Watson,John Mckeon,2024-12-12,1-0
+plate,3,David Phillips,Dominic Watson,2025-05-16,1-0

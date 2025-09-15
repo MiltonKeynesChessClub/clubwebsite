@@ -1,7 +1,7 @@
-id,rating,score,place
-andrew-bowler,1850,5,1st
-adrian-elwin,2034,4,2nd
-matthew-jacques,1443,2.5
-john-mcnamara,1685,2
-steven-wayne,1315,2
-dexter-caplin-lazard,1093,0
+name,rating,score,place
+Andrew Bowler,1850,5,1st
+Adrian Elwin,2034,4,2nd
+Matthew Jacques,1443,2.5
+John Mcnamara,1685,2
+Steven Wayne,1315,2
+Dexter Caplin-lazard,1093,0

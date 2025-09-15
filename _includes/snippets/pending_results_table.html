@@ -9,11 +9,11 @@
 	<tbody>
 		{% for pairing in include.pairings %}
 			<tr>
-				<td class="text-right">{% include snippets/member_link.html value=pairing.white field="slug" %}</td>
+				<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
 				<td class="swiss-result">
 					<span class="muted">vs</span>
 				</td>
-				<td>{% include snippets/member_link.html value=pairing.black field="slug" %}</td>
+				<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
 			</tr>
 		{% endfor %}
 	</tbody>
