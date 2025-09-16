@@ -83,3 +83,4 @@ END {
 }' "$CSV_FILE" | sort -t',' -k3,3nr -k2,2nr >> "$ROOT_DIR/$SLUG/players.csv"
 
 echo "Generated players.csv for $SLUG tournament"
+

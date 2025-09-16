@@ -3,7 +3,7 @@
 <table class="standings-table">
 	<thead>
 		<tr>
-			<th class="standings-score">Score</th>
+			<th class="standings-score" colspan="2">Score</th>
 			<th>Player</th>
 			<th><abbr title="Player's rating at the start of the tournament">Rating</abbr></th>
 		</tr>
@@ -13,7 +13,14 @@
 			{% assign players = groupedscore.items | sort: "Rating" | reverse %}
 			{% for player in players %}
 				<tr>
-					<td class="standings-score">{% include snippets/rendered_score.html score=player.Score %}</td>
+					<td class="standings-score">{% include snippets/rendered_score.html score=player.Score played=player.Played %}</td>
+					<td class="standings-played">
+						{% if player.Played %}
+							<span title="Out of {{ player.Played }} games played">/ {{ player.Played }}</span>
+						{% else %}
+							&nbsp;
+						{% endif %}
+					</td>
 					<td>{% include snippets/member_link.html value=player.Name field="name" %}</td>
 					<td class="muted">{% include snippets/rating.html rating=player.Rating %}</td>
 				</tr>

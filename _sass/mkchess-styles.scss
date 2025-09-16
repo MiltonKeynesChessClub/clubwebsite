@@ -174,11 +174,16 @@ table.all-play-all {
 
 	.played {
 		color: $muted-text-color;
+		text-align: left;
 	}
 
 	.score {
-		text-align: left;
+		text-align: right;
 		padding-left: 2em;
+	}
+
+	th.score {
+		text-align: center;
 	}
 
 	tfoot {
@@ -203,6 +208,15 @@ table.all-play-all {
 
 .standings-table {
 	.standings-score {
+		text-align: right;
+	}
+	.standings-played {
+		text-align: left;
+		color: $muted-text-color;
+		font-style: italic;
+	}
+
+	th.standings-score {
 		text-align: center;
 	}
 }

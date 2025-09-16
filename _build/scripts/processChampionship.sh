@@ -49,13 +49,17 @@ for pool in $pools; do
             output_result = "def-1"
         } else if (result == "black defaulted") {
             output_result = "1-def"
+        } else if (result == "1/2 pt bye") {
+            output_result = "bye"
+        } else if (result == "game defaulted") {
+            output_result = "def-def"
         }
 
         print pool, round, white, black, date, output_result
     }' "$CSV_FILE" >> "$ROOT_DIR/$SLUG/$pool/pairings.csv"
 
     # Generate players.csv for this pool
-    echo "name,rating,score,place" > "$ROOT_DIR/$SLUG/$pool/players.csv"
+    echo "name,rating,score,place,played" > "$ROOT_DIR/$SLUG/$pool/players.csv"
 
     awk -F',' -v target_pool="$pool" -v OFS=',' '
     NR == 1 { next }  # Skip header
@@ -99,6 +103,12 @@ for pool in $pools; do
         } else if (result == "black defaulted") {
             white_pts = 1
             black_pts = 0
+        } else if (result == "1/2 pt bye") {
+            white_pts = 0.5
+            black_pts = 0
+        } else if (result == "game defaulted") {
+            white_pts = 0
+            black_pts = 0
         }
 
         # Only count points for completed games
@@ -113,6 +123,12 @@ for pool in $pools; do
                 } else {
                     total_score[white_name] = white_pts
                 }
+                # Increment games played for white player
+                if (white_name in games_played) {
+                    games_played[white_name]++
+                } else {
+                    games_played[white_name] = 1
+                }
             }
 
             # Process black player
@@ -125,6 +141,12 @@ for pool in $pools; do
                 } else {
                     total_score[black_name] = black_pts
                 }
+                # Increment games played for black player
+                if (black_name in games_played) {
+                    games_played[black_name]++
+                } else {
+                    games_played[black_name] = 1
+                }
             }
         } else {
             # For tbc games, just store ratings
@@ -133,11 +155,17 @@ for pool in $pools; do
                 if (!(white_name in total_score)) {
                     total_score[white_name] = 0
                 }
+                if (!(white_name in games_played)) {
+                    games_played[white_name] = 0
+                }
             }
             if (black_name != "" && !(black_name in first_rating)) {
                 first_rating[black_name] = black_rating
                 if (!(black_name in total_score)) {
                     total_score[black_name] = 0
+                }
+                if (!(black_name in games_played)) {
+                    games_played[black_name] = 0
                 }
             }
         }
@@ -201,8 +229,12 @@ for pool in $pools; do
                 if (rating == "0" || rating == "") {
                     rating = "ur"
                 }
+                played = games_played[players[i]]
+                if (played == "") {
+                    played = 0
+                }
 
-                print players[i] "," rating "," scores[players[i]] "," place_str
+                print players[i] "," rating "," scores[players[i]] "," place_str "," played
                 current_place++
             }
         } else {
@@ -212,7 +244,11 @@ for pool in $pools; do
                 if (rating == "0" || rating == "") {
                     rating = "ur"
                 }
-                print players[i] "," rating "," scores[players[i]] ","
+                played = games_played[players[i]]
+                if (played == "") {
+                    played = 0
+                }
+                print players[i] "," rating "," scores[players[i]] "," "," played
             }
         }
     }' "$CSV_FILE" >> "$ROOT_DIR/$SLUG/$pool/players.csv"

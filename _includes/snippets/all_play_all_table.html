@@ -15,7 +15,7 @@
 				<th>Rating</th>
 			{% endif %}
 			<th colspan="{{ playercount }}">Results</th>
-			<th class="score">Score</th>
+			<th class="score" colspan="2">Score</th>
 		</tr>
 	</thead>
 	<tfoot>
@@ -26,7 +26,7 @@
 					{% include snippets/member_link.html value=player.name field="name" %}
 				</td>
 			{% endfor %}
-			<td class="dead-space">&nbsp;</td>
+			<td class="dead-space" colspan="2">&nbsp;</td>
 		</tr>
 	</tfoot>
 	<tbody>
@@ -47,9 +47,11 @@
 				<td class="score">
 					{% if player.score %}
 						{% include snippets/rendered_score.html score=player.score %}
-						{% if player.played %}
-							<span class="played">/ {{ player.played }}</span>
-						{% endif %}
+					{% endif %}
+				</td>
+				<td class="played">
+					{% if player.played %}
+						<span class="played" title="Out of {{ player.played }} games played">/ {{ player.played }}</span>
 					{% endif %}
 				</td>
 			</tr>

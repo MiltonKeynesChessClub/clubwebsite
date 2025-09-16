@@ -1,7 +1,7 @@
-name,rating,score,place
-Eoin Tweeddale,2048,3,
-Robert Whiteside,1885,2.5,
-Michael Page,1407,2,
-Colin Solloway,1620,1.5,
-George Ward,1823,0,
-Giacomo Lorenzini,ur,0,
+name,rating,score,place,played
+Eoin Tweeddale,2048,3,,4
+Robert Whiteside,1885,2.5,,4
+Michael Page,1407,2,,3
+Colin Solloway,1620,1.5,,3
+George Ward,1823,0,,3
+Giacomo Lorenzini,ur,0,,1

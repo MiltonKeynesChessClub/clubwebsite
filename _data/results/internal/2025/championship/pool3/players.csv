@@ -1,7 +1,7 @@
-name,rating,score,place
-Alan Heath,1843,4.5,
-Andrew Bowler,1961,4,
-Richard Keane,1576,2,
-Guilherme Rezende,1710,1.5,
-Mark Osborn,1280,1,
-Alin Popa,1482,0,
+name,rating,score,place,played
+Alan Heath,1843,4.5,,5
+Andrew Bowler,1961,4,,5
+Richard Keane,1576,2,,4
+Guilherme Rezende,1710,1.5,,3
+Mark Osborn,1280,1,,5
+Alin Popa,1482,0,,4
