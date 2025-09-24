@@ -27,7 +27,7 @@ Initial pool games to be played by 22nd August 2025.
 
 {% include snippets/all_play_all_table.html results=pool1 %}
 
-## Pool 2
+## Pool 2 (completed)
 
 {% include snippets/all_play_all_table.html results=pool2 %}
 
