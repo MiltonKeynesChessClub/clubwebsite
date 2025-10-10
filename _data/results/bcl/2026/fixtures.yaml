@@ -7,7 +7,7 @@ bcl-division-1:
     date: Thu 9 Oct 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-1-thu-9-oct-25-milton-keynes-a-v-milton-keynes-b
     hometeam: Milton Keynes A
@@ -345,7 +345,7 @@ bcl-division-2:
     date: Thu 9 Oct 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-2-tue-14-oct-25-university-of-bedfordshire-v-bedford-e
     hometeam: University of Bedfordshire
