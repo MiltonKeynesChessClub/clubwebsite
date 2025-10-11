@@ -66,6 +66,71 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-thu-9-oct-25-milton-keynes-a-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Bartram, Dominic
+      rating: 2041
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Bowler, Andrew
+      rating: 2041
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-9-oct-25-milton-keynes-a-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Heath, Alan
+      rating: 1858
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-9-oct-25-milton-keynes-a-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Meichel, Eric B
+      rating: 2020
+      color: B
+      team: Milton Keynes A
+    away:
+      name: New Player
+      rating: 0000
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-9-oct-25-milton-keynes-a-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Smith, Graham
+      rating: 1914
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Ward, George
+      rating: 1829
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-9-oct-25-milton-keynes-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Whiteside, Robert
+      rating: 1889
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: W
+      team: Milton Keynes B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
