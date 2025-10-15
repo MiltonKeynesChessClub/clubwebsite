@@ -198,3 +198,68 @@ bcl-division-2:
       color: W
       team: Bedford D
 
+  - fixture: bcl-division-2-tue-14-oct-25-university-of-bedfordshire-v-bedford-e
+    result: 1 - 0
+    home:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Cox, Lucian
+      rating: 1697
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-14-oct-25-university-of-bedfordshire-v-bedford-e
+    result: ½ - ½
+    home:
+      name: Hayden, Tim
+      rating: 1544
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: McMorran, Richard
+      rating: 1661
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-14-oct-25-university-of-bedfordshire-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Welton, Desmond S
+      rating: 1258
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Madhadi, Rishik
+      rating: 1438
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-14-oct-25-university-of-bedfordshire-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Khan, Yusuf
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Cox, R David
+      rating: 1389
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-14-oct-25-university-of-bedfordshire-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: New Player
+      rating: 0000
+      color: W
+      team: Bedford E
+
