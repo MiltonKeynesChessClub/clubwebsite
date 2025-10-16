@@ -1,0 +1,111 @@
+---
+title: "Cordon Trophy 2025: A Strong Start to the Season"
+date: 2025-09-25
+author: andrew-bowler
+categories: matchreports
+excerpt: Milton Keynes A finished third in the season's curtain raiser, with some excellent individual performances.
+toc: true
+toc_sticky: true
+---
+
+The season's curtain raiser started with a trip around Milton Keynes to pick up Sumit and Thomas, and then Waze directing us to the venue via the A6. (A new route for me, but it was very quiet.) The first positive result soon followed, as we were just in time to get the last official parking space.
+
+My first responsibility as captain was to agree to Rob's request to be demoted to board 4. Then I had to perform the onerous task of selecting a strip of paper from several offered by Adrian to reveal the letter K. After this, I noted that all of the A team had arrived, and, with my duties as captain just about done, there was time for a bit of chat with familiar faces before the action began.
+
+## Round 1
+
+My opponent was five minutes late, so he started with a disadvantage, and then had the misfortune to stumble into one of the few opening traps I know. After seven moves we reached the following position:
+
+<div class="fen-position">rnb1k2r/ppp1ppbp/6p1/4P1B1/6n1/2N5/PPP2PPP/3RKBNR b - - 0 14</div>
+
+Although it looked like White's e-pawn was under pressure, after **8.h3! Nxe5 9.Nd5**, I was winning material. The game continued **9...O-O 10.Nxc7 b6 11.Bxe7! Re8 12.Nxe8 Bb7**, and in this position
+
+<div class="fen-position">rn2N1k1/pb2Bpbp/1p4p1/4n3/8/7P/PPP2PP1/3RKBNR b - - 0 14</div>
+
+I missed 13.Rd8, the main point being that 13...Nc6 allows 14.Nf6#. Still, a rook is a rook, and the game was soon over, and so I had time to see how my teammates were getting on.
+
+On board 2, Graham had made a tactical miscalculation in the opening and lost a piece. However, with little material left on the board, I thought there was a chance that the game could simplify to a rook and knight versus rook ending. Unfortunately this didn't happen, with James simplifying down to a king, knight and rook's pawn versus king ending, which he converted without any difficulty.
+
+I didn't get to see much of the board 3 game, but when I looked at it Graham was well ahead on material, and it was no surprise when he told me he had won.
+
+Rob's reward for his demotion to board 4 was a clash with the black pieces against Ramsey. This game was a real humdinger. When I first looked at the position it was a complex mess with Ramsey having two minor pieces against a rook, but with a lot more material on the board. I suspect that Ramsey had the advantage at this stage, but in rapidplay all three results remained possible. I don't know what happened, but when I looked later Rob had a queen against two minor pieces, and a passed a-pawn running down the board. When Rob forked White's king and knight with his queen it was time for Ramsey to call it a day.
+
+**Results from Round 1**
+
+| Board | Player | Score | Score | Opponent |
+|-------|--------|-------|-------|----------|
+| Board 1 | Andrew Bowler | 1 | 0 | Fred Dorn |
+| Board 2 | James Grimditch | 1 | 0 | Graham Borrowdale |
+| Board 3 | Graham Smith | 1 | 0 | Tim Hayden |
+| Board 4 | Ramsey Dairi | 0 | 1 | Rob Whiteside |
+
+**Standings after Round 1:** Leighton Buzzard A (3½), Bedford A (3), Milton Keynes A (3).
+
+So, a good start, but Leighton Buzzard A were looking good, and Bedford A were only kept in check thanks to Rob's fine win over Ramsey.
+
+## Round 2
+
+My game with Julian ended up looking like a reversed Philidor after the moves **1.e4 e5 2.Nf3 Nc6 3.d3 Nf6 4.g3 d5**. I reacted a little insipidly by exchanging pawns on e4, and later overreacted by playing an ill-considered attack with h5. As a consequence, Julian had the initiative, and I used up quite a bit of time finding a line that gave up a pawn, but allowed my rook to enter in a d2. Although I think this was Julian's best option, he didn't like the idea of letting my rook into d2, and so chose a more passive plan that enabled me to get a bit of pressure down the d-file. After a mistake by Julian, I obtained a huge pawn on d3 that should have given me a winning advantage in an ending where both of us had rook, knight and pawns, but rushed playing d2, and we ended up exchanging rooks into a fairly equal knight ending. However, with Julian playing on increment, I had just snaffled a pawn when he lost on time.
+
+Graham's game against Peter was a Symmetrical English and ended in a draw, which is never a surprise, as Graham reported to me!
+
+I don't know anything about the other two games, but I am guessing that Graham and Rob won without too much drama.
+
+**Results from Round 2**
+
+| Board | Player | Score | Score | Opponent |
+|-------|--------|-------|-------|----------|
+| Board 1 | Julian Hudson | 0 | 1 | Andrew Bowler |
+| Board 2 | Graham Borrowdale | ½ | ½ | Peter Hunt |
+| Board 3 | David Cox | 0 | 1 | Graham Smith |
+| Board 4 | Rob Whiteside | 1 | 0 | Danielle Dairi |
+
+**Standings after Round 2:** Bedford A (7), Milton Keynes A (6½), Leighton Buzzard A (6).
+
+After another good round, I was starting to dream of a shock first place. Still Bedford A had notched up four wins to take over in first place, whilst Leighton Buzzard A had a disappointing second round.
+
+## Round 3
+
+On a whim, in my game with Jack, I ventured the English Defence: **1.d4 e6** (A very flexible move, but not great if your knowledge of the French Defence is scant, and White plays 2.e4!) **2.c4** (Phew!) **2...b6**. Jack now played the very ambitious line **3.Nc3 Bb7 4.e4 Bb4 5.Qc2**, and I was able to play the surprising **5...Qh4!?** (I think Tony Miles was the first player to play this move. He won a game with it against Farago at Hastings 1976/77 in 31 moves.) **6.Bd3 f5?!** Here I was following old theory. This move is given a ! in Daniel King's 1999 book on the English Defence. Now, 6...Bxc3+ is preferred, with White having a minuscule plus. Intrigued, I wondered what was wrong with King's recommended line after 6...f5 7.Nf3 Bxc3+ 8.Qxc3 Qg4. Now, instead of the supposedly forced 9.O-O, the ruthless engines give 9.exf5! Qxg2 10.Rg1 Qxf3 11.d5, and Black's position is falling apart. All of this was academic, as Jack played **7.d5?!**, and after **7...fxe4 8.Bxe4 Nf6 9.Bf3?** (9.Bd3 contains Black's advantage.) **Qxc4 10.dxe6 Qxe6+**, Black is a pawn up, and still has a strong initiative, which I was eventually able to convert into a winning rook and pawn ending.
+
+On board 2 we had the only clash of the evening between two Milton Keynes players. Unfortunately it wasn't much of a spectacle as George dropped a piece, and Graham had no difficulty bringing home the point.
+
+On the bottom two boards Graham and Rob both lost. The fact that Bedford B had Mike Botteley on board three shows Bedford's strength in depth, and Rob's opponent was an unknown quantity, but must be quite handy as he picked up 3½ points on board 3 for Luton A.
+
+**Results from Round 3**
+
+| Board | Player | Score | Score | Opponent |
+|-------|--------|-------|-------|----------|
+| Board 1 | Jack Hale | 1 | 0 | Andrew Bowler |
+| Board 2 | Graham Borrowdale | 0 | 1 | George Ward |
+| Board 3 | Graham Smith | 0 | 1 | Mike Botteley |
+| Board 4 | Eustice Onyeji | 1 | 0 | Rob Whiteside |
+
+**Standings after Round 3:** Leighton Buzzard A (10), Bedford A (10), Milton Keynes A (8½).
+
+So, after a disappointing third round, the dream of taking first prize was just about over. In fact, with Bedford B in fourth place on 7 points, a poor performance in the final round carried the risk of leaving us out of the top three.
+
+## Round 4
+
+On the first board I was pitted against Ravi from Bedford B, so the outcome would have a potential impact on the final standings (although I didn't appreciate this at the time). Ravi played Owen's Defence **1.e4 b6**. I used to play this defence quite a lot in my youth, but eventually gave it up when opponents became aware of the line I chose. After **2.d4 Bb7 3.Bd3 e6** (Back in the 1980s 3...f5? was considered playable, but after 4.exf5 Bxg2 5.Qh5+, white is close to winning, and even I had managed to find the holes in the published analysis of the time, so it wasn't very surprising when my analysis was played in a game between two grandmasters.) **4.Nf3 Nf6 5.Qe2 c5 6.c3**, White has a good c3 Sicilian, which is easy to play. Even after I blundered an exchange my space advantage meant my minor pieces were better than Ravi's rooks. With Ravi playing on increment, I had built up a promising attack on his king when he lost on time.
+
+On Board 2, Julian tried to bore Graham into submission with a c3 Sicilian. Although Julian managed to establish a knight on d6, Graham sacrificed the exchange to get rid of it, and had strong pressure on g2 with his bishop on b7. I thought Graham was winning, but, even though under pressure from the clock, Julian found a small tactic that enabled him to escape with a draw by perpetual check.
+
+Again I don't know what happened on the other two boards, but Graham lost to an unknown player for Leighton Buzzard B, who scored 4 out of 4 on the evening, and Rob completed his 3-0 whitewash of the Dairi family.
+
+**Results from Round 4**
+
+| Board | Player | Score | Score | Opponent |
+|-------|--------|-------|-------|----------|
+| Board 1 | Ravi Arulnandhy | 0 | 1 | Andrew Bowler |
+| Board 2 | Julian Hudson | ½ | ½ | Graham Borrowdale |
+| Board 3 | Kewal Bhoi | 1 | 0 | Graham Smith |
+| Board 4 | Rob Whiteside | 1 | 0 | Mahmoud Dairi |
+
+**Final Standings:** Bedford A (14), Leighton Buzzard A (11½), Milton Keynes A (11).
+
+With Leighton Buzzard A having a poor final round we nearly did enough to catch them, but it wasn't to be. Bedford A were worthy winners, so a hearty congratulations to them.
+
+I would like to apologise for concentrating on results of Milton Keynes A, and mostly on my own efforts. (It is not easy to follow the other games with a time limit of 10+5!) Milton Keynes B had a difficult night, doing just enough to avoid the wooden spoon. However, Giuseppe played well on top board scoring 2½ points, and it could have been even better as he only drew a winning ending in his first round.
+
+Finally, a big thanks has to go to Adrian for running the whole show. He has also posted the full results from the night on his website, [http://www.adrianelwin.co.uk/Bedfordshire/CordonTrophy2025.html](http://www.adrianelwin.co.uk/Bedfordshire/CordonTrophy2025.html), which was very helpful when writing this report.
