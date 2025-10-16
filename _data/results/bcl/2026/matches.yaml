@@ -263,3 +263,68 @@ bcl-division-2:
       color: W
       team: Bedford E
 
+  - fixture: bcl-division-2-thu-16-oct-25-milton-keynes-c-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: McNamara, John
+      rating: 1615
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Evans, Thomas
+      rating: 1715
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-oct-25-milton-keynes-c-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Wells, Dave
+      rating: 1617
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Watson, Dominic
+      rating: 1710
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-oct-25-milton-keynes-c-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Solloway, Colin J
+      rating: 1595
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Keane, Richard C
+      rating: 1614
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-oct-25-milton-keynes-c-v-milton-keynes-d
+    result: 1 - 0(def)
+    home:
+      name: Page, Michael
+      rating: 1414
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Hristea, Florin
+      rating: 1620
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-oct-25-milton-keynes-c-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: McKeon, John E
+      rating: 1396
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Mabogunje, Olajide
+      rating: 1469
+      color: W
+      team: Milton Keynes D
+
