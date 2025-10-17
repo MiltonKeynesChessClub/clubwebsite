@@ -6,6 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
+{% assign final = site.data.results.internal[ "2025" ].championship.final %}
 {% assign pool1 = site.data.results.internal[ "2025" ].championship.pool1 %}
 {% assign pool2 = site.data.results.internal[ "2025" ].championship.pool2 %}
 {% assign pool3 = site.data.results.internal[ "2025" ].championship.pool3 %}
@@ -19,6 +20,10 @@ All ties will be resolved by a normal-speed playoff game and then, if necessary,
 
 {% include snippets/tourney_info.html rules=rules director="adrian-elwin" timecontrol="Time control is game in 80 minutes with a 10 secs/move increment from move 1." %}
 
+# Final pool
+
+{% include snippets/all_play_all_table.html results=final %}
+
 # First round stage
 
 Initial pool games to be played by 22nd August 2025.
@@ -31,7 +36,7 @@ Initial pool games to be played by 22nd August 2025.
 
 {% include snippets/all_play_all_table.html results=pool2 %}
 
-## Pool 3
+## Pool 3 (completed)
 
 {% include snippets/all_play_all_table.html results=pool3 %}
 
