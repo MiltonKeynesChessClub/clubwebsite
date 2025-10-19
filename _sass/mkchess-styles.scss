@@ -247,7 +247,22 @@ table.all-play-all {
 }
 
 .pgn-viewer-position {
-	margin-bottom: 1em !important;
+	margin: 1em auto !important;
+
+	.cg-wrap coords {
+		&.files {
+			text-transform: lowercase;
+			padding-top: 3px;
+		}
+
+		&.ranks {
+			padding-left: 3px;
+		}
+
+		coord {
+			color: $muted-text-color !important;
+		}
+	}
 }
 
 div.dt-container {
