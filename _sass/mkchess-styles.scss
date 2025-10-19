@@ -261,7 +261,12 @@ table.all-play-all {
 
 		coord {
 			color: $muted-text-color !important;
+			font-weight: bold;
 		}
+	}
+
+	&.green cg-board {
+		background-image: url('/assets/images/pgnviewer/green.svg');
 	}
 }
 
