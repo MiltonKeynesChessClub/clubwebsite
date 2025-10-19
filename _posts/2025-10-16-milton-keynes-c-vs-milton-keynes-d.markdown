@@ -14,7 +14,7 @@ A closely contested match that ended in a hard-fought draw, with both teams show
 
 <h2 id="board-1">Board 1 - Thomas Evans vs John McNamara</h2>
 
-An exciting ending to a Sicilian where Thomas traded a bishop for a Knight, doubling black's pawns in the center. Thomas found himself low on time and played superbly under the pressure and where both players were abandoning pawns with the hope to promote first. When the dust settled, John's two pawns to Thomas's lone pawn were not enough for the win, but secured a draw with seconds remaining on each clock. The final few moves ended in a position which hopefully I recall correctly, with black to play:
+An exciting ending to a Sicilian where Thomas traded a bishop for a Knight, doubling black's pawns in the centre. Thomas found himself low on time and played superbly under the pressure and where both players were abandoning pawns with the hope to promote first. When the dust settled, John's two pawns to Thomas's lone pawn were not enough for the win, but secured a draw with seconds remaining on each clock. The final few moves ended in a position which hopefully I recall correctly, with black to play:
 
 <div class="fen-position">8/2p5/p7/8/1K6/P7/1k6/8 b - - 0 1</div>
 
