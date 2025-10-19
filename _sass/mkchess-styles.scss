@@ -270,6 +270,67 @@ table.all-play-all {
 	}
 }
 
+/* FEN Position Input Styling */
+.fen-input {
+	width: 50%;
+	padding: 0.4em;
+	margin-top: 0.5em;
+	border: 1px solid $mk-border-colour;
+	border-radius: 4px;
+	background-color: $mk-white-platinum;
+	color: $mk-eerie-black;
+	font-family: $monospace;
+	font-size: 0.7em;
+	text-align: center;
+
+	&:focus {
+		outline: none;
+		border-color: $mk-pine-green;
+		box-shadow: 0 0 0 2px rgba($mk-pine-green, 0.2);
+	}
+}
+
+.fen-copy-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 0.5em;
+	margin: 1.5em 0 2em;
+	font-size: 0.7em;
+
+	.fen-input {
+		flex: 0 0 auto;
+		margin-top: 0;
+	}
+
+	.fen-copy-btn {
+		background-color: $mk-pine-green;
+		color: $mk-white-platinum;
+		border: 1px solid$mk-pine-green;
+		padding: 0.4em 0.8em;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 0.7em;
+		transition: background-color 0.2s ease;
+
+		&:hover {
+			background-color: darken($mk-pine-green, 10%);
+		}
+
+		&:active {
+			background-color: darken($mk-pine-green, 20%);
+		}
+
+		&.copied {
+			background-color: $mk-highlight-blue;
+
+			&:hover {
+				background-color: darken($mk-highlight-blue, 10%);
+			}
+		}
+	}
+}
+
 div.dt-container {
 	.dt-length, .dt-search, .dt-info, .dt-processing, .dt-paging {
 		font-size: 0.65em;
