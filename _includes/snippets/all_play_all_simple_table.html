@@ -1,0 +1,48 @@
+{% assign players = include.results.players %}
+{% assign results = include.results.pairings %}
+{% assign includerating = players[0].rating %}
+
+<table class="swiss-results-table">
+	<thead>
+		<tr>
+			<th class="text-right" {% if includerating %}colspan="2"{% endif %}>White</th>
+			<th class="swiss-result">vs</th>
+			<th {% if includerating %}colspan="2"{% endif %}>Black</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for pairing in results %}
+			{% assign w = players | where: "name",pairing.white | first %}
+			{% assign b = players | where: "name",pairing.black | first %}
+			<tr>
+				{% if pairing.white.size > 0 %}
+					{% if includerating %}
+						<td class="text-right muted" title="White player's rating">
+							{% include snippets/rating.html rating=w.rating %}
+						</td>
+					{% endif %}
+					<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
+				{% else %}
+					<td colspan="2">&nbsp;</td>
+				{% endif %}
+				<td class="swiss-result">
+					{% if pairing.result == "tbc" %}
+						<span class="muted">vs</span>
+					{% else %}
+						{% include snippets/result.html result=pairing.result %}
+					{% endif %}
+				</td>
+				{% if pairing.black.size > 0 %}
+					<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
+					{% if includerating %}
+						<td class="muted" title="Black player's rating">
+							{% include snippets/rating.html rating=b.rating %}
+						</td>
+					{% endif %}
+				{% else %}
+					<td colspan="2">&nbsp;</td>
+				{% endif %}
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>

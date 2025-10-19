@@ -1,0 +1,116 @@
+{% assign players = include.results.players %}
+{% assign results = include.results.pairings %}
+{% assign playercount = players.size %}
+{% assign includeplace = players[0].place %}
+{% assign includerating = players[0].rating %}
+
+<div class="table-toggle-container">
+	<div class="table-toggle-buttons">
+		<button class="table-toggle-btn active" data-view="cross-table">Cross Table</button>
+		<button class="table-toggle-btn" data-view="simple-table">Simple Table</button>
+	</div>
+
+	<div class="table-view" id="cross-table-view">
+		<table class="all-play-all">
+			<thead>
+				<tr>
+					{% if includeplace %}
+						<th>Place</th>
+					{% endif %}
+					<th class="player-name">Player</th>
+					{% if includerating %}
+						<th>Rating</th>
+					{% endif %}
+					<th colspan="{{ playercount }}">Results</th>
+					<th class="score" colspan="2">Score</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="2" class="dead-space">&nbsp;</td>
+					{% for player in players %}
+						<td class="player-name-vertical">
+							{% include snippets/member_link.html value=player.name field="name" %}
+						</td>
+					{% endfor %}
+					<td class="dead-space" colspan="2">&nbsp;</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				{% for player in players %}
+					<tr>
+						{% if includeplace %}
+							<td>{{ player.place }}</td>
+						{% endif %}
+						<td class="player-name">
+							{% include snippets/member_link.html value=player.name field="name" %}
+						</td>
+						{% if includerating %}
+							<td>{{ player.rating }}</td>
+						{% endif %}
+						{% for playerb in players %}
+							{% include snippets/all_play_all_result.html playera=player.name playerb=playerb.name results=results %}
+						{% endfor %}
+						<td class="score">
+							{% if player.score %}
+								{% include snippets/rendered_score.html score=player.score %}
+							{% endif %}
+						</td>
+						<td class="played">
+							{% if player.played %}
+								<span class="played" title="Out of {{ player.played }} games played">/ {{ player.played }}</span>
+							{% endif %}
+						</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+
+	<div class="table-view" id="simple-table-view" style="display: none;">
+		<table class="swiss-results-table">
+			<thead>
+				<tr>
+					<th class="text-right" {% if includerating %}colspan="2"{% endif %}>White</th>
+					<th class="swiss-result">vs</th>
+					<th {% if includerating %}colspan="2"{% endif %}>Black</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for pairing in results %}
+					{% assign w = players | where: "name",pairing.white | first %}
+					{% assign b = players | where: "name",pairing.black | first %}
+					<tr>
+						{% if pairing.white.size > 0 %}
+							{% if includerating %}
+								<td class="text-right muted" title="White player's rating">
+									{% include snippets/rating.html rating=w.rating %}
+								</td>
+							{% endif %}
+							<td class="text-right">{% include snippets/member_link.html value=pairing.white field="name" %}</td>
+						{% else %}
+							<td colspan="2">&nbsp;</td>
+						{% endif %}
+						<td class="swiss-result">
+							{% if pairing.result == "tbc" %}
+								<span class="muted">vs</span>
+							{% else %}
+								{% include snippets/result.html result=pairing.result %}
+							{% endif %}
+						</td>
+						{% if pairing.black.size > 0 %}
+							<td>{% include snippets/member_link.html value=pairing.black field="name" %}</td>
+							{% if includerating %}
+								<td class="muted" title="Black player's rating">
+									{% include snippets/rating.html rating=b.rating %}
+								</td>
+							{% endif %}
+						{% else %}
+							<td colspan="2">&nbsp;</td>
+						{% endif %}
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>

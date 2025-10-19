@@ -7,6 +7,7 @@ team: mkd
 captain: dominic-watson
 season: 2026
 members:
+ - rikin-burse
  - thomas-evans
  - florin-hristea
  - richard-keane

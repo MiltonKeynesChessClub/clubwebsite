@@ -1,1 +1,19 @@
 <script src="{{ '/assets/js/fenviewer.js' | relative_url }}"></script>
+<script>
+    // Table view toggle functionality
+    $(document).ready(function() {
+        $(document).on('click', '.table-toggle-btn', function() {
+            var $btn = $(this);
+            var view = $btn.data('view');
+            var $container = $btn.closest('.table-toggle-container');
+
+            // Update button states
+            $container.find('.table-toggle-btn').removeClass('active');
+            $btn.addClass('active');
+
+            // Show/hide appropriate views
+            $container.find('.table-view').hide();
+            $container.find('#' + view + '-view').show();
+        });
+    });
+</script>

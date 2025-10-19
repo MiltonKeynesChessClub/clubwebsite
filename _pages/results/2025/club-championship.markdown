@@ -22,7 +22,7 @@ All ties will be resolved by a normal-speed playoff game and then, if necessary,
 
 # Final pool
 
-{% include snippets/all_play_all_table.html results=final %}
+{% include snippets/all_play_all_toggle_table.html results=final %}
 
 # First round stage
 
@@ -30,16 +30,16 @@ Initial pool games to be played by 22nd August 2025.
 
 ## Pool 1
 
-{% include snippets/all_play_all_table.html results=pool1 %}
+{% include snippets/all_play_all_toggle_table.html results=pool1 %}
 
 ## Pool 2 (completed)
 
-{% include snippets/all_play_all_table.html results=pool2 %}
+{% include snippets/all_play_all_toggle_table.html results=pool2 %}
 
 ## Pool 3 (completed)
 
-{% include snippets/all_play_all_table.html results=pool3 %}
+{% include snippets/all_play_all_toggle_table.html results=pool3 %}
 
 ## Pool 4
 
-{% include snippets/all_play_all_table.html results=pool4 %}
+{% include snippets/all_play_all_toggle_table.html results=pool4 %}

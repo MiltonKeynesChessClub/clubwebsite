@@ -331,6 +331,60 @@ table.all-play-all {
 	}
 }
 
+/* Table Toggle Styling */
+.table-toggle-container {
+	margin: 1em 0;
+}
+
+.table-toggle-buttons {
+	display: flex;
+	gap: 0.5em;
+	margin-bottom: 1em;
+	justify-content: center;
+}
+
+.table-toggle-btn {
+	background-color: $mk-white-platinum;
+	color: $mk-eerie-black;
+	border: 1px solid $mk-pine-green;
+	padding: 0.3em 0.6em;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 0.7em;
+	transition: all 0.2s ease;
+	display: flex;
+	align-items: center;
+	gap: 0.3em;
+
+	&:hover {
+		background-color: $mk-pine-green;
+		color: $mk-white-platinum;
+	}
+
+	&.active {
+		background-color: $mk-pine-green;
+		color: $mk-white-platinum;
+		border-color: $mk-pine-green;
+	}
+
+	&:before {
+		font-family: 'FontAwesome';
+		font-size: 0.9em;
+	}
+
+	&[data-view="cross-table"]:before {
+		content: '\f0db'; // table icon
+	}
+
+	&[data-view="simple-table"]:before {
+		content: '\f0ce'; // list icon
+	}
+}
+
+.table-view {
+	width: 100%;
+}
+
 div.dt-container {
 	.dt-length, .dt-search, .dt-info, .dt-processing, .dt-paging {
 		font-size: 0.65em;
