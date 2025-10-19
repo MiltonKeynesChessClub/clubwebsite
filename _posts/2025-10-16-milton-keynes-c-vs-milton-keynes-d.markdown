@@ -1,5 +1,5 @@
 ---
-title:  "Milton Keynes C vs Milton Keynes D, 2025: A Tight Draw"
+title:  "Milton Keynes C vs Milton Keynes D, 2025: Deadlock at the OU"
 date:   2025-10-16
 author: dominic-watson
 categories: matchreports
