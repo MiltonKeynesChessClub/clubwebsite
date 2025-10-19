@@ -1,4 +1,5 @@
-<script src="{{ '/assets/js/fenviewer.js' | relative_url }}"></script>
+{% assign cachebust = site.time | date:'?v=%s' %}
+<script src="{{ '/assets/js/fenviewer.js' | relative_url | append: cachebust }}"></script>
 <script>
     // Table view toggle functionality
     $(document).ready(function() {
