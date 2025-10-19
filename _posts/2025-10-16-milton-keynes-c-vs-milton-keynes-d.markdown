@@ -3,7 +3,7 @@ title:  "Milton Keynes C vs Milton Keynes D, 2025: A Tight Draw"
 date:   2025-10-16
 author: dominic-watson
 categories: matchreports
-team: mkc
+team: mkd
 fixture: bcl-division-2-thu-16-oct-25-milton-keynes-c-v-milton-keynes-d
 excerpt: A closely contested match that ended in a hard-fought draw, with both teams showing their fighting spirit.
 toc: true
