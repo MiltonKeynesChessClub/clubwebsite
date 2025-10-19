@@ -29,9 +29,10 @@
 		// Create FEN copy container with input and copy button
 		var fenContainer = $('<div class="fen-copy-container"></div>');
 		var fenInput = $('<input type="text" value="' + fen + '" class="fen-input" readonly />');
-		var copyBtn = $('<button type="button" class="fen-copy-btn"><i class="fas fa-copy"></i> Copy FEN</button>');
+		var copyBtn = $('<a class="fen-copy-btn btn"><i class="fas fa-copy"></i> Copy FEN</a>');
+		var lichessLink = $('<a class="btn" href="https://lichess.org/analysis/' + fen + '" target="_blank"><i class="fas fa-external-link-alt"></i> Lichess</a>');
 
-		fenContainer.append(fenInput).append(copyBtn);
+		fenContainer.append(fenInput).append(copyBtn).append(lichessLink);
 		$pgnDiv.after(fenContainer);
 		$pgnDiv.remove();
 
