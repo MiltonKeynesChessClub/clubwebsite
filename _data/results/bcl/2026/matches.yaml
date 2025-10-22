@@ -196,6 +196,71 @@ bcl-division-1:
       color: W
       team: Bedford B
 
+  - fixture: bcl-division-1-tue-21-oct-25-luton-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Gladysz, Marek
+      rating: 1751
+      color: B
+      team: Luton B
+    away:
+      name: Hudson, Julian
+      rating: 1998
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-21-oct-25-luton-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Jones, Dixon H
+      rating: 1654
+      color: W
+      team: Luton B
+    away:
+      name: O'Brien, Thomas P
+      rating: 1914
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-21-oct-25-luton-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Joseph, Michael
+      rating: 1725
+      color: B
+      team: Luton B
+    away:
+      name: Vora, Samir
+      rating: 1815
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-21-oct-25-luton-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: W
+      team: Luton B
+    away:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-21-oct-25-luton-b-v-luton-a
+    result: 1 - 0
+    home:
+      name: Zaidi, Qasim
+      rating: 1250
+      color: B
+      team: Luton B
+    away:
+      name: Hayden, Tim
+      rating: 1544
+      color: W
+      team: Luton A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -323,7 +388,7 @@ bcl-division-2:
       color: B
       team: University of Bedfordshire
     away:
-      name: Barbarino, R
+      name: Barbarino, Romeo
       rating: 1300
       color: W
       team: Bedford E
