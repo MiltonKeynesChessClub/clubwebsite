@@ -261,6 +261,71 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-thu-23-oct-25-milton-keynes-b-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Bowler, Andrew
+      rating: 2041
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Tukpetov, Evgeny
+      rating: 2294
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-23-oct-25-milton-keynes-b-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Heath, Alan
+      rating: 1858
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Kenworthy, Gary
+      rating: 2148
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-23-oct-25-milton-keynes-b-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Senturk, N Ozan NE
+      rating: 1976
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Hunt, Peter
+      rating: 1983
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-23-oct-25-milton-keynes-b-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Ward, George
+      rating: 1829
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Law, Stephen
+      rating: 1963
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-23-oct-25-milton-keynes-b-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Valentine, Brian J
+      rating: 1837
+      color: W
+      team: Leighton Buzzard A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d

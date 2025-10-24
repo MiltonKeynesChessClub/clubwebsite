@@ -39,7 +39,7 @@ bcl-division-1:
     date: Thu 23 Oct 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-1-tue-28-oct-25-luton-a-v-milton-keynes-a
     hometeam: Luton A
