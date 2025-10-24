@@ -377,7 +377,7 @@ bcl-division-2:
     date: Thu 23 Oct 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-tue-28-oct-25-university-of-bedfordshire-v-bedford-c
     hometeam: University of Bedfordshire

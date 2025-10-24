@@ -458,3 +458,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes D
 
+  - fixture: bcl-division-2-thu-23-oct-25-open-university-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: B
+      team: Open University
+    away:
+      name: Williamson, Kevin J
+      rating: 1833
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-23-oct-25-open-university-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Edwards, Vincent
+      rating: 1642
+      color: W
+      team: Open University
+    away:
+      name: Taylor, Peter
+      rating: 1802
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-23-oct-25-open-university-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Lazard, Dexter
+      rating: 1520
+      color: B
+      team: Open University
+    away:
+      name: Bhoi, Kewal Krishna
+      rating: 1791
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-23-oct-25-open-university-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Jacques, Matthew
+      rating: 1499
+      color: W
+      team: Open University
+    away:
+      name: Dorn, C Fred H
+      rating: 1750
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-23-oct-25-open-university-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Osborn, Mark
+      rating: 1315
+      color: B
+      team: Open University
+    away:
+      name: Matthews, Adrian MS
+      rating: 1845
+      color: W
+      team: Leighton Buzzard B
+
