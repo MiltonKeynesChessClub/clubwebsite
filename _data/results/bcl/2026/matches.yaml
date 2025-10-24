@@ -523,6 +523,71 @@ bcl-division-2:
       color: W
       team: Milton Keynes D
 
+  - fixture: bcl-division-2-thu-23-oct-25-bedford-d-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: B
+      team: Bedford D
+    away:
+      name: McNamara, John
+      rating: 1615
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-23-oct-25-bedford-d-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Gill, Peter S
+      rating: 1606
+      color: W
+      team: Bedford D
+    away:
+      name: Wells, Dave
+      rating: 1617
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-23-oct-25-bedford-d-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Bennett, Stephen J
+      rating: 0000
+      color: B
+      team: Bedford D
+    away:
+      name: Keane, Richard C
+      rating: 1614
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-23-oct-25-bedford-d-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+    away:
+      name: Solloway, Colin J
+      rating: 1595
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-23-oct-25-bedford-d-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+    away:
+      name: McKeon, John E
+      rating: 1396
+      color: W
+      team: Milton Keynes C
+
   - fixture: bcl-division-2-thu-23-oct-25-open-university-v-leighton-buzzard-b
     result: 0 - 1
     home:
