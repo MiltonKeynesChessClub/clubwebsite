@@ -653,3 +653,68 @@ bcl-division-2:
       color: W
       team: Leighton Buzzard B
 
+  - fixture: bcl-division-2-tue-28-oct-25-university-of-bedfordshire-v-bedford-c
+    result: 0 - 1
+    home:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Potts, Alexander
+      rating: 1683
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-28-oct-25-university-of-bedfordshire-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Hayden, Tim
+      rating: 1544
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Walker, Nigel B
+      rating: 1446
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-28-oct-25-university-of-bedfordshire-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Lewis, Richard
+      rating: 1350
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Darmendra, Shivadharshan
+      rating: 0000
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-28-oct-25-university-of-bedfordshire-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Welton, Desmond S
+      rating: 1258
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Hylton, Cedric
+      rating: 1300
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-28-oct-25-university-of-bedfordshire-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Namburi, Tanav
+      rating: 0948
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Graf, Francesco
+      rating: 0000
+      color: W
+      team: Bedford C
+

@@ -385,7 +385,7 @@ bcl-division-2:
     date: Tue 28 Oct 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
     hometeam: Bedford D
