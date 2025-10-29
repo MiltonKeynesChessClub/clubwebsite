@@ -326,6 +326,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard A
 
+  - fixture: bcl-division-1-tue-28-oct-25-luton-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Hudson, Julian
+      rating: 1998
+      color: B
+      team: Luton A
+    away:
+      name: Tweeddale, Eoin
+      rating: 2046
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-28-oct-25-luton-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: O'Brien, Thomas P
+      rating: 1914
+      color: W
+      team: Luton A
+    away:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-28-oct-25-luton-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Vora, Samir
+      rating: 1815
+      color: B
+      team: Luton A
+    away:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-28-oct-25-luton-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Onyeji, Eustace
+      rating: 0000
+      color: W
+      team: Luton A
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-28-oct-25-luton-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: B
+      team: Luton A
+    away:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: W
+      team: Milton Keynes A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d

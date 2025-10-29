@@ -46,8 +46,8 @@ bcl-division-1:
     awayteam: Milton Keynes A
     date: Tue 28 Oct 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 1½ - 3½
 
   - id: bcl-division-1-tue-4-nov-25-luton-b-v-bedford-a
     hometeam: Luton B
@@ -384,7 +384,7 @@ bcl-division-2:
     awayteam: Bedford C
     date: Tue 28 Oct 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1 - 4
 
   - id: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
