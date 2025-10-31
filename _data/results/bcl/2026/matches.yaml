@@ -783,6 +783,71 @@ bcl-division-2:
       color: W
       team: Bedford C
 
+  - fixture: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: B
+      team: Bedford D
+    away:
+      name: Cox, Lucian
+      rating: 1697
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
+    result: ½ - ½
+    home:
+      name: Gill, Peter S
+      rating: 1606
+      color: W
+      team: Bedford D
+    away:
+      name: McMorran, Richard
+      rating: 1661
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Bennett, Stephen J
+      rating: 0000
+      color: B
+      team: Bedford D
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+    away:
+      name: Madhadi, Rishik
+      rating: 1438
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-30-oct-25-bedford-d-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+    away:
+      name: Cox, R David
+      rating: 1389
+      color: W
+      team: Bedford E
+
   - fixture: bcl-division-2-thu-30-oct-25-milton-keynes-c-v-leighton-buzzard-b
     result: 0 - 1
     home:
