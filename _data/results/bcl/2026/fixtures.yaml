@@ -409,7 +409,7 @@ bcl-division-2:
     date: Thu 6 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-2-thu-6-nov-25-milton-keynes-c-v-bedford-d
     hometeam: Milton Keynes C
@@ -417,7 +417,7 @@ bcl-division-2:
     date: Thu 6 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3½ - 1½
 
   - id: bcl-division-2-thu-6-nov-25-bedford-e-v-bedford-c
     hometeam: Bedford E
@@ -425,7 +425,7 @@ bcl-division-2:
     date: Thu 6 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result:  ½ - 4½
 
   - id: bcl-division-2-tue-11-nov-25-leighton-buzzard-b-v-university-of-bedfordshire
     hometeam: Leighton Buzzard B
