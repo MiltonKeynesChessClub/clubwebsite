@@ -1,11 +1,11 @@
 ---
-title:  "Milton Keynes D vs Open University, 2025: What do you mean you have no shoes Rikin?"
+title:  "Milton Keynes D vs Open University, 2025: Exciting finish"
 date:   2025-11-06
 author: dominic-watson
 categories: matchreports
 team: mkd
 fixture: bcl-division-2-thu-6-nov-25-milton-keynes-d-v-open-university
-excerpt: Board 4 arrived with no shoes. You'll never guess what happened next...
+excerpt: A thoroughly entertaining evening of chess that could have gone in either team's favour
 toc: true
 toc_sticky: true
 ---
@@ -61,7 +61,7 @@ The game was finished fairly quickly and I didn't get a chance to see the board,
 
 <h2 id="board-4">Board 4 - Rikin Burse vs Matthew Jacques</h2>
 
-Rikin's first match for the D team and first team match since his school days. He arrived with no shoes after an "awful day" of epic proportions - the lack of shoes and a lost royal mail delivery being the least troublesome of Rikin's worries on the day. Still, he arrived with chipper attitude and happily took an early draw securing us the half point.
+Rikin's first match for the D team and first team match since his school days and came after a self-confessed awful day. Still, he arrived with chipper attitude and happily took an early draw securing us the half point.
 
 Final position:
 
