@@ -63,7 +63,7 @@ bcl-division-1:
     date: Tue 11 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-1-tue-11-nov-25-luton-b-v-bedford-b
     hometeam: Luton B
@@ -71,7 +71,7 @@ bcl-division-1:
     date: Tue 11 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
     hometeam: Milton Keynes B
@@ -433,7 +433,7 @@ bcl-division-2:
     date: Tue 11 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-2-thu-13-nov-25-milton-keynes-d-v-bedford-c
     hometeam: Milton Keynes D
