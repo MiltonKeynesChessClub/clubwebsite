@@ -62,7 +62,7 @@ bcl-division-1:
     awayteam: Bedford A
     date: Tue 11 Nov 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1½ - 3½
 
   - id: bcl-division-1-tue-11-nov-25-luton-b-v-bedford-b
@@ -70,7 +70,7 @@ bcl-division-1:
     awayteam: Bedford B
     date: Tue 11 Nov 25
     time: "19:30"
-    status: OU
+    status: OV
     result: 1½ - 3½
 
   - id: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
