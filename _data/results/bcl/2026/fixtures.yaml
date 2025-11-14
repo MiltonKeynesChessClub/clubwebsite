@@ -441,15 +441,15 @@ bcl-division-2:
     date: Thu 13 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-2-thu-13-nov-25-open-university-v-milton-keynes-c
     hometeam: Open University
     awayteam: Milton Keynes C
     date: Thu 13 Nov 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 2 - 3
 
   - id: bcl-division-2-thu-20-nov-25-bedford-d-v-milton-keynes-d
     hometeam: Bedford D
