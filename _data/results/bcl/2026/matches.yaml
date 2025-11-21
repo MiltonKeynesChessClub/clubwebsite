@@ -586,6 +586,71 @@ bcl-division-1:
       color: W
       team: Bedford B
 
+  - fixture: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 2041
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Mirza, Humayun
+      rating: 1667
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
+    result: 0 - 1
+    home:
+      name: Heath, Alan
+      rating: 1858
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Gladysz, Marek
+      rating: 1751
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
+    result: 0 - 1
+    home:
+      name: Senturk, N Ozan NE
+      rating: 1976
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Jones, Dixon H
+      rating: 1654
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
+    result: 0 - 1
+    home:
+      name: Spigapiena, Giuseppe
+      rating: 1789
+      color: W
+      team: Milton Keynes B
+    away:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-20-nov-25-milton-keynes-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Ward, George
+      rating: 1829
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: W
+      team: Luton B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -1562,4 +1627,69 @@ bcl-division-2:
       rating: 1315
       color: W
       team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-e-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Cox, Lucian
+      rating: 1697
+      color: B
+      team: Bedford E
+    away:
+      name: Matthews, Adrian MS
+      rating: 1845
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-e-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: McMorran, Richard
+      rating: 1661
+      color: W
+      team: Bedford E
+    away:
+      name: Williamson, Kevin J
+      rating: 1833
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-e-v-leighton-buzzard-b
+    result: 1 - 0(def)
+    home:
+      name: Goodman, James
+      rating: 1500
+      color: B
+      team: Bedford E
+    away:
+      name: Taylor, Peter
+      rating: 1802
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-e-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Madhadi, Rishik
+      rating: 1438
+      color: W
+      team: Bedford E
+    away:
+      name: Bhoi, Kewal Krishna
+      rating: 1791
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-e-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Barbarino, Romeo
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Gallagher, Sean
+      rating: 1600
+      color: W
+      team: Leighton Buzzard B
 

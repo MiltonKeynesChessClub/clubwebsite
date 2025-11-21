@@ -79,7 +79,7 @@ bcl-division-1:
     date: Thu 20 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-1-tue-25-nov-25-luton-b-v-milton-keynes-a
     hometeam: Luton B
@@ -465,7 +465,7 @@ bcl-division-2:
     date: Thu 20 Nov 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-27-nov-25-bedford-d-v-open-university
     hometeam: Bedford D
