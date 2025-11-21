@@ -1498,3 +1498,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-d-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: B
+      team: Bedford D
+    away:
+      name: Evans, Thomas
+      rating: 1715
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-d-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Gill, Peter S
+      rating: 1606
+      color: W
+      team: Bedford D
+    away:
+      name: Watson, Dominic
+      rating: 1710
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-d-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Butler, Stephen
+      rating: 0000
+      color: B
+      team: Bedford D
+    away:
+      name: Burse, Rikin
+      rating: 1656
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-d-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+    away:
+      name: Mabogunje, Olajide
+      rating: 1469
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-20-nov-25-bedford-d-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+    away:
+      name: Osborn, Mark
+      rating: 1315
+      color: W
+      team: Milton Keynes D
+
