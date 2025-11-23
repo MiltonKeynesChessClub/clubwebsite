@@ -10,8 +10,6 @@ toc: true
 toc_sticky: true
 ---
 
-
-
 View the official results on the [results page](/results/2025/mkd.html#bcl-division-2-thu-6-nov-25-milton-keynes-d-v-open-university)
 
 <h2 id="board-1">Board 1 - Thomas Evans vs James Alexander</h2>
