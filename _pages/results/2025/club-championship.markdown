@@ -28,7 +28,7 @@ All ties will be resolved by a normal-speed playoff game and then, if necessary,
 
 Initial pool games to be played by 22nd August 2025.
 
-## Pool 1
+## Pool 1 (completed)
 
 {% include snippets/all_play_all_toggle_table.html results=pool1 %}
 
