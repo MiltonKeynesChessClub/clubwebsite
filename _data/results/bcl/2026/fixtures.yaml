@@ -86,8 +86,8 @@ bcl-division-1:
     awayteam: Milton Keynes A
     date: Tue 25 Nov 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 1 - 4
 
   - id: bcl-division-1-tue-2-dec-25-luton-a-v-leighton-buzzard-a
     hometeam: Luton A

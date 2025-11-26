@@ -651,6 +651,71 @@ bcl-division-1:
       color: W
       team: Luton B
 
+  - fixture: bcl-division-1-tue-25-nov-25-luton-b-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Vora, Samir
+      rating: 1815
+      color: B
+      team: Luton B
+    away:
+      name: Tweeddale, Eoin
+      rating: 2046
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-25-nov-25-luton-b-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Gladysz, Marek
+      rating: 1751
+      color: W
+      team: Luton B
+    away:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-25-nov-25-luton-b-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: Luton B
+    away:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-25-nov-25-luton-b-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Jones, Dixon H
+      rating: 1654
+      color: W
+      team: Luton B
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-25-nov-25-luton-b-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: Luton B
+    away:
+      name: Whiteside, Robert
+      rating: 1889
+      color: W
+      team: Milton Keynes A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
