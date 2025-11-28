@@ -1761,8 +1761,8 @@ bcl-division-2:
   - fixture: bcl-division-2-thu-27-nov-25-bedford-d-v-open-university
     result: 1 - 0
     home:
-      name: New Player
-      rating: 0000
+      name: Hickman, Neil
+      rating: 1727
       color: B
       team: Bedford D
     away:
