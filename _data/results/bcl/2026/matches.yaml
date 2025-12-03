@@ -716,6 +716,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-tue-2-dec-25-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Hudson, Julian
+      rating: 1998
+      color: B
+      team: Luton A
+    away:
+      name: Sharp, John R
+      rating: 2145
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-2-dec-25-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: O'Brien, Thomas P
+      rating: 1914
+      color: W
+      team: Luton A
+    away:
+      name: Kenworthy, Gary
+      rating: 2148
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-2-dec-25-luton-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Vora, Samir
+      rating: 1815
+      color: B
+      team: Luton A
+    away:
+      name: Law, Stephen
+      rating: 1963
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-2-dec-25-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Onyeji, Eustace
+      rating: 0000
+      color: W
+      team: Luton A
+    away:
+      name: Valentine, Brian J
+      rating: 1837
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-2-dec-25-luton-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: B
+      team: Luton A
+    away:
+      name: Matthews, Adrian MS
+      rating: 1845
+      color: W
+      team: Leighton Buzzard A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d

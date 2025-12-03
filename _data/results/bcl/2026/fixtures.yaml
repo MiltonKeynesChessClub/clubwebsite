@@ -94,8 +94,8 @@ bcl-division-1:
     awayteam: Leighton Buzzard A
     date: Tue 2 Dec 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 1 - 4
 
   - id: bcl-division-1-thu-4-dec-25-milton-keynes-b-v-bedford-a
     hometeam: Milton Keynes B
