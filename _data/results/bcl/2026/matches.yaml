@@ -781,6 +781,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard A
 
+  - fixture: bcl-division-1-thu-4-dec-25-milton-keynes-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Bowler, Andrew
+      rating: 2041
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Ledger, Stephen C
+      rating: 2119
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-4-dec-25-milton-keynes-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Heath, Alan
+      rating: 1858
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Arulnandhy, Ravi
+      rating: 2046
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-4-dec-25-milton-keynes-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Senturk, N Ozan NE
+      rating: 1976
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Gardner, James
+      rating: 2117
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-4-dec-25-milton-keynes-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Ward, George
+      rating: 1829
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Collacott, Nick
+      rating: 2035
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-4-dec-25-milton-keynes-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Dairi, Ramsey
+      rating: 2043
+      color: W
+      team: Bedford A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -2017,4 +2082,134 @@ bcl-division-2:
       rating: 0000
       color: W
       team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-d-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: B
+      team: Bedford D
+    away:
+      name: Matthews, Adrian MS
+      rating: 1845
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-d-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Gill, Peter S
+      rating: 1606
+      color: W
+      team: Bedford D
+    away:
+      name: Valentine, Brian J
+      rating: 1837
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-d-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Bennett, Stephen J
+      rating: 0000
+      color: B
+      team: Bedford D
+    away:
+      name: Williamson, Kevin J
+      rating: 1833
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-d-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Dairi, Mahmoud
+      rating: 1344
+      color: W
+      team: Bedford D
+    away:
+      name: Taylor, Peter
+      rating: 1802
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-d-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+    away:
+      name: Dorn, C Fred H
+      rating: 1750
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Cox, Lucian
+      rating: 1697
+      color: B
+      team: Bedford E
+    away:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+    away:
+      name: Edwards, Vincent
+      rating: 1642
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Cox, R David
+      rating: 1389
+      color: B
+      team: Bedford E
+    away:
+      name: Lazard, Dexter
+      rating: 1520
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-e-v-open-university
+    result: 1 - 0
+    home:
+      name: Muir, Steven
+      rating: 0000
+      color: W
+      team: Bedford E
+    away:
+      name: Jacques, Matthew
+      rating: 1499
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-4-dec-25-bedford-e-v-open-university
+    result: 0 - 1
+    home:
+      name: Barbarino, Romeo
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Osborn, Mark
+      rating: 1315
+      color: W
+      team: Open University
 

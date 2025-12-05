@@ -103,7 +103,7 @@ bcl-division-1:
     date: Thu 4 Dec 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-1-thu-11-dec-25-milton-keynes-a-v-bedford-b
     hometeam: Milton Keynes A
@@ -497,7 +497,7 @@ bcl-division-2:
     date: Thu 4 Dec 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result:  ½ - 4½
 
   - id: bcl-division-2-thu-4-dec-25-bedford-e-v-open-university
     hometeam: Bedford E
@@ -505,7 +505,7 @@ bcl-division-2:
     date: Thu 4 Dec 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-11-dec-25-milton-keynes-c-v-university-of-bedfordshire
     hometeam: Milton Keynes C
