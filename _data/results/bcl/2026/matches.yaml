@@ -2213,3 +2213,133 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-thu-11-dec-25-milton-keynes-c-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: McNamara, John
+      rating: 1615
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-11-dec-25-milton-keynes-c-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: Wells, Dave
+      rating: 1617
+      color: W
+      team: Milton Keynes C
+    away:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-11-dec-25-milton-keynes-c-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: Solloway, Colin J
+      rating: 1595
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Hayden, Tim
+      rating: 1544
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-11-dec-25-milton-keynes-c-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Page, Michael
+      rating: 1414
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-11-dec-25-milton-keynes-c-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: McKeon, John E
+      rating: 1396
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-11-dec-25-open-university-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Edwards, Vincent
+      rating: 1642
+      color: B
+      team: Open University
+    away:
+      name: Shields, Callum T
+      rating: 1747
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-11-dec-25-open-university-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Lazard, Dexter
+      rating: 1520
+      color: W
+      team: Open University
+    away:
+      name: Potts, Alexander
+      rating: 1683
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-11-dec-25-open-university-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Jacques, Matthew
+      rating: 1499
+      color: B
+      team: Open University
+    away:
+      name: Walker, Nigel B
+      rating: 1446
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-11-dec-25-open-university-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Phillips, David
+      rating: 1444
+      color: W
+      team: Open University
+    away:
+      name: Muir, Steven
+      rating: 0000
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-11-dec-25-open-university-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Osborn, Mark
+      rating: 1315
+      color: B
+      team: Open University
+    away:
+      name: Graf, Francesco
+      rating: 0000
+      color: W
+      team: Bedford C
+

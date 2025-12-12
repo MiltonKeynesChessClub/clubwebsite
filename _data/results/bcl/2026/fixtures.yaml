@@ -512,8 +512,8 @@ bcl-division-2:
     awayteam: University of Bedfordshire
     date: Thu 11 Dec 25
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 2 - 3
 
   - id: bcl-division-2-thu-11-dec-25-open-university-v-bedford-c
     hometeam: Open University
@@ -521,7 +521,7 @@ bcl-division-2:
     date: Thu 11 Dec 25
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-tue-16-dec-25-leighton-buzzard-b-v-milton-keynes-d
     hometeam: Leighton Buzzard B
