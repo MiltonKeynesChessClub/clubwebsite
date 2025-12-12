@@ -846,6 +846,71 @@ bcl-division-1:
       color: W
       team: Bedford A
 
+  - fixture: bcl-division-1-thu-11-dec-25-milton-keynes-a-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Botteley, Michael T
+      rating: 1994
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-11-dec-25-milton-keynes-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Bodily, Richard T
+      rating: 1968
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-11-dec-25-milton-keynes-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Habershon, Paul F
+      rating: 1947
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-11-dec-25-milton-keynes-a-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Whiteside, Robert
+      rating: 1889
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-11-dec-25-milton-keynes-a-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Ward, George
+      rating: 1829
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Pike, Steve C
+      rating: 1863
+      color: W
+      team: Bedford B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
