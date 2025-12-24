@@ -2538,3 +2538,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes D
 
+  - fixture: bcl-division-2-tue-23-dec-25-leighton-buzzard-b-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Taylor, Alistair
+      rating: 1794
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Ward, George
+      rating: 1829
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-23-dec-25-leighton-buzzard-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Taylor, Peter
+      rating: 1802
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: McNamara, John
+      rating: 1615
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-23-dec-25-leighton-buzzard-b-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Woodward, Ian P
+      rating: 1743
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Solloway, Colin J
+      rating: 1595
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-23-dec-25-leighton-buzzard-b-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Dorn, C Fred H
+      rating: 1750
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Page, Michael
+      rating: 1414
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-23-dec-25-leighton-buzzard-b-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Gallagher, Sean
+      rating: 1600
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: McKeon, John E
+      rating: 1396
+      color: W
+      team: Milton Keynes C
+
