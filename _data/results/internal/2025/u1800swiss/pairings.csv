@@ -10,7 +10,7 @@ round,board,white,black,whitepts,blackpts,date,result
 1,9,Matthew Jacques,Richard Keane,,,05/06/2025,0-1
 2,1,Vincent Edwards,Steven Wayne,1,1,03/07/2025,1-0
 2,2,John Chandler,Dave Wells,1,1,31/07/2025,0-1
-2,3,Ozan Senturk,Colin Solloway,1,1,,tbc
+2,3,Ozan Senturk,Colin Solloway,1,1,08/01/2026,1-0
 2,4,John McNamara,Rikin Burse,1,1,31/07/2025,1-0
 2,5,Richard Keane,Dominic Watson,1,0,07/08/2025,1/2-1/2
 2,6,Michael Page,Atila Besceli,0,0,18/09/2025,0-1
@@ -18,8 +18,8 @@ round,board,white,black,whitepts,blackpts,date,result
 2,8,Bosko Bauk,Olajide Mabogunje,0,0,24/07/2025,0-1
 2,9,Matthew Jacques,,0,0,,bye
 3,1,Dave Wells,Vincent Edwards,2,2,18/09/2025,1-0
-3,2,Colin Solloway,John McNamara,1+,2,09/10/2025,1/2-1/2
-3,3,Ozan Senturk,Richard Keane,1+,1.5,11/12/2025,1-0
+3,2,Colin Solloway,John McNamara,1,2,09/10/2025,1/2-1/2
+3,3,Ozan Senturk,Richard Keane,2,1.5,11/12/2025,1-0
 3,4,Olajide Mabogunje,John Chandler,1,1,23/10/2025,1-0
 3,5,Rikin Burse,Matthew Jacques,1,1,30/10/2025,0-1
 3,6,Steven Wayne,John McKeon,1,0.5,11/09/2025,1-0
@@ -27,11 +27,11 @@ round,board,white,black,whitepts,blackpts,date,result
 3,8,Atila Besceli,Bosko Bauk,1,0,,tbc
 3,9,Michael Page,,0,0,,bye
 4,1,John McNamara,Dave Wells,2.5,3,,tbc
-4,2,Vincent Edwards,Ozan Senturk,2,2+,,tbc
-4,3,Matthew Jacques,Colin Solloway,2,1.5+,,tbc
+4,2,Vincent Edwards,Ozan Senturk,2,3,,tbc
+4,3,Matthew Jacques,Colin Solloway,2,1.5,,tbc
 4,4,Steven Wayne,Atila Besceli,2,1+,,tbc
 4,5,Richard Keane,Olajide Mabogunje,1.5,2,,tbc
 4,6,Michael Page,Dominic Watson,1,1.5,,tbc
 4,7,John Chandler,Rikin Burse,1,1,,tbc
-4,8,John McKeon,Bosko Bauk,0.5,0+,,tbc
+4,8,John McKeon,Bosko Bauk,0.5,0+,08/01/2026,0-1
 4,9,Mark Osborn,,0.5,0,,bye
