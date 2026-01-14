@@ -976,6 +976,71 @@ bcl-division-1:
       color: W
       team: Luton B
 
+  - fixture: bcl-division-1-tue-13-jan-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Tukpetov, Evgeny
+      rating: 2294
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Tweeddale, Eoin
+      rating: 2046
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-13-jan-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Kenworthy, Gary
+      rating: 2148
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-13-jan-26-leighton-buzzard-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Sharp, John R
+      rating: 2145
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-13-jan-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Hunt, Peter
+      rating: 1983
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-13-jan-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Law, Stephen
+      rating: 1963
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Whiteside, Robert
+      rating: 1889
+      color: W
+      team: Milton Keynes A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -2602,4 +2667,134 @@ bcl-division-2:
       rating: 1396
       color: W
       team: Milton Keynes C
+
+  - fixture: bcl-division-2-tue-13-jan-26-leighton-buzzard-b-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Matthews, Adrian MS
+      rating: 1845
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Potts, Alexander
+      rating: 1683
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-13-jan-26-leighton-buzzard-b-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Taylor, Alistair
+      rating: 1794
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Darmendra, Shivadharshan
+      rating: 0000
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-13-jan-26-leighton-buzzard-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Taylor, Peter
+      rating: 1802
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Walker, Nigel B
+      rating: 1446
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-13-jan-26-leighton-buzzard-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Woodward, Ian P
+      rating: 1743
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Hylton, Cedric
+      rating: 1300
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-13-jan-26-leighton-buzzard-b-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Dorn, C Fred H
+      rating: 1750
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Graf, Francesco
+      rating: 0000
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-13-jan-26-university-of-bedfordshire-v-open-university
+    result: ½ - ½
+    home:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-13-jan-26-university-of-bedfordshire-v-open-university
+    result: 1 - 0
+    home:
+      name: Oki, Jonadab
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Edwards, Vincent
+      rating: 1642
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-tue-13-jan-26-university-of-bedfordshire-v-open-university
+    result: 1 - 0
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Lazard, Dexter
+      rating: 1520
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-13-jan-26-university-of-bedfordshire-v-open-university
+    result: 0 - 1
+    home:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Phillips, David
+      rating: 1444
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-tue-13-jan-26-university-of-bedfordshire-v-open-university
+    result: 1 - 0
+    home:
+      name: Khan, Yusuf
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Osborn, Mark
+      rating: 1315
+      color: W
+      team: Open University
 

@@ -127,7 +127,7 @@ bcl-division-1:
     date: Tue 13 Jan 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3½ - 1½
 
   - id: bcl-division-1-tue-20-jan-26-luton-a-v-luton-b
     hometeam: Luton A
@@ -545,15 +545,15 @@ bcl-division-2:
     date: Tue 13 Jan 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-2-tue-13-jan-26-university-of-bedfordshire-v-open-university
     hometeam: University of Bedfordshire
     awayteam: Open University
     date: Tue 13 Jan 26
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 3½ - 1½
 
   - id: bcl-division-2-thu-15-jan-26-milton-keynes-d-v-milton-keynes-c
     hometeam: Milton Keynes D
