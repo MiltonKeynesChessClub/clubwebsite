@@ -561,15 +561,15 @@ bcl-division-2:
     date: Thu 15 Jan 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-2-thu-15-jan-26-bedford-e-v-bedford-d
     hometeam: Bedford E
     awayteam: Bedford D
     date: Thu 15 Jan 26
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 1 - 4
 
   - id: bcl-division-2-thu-22-jan-26-milton-keynes-c-v-open-university
     hometeam: Milton Keynes C

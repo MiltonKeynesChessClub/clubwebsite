@@ -85,31 +85,31 @@ bcl-division-2:
     points: 10
 
   - team: Milton Keynes C
+    played: 9
+    won: 3
+    drawn: 2
+    lost: 4
+    for: 22
+    against: 23
+    points: 8
+
+  - team: Milton Keynes D
+    played: 7
+    won: 3
+    drawn: 2
+    lost: 2
+    for: 18½
+    against: 16½
+    points: 8
+
+  - team: Bedford D
     played: 8
     won: 3
     drawn: 1
     lost: 4
-    for: 19½
-    against: 20½
+    for: 18½
+    against: 21½
     points: 7
-
-  - team: Milton Keynes D
-    played: 6
-    won: 3
-    drawn: 1
-    lost: 2
-    for: 16
-    against: 14
-    points: 7
-
-  - team: Bedford D
-    played: 7
-    won: 2
-    drawn: 1
-    lost: 4
-    for: 14½
-    against: 20½
-    points: 5
 
   - team: University of Bedfordshire
     played: 6
@@ -130,11 +130,11 @@ bcl-division-2:
     points: 3
 
   - team: Bedford E
-    played: 5
+    played: 6
     won: 0
     drawn: 1
-    lost: 4
-    for: 6½
-    against: 18½
+    lost: 5
+    for: 7½
+    against: 22½
     points: 1
 
