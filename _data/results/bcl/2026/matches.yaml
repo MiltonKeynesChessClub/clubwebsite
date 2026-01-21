@@ -1041,6 +1041,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-tue-20-jan-26-luton-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Hudson, Julian
+      rating: 1998
+      color: B
+      team: Luton A
+    away:
+      name: Gladysz, Marek
+      rating: 1751
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-tue-20-jan-26-luton-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: O'Brien, Thomas P
+      rating: 1914
+      color: W
+      team: Luton A
+    away:
+      name: Jones, Dixon H
+      rating: 1654
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-tue-20-jan-26-luton-a-v-luton-b
+    result: 0 - 1
+    home:
+      name: Vora, Samir
+      rating: 1815
+      color: B
+      team: Luton A
+    away:
+      name: Oki, Jonadab
+      rating: 0000
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-tue-20-jan-26-luton-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: W
+      team: Luton A
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-tue-20-jan-26-luton-a-v-luton-b
+    result: 0 - 1
+    home:
+      name: MacDonald, Thomas
+      rating: 0000
+      color: B
+      team: Luton A
+    away:
+      name: Handa, Mannan
+      rating: 0000
+      color: W
+      team: Luton B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
