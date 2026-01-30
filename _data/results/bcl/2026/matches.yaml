@@ -3188,3 +3188,68 @@ bcl-division-2:
       color: W
       team: Bedford E
 
+  - fixture: bcl-division-2-thu-29-jan-26-bedford-d-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Gill, Peter S
+      rating: 1606
+      color: B
+      team: Bedford D
+    away:
+      name: Shields, Callum T
+      rating: 1747
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-29-jan-26-bedford-d-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+    away:
+      name: Darmendra, Shivadharshan
+      rating: 0000
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-29-jan-26-bedford-d-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+    away:
+      name: Walker, Nigel B
+      rating: 1446
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-29-jan-26-bedford-d-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Dairi, Mahmoud
+      rating: 1344
+      color: W
+      team: Bedford D
+    away:
+      name: Hylton, Cedric
+      rating: 1300
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-29-jan-26-bedford-d-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Dairi, Daniella
+      rating: 0966
+      color: B
+      team: Bedford D
+    away:
+      name: Graf, Francesco
+      rating: 0000
+      color: W
+      team: Bedford C
+
