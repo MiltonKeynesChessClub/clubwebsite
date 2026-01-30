@@ -1171,6 +1171,71 @@ bcl-division-1:
       color: W
       team: Bedford A
 
+  - fixture: bcl-division-1-thu-29-jan-26-bedford-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Botteley, Michael T
+      rating: 1994
+      color: B
+      team: Bedford B
+    away:
+      name: Bowler, Andrew
+      rating: 2041
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-29-jan-26-bedford-b-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Bodily, Richard T
+      rating: 1968
+      color: W
+      team: Bedford B
+    away:
+      name: Heath, Alan
+      rating: 1858
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-29-jan-26-bedford-b-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Hale, Jack
+      rating: 1750
+      color: B
+      team: Bedford B
+    away:
+      name: Senturk, N Ozan NE
+      rating: 1976
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-29-jan-26-bedford-b-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Pike, Steve C
+      rating: 1863
+      color: W
+      team: Bedford B
+    away:
+      name: Ward, George
+      rating: 1829
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-29-jan-26-bedford-b-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Walker, Robert S
+      rating: 1726
+      color: B
+      team: Bedford B
+    away:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: W
+      team: Milton Keynes B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
