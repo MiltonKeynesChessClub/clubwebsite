@@ -3318,3 +3318,68 @@ bcl-division-2:
       color: W
       team: Bedford C
 
+  - fixture: bcl-division-2-tue-10-feb-26-university-of-bedfordshire-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Valentine, Brian J
+      rating: 1837
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-tue-10-feb-26-university-of-bedfordshire-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Hayden, Tim
+      rating: 1544
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Matthews, Adrian MS
+      rating: 1845
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-tue-10-feb-26-university-of-bedfordshire-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Nelson, Abiodun
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Taylor, Alistair
+      rating: 1794
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-tue-10-feb-26-university-of-bedfordshire-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Taylor, Peter
+      rating: 1802
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-tue-10-feb-26-university-of-bedfordshire-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Khan, Yusuf
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Dorn, C Fred H
+      rating: 1750
+      color: W
+      team: Leighton Buzzard B
+
