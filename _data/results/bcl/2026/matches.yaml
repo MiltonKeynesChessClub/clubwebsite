@@ -1236,6 +1236,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes B
 
+  - fixture: bcl-division-1-thu-12-feb-26-bedford-a-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Ledger, Stephen C
+      rating: 2119
+      color: B
+      team: Bedford A
+    away:
+      name: Tukpetov, Evgeny
+      rating: 2294
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-12-feb-26-bedford-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Gardner, James
+      rating: 2117
+      color: W
+      team: Bedford A
+    away:
+      name: Sharp, John R
+      rating: 2145
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-12-feb-26-bedford-a-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Arulnandhy, Ravi
+      rating: 2046
+      color: B
+      team: Bedford A
+    away:
+      name: Kenworthy, Gary
+      rating: 2148
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-12-feb-26-bedford-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Collacott, Nick
+      rating: 2035
+      color: W
+      team: Bedford A
+    away:
+      name: Law, Stephen
+      rating: 1963
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-thu-12-feb-26-bedford-a-v-leighton-buzzard-a
+    result: 1 - 0
+    home:
+      name: Dairi, Ramsey
+      rating: 2043
+      color: B
+      team: Bedford A
+    away:
+      name: Valentine, Brian J
+      rating: 1837
+      color: W
+      team: Leighton Buzzard A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -3382,4 +3447,134 @@ bcl-division-2:
       rating: 1750
       color: W
       team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-thu-12-feb-26-bedford-c-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Shields, Callum T
+      rating: 1747
+      color: B
+      team: Bedford C
+    away:
+      name: Evans, Thomas
+      rating: 1715
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-12-feb-26-bedford-c-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Potts, Alexander
+      rating: 1683
+      color: W
+      team: Bedford C
+    away:
+      name: Watson, Dominic
+      rating: 1710
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-12-feb-26-bedford-c-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Walker, Nigel B
+      rating: 1446
+      color: B
+      team: Bedford C
+    away:
+      name: Keane, Richard C
+      rating: 1614
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-12-feb-26-bedford-c-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Sharp, Wolf
+      rating: 1450
+      color: W
+      team: Bedford C
+    away:
+      name: Burse, Rikin
+      rating: 1656
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-12-feb-26-bedford-c-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Graf, Francesco
+      rating: 0000
+      color: B
+      team: Bedford C
+    away:
+      name: Mabogunje, Olajide
+      rating: 1469
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-12-feb-26-open-university-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: B
+      team: Open University
+    away:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-12-feb-26-open-university-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Edwards, Vincent
+      rating: 1642
+      color: W
+      team: Open University
+    away:
+      name: Gill, Peter S
+      rating: 1606
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-12-feb-26-open-university-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Lazard, Dexter
+      rating: 1520
+      color: B
+      team: Open University
+    away:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-12-feb-26-open-university-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Jacques, Matthew
+      rating: 1499
+      color: W
+      team: Open University
+    away:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-12-feb-26-open-university-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Osborn, Mark
+      rating: 1315
+      color: B
+      team: Open University
+    away:
+      name: Dairi, Mahmoud
+      rating: 1344
+      color: W
+      team: Bedford D
 

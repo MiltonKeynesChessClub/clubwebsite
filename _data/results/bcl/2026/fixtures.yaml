@@ -159,7 +159,7 @@ bcl-division-1:
     date: Thu 12 Feb 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3½ - 1½
 
   - id: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
     hometeam: Milton Keynes B
@@ -609,7 +609,7 @@ bcl-division-2:
     date: Thu 12 Feb 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-thu-12-feb-26-open-university-v-bedford-d
     hometeam: Open University
@@ -617,7 +617,7 @@ bcl-division-2:
     date: Thu 12 Feb 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3½ - 1½
 
   - id: bcl-division-2-thu-19-feb-26-milton-keynes-d-v-bedford-e
     hometeam: Milton Keynes D
