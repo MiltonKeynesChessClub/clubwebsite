@@ -1301,6 +1301,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard A
 
+  - fixture: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 2041
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Tweeddale, Eoin
+      rating: 2046
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Heath, Alan
+      rating: 1858
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Spigapiena, Giuseppe
+      rating: 1789
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Default
+      rating: 0000
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Page, Michael
+      rating: 1414
+      color: W
+      team: Milton Keynes A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
