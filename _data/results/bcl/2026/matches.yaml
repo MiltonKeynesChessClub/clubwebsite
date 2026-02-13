@@ -1343,8 +1343,8 @@ bcl-division-1:
   - fixture: bcl-division-1-thu-12-feb-26-milton-keynes-b-v-milton-keynes-a
     result: 0 - 1
     home:
-      name: Default
-      rating: 0000
+      name: Rezende, Guilherme
+      rating: 1666
       color: W
       team: Milton Keynes B
     away:
