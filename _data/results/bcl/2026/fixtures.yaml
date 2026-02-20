@@ -175,7 +175,7 @@ bcl-division-1:
     date: Thu 19 Feb 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1½ - 3½
 
   - id: bcl-division-1-thu-19-feb-26-milton-keynes-b-v-luton-a
     hometeam: Milton Keynes B
@@ -625,7 +625,7 @@ bcl-division-2:
     date: Thu 19 Feb 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 5 - 0
 
   - id: bcl-division-2-thu-19-feb-26-bedford-c-v-leighton-buzzard-b
     hometeam: Bedford C
@@ -633,7 +633,7 @@ bcl-division-2:
     date: Thu 19 Feb 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-tue-24-feb-26-university-of-bedfordshire-v-bedford-d
     hometeam: University of Bedfordshire
