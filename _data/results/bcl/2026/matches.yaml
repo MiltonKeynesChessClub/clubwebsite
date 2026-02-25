@@ -1496,6 +1496,71 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-tue-24-feb-26-luton-b-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Mirza, Humayun
+      rating: 1667
+      color: B
+      team: Luton B
+    away:
+      name: Sharp, John R
+      rating: 2145
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-24-feb-26-luton-b-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Jones, Dixon H
+      rating: 1654
+      color: W
+      team: Luton B
+    away:
+      name: Kenworthy, Gary
+      rating: 2148
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-24-feb-26-luton-b-v-leighton-buzzard-a
+    result: 0 - 1
+    home:
+      name: Gladysz, Marek
+      rating: 1751
+      color: B
+      team: Luton B
+    away:
+      name: Law, Stephen
+      rating: 1963
+      color: W
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-24-feb-26-luton-b-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Oki, Jonadab
+      rating: 0000
+      color: W
+      team: Luton B
+    away:
+      name: Valentine, Brian J
+      rating: 1837
+      color: B
+      team: Leighton Buzzard A
+
+  - fixture: bcl-division-1-tue-24-feb-26-luton-b-v-leighton-buzzard-a
+    result: ½ - ½
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: Luton B
+    away:
+      name: Williamson, Kevin J
+      rating: 1833
+      color: W
+      team: Leighton Buzzard A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -3902,4 +3967,69 @@ bcl-division-2:
       rating: 1600
       color: W
       team: Leighton Buzzard B
+
+  - fixture: bcl-division-2-tue-24-feb-26-university-of-bedfordshire-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Nelson, Abiodun
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-24-feb-26-university-of-bedfordshire-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Gill, Peter S
+      rating: 1606
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-24-feb-26-university-of-bedfordshire-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Bennett, Stephen J
+      rating: 0000
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-24-feb-26-university-of-bedfordshire-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-24-feb-26-university-of-bedfordshire-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Khan, Yusuf
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Dairi, Mahmoud
+      rating: 1344
+      color: W
+      team: Bedford D
 
