@@ -1561,6 +1561,136 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard A
 
+  - fixture: bcl-division-1-thu-26-feb-26-bedford-b-v-bedford-a
+    result: ½ - ½
+    home:
+      name: Bodily, Richard T
+      rating: 1968
+      color: B
+      team: Bedford B
+    away:
+      name: Ledger, Stephen C
+      rating: 2119
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-26-feb-26-bedford-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford B
+    away:
+      name: Arulnandhy, Ravi
+      rating: 2046
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-26-feb-26-bedford-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Habershon, Paul F
+      rating: 1947
+      color: B
+      team: Bedford B
+    away:
+      name: Dairi, Ramsey
+      rating: 2043
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-26-feb-26-bedford-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Pike, Steve C
+      rating: 1863
+      color: W
+      team: Bedford B
+    away:
+      name: Collacott, Nick
+      rating: 2035
+      color: B
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-26-feb-26-bedford-b-v-bedford-a
+    result: 0 - 1
+    home:
+      name: Walker, Robert S
+      rating: 1726
+      color: B
+      team: Bedford B
+    away:
+      name: Taylor, Alex
+      rating: 1921
+      color: W
+      team: Bedford A
+
+  - fixture: bcl-division-1-thu-26-feb-26-milton-keynes-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Tweeddale, Eoin
+      rating: 2046
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Hudson, Julian
+      rating: 1998
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-26-feb-26-milton-keynes-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+    away:
+      name: O'Brien, Thomas P
+      rating: 1914
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-26-feb-26-milton-keynes-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Onyeji, Eustace
+      rating: 0000
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-26-feb-26-milton-keynes-a-v-luton-a
+    result: 0 - 1
+    home:
+      name: Whiteside, Robert
+      rating: 1889
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Montgomery, Peter
+      rating: 1596
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-26-feb-26-milton-keynes-a-v-luton-a
+    result: 0 - 1
+    home:
+      name: Ward, George
+      rating: 1829
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Mirza, Humayun
+      rating: 1667
+      color: W
+      team: Luton A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -4032,4 +4162,134 @@ bcl-division-2:
       rating: 1344
       color: W
       team: Bedford D
+
+  - fixture: bcl-division-2-thu-26-feb-26-open-university-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: B
+      team: Open University
+    away:
+      name: Evans, Thomas
+      rating: 1715
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-feb-26-open-university-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Spigapiena, Giuseppe
+      rating: 1789
+      color: W
+      team: Open University
+    away:
+      name: Watson, Dominic
+      rating: 1710
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-feb-26-open-university-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Edwards, Vincent
+      rating: 1642
+      color: B
+      team: Open University
+    away:
+      name: Keane, Richard C
+      rating: 1614
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-feb-26-open-university-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Lazard, Dexter
+      rating: 1520
+      color: W
+      team: Open University
+    away:
+      name: Burse, Rikin
+      rating: 1656
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-feb-26-open-university-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Jacques, Matthew
+      rating: 1499
+      color: B
+      team: Open University
+    away:
+      name: Mabogunje, Olajide
+      rating: 1469
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-feb-26-bedford-e-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Hickman, Neil
+      rating: 1727
+      color: B
+      team: Bedford E
+    away:
+      name: Wells, Dave
+      rating: 1617
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-26-feb-26-bedford-e-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Cox, Lucian
+      rating: 1697
+      color: W
+      team: Bedford E
+    away:
+      name: McNamara, John
+      rating: 1615
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-26-feb-26-bedford-e-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Cox, R David
+      rating: 1389
+      color: B
+      team: Bedford E
+    away:
+      name: Solloway, Colin J
+      rating: 1595
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-26-feb-26-bedford-e-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Madhadi, Rishik
+      rating: 1438
+      color: W
+      team: Bedford E
+    away:
+      name: McKeon, John E
+      rating: 1396
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-26-feb-26-bedford-e-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Barbarino, Romeo
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Osborn, Mark
+      rating: 1315
+      color: W
+      team: Milton Keynes C
 

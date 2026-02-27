@@ -2,13 +2,13 @@
 
 bcl-division-1:
   - team: Bedford A
-    played: 7
-    won: 6
+    played: 8
+    won: 7
     drawn: 0
     lost: 1
-    for: 25
-    against: 10
-    points: 12
+    for: 29½
+    against: 10½
+    points: 14
 
   - team: Leighton Buzzard A
     played: 8
@@ -20,30 +20,30 @@ bcl-division-1:
     points: 12
 
   - team: Milton Keynes A
-    played: 7
-    won: 3
+    played: 8
+    won: 4
     drawn: 1
     lost: 3
-    for: 17½
-    against: 17½
-    points: 7
+    for: 20½
+    against: 19½
+    points: 9
 
   - team: Bedford B
-    played: 5
-    won: 3
-    drawn: 0
-    lost: 2
-    for: 13½
-    against: 11½
-    points: 6
-
-  - team: Luton A
     played: 6
     won: 3
     drawn: 0
     lost: 3
-    for: 13½
-    against: 16½
+    for: 14
+    against: 16
+    points: 6
+
+  - team: Luton A
+    played: 7
+    won: 3
+    drawn: 0
+    lost: 4
+    for: 15½
+    against: 19½
     points: 6
 
   - team: Milton Keynes B
@@ -76,13 +76,13 @@ bcl-division-2:
     points: 20
 
   - team: Milton Keynes D
-    played: 9
-    won: 5
+    played: 10
+    won: 6
     drawn: 2
     lost: 2
-    for: 26½
-    against: 18½
-    points: 12
+    for: 30½
+    against: 19½
+    points: 14
 
   - team: Bedford C
     played: 11
@@ -103,21 +103,21 @@ bcl-division-2:
     points: 11
 
   - team: Milton Keynes C
-    played: 10
-    won: 3
+    played: 11
+    won: 4
     drawn: 2
     lost: 5
-    for: 24
-    against: 26
-    points: 8
+    for: 27
+    against: 28
+    points: 10
 
   - team: Open University
-    played: 9
+    played: 10
     won: 3
     drawn: 1
-    lost: 5
-    for: 21½
-    against: 23½
+    lost: 6
+    for: 22½
+    against: 27½
     points: 7
 
   - team: University of Bedfordshire
@@ -130,11 +130,11 @@ bcl-division-2:
     points: 5
 
   - team: Bedford E
-    played: 8
+    played: 9
     won: 0
     drawn: 2
-    lost: 6
-    for: 10
-    against: 30
+    lost: 7
+    for: 12
+    against: 33
     points: 2
 
