@@ -4293,3 +4293,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-tue-10-mar-26-university-of-bedfordshire-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Evans, Thomas
+      rating: 1715
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-tue-10-mar-26-university-of-bedfordshire-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Doggett, Christopher
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Watson, Dominic
+      rating: 1710
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-tue-10-mar-26-university-of-bedfordshire-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Pye, Andrew
+      rating: 1450
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Keane, Richard C
+      rating: 1614
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-tue-10-mar-26-university-of-bedfordshire-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Burse, Rikin
+      rating: 1656
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-tue-10-mar-26-university-of-bedfordshire-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Khan, Yusuf
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Mabogunje, Olajide
+      rating: 1469
+      color: W
+      team: Milton Keynes D
+
