@@ -1691,6 +1691,71 @@ bcl-division-1:
       color: W
       team: Luton A
 
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Ledger, Stephen C
+      rating: 2119
+      color: B
+      team: Bedford A
+    away:
+      name: Gladysz, Marek
+      rating: 1751
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Gardner, James
+      rating: 2117
+      color: W
+      team: Bedford A
+    away:
+      name: Jones, Dixon H
+      rating: 1654
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Dairi, Ramsey
+      rating: 2043
+      color: B
+      team: Bedford A
+    away:
+      name: Montgomery, Peter
+      rating: 1596
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Collacott, Nick
+      rating: 2035
+      color: W
+      team: Bedford A
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-a-v-luton-b
+    result: 1 - 0
+    home:
+      name: Taylor, Alex
+      rating: 1921
+      color: B
+      team: Bedford A
+    away:
+      name: Pye, Andrew
+      rating: 1450
+      color: W
+      team: Luton B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
