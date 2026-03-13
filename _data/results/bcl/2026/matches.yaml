@@ -1756,6 +1756,71 @@ bcl-division-1:
       color: W
       team: Luton B
 
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-b-v-luton-a
+    result: 1 - 0
+    home:
+      name: Botteley, Michael T
+      rating: 1994
+      color: B
+      team: Bedford B
+    away:
+      name: Hudson, Julian
+      rating: 1998
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-b-v-luton-a
+    result: ½ - ½
+    home:
+      name: Bodily, Richard T
+      rating: 1968
+      color: W
+      team: Bedford B
+    away:
+      name: O'Brien, Thomas P
+      rating: 1914
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-b-v-luton-a
+    result: 1 - 0(def)
+    home:
+      name: Hale, Jack
+      rating: 1750
+      color: B
+      team: Bedford B
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Habershon, Paul F
+      rating: 1947
+      color: W
+      team: Bedford B
+    away:
+      name: Nelson, Abiodun
+      rating: 0000
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-12-mar-26-bedford-b-v-luton-a
+    result: 1 - 0
+    home:
+      name: Walker, Robert S
+      rating: 1726
+      color: B
+      team: Bedford B
+    away:
+      name: Lewis, Richard
+      rating: 1350
+      color: W
+      team: Luton A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
