@@ -231,7 +231,7 @@ bcl-division-1:
     date: Tue 17 Mar 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-1-thu-19-mar-26-milton-keynes-a-v-luton-b
     hometeam: Milton Keynes A
@@ -673,7 +673,7 @@ bcl-division-2:
     date: Tue 17 Mar 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-2-thu-19-mar-26-milton-keynes-d-v-bedford-d
     hometeam: Milton Keynes D
