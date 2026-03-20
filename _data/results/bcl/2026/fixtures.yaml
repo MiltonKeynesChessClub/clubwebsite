@@ -239,7 +239,7 @@ bcl-division-1:
     date: Thu 19 Mar 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 5 - 0
 
   - id: bcl-division-1-tue-24-mar-26-luton-a-v-bedford-a
     hometeam: Luton A
@@ -680,7 +680,7 @@ bcl-division-2:
     awayteam: Bedford D
     date: Thu 19 Mar 26
     time: "19:30"
-    status: OU
+    status: OV
     result: 1½ - 3½
 
   - id: bcl-division-2-thu-19-mar-26-bedford-c-v-university-of-bedfordshire
@@ -688,7 +688,7 @@ bcl-division-2:
     awayteam: University of Bedfordshire
     date: Thu 19 Mar 26
     time: "19:30"
-    status: OU
+    status: OV
     result: 3 - 2
 
   - id: bcl-division-2-thu-26-mar-26-milton-keynes-d-v-leighton-buzzard-b

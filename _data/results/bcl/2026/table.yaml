@@ -20,13 +20,13 @@ bcl-division-1:
     points: 14
 
   - team: Milton Keynes A
-    played: 8
-    won: 4
+    played: 9
+    won: 5
     drawn: 1
     lost: 3
-    for: 20½
+    for: 25½
     against: 19½
-    points: 9
+    points: 11
 
   - team: Bedford B
     played: 7
@@ -56,12 +56,12 @@ bcl-division-1:
     points: 3
 
   - team: Luton B
-    played: 9
+    played: 10
     won: 1
     drawn: 0
-    lost: 8
+    lost: 9
     for: 10
-    against: 35
+    against: 40
     points: 2
 
 
