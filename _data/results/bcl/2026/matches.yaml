@@ -2016,6 +2016,71 @@ bcl-division-1:
       color: W
       team: Bedford A
 
+  - fixture: bcl-division-1-thu-26-mar-26-bedford-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Botteley, Michael T
+      rating: 1994
+      color: B
+      team: Bedford B
+    away:
+      name: Onyeji, Eustace
+      rating: 0000
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-26-mar-26-bedford-b-v-luton-b
+    result: ½ - ½
+    home:
+      name: Bodily, Richard T
+      rating: 1968
+      color: W
+      team: Bedford B
+    away:
+      name: Gladysz, Marek
+      rating: 1751
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-26-mar-26-bedford-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Hale, Jack
+      rating: 1750
+      color: B
+      team: Bedford B
+    away:
+      name: Oki, Jonadab
+      rating: 0000
+      color: W
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-26-mar-26-bedford-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Habershon, Paul F
+      rating: 1947
+      color: W
+      team: Bedford B
+    away:
+      name: Jones, Dixon H
+      rating: 1654
+      color: B
+      team: Luton B
+
+  - fixture: bcl-division-1-thu-26-mar-26-bedford-b-v-luton-b
+    result: 1 - 0
+    home:
+      name: Pike, Steve C
+      rating: 1863
+      color: B
+      team: Bedford B
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: W
+      team: Luton B
+
   - fixture: bcl-division-1-thu-26-mar-26-milton-keynes-a-v-leighton-buzzard-a
     result: 0 - 1
     home:
