@@ -13,12 +13,15 @@ jobs:
           fetch-depth: 0
 
       - name: Run import
+        id: import
         working-directory: ./_build/scripts
         run: |
+          set -eo pipefail
           ./importBCLData.sh
           ./importInternalCompetitions.sh
 
       - name: Push new results back to github
+        if: steps.import.outcome == 'success'
         run: |
           changes=$( git diff )
           if [[ -z $changes ]] ; then

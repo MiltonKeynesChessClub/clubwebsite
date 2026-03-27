@@ -3,7 +3,7 @@
 # Script to import internal competition results from Google spreadsheets
 # Filters for active competitions that have Google sheet URLs and downloads them
 
-set -e  # Exit on any error
+set -eo pipefail
 
 # Configuration
 YAML_FILE="../../_data/mkchessclub.yml"

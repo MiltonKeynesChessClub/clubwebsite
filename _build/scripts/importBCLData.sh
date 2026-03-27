@@ -8,6 +8,8 @@
 # * yq: https://github.com/mikefarah/yq
 # * jq: https://jqlang.github.io/jq/
 
+set -eo pipefail
+
 LMS_ORG=${LMS_ORG:-308} # Bedfordshire Chess Assoc.
 LMS_ENDPOINT=${LMS_ENDPOINT:-https://lms.englishchess.org.uk/lms/lmsrest/league}
 TMP_DIR=${TMP_DIR:-~/tmp}
