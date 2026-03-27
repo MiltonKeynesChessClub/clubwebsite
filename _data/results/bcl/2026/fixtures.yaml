@@ -263,7 +263,7 @@ bcl-division-1:
     date: Thu 26 Mar 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-1-thu-9-apr-26-bedford-b-v-milton-keynes-a
     hometeam: Bedford B
@@ -697,15 +697,15 @@ bcl-division-2:
     date: Thu 26 Mar 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-26-mar-26-open-university-v-university-of-bedfordshire
     hometeam: Open University
     awayteam: University of Bedfordshire
     date: Thu 26 Mar 26
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 4 - 1
 
   - id: bcl-division-2-thu-9-apr-26-milton-keynes-c-v-bedford-c
     hometeam: Milton Keynes C
