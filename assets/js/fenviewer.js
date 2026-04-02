@@ -105,6 +105,29 @@
 		}, 2000);
 	}
 
-	$( ".datatable" ).DataTable();
+	function readDataTableBool( $table, attrName, defaultValue ) {
+		var raw = $table.attr( attrName );
+		if ( raw === undefined || raw === null || raw === "" ) {
+			return defaultValue;
+		}
+		var v = String( raw ).toLowerCase();
+		if ( v === "false" || v === "0" || v === "no" ) {
+			return false;
+		}
+		if ( v === "true" || v === "1" || v === "yes" ) {
+			return true;
+		}
+		return defaultValue;
+	}
+
+	$( ".datatable" ).each( function() {
+		var $table = $( this );
+		$table.DataTable( {
+			paging: readDataTableBool( $table, "data-dt-paging", true ),
+			searching: readDataTableBool( $table, "data-dt-searching", true ),
+			ordering: readDataTableBool( $table, "data-dt-ordering", true ),
+			info: readDataTableBool( $table, "data-dt-info", true )
+		} );
+	} );
 
 } )( jQuery );

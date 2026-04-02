@@ -1,0 +1,45 @@
+{% if page.members and page.members.size > 0 %}
+	{% assign bcl_season_bundle = site.data.results.bcl[season] %}
+	<h2 id="player-statistics">Player statistics</h2>
+	{% if bcl_season_bundle and bcl_season_bundle.player_stats %}
+		{% assign team_player_stats = bcl_season_bundle.player_stats[page.division][leaguename] %}
+		<table class="datatable" data-dt-paging="false" data-dt-searching="false" data-dt-info="false">
+			<thead>
+				<tr>
+					<th>Player</th>
+					<th>Played</th>
+					<th>Won</th>
+					<th>Lost</th>
+					<th>Drawn</th>
+					<th><abbr title="Highest opponent rating in a game won">Best win</abbr></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for memberslug in page.members %}
+					{% assign pr = team_player_stats[memberslug] %}
+					{% assign played = pr.played | default: 0 %}
+					{% assign won = pr.won | default: 0 %}
+					{% assign lost = pr.lost | default: 0 %}
+					{% assign drawn = pr.drawn | default: 0 %}
+					{% assign best = pr.best_win_opponent_rating %}
+					<tr>
+						<td>{% include snippets/member_link.html value=memberslug field="slug" %}</td>
+						<td data-order="{{ played }}">{{ played }}</td>
+						<td data-order="{{ won }}">{{ won }}</td>
+						<td data-order="{{ lost }}">{{ lost }}</td>
+						<td data-order="{{ drawn }}">{{ drawn }}</td>
+						<td data-order="{% if best %}{{ best }}{% else %}-1{% endif %}">
+							{% if best %}
+								{{ best }}
+							{% else %}
+								<em class="muted">—</em>
+							{% endif %}
+						</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	{% else %}
+		<p><em class="muted">No player statistics are available for this season yet.</em></p>
+	{% endif %}
+{% endif %}

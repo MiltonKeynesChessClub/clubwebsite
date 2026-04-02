@@ -5,6 +5,7 @@ layout: single
 {% include scripts/teamseasonloader.liquid %}
 
 <h2>{{ page.title }} - {{ season }} Season</h2>
+
 {{ content }}
 
 <h2 id="team-members">Team members</h2>
@@ -13,6 +14,8 @@ layout: single
   <p>{{ page.teamintro}}</p>
 {% endunless %}
 {% include snippets/team_members.html %}
+
+{% include snippets/team_player_stats.html %}
 
 {% unless leaguetable %}
   <h2 id="league-table">League table</h2>
