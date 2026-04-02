@@ -388,7 +388,7 @@ table.all-play-all {
 }
 
 div.dt-container {
-	clear: none;
+	clear: none !important;
 
 	.dt-length, .dt-search, .dt-info, .dt-processing, .dt-paging {
 		font-size: 0.65em;
