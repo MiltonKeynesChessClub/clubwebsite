@@ -104,16 +104,16 @@ bcl-division-1:
 bcl-division-2:
   Milton Keynes C:
     colin-solloway:
-      played: 11
+      played: 12
       won: 6
       lost: 3
-      drawn: 2
+      drawn: 3
       best_win_opponent_rating: 1614
     dave-wells:
-      played: 10
+      played: 11
       won: 2
       lost: 3
-      drawn: 5
+      drawn: 6
       best_win_opponent_rating: 1642
     george-ward:
       played: 1
@@ -121,15 +121,15 @@ bcl-division-2:
       lost: 0
       drawn: 1
     john-mckeon:
-      played: 11
+      played: 12
       won: 4
       lost: 6
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 1445
     john-mcnamara:
-      played: 11
+      played: 12
       won: 1
-      lost: 7
+      lost: 8
       drawn: 3
       best_win_opponent_rating: 1747
     mark-osborn:
@@ -139,9 +139,9 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1300
     michael-page:
-      played: 7
+      played: 8
       won: 5
-      lost: 0
+      lost: 1
       drawn: 2
       best_win_opponent_rating: 1750
     richard-keane:
