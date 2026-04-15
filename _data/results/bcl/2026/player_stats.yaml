@@ -104,15 +104,15 @@ bcl-division-1:
 bcl-division-2:
   Milton Keynes C:
     colin-solloway:
-      played: 12
+      played: 13
       won: 6
       lost: 3
-      drawn: 3
+      drawn: 4
       best_win_opponent_rating: 1614
     dave-wells:
-      played: 11
+      played: 12
       won: 2
-      lost: 3
+      lost: 4
       drawn: 6
       best_win_opponent_rating: 1642
     george-ward:
@@ -121,16 +121,16 @@ bcl-division-2:
       lost: 0
       drawn: 1
     john-mckeon:
-      played: 12
+      played: 13
       won: 4
-      lost: 6
+      lost: 7
       drawn: 2
       best_win_opponent_rating: 1445
     john-mcnamara:
-      played: 12
+      played: 13
       won: 1
       lost: 8
-      drawn: 3
+      drawn: 4
       best_win_opponent_rating: 1747
     mark-osborn:
       played: 1
@@ -139,8 +139,8 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1300
     michael-page:
-      played: 8
-      won: 5
+      played: 9
+      won: 6
       lost: 1
       drawn: 2
       best_win_opponent_rating: 1750
@@ -193,32 +193,32 @@ bcl-division-2:
       best_win_opponent_rating: 1857
   Open University:
     david-phillips:
-      played: 5
+      played: 6
       won: 1
-      lost: 3
+      lost: 4
       drawn: 1
     dexter-caplin-lazard:
-      played: 10
+      played: 11
       won: 2
       lost: 6
-      drawn: 2
+      drawn: 3
       best_win_opponent_rating: 1389
     giuseppe-spigapiena:
-      played: 1
+      played: 2
       won: 1
-      lost: 0
+      lost: 1
       drawn: 0
       best_win_opponent_rating: 1710
     james-alexander:
-      played: 10
+      played: 11
       won: 3
-      lost: 4
+      lost: 5
       drawn: 3
       best_win_opponent_rating: 1697
     mark-osborn:
-      played: 8
+      played: 9
       won: 5
-      lost: 3
+      lost: 4
       drawn: 0
       best_win_opponent_rating: 1396
     matthew-jacques:
