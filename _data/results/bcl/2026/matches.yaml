@@ -5463,3 +5463,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-e-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Hickman, Neil
+      rating: 1727
+      color: B
+      team: Bedford E
+    away:
+      name: Evans, Thomas
+      rating: 1715
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-e-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Cox, Lucian
+      rating: 1697
+      color: W
+      team: Bedford E
+    away:
+      name: Watson, Dominic
+      rating: 1710
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-e-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Cox, R David
+      rating: 1389
+      color: B
+      team: Bedford E
+    away:
+      name: Keane, Richard C
+      rating: 1614
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-e-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: Madhadi, Rishik
+      rating: 1438
+      color: W
+      team: Bedford E
+    away:
+      name: Burse, Rikin
+      rating: 1656
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-e-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Barbarino, Romeo
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Osborn, Mark
+      rating: 1315
+      color: W
+      team: Milton Keynes D
+

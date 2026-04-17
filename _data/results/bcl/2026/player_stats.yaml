@@ -151,8 +151,8 @@ bcl-division-2:
       drawn: 0
   Milton Keynes D:
     dominic-watson:
-      played: 12
-      won: 4
+      played: 13
+      won: 5
       lost: 5
       drawn: 3
       best_win_opponent_rating: 1802
@@ -163,10 +163,11 @@ bcl-division-2:
       drawn: 1
       best_win_opponent_rating: 1300
     mark-osborn:
-      played: 2
-      won: 0
+      played: 3
+      won: 1
       lost: 1
       drawn: 1
+      best_win_opponent_rating: 1300
     olajide-mabogunje:
       played: 11
       won: 9
@@ -174,20 +175,20 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1500
     richard-keane:
-      played: 12
-      won: 5
+      played: 13
+      won: 6
       lost: 6
       drawn: 1
       best_win_opponent_rating: 1642
     rikin-burse:
-      played: 12
+      played: 13
       won: 6
       lost: 5
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 1520
     thomas-evans:
-      played: 13
-      won: 7
+      played: 14
+      won: 8
       lost: 4
       drawn: 2
       best_win_opponent_rating: 1857
