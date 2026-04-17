@@ -5463,6 +5463,71 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-d-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: Gill, Peter S
+      rating: 1606
+      color: B
+      team: Bedford D
+    away:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-d-v-university-of-bedfordshire
+    result: ½ - ½
+    home:
+      name: Bennett, Stephen J
+      rating: 0000
+      color: W
+      team: Bedford D
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-d-v-university-of-bedfordshire
+    result: ½ - ½
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+    away:
+      name: Hayden, Tim
+      rating: 1544
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-d-v-university-of-bedfordshire
+    result: ½ - ½
+    home:
+      name: Dairi, Mahmoud
+      rating: 1344
+      color: W
+      team: Bedford D
+    away:
+      name: Andonov, Nenad
+      rating: 1400
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-16-apr-26-bedford-d-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Dairi, Daniella
+      rating: 0966
+      color: B
+      team: Bedford D
+    away:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: W
+      team: University of Bedfordshire
+
   - fixture: bcl-division-2-thu-16-apr-26-bedford-e-v-milton-keynes-d
     result: 0 - 1
     home:
