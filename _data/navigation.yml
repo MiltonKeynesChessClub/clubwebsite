@@ -50,6 +50,18 @@ posts:
       url: /posts/meetings
 
 results:
+  - title: 2026/7 Internal competitions
+    children:
+    - title: "Championship"
+      url: /results/2026/club-championship.html
+    - title: "Open Swiss"
+      url: /results/2026/open-swiss.html
+    - title: "U1800 Swiss"
+      url: /results/2026/u1800-swiss.html
+    - title: "Open Knockout"
+      url: /results/2026/open-ko.html
+    - title: "U1800 Knockout"
+      url: /results/2026/u1800-ko.html
   - title: 2024/5 Internal competitions
     children:
     - title: "Championship"

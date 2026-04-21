@@ -1,10 +1,17 @@
-{% assign activeinternaseason = site.data.mkchessclub.competitions.internal | where:"active",true | first %}
-{% if activeinternaseason.size > 0 %}
+{% assign activeinternaseasons = site.data.mkchessclub.competitions.internal | where:"active",true %}
+{% for activeinternaseason in activeinternaseasons %}
+	{% if activeinternaseason.season == nil %}
+		{% continue %}
+	{% endif %}
 	{% assign seasonyear = activeinternaseason.season | append: "" %}
 	{% assign pendinggames = "" %}
 	{% assign results = "" %}
+	{% assign seasoninternal = site.data.results.internal[ seasonyear ] %}
+	{% if seasoninternal == nil %}
+		{% continue %}
+	{% endif %}
 
-	{% for t in site.data.results.internal[ seasonyear ] %}
+	{% for t in seasoninternal %}
 		{% assign tourneyid = t[0] %}
 		{% assign tourney = t[1] %}
 		{% if tourney.pairings.size > 0 %}
@@ -71,13 +78,12 @@
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
-{% endif %}
 
-{% if pendinggames.size > 0 or results.size > 0 %}
-<h2 id="internal-competions">Internal competitions, {{ seasonyear }}</h2>
+	{% if pendinggames.size > 0 or results.size > 0 %}
+<h2 id="internal-competions-{{ seasonyear }}">Internal competitions, {{ seasonyear }}</h2>
 
 	{% if results.size > 0 %}
-<h3 id="results-internal">Results</h3>
+<h3 id="results-internal-{{ seasonyear }}">Results</h3>
 <table class="swiss-results-table">
 	<thead>
 		<tr>
@@ -93,7 +99,7 @@
 </table>
 	{% endif %}
 	{% if pendinggames.size > 0 %}
-<h3 id="pending-internal">Pending games</h3>
+<h3 id="pending-internal-{{ seasonyear }}">Pending games</h3>
 <p>The following internal competition games are pending results for {% include snippets/member_link.html value=include.member.slug field="slug" %}.</p>
 <table class="swiss-results-table">
 	<thead>
@@ -109,4 +115,5 @@
 	</tbody>
 </table>
 	{% endif %}
-{% endif %}
+	{% endif %}
+{% endfor %}
