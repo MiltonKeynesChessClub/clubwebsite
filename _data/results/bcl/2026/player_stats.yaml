@@ -61,14 +61,14 @@ bcl-division-1:
       best_win_opponent_rating: 2117
   Milton Keynes B:
     alan-heath:
-      played: 7
+      played: 8
       won: 1
-      lost: 2
+      lost: 3
       drawn: 4
       best_win_opponent_rating: 2011
     andrew-bowler:
-      played: 8
-      won: 6
+      played: 9
+      won: 7
       lost: 1
       drawn: 1
       best_win_opponent_rating: 2145
@@ -79,11 +79,16 @@ bcl-division-1:
       drawn: 1
       best_win_opponent_rating: 1623
     giuseppe-spigapiena:
-      played: 4
+      played: 5
       won: 1
-      lost: 3
+      lost: 4
       drawn: 0
       best_win_opponent_rating: 1623
+    graham-smith:
+      played: 1
+      won: 0
+      lost: 0
+      drawn: 1
     guilherme-rezende:
       played: 1
       won: 0
@@ -96,10 +101,10 @@ bcl-division-1:
       drawn: 1
       best_win_opponent_rating: 2020
     sumit-bhalla:
-      played: 7
+      played: 8
       won: 1
       lost: 6
-      drawn: 0
+      drawn: 1
       best_win_opponent_rating: 1414
 bcl-division-2:
   Milton Keynes C:
