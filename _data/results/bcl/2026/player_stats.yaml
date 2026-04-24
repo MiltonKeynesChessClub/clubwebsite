@@ -194,16 +194,16 @@ bcl-division-2:
       best_win_opponent_rating: 1857
   Open University:
     david-phillips:
-      played: 6
+      played: 7
       won: 1
       lost: 4
-      drawn: 1
+      drawn: 2
     dexter-caplin-lazard:
-      played: 11
-      won: 2
+      played: 12
+      won: 3
       lost: 6
       drawn: 3
-      best_win_opponent_rating: 1389
+      best_win_opponent_rating: 1683
     giuseppe-spigapiena:
       played: 2
       won: 1
@@ -211,21 +211,21 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1710
     james-alexander:
-      played: 11
-      won: 3
+      played: 12
+      won: 4
       lost: 5
       drawn: 3
-      best_win_opponent_rating: 1697
+      best_win_opponent_rating: 1747
     mark-osborn:
-      played: 9
+      played: 10
       won: 5
-      lost: 4
+      lost: 5
       drawn: 0
       best_win_opponent_rating: 1396
     matthew-jacques:
-      played: 9
+      played: 10
       won: 4
-      lost: 2
+      lost: 3
       drawn: 3
       best_win_opponent_rating: 1750
     vincent-edwards:
