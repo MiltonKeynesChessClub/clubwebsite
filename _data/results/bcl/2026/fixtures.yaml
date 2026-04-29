@@ -303,7 +303,7 @@ bcl-division-1:
     date: Tue 28 Apr 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
     hometeam: Bedford A
@@ -768,8 +768,8 @@ bcl-division-2:
     awayteam: Bedford D
     date: Tue 28 Apr 26
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 5 - 0
 
   - id: bcl-division-2-thu-30-apr-26-milton-keynes-c-v-bedford-e
     hometeam: Milton Keynes C
