@@ -22,6 +22,7 @@
 	$( ".fen-position" ).each( function(){
 		var $pgnDiv     = $( this )
 		  , fen         = $pgnDiv.text()
+		  , orientation = $pgnDiv.data( "orientation" )
 		  , containerId = "_" + Math.round(new Date().getTime() + (Math.random() * 100));
 
 		$pgnDiv.before( $( '<div class="pgn-viewer-game pgn-viewer-position" id="' + containerId + '"></div>' ) );
@@ -46,6 +47,7 @@
 			width: '100%',
 			layout: 'top',
 			resizable:false,
+			orientation: orientation
 		});
 
 	} );
