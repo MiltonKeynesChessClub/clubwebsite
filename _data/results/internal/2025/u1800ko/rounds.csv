@@ -1,7 +1,8 @@
 pool,number,name,complete,active,plate,notes
 main,1,First round draw,true,false,false,
-main,2,Second round draw,false,true,false,
-main,3,Third round draw,false,true,false,
+main,2,Second round draw,true,false,false,
+main,3,Third round draw,true,false,false,
+main,4,Final,false,true,false,
 plate,1,First round plate,true,false,true,
 plate,2,Second round plate,true,false,true,
 plate,3,Plate final,true,false,true,
