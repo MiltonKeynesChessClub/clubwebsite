@@ -61,14 +61,14 @@ bcl-division-1:
       best_win_opponent_rating: 2117
   Milton Keynes B:
     alan-heath:
-      played: 8
+      played: 7
       won: 1
-      lost: 3
+      lost: 2
       drawn: 4
       best_win_opponent_rating: 2011
     andrew-bowler:
-      played: 9
-      won: 7
+      played: 8
+      won: 6
       lost: 1
       drawn: 1
       best_win_opponent_rating: 2145
@@ -79,16 +79,11 @@ bcl-division-1:
       drawn: 1
       best_win_opponent_rating: 1623
     giuseppe-spigapiena:
-      played: 5
+      played: 4
       won: 1
-      lost: 4
+      lost: 3
       drawn: 0
       best_win_opponent_rating: 1623
-    graham-smith:
-      played: 1
-      won: 0
-      lost: 0
-      drawn: 1
     guilherme-rezende:
       played: 1
       won: 0
@@ -101,24 +96,24 @@ bcl-division-1:
       drawn: 1
       best_win_opponent_rating: 2020
     sumit-bhalla:
-      played: 8
+      played: 7
       won: 1
       lost: 6
-      drawn: 1
+      drawn: 0
       best_win_opponent_rating: 1414
 bcl-division-2:
   Milton Keynes C:
     colin-solloway:
-      played: 13
+      played: 14
       won: 6
       lost: 3
-      drawn: 4
+      drawn: 5
       best_win_opponent_rating: 1614
     dave-wells:
-      played: 12
+      played: 13
       won: 2
       lost: 4
-      drawn: 6
+      drawn: 7
       best_win_opponent_rating: 1642
     george-ward:
       played: 1
@@ -126,15 +121,15 @@ bcl-division-2:
       lost: 0
       drawn: 1
     john-mckeon:
-      played: 13
-      won: 4
+      played: 14
+      won: 5
       lost: 7
       drawn: 2
       best_win_opponent_rating: 1445
     john-mcnamara:
-      played: 13
+      played: 14
       won: 1
-      lost: 8
+      lost: 9
       drawn: 4
       best_win_opponent_rating: 1747
     mark-osborn:
@@ -144,9 +139,9 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1300
     michael-page:
-      played: 9
+      played: 10
       won: 6
-      lost: 1
+      lost: 2
       drawn: 2
       best_win_opponent_rating: 1750
     richard-keane:
@@ -199,16 +194,16 @@ bcl-division-2:
       best_win_opponent_rating: 1857
   Open University:
     david-phillips:
-      played: 7
+      played: 6
       won: 1
       lost: 4
-      drawn: 2
+      drawn: 1
     dexter-caplin-lazard:
-      played: 12
-      won: 3
+      played: 11
+      won: 2
       lost: 6
       drawn: 3
-      best_win_opponent_rating: 1683
+      best_win_opponent_rating: 1389
     giuseppe-spigapiena:
       played: 2
       won: 1
@@ -216,21 +211,21 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1710
     james-alexander:
-      played: 12
-      won: 4
+      played: 11
+      won: 3
       lost: 5
       drawn: 3
-      best_win_opponent_rating: 1747
+      best_win_opponent_rating: 1697
     mark-osborn:
-      played: 10
+      played: 9
       won: 5
-      lost: 5
+      lost: 4
       drawn: 0
       best_win_opponent_rating: 1396
     matthew-jacques:
-      played: 10
+      played: 9
       won: 4
-      lost: 3
+      lost: 2
       drawn: 3
       best_win_opponent_rating: 1750
     vincent-edwards:

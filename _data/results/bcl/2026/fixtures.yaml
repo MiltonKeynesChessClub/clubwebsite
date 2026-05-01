@@ -295,15 +295,15 @@ bcl-division-1:
     date: Thu 23 Apr 26
     time: "19:30"
     status: OU
-    result: 3 - 2
+    result: 0 - 0
 
   - id: bcl-division-1-tue-28-apr-26-leighton-buzzard-a-v-luton-a
     hometeam: Leighton Buzzard A
     awayteam: Luton A
     date: Tue 28 Apr 26
     time: "19:30"
-    status: OV
-    result: 3 - 2
+    status: OU
+    result: 0 - 0
 
   - id: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
     hometeam: Bedford A
@@ -753,7 +753,7 @@ bcl-division-2:
     date: Thu 23 Apr 26
     time: "19:30"
     status: OU
-    result: 2½ - 2½
+    result: 0 - 0
 
   - id: bcl-division-2-thu-23-apr-26-bedford-e-v-university-of-bedfordshire
     hometeam: Bedford E
@@ -761,15 +761,15 @@ bcl-division-2:
     date: Thu 23 Apr 26
     time: "19:30"
     status: OU
-    result: 5 - 0
+    result: 0 - 0
 
   - id: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
     hometeam: Leighton Buzzard B
     awayteam: Bedford D
     date: Tue 28 Apr 26
     time: "19:30"
-    status: OV
-    result: 5 - 0
+    status: OU
+    result: 0 - 0
 
   - id: bcl-division-2-thu-30-apr-26-milton-keynes-c-v-bedford-e
     hometeam: Milton Keynes C
@@ -777,7 +777,7 @@ bcl-division-2:
     date: Thu 30 Apr 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2 - 3
 
   - id: bcl-division-2-thu-7-may-26-open-university-v-bedford-e
     hometeam: Open University
