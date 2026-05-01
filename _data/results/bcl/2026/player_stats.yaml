@@ -2,8 +2,8 @@
 bcl-division-1:
   Milton Keynes A:
     adrian-elwin:
-      played: 10
-      won: 3
+      played: 11
+      won: 4
       lost: 4
       drawn: 3
       best_win_opponent_rating: 2145
@@ -13,17 +13,17 @@ bcl-division-1:
       lost: 1
       drawn: 0
     eoin-tweeddale:
-      played: 9
+      played: 10
       won: 5
       lost: 4
-      drawn: 0
+      drawn: 1
       best_win_opponent_rating: 1998
     eric-meichel:
-      played: 9
-      won: 4
+      played: 10
+      won: 5
       lost: 1
       drawn: 4
-      best_win_opponent_rating: 1914
+      best_win_opponent_rating: 2043
     george-ward:
       played: 3
       won: 1
@@ -31,10 +31,10 @@ bcl-division-1:
       drawn: 0
       best_win_opponent_rating: 1921
     graham-smith:
-      played: 10
+      played: 11
       won: 4
       lost: 2
-      drawn: 4
+      drawn: 5
       best_win_opponent_rating: 1666
     james-alexander:
       played: 1
@@ -54,52 +54,57 @@ bcl-division-1:
       drawn: 1
       best_win_opponent_rating: 2035
     robert-whiteside:
-      played: 9
+      played: 10
       won: 4
       lost: 3
-      drawn: 2
+      drawn: 3
       best_win_opponent_rating: 2117
   Milton Keynes B:
     alan-heath:
-      played: 7
+      played: 9
       won: 1
-      lost: 2
-      drawn: 4
+      lost: 3
+      drawn: 5
       best_win_opponent_rating: 2011
     andrew-bowler:
-      played: 8
-      won: 6
-      lost: 1
+      played: 10
+      won: 7
+      lost: 2
       drawn: 1
       best_win_opponent_rating: 2145
     george-ward:
-      played: 6
+      played: 7
       won: 1
       lost: 4
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 1623
     giuseppe-spigapiena:
-      played: 4
+      played: 5
       won: 1
-      lost: 3
+      lost: 4
       drawn: 0
       best_win_opponent_rating: 1623
+    graham-smith:
+      played: 1
+      won: 0
+      lost: 0
+      drawn: 1
     guilherme-rezende:
       played: 1
       won: 0
       lost: 1
       drawn: 0
     ozan-senturk:
-      played: 7
+      played: 8
       won: 1
       lost: 5
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 2020
     sumit-bhalla:
-      played: 7
+      played: 9
       won: 1
       lost: 6
-      drawn: 0
+      drawn: 2
       best_win_opponent_rating: 1414
 bcl-division-2:
   Milton Keynes C:
@@ -194,16 +199,16 @@ bcl-division-2:
       best_win_opponent_rating: 1857
   Open University:
     david-phillips:
-      played: 6
+      played: 7
       won: 1
       lost: 4
-      drawn: 1
+      drawn: 2
     dexter-caplin-lazard:
-      played: 11
-      won: 2
+      played: 12
+      won: 3
       lost: 6
       drawn: 3
-      best_win_opponent_rating: 1389
+      best_win_opponent_rating: 1683
     giuseppe-spigapiena:
       played: 2
       won: 1
@@ -211,21 +216,21 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1710
     james-alexander:
-      played: 11
-      won: 3
+      played: 12
+      won: 4
       lost: 5
       drawn: 3
-      best_win_opponent_rating: 1697
+      best_win_opponent_rating: 1747
     mark-osborn:
-      played: 9
+      played: 10
       won: 5
-      lost: 4
+      lost: 5
       drawn: 0
       best_win_opponent_rating: 1396
     matthew-jacques:
-      played: 9
+      played: 10
       won: 4
-      lost: 2
+      lost: 3
       drawn: 3
       best_win_opponent_rating: 1750
     vincent-edwards:

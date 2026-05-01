@@ -2341,6 +2341,266 @@ bcl-division-1:
       color: W
       team: Bedford B
 
+  - fixture: bcl-division-1-thu-23-apr-26-bedford-a-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Arulnandhy, Ravi
+      rating: 2046
+      color: B
+      team: Bedford A
+    away:
+      name: Bowler, Andrew
+      rating: 2041
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-23-apr-26-bedford-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Gardner, James
+      rating: 2117
+      color: W
+      team: Bedford A
+    away:
+      name: Heath, Alan
+      rating: 1858
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-23-apr-26-bedford-a-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Dairi, Ramsey
+      rating: 2043
+      color: B
+      team: Bedford A
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-23-apr-26-bedford-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Collacott, Nick
+      rating: 2035
+      color: W
+      team: Bedford A
+    away:
+      name: Spigapiena, Giuseppe
+      rating: 1789
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-23-apr-26-bedford-a-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Taylor, Alex
+      rating: 1921
+      color: B
+      team: Bedford A
+    away:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-28-apr-26-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Tukpetov, Evgeny
+      rating: 2294
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Nelson, Abiodun
+      rating: 0000
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-28-apr-26-leighton-buzzard-a-v-luton-a
+    result: 0 - 1
+    home:
+      name: Sharp, John R
+      rating: 2145
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Oki, Jonadab
+      rating: 0000
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-28-apr-26-leighton-buzzard-a-v-luton-a
+    result: 0 - 1
+    home:
+      name: Kenworthy, Gary
+      rating: 2148
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-28-apr-26-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Hunt, Peter
+      rating: 1983
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-tue-28-apr-26-leighton-buzzard-a-v-luton-a
+    result: 1 - 0
+    home:
+      name: Valentine, Brian J
+      rating: 1837
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Montgomery, Peter
+      rating: 1596
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Gardner, James
+      rating: 2117
+      color: B
+      team: Bedford A
+    away:
+      name: Tweeddale, Eoin
+      rating: 2046
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Arulnandhy, Ravi
+      rating: 2046
+      color: W
+      team: Bedford A
+    away:
+      name: Elwin, Adrian G
+      rating: 2011
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Dairi, Ramsey
+      rating: 2043
+      color: B
+      team: Bedford A
+    away:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Collacott, Nick
+      rating: 2035
+      color: W
+      team: Bedford A
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-30-apr-26-bedford-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Taylor, Alex
+      rating: 1921
+      color: B
+      team: Bedford A
+    away:
+      name: Whiteside, Robert
+      rating: 1889
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-thu-30-apr-26-milton-keynes-b-v-bedford-b
+    result: 0 - 1
+    home:
+      name: Bowler, Andrew
+      rating: 2041
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Botteley, Michael T
+      rating: 1994
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-30-apr-26-milton-keynes-b-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Heath, Alan
+      rating: 1858
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Bodily, Richard T
+      rating: 1968
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-30-apr-26-milton-keynes-b-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Senturk, N Ozan NE
+      rating: 1976
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Hale, Jack
+      rating: 1750
+      color: W
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-30-apr-26-milton-keynes-b-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Ward, George
+      rating: 1829
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Habershon, Paul F
+      rating: 1947
+      color: B
+      team: Bedford B
+
+  - fixture: bcl-division-1-thu-30-apr-26-milton-keynes-b-v-bedford-b
+    result: ½ - ½
+    home:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Pike, Steve C
+      rating: 1863
+      color: W
+      team: Bedford B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d
@@ -5657,6 +5917,136 @@ bcl-division-2:
       rating: 1315
       color: W
       team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Shields, Callum T
+      rating: 1747
+      color: B
+      team: Bedford C
+    away:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-c-v-open-university
+    result: 0 - 1
+    home:
+      name: Potts, Alexander
+      rating: 1683
+      color: W
+      team: Bedford C
+    away:
+      name: Lazard, Dexter
+      rating: 1520
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-c-v-open-university
+    result: 1 - 0
+    home:
+      name: Walker, Nigel B
+      rating: 1446
+      color: B
+      team: Bedford C
+    away:
+      name: Jacques, Matthew
+      rating: 1499
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-c-v-open-university
+    result: ½ - ½
+    home:
+      name: Evans, Andy
+      rating: 1445
+      color: W
+      team: Bedford C
+    away:
+      name: Phillips, David
+      rating: 1444
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-c-v-open-university
+    result: 1 - 0
+    home:
+      name: Graf, Francesco
+      rating: 0000
+      color: B
+      team: Bedford C
+    away:
+      name: Osborn, Mark
+      rating: 1315
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Taylor, Peter
+      rating: 1802
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Mangarayi, Abigail
+      rating: 1636
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Singh, Guranshvir
+      rating: 1641
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Gill, Peter S
+      rating: 1606
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Dorn, C Fred H
+      rating: 1750
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Bennett, Stephen J
+      rating: 0000
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Woodward, Ian P
+      rating: 1743
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Evans, Andy
+      rating: 1445
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
+    result: 1 - 0
+    home:
+      name: Gallagher, Sean
+      rating: 1600
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Dairi, Mahmoud
+      rating: 1344
+      color: W
+      team: Bedford D
 
   - fixture: bcl-division-2-thu-30-apr-26-milton-keynes-c-v-bedford-e
     result: 0 - 1
