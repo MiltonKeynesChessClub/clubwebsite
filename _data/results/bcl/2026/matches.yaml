@@ -5983,6 +5983,71 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-e-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Cox, Lucian
+      rating: 1697
+      color: B
+      team: Bedford E
+    away:
+      name: Juhasz, Aleksandar
+      rating: 1623
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-e-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Muir, Steven
+      rating: 0000
+      color: W
+      team: Bedford E
+    away:
+      name: Hayden, Tim
+      rating: 1544
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-e-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Cox, R David
+      rating: 1389
+      color: B
+      team: Bedford E
+    away:
+      name: Andonov, Nenad
+      rating: 1400
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-e-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Madhadi, Rishik
+      rating: 1438
+      color: W
+      team: Bedford E
+    away:
+      name: Sackey-Clarke, Godfrey
+      rating: 0000
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-23-apr-26-bedford-e-v-university-of-bedfordshire
+    result: 1 - 0
+    home:
+      name: Barbarino, Romeo
+      rating: 1300
+      color: B
+      team: Bedford E
+    away:
+      name: Moncy, Joel
+      rating: 1029
+      color: W
+      team: University of Bedfordshire
+
   - fixture: bcl-division-2-tue-28-apr-26-leighton-buzzard-b-v-bedford-d
     result: 1 - 0
     home:
