@@ -327,7 +327,7 @@ bcl-division-1:
     date: Tue 5 May 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-1-tue-12-may-26-luton-b-v-milton-keynes-b
     hometeam: Luton B

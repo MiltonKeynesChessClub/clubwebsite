@@ -67,22 +67,22 @@ bcl-division-1:
       drawn: 5
       best_win_opponent_rating: 2011
     andrew-bowler:
-      played: 10
+      played: 11
       won: 7
-      lost: 2
+      lost: 3
       drawn: 1
       best_win_opponent_rating: 2145
     george-ward:
-      played: 7
+      played: 8
       won: 1
-      lost: 4
+      lost: 5
       drawn: 2
       best_win_opponent_rating: 1623
     giuseppe-spigapiena:
-      played: 5
+      played: 6
       won: 1
       lost: 4
-      drawn: 0
+      drawn: 1
       best_win_opponent_rating: 1623
     graham-smith:
       played: 1
@@ -95,16 +95,16 @@ bcl-division-1:
       lost: 1
       drawn: 0
     ozan-senturk:
-      played: 8
-      won: 1
-      lost: 5
-      drawn: 2
-      best_win_opponent_rating: 2020
-    sumit-bhalla:
       played: 9
       won: 1
       lost: 6
       drawn: 2
+      best_win_opponent_rating: 2020
+    sumit-bhalla:
+      played: 10
+      won: 1
+      lost: 6
+      drawn: 3
       best_win_opponent_rating: 1414
 bcl-division-2:
   Milton Keynes C:
