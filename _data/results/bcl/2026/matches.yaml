@@ -6243,3 +6243,68 @@ bcl-division-2:
       color: W
       team: Bedford E
 
+  - fixture: bcl-division-2-thu-7-may-26-open-university-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Alexander, NO'D James
+      rating: 1857
+      color: B
+      team: Open University
+    away:
+      name: Cox, Lucian
+      rating: 1697
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-7-may-26-open-university-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Edwards, Vincent
+      rating: 1642
+      color: W
+      team: Open University
+    away:
+      name: Muir, Steven
+      rating: 0000
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-7-may-26-open-university-v-bedford-e
+    result: ½ - ½
+    home:
+      name: Lazard, Dexter
+      rating: 1520
+      color: B
+      team: Open University
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-7-may-26-open-university-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Jacques, Matthew
+      rating: 1499
+      color: W
+      team: Open University
+    away:
+      name: Setchfield, Brian
+      rating: 0000
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-7-may-26-open-university-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Osborn, Mark
+      rating: 1315
+      color: B
+      team: Open University
+    away:
+      name: Barbarino, Romeo
+      rating: 1300
+      color: W
+      team: Bedford E
+
