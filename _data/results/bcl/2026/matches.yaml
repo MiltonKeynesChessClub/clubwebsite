@@ -2666,6 +2666,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes B
 
+  - fixture: bcl-division-1-tue-12-may-26-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Vora, Samir
+      rating: 1815
+      color: B
+      team: Luton B
+    away:
+      name: Bowler, Andrew
+      rating: 2041
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-12-may-26-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Gladysz, Marek
+      rating: 1751
+      color: W
+      team: Luton B
+    away:
+      name: Senturk, N Ozan NE
+      rating: 1976
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-12-may-26-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Ozdemir, Kamil
+      rating: 1661
+      color: B
+      team: Luton B
+    away:
+      name: Smith, Graham
+      rating: 1914
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-12-may-26-luton-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Jones, Dixon H
+      rating: 1654
+      color: W
+      team: Luton B
+    away:
+      name: Ward, George
+      rating: 1829
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-12-may-26-luton-b-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Hayden, Tim
+      rating: 1544
+      color: B
+      team: Luton B
+    away:
+      name: Bhalla, Sumit
+      rating: 1475
+      color: W
+      team: Milton Keynes B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-9-oct-25-bedford-c-v-bedford-d

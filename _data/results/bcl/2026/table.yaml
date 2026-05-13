@@ -47,21 +47,21 @@ bcl-division-1:
     points: 8
 
   - team: Milton Keynes B
-    played: 11
-    won: 1
+    played: 12
+    won: 2
     drawn: 1
     lost: 9
-    for: 19½
-    against: 35½
-    points: 3
+    for: 24
+    against: 36
+    points: 5
 
   - team: Luton B
-    played: 11
+    played: 12
     won: 1
     drawn: 0
-    lost: 10
-    for: 10½
-    against: 44½
+    lost: 11
+    for: 11
+    against: 49
     points: 2
 
 
