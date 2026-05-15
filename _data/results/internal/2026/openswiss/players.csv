@@ -1,6 +1,6 @@
 Name,Rating,Score,Played
-Andrew Bowler,2122,0,0
-Joseph Assante,2100e,0,0
+Andrew Bowler,2122,1,1
+Joseph Assante,2100,0,0
 Adrian Elwin,1973,0,0
 Eric Meichel,1933,0,0
 Graham Smith,1919,0,0
@@ -9,7 +9,7 @@ Alan Heath,1846,0,0
 James Alexander,1816,0,0
 Ozan Senturk,1805,0,0
 George Ward,1788,0,0
-Dominic Watson,1676,0,0
+Dominic Watson,1676,0,1
 Giacomo Lorenzini,1660,0,0
 Colin Solloway,1654,0,0
 Dave Wells,1617,0,0
