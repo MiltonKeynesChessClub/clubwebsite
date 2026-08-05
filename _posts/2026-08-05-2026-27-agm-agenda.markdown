@@ -1,0 +1,72 @@
+---
+title: "2026 Annual General Meeting: 3rd September"
+date: 2026-08-05
+categories: meetings
+author: george-ward
+toc: true
+toc_sticky: true
+excerpt: The Annual General Meeting will be held on Thursday 3rd September 2026. Please complete the online form ahead of the meeting.
+---
+
+The Annual General Meeting of Milton Keynes Chess Club will be held on **<time datetime="2026-09-03">Thursday 3rd September 2026</time>** at **7:45pm** in the Berrill Café at The Open University.
+
+<div class="notice--warning" markdown="1">
+**Please complete the AGM questionnaire before the meeting.**
+
+Members are asked to [fill in the online form](https://forms.zohopublic.eu/miltonkeyneschessclubgm1/form/MiltonKeynesChessClub2025AGMForm/formperma/cfv4RyS5RDIQGOUHZCH8hUY6l6Jhw2D42iwjsEOcals) ahead of the AGM. The form covers attendance, club officer nominations, Bedfordshire League preferences, and the Cordon Trophy.
+</div>
+
+## Agenda
+
+### 1. Apologies for Absence
+
+### 2. Welcome
+
+### 3. Minutes of the last meeting
+
+[2025 AGM Minutes](/2025/09/04/agm-minutes.html)
+
+### 4. Secretary's Report
+
+### 5. Treasurer's Report
+
+- Subscriptions for 2026-27 Recommendation
+
+### 6. Internal League Report
+
+### 7. Safeguarding Report
+
+### 8. Beds League Captains Reports
+
+- Reports for the 2025/26 Season
+
+### 9. Election of Officers
+
+- Chairman
+- Secretary
+- Treasurer
+- Tournament Secretary
+- Safeguarding Officer
+- Deputy Safeguarding Officer
+
+### 10. Bedfordshire League Team Captains
+
+### 11. Cordon Trophy Captain
+
+### 12. Any Other Business
+
+#### Change in Beds League rules
+
+A proposed change to rule 14, to be applied to the 2026/27 season and onward:
+
+> **New rule 14:** Sufficient chess clocks must be provided. The normal rate of play being all moves in one hour ~~and twenty minutes~~ plus ~~ten~~ thirty seconds per move. There will be no adjournments or adjudications.
+
+Reasons given in support of this change:
+
+* It will result in higher-quality endgames being played
+* For games shorter than sixty moves (i.e. the vast majority of them), it will ease the time constraints for those who need to get home or vacate the premises promptly
+* A thirty-second increment mandates that all moves are recorded, regardless of how little time is on the clock
+
+---
+
+**[Download the full AGM Agenda PDF](/assets/pdf/2026-27-AGM-Agenda.pdf)**

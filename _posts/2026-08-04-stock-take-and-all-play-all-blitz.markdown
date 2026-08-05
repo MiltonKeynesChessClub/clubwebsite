@@ -1,5 +1,5 @@
 ---
-title: "Annual stock take and all play all blitz"
+title: "Annual stock take and all play all blitz: 27th August"
 date: 2026-08-04
 author: alan-heath
 categories: news
