@@ -1,0 +1,79 @@
+name: Check Adrian internal competitions
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    name: Compare with Adrian's site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run checker
+        run: |
+          set -eo pipefail
+          python3 _build/scripts/checkAdrianInternal.py | tee /tmp/adrian-sync-report.md
+          {
+            echo "## Adrian internal competitions sync"
+            echo
+            cat /tmp/adrian-sync-report.md
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upsert GitHub issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eo pipefail
+          report="/tmp/adrian-sync-report.md"
+          label="adrian-sync"
+          title="Adrian internal competitions: actions needed"
+
+          gh label create "$label" --description "Discrepancies vs Adrian Elwin internal pages" --color "0E8A16" --force >/dev/null || true
+
+          hash=$(grep -v '^Generated:' "$report" | sha256sum | cut -c1-16)
+          {
+            cat "$report"
+            printf '\n<!-- adrian-sync-hash: %s -->\n' "$hash"
+          } > /tmp/adrian-sync-issue.md
+
+          needs_issue=0
+          if grep -q '^## Actions needed' "$report" || grep -q '^## Conflicts' "$report"; then
+            needs_issue=1
+          fi
+
+          issue_number=$(gh issue list --label "$label" --state all --limit 20 --json number,title --jq ".[] | select(.title==\"$title\") | .number" | head -n 1)
+          issue_state=""
+          previous_hash=""
+          if [[ -n "$issue_number" ]]; then
+            issue_state=$(gh issue view "$issue_number" --json state --jq .state)
+            previous_hash=$(gh issue view "$issue_number" --json body --jq .body | sed -n 's/.*adrian-sync-hash: \([0-9a-f]*\).*/\1/p' | head -n 1)
+          fi
+
+          if [[ "$needs_issue" -eq 0 ]]; then
+            if [[ -n "$issue_number" && "$issue_state" == "OPEN" ]]; then
+              gh issue close "$issue_number" --comment "No actions needed on the latest check. Closing until Adrian's site diverges again."
+            fi
+            echo "No actions needed."
+            exit 0
+          fi
+
+          if [[ -n "$issue_number" && "$previous_hash" == "$hash" ]]; then
+            echo "Issue #$issue_number already has this report."
+            exit 0
+          fi
+
+          if [[ -z "$issue_number" ]]; then
+            gh issue create --title "$title" --label "$label" --body-file /tmp/adrian-sync-issue.md
+          else
+            gh issue reopen "$issue_number" >/dev/null || true
+            gh issue edit "$issue_number" --body-file /tmp/adrian-sync-issue.md
+            gh issue comment "$issue_number" --body "The discrepancy report changed. The issue body has been updated."
+          fi
