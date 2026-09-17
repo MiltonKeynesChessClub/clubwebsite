@@ -62,6 +62,8 @@ results:
       url: /results/2026/open-ko.html
     - title: "U1800 Knockout"
       url: /results/2026/u1800-ko.html
+    - title: "All Play All Blitz"
+      url: /results/2026/all-play-all-blitz.html
   - title: 2024/5 Internal competitions
     children:
     - title: "Championship"
@@ -76,6 +78,8 @@ results:
       url: /results/2025/u1800-ko.html
     - title: "Ladder"
       url: /results/2025/ladder.html
+    - title: "All Play All Rapidplay"
+      url: /results/2025/all-play-all-blitz.html
   - title: 2025/6 Bedfordshire League
     children:
     - title: "Milton Keynes A"

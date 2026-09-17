@@ -22,4 +22,5 @@ The Bedfordshire League for this season has yet to start.
 	<li><a href="/results/2025/open-ko.html">Open Knockout</a></li>
 	<li><a href="/results/2025/u1800-ko.html">U1800 Knockout</a></li>
 	<li><a href="/results/2025/ladder.html">Ladder</a></li>
+	<li><a href="/results/2025/all-play-all-blitz.html">All Play All Rapidplay</a></li>
 </ul>

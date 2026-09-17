@@ -1,2 +1,4 @@
 pool,number,name,complete,active,plate,notes
 main,1,First round draw,false,true,false,
+main,2,Second round draw,false,true,false,
+plate,1,First round plate,false,true,true,

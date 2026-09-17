@@ -17,5 +17,6 @@ Here you can find this season's results and pairings for Milton Keynes Chess Clu
 	<li><a href="/results/2026/u1800-swiss.html">U1800 Swiss</a></li>
 	<li><a href="/results/2026/open-ko.html">Open Knockout</a></li>
 	<li><a href="/results/2026/u1800-ko.html">U1800 Knockout</a></li>
+	<li><a href="/results/2026/all-play-all-blitz.html">All Play All Blitz</a></li>
 	<li><a href="/results/2026/ladder.html">Ladder</a></li>
 </ul>
