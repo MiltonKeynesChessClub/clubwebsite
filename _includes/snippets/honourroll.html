@@ -1,45 +1,40 @@
 {% assign honours = site.data.results.honourroll %}
-{% assign currentseason = honours[0].season | append: "" %}
-{% assign currentevent = honours[0].event %}
-
-<h2 id="season-{{ currentseason }}">{{ currentseason }} season</h2>
-<h3 id="season-{{ currentseason }}-event-{{ currentevent  | slugify: "pretty" }}">{{ currentevent }}</h3>
-<table>
-	<thead>
-		<tr>
-			<th>Place</th>
-			<th>Player</th>
-		</tr>
-	</thead>
-	<tbody>
+{% assign currentseason = "" %}
+{% assign currentevent = "" %}
+{% assign tableopen = false %}
 {% for honour in honours %}
-	{% assign honourseason = honour.season | append: "" %}
-	{% assign honourevent = honour.event | append: "" %}
-	{% if honourseason != currentseason or honourevent != currentevent %}
-	</tbody>
+{% assign honourseason = honour.season | append: "" | strip %}
+{% assign honourevent = honour.event | append: "" | strip %}
+{% if honourseason == "" or honourevent == "" %}
+{% continue %}
+{% endif %}
+{% if honourseason != currentseason or honourevent != currentevent %}
+{% if tableopen %}
+</tbody>
 </table>
-		{% if honourseason != currentseason  %}
-			{% assign currentseason = honourseason %}
+{% endif %}
+{% if honourseason != currentseason %}
+{% assign currentseason = honourseason %}
 <h2 id="season-{{ currentseason }}">{{ currentseason }} season</h2>
-		{% endif %}
-		{% if honourevent != currentevent %}
-			{% assign currentevent = honourevent %}
-<h3 id="season-{{ currentseason }}-event-{{ currentevent  | slugify: "pretty" }}">{{ currentevent }}</h3>
-		{% endif %}
+{% endif %}
+{% assign currentevent = honourevent %}
+<h3 id="season-{{ currentseason }}-event-{{ currentevent | slugify }}">{{ currentevent }}</h3>
 <table>
-	<thead>
-		<tr>
-			<th>Place</th>
-			<th>Player</th>
-		</tr>
-	</thead>
-	<tbody>
-	{% endif %}
-
-	<tr>
-		<td>{{ honour.place }}</td>
-		<td>{% include snippets/member_link.html field="name" value=honour.player %}</td>
-	</tr>
+<thead>
+<tr>
+<th>Place</th>
+<th>Player</th>
+</tr>
+</thead>
+<tbody>
+{% assign tableopen = true %}
+{% endif %}
+<tr>
+<td>{{ honour.place }}</td>
+<td>{% include snippets/member_link.html field="name" value=honour.player %}</td>
+</tr>
 {% endfor %}
-	</tbody>
+{% if tableopen %}
+</tbody>
 </table>
+{% endif %}
