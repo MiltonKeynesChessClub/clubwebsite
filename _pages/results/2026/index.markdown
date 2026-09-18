@@ -7,7 +7,11 @@ toc: true
 toc_sticky: true
 ---
 
-Here you can find this season's results and pairings for Milton Keynes Chess Club internal competitions. When the league starts its new season, you will also find our team results listings here.
+Here you can find this season's results and pairings for Milton Keynes Chess Club internal competitions. You will also find team results and standings for each of our teams in the [Bedfordshire Chess League](https://lms.englishchess.org.uk/lms/organisation/308).
+
+## 2026/7 Bedfordshire League
+
+The Bedfordshire League for this season has yet to start.
 
 ## 2026/7 Internal competitions
 

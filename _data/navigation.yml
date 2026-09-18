@@ -64,7 +64,7 @@ results:
       url: /results/2026/u1800-ko.html
     - title: "All Play All Blitz"
       url: /results/2026/all-play-all-blitz.html
-  - title: 2024/5 Internal competitions
+  - title: 2025/6 Internal competitions
     children:
     - title: "Championship"
       url: /results/2025/club-championship.html
@@ -80,21 +80,11 @@ results:
       url: /results/2025/ladder.html
     - title: "All Play All Rapidplay"
       url: /results/2025/all-play-all-blitz.html
-  - title: 2025/6 Bedfordshire League
-    children:
-    - title: "Milton Keynes A"
-      url: /results/2025/mka.html
-    - title: "Milton Keynes B"
-      url: /results/2025/mkb.html
-    - title: "Milton Keynes C"
-      url: /results/2025/mkc.html
-    - title: "Milton Keynes D"
-      url: /results/2025/mkd.html
-    - title: "Open University"
-      url: /results/2025/ou.html
   - title: Archive
     children:
-      - title: "2023/4 Season"
+      - title: "2025/6 Season"
+        url: /results/2025
+      - title: "2024/5 Season"
         url: /results/2024
       - title: "Match reports"
         url: /posts/matchreports

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2025/5 Ladder Competition"
+title:  "2025/6 Ladder Competition"
 permalink: "/results/2025/ladder.html"
 toc: true
 toc_sticky: true

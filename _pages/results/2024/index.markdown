@@ -19,7 +19,7 @@ Here you can find the 2024 season's results and pairings for Milton Keynes Chess
 	<li><a href="/results/2024/ou.html">Open University</a></li>
 </ul>
 
-## 2023/4 Internal competitions
+## 2024/5 Internal competitions
 
 <ul>
 	<li><a href="/results/2024/club-championship.html">Championship</a></li>
