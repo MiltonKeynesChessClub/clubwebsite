@@ -4,9 +4,9 @@
 	{% if result.white == include.playera and result.black == include.playerb %}
 		{% assign colour="w" %}
 		{% case result.result %}
-			{% when "1-0" %}
+			{% when "1-0", "1-def", "w/o-def" %}
 				{% assign score="1" %}
-			{% when "0-1" %}
+			{% when "0-1", "def-1", "def-w/o", "def-wo", "def-def" %}
 				{% assign score="0" %}
 			{% when "bye-1" %}
 				{% assign score="-" %}
@@ -26,9 +26,9 @@
 	{% elsif result.black == include.playera and result.white == include.playerb %}
 		{% assign colour="b" %}
 		{% case result.result %}
-			{% when "1-0" %}
+			{% when "1-0", "1-def", "w/o-def", "def-def" %}
 				{% assign score="0" %}
-			{% when "0-1" %}
+			{% when "0-1", "def-1", "def-w/o", "def-wo" %}
 				{% assign score="1" %}
 			{% when "bye-1" %}
 				{% assign score="+" %}
