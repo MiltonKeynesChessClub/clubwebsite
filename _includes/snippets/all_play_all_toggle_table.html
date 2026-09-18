@@ -3,6 +3,13 @@
 {% assign playercount = players.size %}
 {% assign includeplace = players[0].place %}
 {% assign includerating = players[0].rating %}
+{% assign namecolspan = 1 %}
+{% if includeplace %}
+	{% assign namecolspan = namecolspan | plus: 1 %}
+{% endif %}
+{% if includerating %}
+	{% assign namecolspan = namecolspan | plus: 1 %}
+{% endif %}
 
 <div class="table-toggle-container">
 	<div class="table-toggle-buttons">
@@ -27,11 +34,9 @@
 			</thead>
 			<tfoot>
 				<tr>
-					<td colspan="2" class="dead-space">&nbsp;</td>
+					<td colspan="{{ namecolspan }}" class="dead-space">&nbsp;</td>
 					{% for player in players %}
-						<td class="player-name-vertical">
-							{% include snippets/member_link.html value=player.name field="name" %}
-						</td>
+						<td class="player-name-vertical"><span>{% include snippets/member_link.html value=player.name field="name" %}</span></td>
 					{% endfor %}
 					<td class="dead-space" colspan="2">&nbsp;</td>
 				</tr>

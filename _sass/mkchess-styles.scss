@@ -159,7 +159,7 @@ table.all-play-all {
 	}
 
 	.all-play-all-result {
-		display: block;
+		display: inline-block;
 		padding: 0.2em 0.5em;
 		border: 1px solid $mk-eerie-black;
 		font-size: 0.75em;
@@ -191,8 +191,14 @@ table.all-play-all {
 			border-bottom: none;
 		}
 		.player-name-vertical {
-			writing-mode: vertical-rl;
 			vertical-align: top;
+			padding-left: 0;
+			padding-right: 0;
+
+			span {
+				writing-mode: vertical-rl;
+				display: inline-block;
+			}
 		}
 	}
 }
