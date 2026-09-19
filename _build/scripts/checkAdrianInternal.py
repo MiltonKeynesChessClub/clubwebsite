@@ -33,6 +33,8 @@ NAME_ALIASES = {
 	"azeem mauf": "Azeem Maruf",
 }
 BYE_NAMES = {"", "bye", "tbc"}
+WALKOVER_TOKENS = { "+", "w/o", "wo", "walkover" }
+DEFAULT_TOKENS = { "-", "w/d", "wd", "def", "default" }
 
 HREF_PATTERNS = [
 	("openswiss", "swiss", re.compile(r"^OpenSwiss(\d{2})Rd(\d+)\.html$", re.I)),
@@ -354,14 +356,24 @@ def extract_deadline( html: str ) -> str:
 	return iso_deadline( match.group( 1 ), match.group( 2 ), match.group( 3 ) )
 
 
+def result_token( raw: str ) -> str:
+	value = ( raw or "" ).strip().lower()
+	value = value.replace( " ", "" ).replace( "½", "1/2" ).replace( "\u00bd", "1/2" )
+	if value in WALKOVER_TOKENS:
+		return "wo"
+	if value in DEFAULT_TOKENS:
+		return "wd"
+	return value
+
+
 def decode_result_pair( white_result: str, black_result: str ) -> str:
-	white = white_result.replace( " ", "" ).replace( "½", "1/2" )
-	black = black_result.replace( " ", "" ).replace( "½", "1/2" )
+	white = result_token( white_result )
+	black = result_token( black_result )
 	if white == "" and black == "":
 		return "tbc"
-	if white == "+" and black in { "-", "" }:
+	if white == "wo" and black in { "wd", "" }:
 		return "1-def"
-	if white in { "-", "" } and black == "+":
+	if white in { "wd", "" } and black == "wo":
 		return "def-1"
 	if white == "1" and black == "0":
 		return "1-0"
@@ -369,6 +381,8 @@ def decode_result_pair( white_result: str, black_result: str ) -> str:
 		return "0-1"
 	if white == "1/2" and black == "1/2":
 		return "1/2-1/2"
+	if white == "wd" and black == "wd":
+		return "def-def"
 	return "tbc"
 
 
@@ -391,8 +405,18 @@ def normalize_result( raw: str ) -> str:
 		"def-def": "def-def",
 		"+": "1-def",
 		"-": "def-1",
+		"w/o-w/d": "1-def",
+		"w/o-def": "1-def",
+		"wo-wd": "1-def",
+		"w/d-w/o": "def-1",
+		"def-w/o": "def-1",
+		"wd-wo": "def-1",
 	}
 	return mapping.get( value, value )
+
+
+def results_equivalent( left: str, right: str ) -> bool:
+	return normalize_result( left ) == normalize_result( right )
 
 
 def result_is_complete( result: str ) -> bool:
@@ -847,7 +871,9 @@ def unique_ko_matches( games: list[ dict ] ) -> list[ dict ]:
 			row for row in rows
 			if match_winner( row[ "white" ], row[ "black" ], row[ "result" ] ) not in { None, "draw" }
 		]
-		chosen = dict( decisive[ -1 ] if decisive else rows[ -1 ] )
+		if not decisive:
+			continue
+		chosen = dict( decisive[ -1 ] )
 		chosen[ "extra_games" ] = len( rows ) - 1
 		matches.append( chosen )
 	return matches
@@ -884,12 +910,10 @@ def compare_swiss(
 
 	data_rounds = data_round_numbers( data_entry.get( "rounds", [] ), "swiss" )
 	actions = []
-	details = []
 	csv_rows = []
 	missing = []
 	result_updates = []
 	adrian_ahead = []
-	we_ahead = []
 
 	if round_number not in sheet_rounds( sheet_games, "swiss" ):
 		actions.append(
@@ -912,14 +936,10 @@ def compare_swiss(
 					f"{f' ({game['date']})' if game['date'] else ''}, sheet still `{found['result']}`"
 				)
 			elif result_is_complete( game[ "result" ] ) and result_is_complete( found[ "result" ] ):
-				if normalize_result( game[ "result" ] ) != normalize_result( found[ "result" ] ):
+				if not results_equivalent( game[ "result" ], found[ "result" ] ):
 					adrian_ahead.append(
 						f"{game['white']} vs {game['black']}: Adrian `{game['result']}`, sheet `{found['result']}`"
 					)
-			elif not result_is_complete( game[ "result" ] ) and result_is_complete( found[ "result" ] ):
-				we_ahead.append(
-					f"{game['white']} vs {game['black']}: sheet `{found['result']}`, Adrian still tbc"
-				)
 
 		if missing:
 			actions.append( f"Add the missing Round {round_number} pairings to the {season} Google Sheet." )
@@ -956,17 +976,6 @@ def compare_swiss(
 			details=details,
 			csv_rows=csv_rows,
 		)
-	elif we_ahead:
-		report.add(
-			"info",
-			season=season,
-			competition=label,
-			title=f"{season} {label} — Round {round_number}: our sheet is ahead of Adrian",
-			source_url=url,
-			actions=[],
-			details=we_ahead,
-			csv_rows=[],
-		)
 
 
 def compare_ko(
@@ -997,7 +1006,6 @@ def compare_ko(
 		missing = []
 		result_updates = []
 		conflicts = []
-		we_ahead = []
 
 		if not adrian_games and not unresolved:
 			continue
@@ -1020,29 +1028,21 @@ def compare_ko(
 					continue
 				adrian_winner = match_winner( game[ "white" ], game[ "black" ], game[ "result" ] )
 				sheet_winner = match_winner( found[ "white" ], found[ "black" ], found[ "result" ] )
-				if adrian_winner not in { None, "draw" } and sheet_winner is None:
+				if adrian_winner == "draw":
+					continue
+				if adrian_winner and sheet_winner is None:
 					result_updates.append(
 						f"{game['white']} vs {game['black']}: Adrian `{game['result']}`, sheet still `{found['result']}`"
 					)
-				elif adrian_winner == "draw" and sheet_winner not in { None, "draw" }:
-					we_ahead.append(
-						f"{game['white']} vs {game['black']}: sheet match result `{found['result']}`; "
-						f"Adrian still shows `{game['result']}` (likely the first game of a KO tie)"
-					)
-				elif adrian_winner not in { None, "draw" } and sheet_winner == "draw":
+				elif adrian_winner and sheet_winner == "draw":
 					result_updates.append(
 						f"{game['white']} vs {game['black']}: Adrian `{game['result']}`, sheet still `{found['result']}` "
 						f"(possible first-game draw; update the match winner)"
 					)
-				elif adrian_winner not in { None, "draw" } and sheet_winner not in { None, "draw" }:
-					if adrian_winner != sheet_winner:
-						conflicts.append(
-							f"{game['white']} vs {game['black']}: Adrian `{game['result']}` (winner {adrian_winner}), "
-							f"sheet `{found['result']}` (winner {sheet_winner})"
-						)
-				elif adrian_winner is None and sheet_winner not in { None, "draw" }:
-					we_ahead.append(
-						f"{game['white']} vs {game['black']}: sheet `{found['result']}`, Adrian still tbc"
+				elif adrian_winner and sheet_winner and adrian_winner != sheet_winner:
+					conflicts.append(
+						f"{game['white']} vs {game['black']}: Adrian `{game['result']}` (winner {adrian_winner}), "
+						f"sheet `{found['result']}` (winner {sheet_winner})"
 					)
 			if missing:
 				actions.append( f"Add the missing {pool} round {round_number} pairings to the {season} Google Sheet." )
@@ -1087,17 +1087,6 @@ def compare_ko(
 				details=missing + result_updates + details_unresolved + walkover_details,
 				csv_rows=csv_rows,
 			)
-		elif we_ahead or details_unresolved:
-			report.add(
-				"info",
-				season=season,
-				competition=label,
-				title=f"{season} {label} — {section['title']}",
-				source_url=url,
-				actions=[],
-				details=we_ahead + details_unresolved,
-				csv_rows=[],
-			)
 
 
 def compare_championship(
@@ -1126,7 +1115,6 @@ def compare_championship(
 		missing = []
 		result_updates = []
 		conflicts = []
-		we_ahead = []
 		csv_rows = []
 
 		for game in adrian_games:
@@ -1163,10 +1151,6 @@ def compare_championship(
 					f"{game['white']} vs {game['black']}: Adrian `{game['result']}` (from {game['white']}'s score {game['row_score']}), "
 					f"sheet `{found['white']} vs {found['black']}` `{found['result']}`"
 				)
-			elif adrian_out is None and sheet_out:
-				we_ahead.append(
-					f"{found['white']} vs {found['black']}: sheet `{found['result']}`, Adrian still unplayed"
-				)
 
 		actions = []
 		if missing:
@@ -1194,17 +1178,6 @@ def compare_championship(
 				actions=actions,
 				details=missing + result_updates,
 				csv_rows=csv_rows,
-			)
-		elif we_ahead:
-			report.add(
-				"info",
-				season=season,
-				competition=label,
-				title=f"{season} {label} — {pool}: our sheet is ahead of Adrian",
-				source_url=url,
-				actions=[],
-				details=we_ahead,
-				csv_rows=[],
 			)
 
 
