@@ -512,8 +512,7 @@ def parse_ko_page( html: str, matcher: NameMatcher, page: dict ) -> dict:
 		end = headings[ index + 1 ][ "start" ] if index + 1 < len( headings ) else len( html )
 		chunk = html[ heading[ "start" ]:end ]
 		plate = "plate" in heading[ "title" ].lower()
-		round_match = re.search( r"round\s+(\d+)", heading[ "title" ], re.I )
-		round_number = int( round_match.group( 1 ) ) if round_match else page.get( "round" )
+		round_number = ko_section_round( heading[ "title" ], plate, page.get( "round" ) )
 		games = []
 		for row_html in re.findall( r"<tr[^>]*!game[=\s]*(\d+)[^>]*>(.*?)</tr>", chunk, re.I | re.S ):
 			cells = CELL_RE.findall( row_html[ 1 ] )
@@ -791,6 +790,17 @@ def find_sheet_game( games: list[ dict ], white: str, black: str, round_number: 
 		if unordered and game[ "white" ] == black and game[ "black" ] == white:
 			return game
 	return None
+
+
+def ko_section_round( title: str, plate: bool, page_round: int | None ) -> int:
+	round_match = re.search( r"round\s+(\d+)", title or "", re.I )
+	if round_match:
+		return int( round_match.group( 1 ) )
+	if page_round is None:
+		return 1
+	if plate:
+		return max( 1, page_round - 1 )
+	return page_round
 
 
 def csv_row_for_game( slug: str, fmt: str, game: dict, pool: str = "", round_number: int = 0 ) -> str:
