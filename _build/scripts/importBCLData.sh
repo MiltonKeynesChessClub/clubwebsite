@@ -12,6 +12,7 @@ set -eo pipefail
 
 LMS_ORG=${LMS_ORG:-308} # Bedfordshire Chess Assoc.
 LMS_ENDPOINT=${LMS_ENDPOINT:-https://lms.englishchess.org.uk/lms/lmsrest/league}
+LMS_USER_AGENT=${LMS_USER_AGENT:-LMSAPI}
 TMP_DIR=${TMP_DIR:-~/tmp}
 DIVISIONS="BCL Division 1
 BCL Division 2"
@@ -37,6 +38,57 @@ function striptags() {
 	echo "$1" | sed 's|<[^>]*>||g'
 }
 
+function fetchLmsJson() {
+	local endpoint="$1"
+	local outfile="$2"
+	local payload="$3"
+	local headersfile
+	local httpcode
+	local contenttype
+	local lmserror
+
+	headersfile=$( mktemp )
+	httpcode=$( curl -sS -A "$LMS_USER_AGENT" \
+		-XPOST \
+		--header "Content-Type: application/json" \
+		--data "$payload" \
+		-D "$headersfile" \
+		-o "$outfile" \
+		-w "%{http_code}" \
+		"$endpoint" )
+
+	if grep -qi '^cf-mitigated:[[:space:]]*challenge' "$headersfile"; then
+		echo "ECF LMS request was blocked by a Cloudflare browser check: $endpoint"
+		rm -f "$headersfile"
+		exit 1
+	fi
+
+	if [[ "$httpcode" != "200" ]] ; then
+		echo "ECF LMS request failed with HTTP $httpcode: $endpoint"
+		rm -f "$headersfile"
+		exit 1
+	fi
+
+	contenttype=$( grep -i '^content-type:' "$headersfile" | head -n 1 | tr -d '\r' )
+	rm -f "$headersfile"
+
+	if ! echo "$contenttype" | grep -qi 'application/json'; then
+		echo "ECF LMS did not return JSON (got: ${contenttype:-unknown}): $endpoint"
+		exit 1
+	fi
+
+	if ! jq empty "$outfile" >/dev/null 2>&1; then
+		echo "ECF LMS response was not valid JSON: $endpoint"
+		exit 1
+	fi
+
+	lmserror=$( jq -r 'if type == "array" and (.[0].title | type == "string") and (.[0].title | startswith("ERROR:")) then .[0].title else empty end' "$outfile" )
+	if [[ -n "$lmserror" ]] ; then
+		echo "ECF LMS returned an error for $endpoint: $lmserror"
+		exit 1
+	fi
+}
+
 function fetchresults() {
 	resetGeneratedFiles
 
@@ -45,9 +97,10 @@ function fetchresults() {
 		DIVSLUG=$( slugify "$DIVISION" )
 
 		mkdir -p "$TMP_DIR/$DIVSLUG"
-		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/table.json" "${LMS_ENDPOINT}/table"
-		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/fixtures.json" "${LMS_ENDPOINT}/event"
-		curl -s -XPOST --header "Content-Type: application/json" --data "{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}" -o "$TMP_DIR/$DIVSLUG/results.json" "${LMS_ENDPOINT}/match"
+		LMSPAYLOAD="{\"org\":$LMS_ORG,\"name\":\"$DIVISION\"}"
+		fetchLmsJson "${LMS_ENDPOINT}/table" "$TMP_DIR/$DIVSLUG/table.json" "$LMSPAYLOAD"
+		fetchLmsJson "${LMS_ENDPOINT}/event" "$TMP_DIR/$DIVSLUG/fixtures.json" "$LMSPAYLOAD"
+		fetchLmsJson "${LMS_ENDPOINT}/match" "$TMP_DIR/$DIVSLUG/results.json" "$LMSPAYLOAD"
 
 		tablesize=$( stat --printf="%s" "$TMP_DIR/$DIVSLUG/table.json" )
 		fixturessize=$( stat --printf="%s" "$TMP_DIR/$DIVSLUG/fixtures.json" )
