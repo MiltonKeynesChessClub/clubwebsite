@@ -7,11 +7,11 @@ division: bcl-division-2
 captain: dominic-watson
 season: 2027
 members:
-  - rikin-burse
   - thomas-evans
-  - richard-keane
-  - olajide-mabogunje
   - dominic-watson
+  - olajide-mabogunje
+  - richard-keane
+  - rikin-burse
 toc: true
 toc_sticky: true
 header:

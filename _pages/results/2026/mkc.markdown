@@ -7,11 +7,11 @@ division: bcl-division-2
 captain: colin-solloway
 season: 2027
 members:
-  - john-mckeon
-  - john-mcnamara
-  - colin-solloway
   - george-ward
   - dave-wells
+  - colin-solloway
+  - john-mcnamara
+  - john-mckeon
 toc: true
 toc_sticky: true
 header:
