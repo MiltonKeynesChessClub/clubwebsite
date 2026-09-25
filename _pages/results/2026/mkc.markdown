@@ -9,8 +9,8 @@ season: 2027
 members:
   - john-mckeon
   - john-mcnamara
-  - michael-page
   - colin-solloway
+  - george-ward
   - dave-wells
 toc: true
 toc_sticky: true
