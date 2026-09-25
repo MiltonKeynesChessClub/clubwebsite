@@ -11,7 +11,13 @@ Here you can find this season's results and pairings for Milton Keynes Chess Clu
 
 ## 2026/7 Bedfordshire League
 
-The Bedfordshire League for this season has yet to start.
+<ul>
+	<li><a href="/results/2026/mka.html">Milton Keynes A</a></li>
+	<li><a href="/results/2026/mkb.html">Milton Keynes B</a></li>
+	<li><a href="/results/2026/mkc.html">Milton Keynes C</a></li>
+	<li><a href="/results/2026/mkd.html">Milton Keynes D</a></li>
+	<li><a href="/results/2026/ou.html">Open University</a></li>
+</ul>
 
 ## 2026/7 Internal competitions
 

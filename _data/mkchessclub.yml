@@ -3,6 +3,8 @@ feedbackform: https://forms.zohopublic.eu/miltonkeyneschessclubgm1/form/Websitef
 
 competitions:
   bcl: # bedfordshire chess league
+  - season: 2027
+    active: true
   - season: 2026
     active: false
   - season: 2025
