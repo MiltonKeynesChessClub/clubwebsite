@@ -10,8 +10,8 @@ members:
   - james-alexander
   - vincent-edwards
   - matthew-jacques
-  - mark-osborn
   - david-phillips
+  - mark-osborn
 toc: true
 toc_sticky: true
 header:

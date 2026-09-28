@@ -7,12 +7,11 @@ division: bcl-division-1
 captain: adrian-elwin
 season: 2027
 members:
-  - dominic-bartram
+  - andrew-bowler
+  - eoin-tweeddale
   - adrian-elwin
   - eric-meichel
-  - graham-smith
-  - eoin-tweeddale
-  - robert-whiteside
+  - ozan-senturk
 toc: true
 toc_sticky: true
 header:
