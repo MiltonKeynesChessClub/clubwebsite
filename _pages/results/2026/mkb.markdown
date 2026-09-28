@@ -7,12 +7,11 @@ division: bcl-division-1
 captain: sumit-bhalla
 season: 2027
 members:
-  - sumit-bhalla
-  - andrew-bowler
+  - graham-smith
   - alan-heath
-  - ozan-senturk
   - giuseppe-spigapiena
-  - george-ward
+  - joseph-asante
+  - sumit-bhalla
 toc: true
 toc_sticky: true
 header:
