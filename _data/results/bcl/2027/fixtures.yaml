@@ -7,7 +7,7 @@ bcl-division-1:
     date: Thu 1 Oct 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3 - 2
 
   - id: bcl-division-1-tue-6-oct-26-leighton-buzzard-a-v-leighton-buzzard-b
     hometeam: Leighton Buzzard A
@@ -345,7 +345,7 @@ bcl-division-2:
     date: Thu 1 Oct 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 3½ - 1½
 
   - id: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
     hometeam: University of Bedfordshire
