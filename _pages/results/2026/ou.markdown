@@ -10,6 +10,7 @@ members:
   - james-alexander
   - vincent-edwards
   - matthew-jacques
+  - dexter-caplin-lazard
   - david-phillips
   - mark-osborn
 toc: true
