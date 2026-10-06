@@ -66,6 +66,71 @@ bcl-division-1:
       color: W
       team: Bedford B
 
+  - fixture: bcl-division-1-tue-6-oct-26-leighton-buzzard-a-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Kenworthy, Gary
+      rating: 2065
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Singh, Guranshvir
+      rating: 1891
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-tue-6-oct-26-leighton-buzzard-a-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Hunt, Peter
+      rating: 1982
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Bhoi, Kewal Krishna
+      rating: 1851
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-tue-6-oct-26-leighton-buzzard-a-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Law, Stephen
+      rating: 1943
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Taylor, Peter
+      rating: 1848
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-tue-6-oct-26-leighton-buzzard-a-v-leighton-buzzard-b
+    result: 0 - 1
+    home:
+      name: Valentine, Brian J
+      rating: 1882
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Matthews, Adrian MS
+      rating: 1815
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-tue-6-oct-26-leighton-buzzard-a-v-leighton-buzzard-b
+    result: ½ - ½
+    home:
+      name: Williamson, Kevin J
+      rating: 1839
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Taylor, Alistair
+      rating: 1835
+      color: W
+      team: Leighton Buzzard B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-1-oct-26-open-university-v-milton-keynes-d
