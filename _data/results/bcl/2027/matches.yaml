@@ -198,3 +198,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes D
 
+  - fixture: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Doggett, Christopher
+      rating: 1970
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Taylor, Alex
+      rating: 1890
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Vora, Samir
+      rating: 1878
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Lewis, Richard
+      rating: 1350
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: McMorran, Richard
+      rating: 1615
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
+    result: ½ - ½
+    home:
+      name: Khan, Yusuf
+      rating: 1267
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Walker, Nigel B
+      rating: 1451
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Coombes, Scarlet
+      rating: 1097
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Cox, R David
+      rating: 1412
+      color: W
+      team: Bedford E
+
