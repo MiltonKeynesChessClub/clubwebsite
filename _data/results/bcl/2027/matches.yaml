@@ -131,6 +131,71 @@ bcl-division-1:
       color: W
       team: Leighton Buzzard B
 
+  - fixture: bcl-division-1-thu-8-oct-26-milton-keynes-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Bowler, Andrew
+      rating: 2080
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Smith, Graham
+      rating: 1950
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-8-oct-26-milton-keynes-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Tweeddale, Eoin
+      rating: 2034
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Heath, Alan
+      rating: 1844
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-8-oct-26-milton-keynes-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Elwin, Adrian G
+      rating: 2001
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Asante, Joseph
+      rating: 1755
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-8-oct-26-milton-keynes-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Meichel, Eric B
+      rating: 2020
+      color: W
+      team: Milton Keynes A
+    away:
+      name: Spigapiena, Giuseppe
+      rating: 1763
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-thu-8-oct-26-milton-keynes-a-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Senturk, N Ozan NE
+      rating: 1804
+      color: B
+      team: Milton Keynes A
+    away:
+      name: Bhalla, Sumit
+      rating: 1494
+      color: W
+      team: Milton Keynes B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-1-oct-26-open-university-v-milton-keynes-d
