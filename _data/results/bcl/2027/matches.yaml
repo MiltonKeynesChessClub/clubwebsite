@@ -207,7 +207,7 @@ bcl-division-2:
       team: Open University
     away:
       name: Athanasopoulos, Stavros
-      rating: 0000
+      rating: 1873
       color: W
       team: Milton Keynes D
 
@@ -327,4 +327,69 @@ bcl-division-2:
       rating: 1412
       color: W
       team: Bedford E
+
+  - fixture: bcl-division-2-thu-8-oct-26-bedford-c-v-bedford-d
+    result: 0 - 1
+    home:
+      name: Shields, Callum T
+      rating: 1755
+      color: B
+      team: Bedford C
+    away:
+      name: Mangarayi, Abigail
+      rating: 1646
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-8-oct-26-bedford-c-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Walker, Robert S
+      rating: 1703
+      color: W
+      team: Bedford C
+    away:
+      name: Gill, Peter S
+      rating: 1617
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-8-oct-26-bedford-c-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Potts, Alexander
+      rating: 1672
+      color: B
+      team: Bedford C
+    away:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: W
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-8-oct-26-bedford-c-v-bedford-d
+    result: ½ - ½
+    home:
+      name: Darmendra, Shivadharshan
+      rating: 1660
+      color: W
+      team: Bedford C
+    away:
+      name: Bennett, Stephen J
+      rating: 1517
+      color: B
+      team: Bedford D
+
+  - fixture: bcl-division-2-thu-8-oct-26-bedford-c-v-bedford-d
+    result: 1 - 0
+    home:
+      name: McMorran, Richard
+      rating: 1615
+      color: B
+      team: Bedford C
+    away:
+      name: Rigden, Jamie
+      rating: 0000
+      color: W
+      team: Bedford D
 

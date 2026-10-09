@@ -344,7 +344,7 @@ bcl-division-2:
     awayteam: Milton Keynes D
     date: Thu 1 Oct 26
     time: "19:30"
-    status: OV
+    status: OU
     result: 3½ - 1½
 
   - id: bcl-division-2-tue-6-oct-26-university-of-bedfordshire-v-bedford-e
@@ -361,7 +361,7 @@ bcl-division-2:
     date: Thu 8 Oct 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-2-tue-13-oct-26-leighton-buzzard-c-v-university-of-bedfordshire
     hometeam: Leighton Buzzard C
