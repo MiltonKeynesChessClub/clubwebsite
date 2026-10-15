@@ -58,6 +58,32 @@ bcl-division-1:
       lost: 1
       drawn: 0
 bcl-division-2:
+  Milton Keynes C:
+    colin-solloway:
+      played: 1
+      won: 0
+      lost: 0
+      drawn: 1
+    dave-wells:
+      played: 1
+      won: 0
+      lost: 1
+      drawn: 0
+    george-ward:
+      played: 1
+      won: 0
+      lost: 0
+      drawn: 1
+    john-mckeon:
+      played: 1
+      won: 0
+      lost: 1
+      drawn: 0
+    richard-keane:
+      played: 1
+      won: 0
+      lost: 0
+      drawn: 1
   Milton Keynes D:
     olajide-mabogunje:
       played: 1
@@ -87,24 +113,30 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1590
     dexter-caplin-lazard:
-      played: 1
+      played: 2
       won: 1
-      lost: 0
-      drawn: 0
-      best_win_opponent_rating: 1552
-    james-alexander:
-      played: 1
-      won: 0
-      lost: 1
-      drawn: 0
-    matthew-jacques:
-      played: 1
-      won: 0
       lost: 0
       drawn: 1
-    vincent-edwards:
+      best_win_opponent_rating: 1552
+    james-alexander:
+      played: 2
+      won: 0
+      lost: 1
+      drawn: 1
+    mark-osborn:
       played: 1
       won: 1
+      lost: 0
+      drawn: 0
+      best_win_opponent_rating: 1366
+    matthew-jacques:
+      played: 2
+      won: 0
+      lost: 0
+      drawn: 2
+    vincent-edwards:
+      played: 2
+      won: 2
       lost: 0
       drawn: 0
       best_win_opponent_rating: 1748
