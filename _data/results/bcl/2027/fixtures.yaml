@@ -39,7 +39,7 @@ bcl-division-1:
     date: Thu 15 Oct 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-1-tue-3-nov-26-luton-a-v-bedford-a
     hometeam: Luton A
@@ -377,7 +377,7 @@ bcl-division-2:
     date: Thu 15 Oct 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 4 - 1
 
   - id: bcl-division-2-thu-15-oct-26-milton-keynes-c-v-open-university
     hometeam: Milton Keynes C

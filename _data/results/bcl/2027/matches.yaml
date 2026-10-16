@@ -261,6 +261,71 @@ bcl-division-1:
       color: W
       team: Bedford A
 
+  - fixture: bcl-division-1-thu-15-oct-26-milton-keynes-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Smith, Graham
+      rating: 1950
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Nelson, Abiodun
+      rating: 1948
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-15-oct-26-milton-keynes-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Heath, Alan
+      rating: 1844
+      color: W
+      team: Milton Keynes B
+    away:
+      name: Hudson, Julian
+      rating: 1938
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-15-oct-26-milton-keynes-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Asante, Joseph
+      rating: 1755
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Oki, Jonadab
+      rating: 1870
+      color: W
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-15-oct-26-milton-keynes-b-v-luton-a
+    result: 1 - 0
+    home:
+      name: Spigapiena, Giuseppe
+      rating: 1763
+      color: W
+      team: Milton Keynes B
+    away:
+      name: O'Brien, Thomas P
+      rating: 1866
+      color: B
+      team: Luton A
+
+  - fixture: bcl-division-1-thu-15-oct-26-milton-keynes-b-v-luton-a
+    result: 0 - 1
+    home:
+      name: Bhalla, Sumit
+      rating: 1494
+      color: B
+      team: Milton Keynes B
+    away:
+      name: Ozdemir, Kamil
+      rating: 1688
+      color: W
+      team: Luton A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-1-oct-26-open-university-v-milton-keynes-d
@@ -522,6 +587,71 @@ bcl-division-2:
       rating: 1160
       color: W
       team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-15-oct-26-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Mangarayi, Abigail
+      rating: 1646
+      color: B
+      team: Bedford D
+    away:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-15-oct-26-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Gill, Peter S
+      rating: 1617
+      color: W
+      team: Bedford D
+    away:
+      name: Walker, Nigel B
+      rating: 1451
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-15-oct-26-bedford-d-v-bedford-e
+    result: 0 - 1
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: B
+      team: Bedford D
+    away:
+      name: Cox, R David
+      rating: 1412
+      color: W
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-15-oct-26-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Evans, Andy
+      rating: 1397
+      color: W
+      team: Bedford D
+    away:
+      name: Graf, Francesco
+      rating: 1283
+      color: B
+      team: Bedford E
+
+  - fixture: bcl-division-2-thu-15-oct-26-bedford-d-v-bedford-e
+    result: 1 - 0
+    home:
+      name: Dairi, Daniella
+      rating: 1167
+      color: B
+      team: Bedford D
+    away:
+      name: Page, Doug
+      rating: 0959
+      color: W
+      team: Bedford E
 
   - fixture: bcl-division-2-thu-15-oct-26-milton-keynes-c-v-open-university
     result: ½ - ½

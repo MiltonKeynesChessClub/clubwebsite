@@ -33,29 +33,30 @@ bcl-division-1:
       best_win_opponent_rating: 1494
   Milton Keynes B:
     alan-heath:
-      played: 1
+      played: 2
       won: 0
-      lost: 1
+      lost: 2
       drawn: 0
     giuseppe-spigapiena:
-      played: 1
-      won: 0
+      played: 2
+      won: 1
       lost: 1
       drawn: 0
+      best_win_opponent_rating: 1866
     graham-smith:
-      played: 1
+      played: 2
       won: 0
-      lost: 1
+      lost: 2
       drawn: 0
     joseph-asante:
-      played: 1
+      played: 2
       won: 0
-      lost: 1
+      lost: 2
       drawn: 0
     sumit-bhalla:
-      played: 1
+      played: 2
       won: 0
-      lost: 1
+      lost: 2
       drawn: 0
 bcl-division-2:
   Milton Keynes C:
