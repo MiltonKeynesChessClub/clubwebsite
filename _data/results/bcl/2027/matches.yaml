@@ -718,3 +718,68 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-thu-22-oct-26-milton-keynes-d-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Evans, Thomas
+      rating: 1748
+      color: B
+      team: Milton Keynes D
+    away:
+      name: Ward, George
+      rating: 1772
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-22-oct-26-milton-keynes-d-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Watson, Dominic
+      rating: 1665
+      color: W
+      team: Milton Keynes D
+    away:
+      name: Wells, Dave
+      rating: 1627
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-22-oct-26-milton-keynes-d-v-milton-keynes-c
+    result: 0 - 1
+    home:
+      name: Mabogunje, Olajide
+      rating: 1610
+      color: B
+      team: Milton Keynes D
+    away:
+      name: McNamara, John
+      rating: 1580
+      color: W
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-22-oct-26-milton-keynes-d-v-milton-keynes-c
+    result: ½ - ½
+    home:
+      name: Keane, Richard C
+      rating: 1552
+      color: W
+      team: Milton Keynes D
+    away:
+      name: McKeon, John E
+      rating: 1366
+      color: B
+      team: Milton Keynes C
+
+  - fixture: bcl-division-2-thu-22-oct-26-milton-keynes-d-v-milton-keynes-c
+    result: 1 - 0
+    home:
+      name: Burse, Rikin
+      rating: 1590
+      color: B
+      team: Milton Keynes D
+    away:
+      name: Osborn, Mark
+      rating: 1317
+      color: W
+      team: Milton Keynes C
+
