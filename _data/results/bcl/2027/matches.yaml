@@ -783,3 +783,68 @@ bcl-division-2:
       color: W
       team: Milton Keynes C
 
+  - fixture: bcl-division-2-thu-22-oct-26-bedford-e-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Taylor, Alex
+      rating: 1890
+      color: B
+      team: Bedford E
+    away:
+      name: Pike, Steve C
+      rating: 1840
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-22-oct-26-bedford-e-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+    away:
+      name: Shields, Callum T
+      rating: 1755
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-22-oct-26-bedford-e-v-bedford-c
+    result: 0 - 1
+    home:
+      name: New Player
+      rating: 0000
+      color: B
+      team: Bedford E
+    away:
+      name: Walker, Robert S
+      rating: 1703
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-22-oct-26-bedford-e-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Madhadi, Rishik
+      rating: 1459
+      color: W
+      team: Bedford E
+    away:
+      name: Potts, Alexander
+      rating: 1672
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-thu-22-oct-26-bedford-e-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Page, Doug
+      rating: 0959
+      color: B
+      team: Bedford E
+    away:
+      name: McMorran, Richard
+      rating: 1615
+      color: W
+      team: Bedford C
+
