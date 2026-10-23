@@ -812,8 +812,8 @@ bcl-division-2:
   - fixture: bcl-division-2-thu-22-oct-26-bedford-e-v-bedford-c
     result: 0 - 1
     home:
-      name: New Player
-      rating: 0000
+      name: Hotten, Jacob
+      rating: 1755
       color: B
       team: Bedford E
     away:
