@@ -848,3 +848,68 @@ bcl-division-2:
       color: W
       team: Bedford C
 
+  - fixture: bcl-division-2-tue-27-oct-26-university-of-bedfordshire-v-open-university
+    result: 1 - 0
+    home:
+      name: Doggett, Christopher
+      rating: 1970
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Alexander, NO'D James
+      rating: 1812
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-27-oct-26-university-of-bedfordshire-v-open-university
+    result: 0 - 1
+    home:
+      name: Gladysz, Marek
+      rating: 1751
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Edwards, Vincent
+      rating: 1617
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-tue-27-oct-26-university-of-bedfordshire-v-open-university
+    result: 1 - 0
+    home:
+      name: Ozdemir, Kamil
+      rating: 1688
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Jacques, Matthew
+      rating: 1546
+      color: W
+      team: Open University
+
+  - fixture: bcl-division-2-tue-27-oct-26-university-of-bedfordshire-v-open-university
+    result: 0 - 1
+    home:
+      name: Khan, Yusuf
+      rating: 1267
+      color: W
+      team: University of Bedfordshire
+    away:
+      name: Lazard, Dexter
+      rating: 1514
+      color: B
+      team: Open University
+
+  - fixture: bcl-division-2-tue-27-oct-26-university-of-bedfordshire-v-open-university
+    result: 0 - 1
+    home:
+      name: Sackey-Clarke, Godfrey
+      rating: 1160
+      color: B
+      team: University of Bedfordshire
+    away:
+      name: Osborn, Mark
+      rating: 1317
+      color: W
+      team: Open University
+

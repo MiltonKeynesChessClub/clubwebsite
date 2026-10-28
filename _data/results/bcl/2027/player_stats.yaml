@@ -131,30 +131,30 @@ bcl-division-2:
       drawn: 0
       best_win_opponent_rating: 1590
     dexter-caplin-lazard:
-      played: 2
-      won: 1
+      played: 3
+      won: 2
       lost: 0
       drawn: 1
       best_win_opponent_rating: 1552
     james-alexander:
-      played: 2
+      played: 3
       won: 0
-      lost: 1
+      lost: 2
       drawn: 1
     mark-osborn:
-      played: 1
-      won: 1
-      lost: 0
-      drawn: 0
-      best_win_opponent_rating: 1366
-    matthew-jacques:
-      played: 2
-      won: 0
-      lost: 0
-      drawn: 2
-    vincent-edwards:
       played: 2
       won: 2
       lost: 0
       drawn: 0
-      best_win_opponent_rating: 1748
+      best_win_opponent_rating: 1366
+    matthew-jacques:
+      played: 3
+      won: 0
+      lost: 1
+      drawn: 2
+    vincent-edwards:
+      played: 3
+      won: 3
+      lost: 0
+      drawn: 0
+      best_win_opponent_rating: 1751
