@@ -913,3 +913,68 @@ bcl-division-2:
       color: W
       team: Open University
 
+  - fixture: bcl-division-2-thu-29-oct-26-milton-keynes-c-v-leighton-buzzard-c
+    result: 0 - 1
+    home:
+      name: Ward, George
+      rating: 1772
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Williamson, Kevin J
+      rating: 1839
+      color: W
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-29-oct-26-milton-keynes-c-v-leighton-buzzard-c
+    result: 0 - 1
+    home:
+      name: Wells, Dave
+      rating: 1627
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Matthews, Adrian MS
+      rating: 1815
+      color: B
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-29-oct-26-milton-keynes-c-v-leighton-buzzard-c
+    result: ½ - ½
+    home:
+      name: Solloway, Colin J
+      rating: 1611
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Clarke, Peter C
+      rating: 1915
+      color: W
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-29-oct-26-milton-keynes-c-v-leighton-buzzard-c
+    result: 0 - 1
+    home:
+      name: McNamara, John
+      rating: 1580
+      color: W
+      team: Milton Keynes C
+    away:
+      name: Gallagher, Sean
+      rating: 1559
+      color: B
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-29-oct-26-milton-keynes-c-v-leighton-buzzard-c
+    result: ½ - ½
+    home:
+      name: McKeon, John E
+      rating: 1366
+      color: B
+      team: Milton Keynes C
+    away:
+      name: Nash, Matthew
+      rating: 0000
+      color: W
+      team: Leighton Buzzard C
+

@@ -61,29 +61,29 @@ bcl-division-1:
 bcl-division-2:
   Milton Keynes C:
     colin-solloway:
-      played: 1
-      won: 0
-      lost: 0
-      drawn: 1
-    dave-wells:
-      played: 2
-      won: 0
-      lost: 1
-      drawn: 1
-    george-ward:
       played: 2
       won: 0
       lost: 0
       drawn: 2
-    john-mckeon:
-      played: 2
+    dave-wells:
+      played: 3
+      won: 0
+      lost: 2
+      drawn: 1
+    george-ward:
+      played: 3
       won: 0
       lost: 1
-      drawn: 1
+      drawn: 2
+    john-mckeon:
+      played: 3
+      won: 0
+      lost: 1
+      drawn: 2
     john-mcnamara:
-      played: 1
+      played: 2
       won: 1
-      lost: 0
+      lost: 1
       drawn: 0
       best_win_opponent_rating: 1610
     mark-osborn:
