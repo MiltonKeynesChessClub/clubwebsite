@@ -1108,3 +1108,68 @@ bcl-division-2:
       color: W
       team: Leighton Buzzard C
 
+  - fixture: bcl-division-2-thu-5-nov-26-bedford-d-v-leighton-buzzard-c
+    result: 0 - 1
+    home:
+      name: Mangarayi, Abigail
+      rating: 1646
+      color: B
+      team: Bedford D
+    away:
+      name: Williamson, Kevin J
+      rating: 1839
+      color: W
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-5-nov-26-bedford-d-v-leighton-buzzard-c
+    result: 0 - 1
+    home:
+      name: Gill, Peter S
+      rating: 1617
+      color: W
+      team: Bedford D
+    away:
+      name: Matthews, Adrian MS
+      rating: 1815
+      color: B
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-5-nov-26-bedford-d-v-leighton-buzzard-c
+    result: 1 - 0
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: B
+      team: Bedford D
+    away:
+      name: Clarke, Peter C
+      rating: 1915
+      color: W
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-5-nov-26-bedford-d-v-leighton-buzzard-c
+    result: 0 - 1
+    home:
+      name: Bennett, Stephen J
+      rating: 1517
+      color: W
+      team: Bedford D
+    away:
+      name: Woodward, Ian P
+      rating: 1722
+      color: B
+      team: Leighton Buzzard C
+
+  - fixture: bcl-division-2-thu-5-nov-26-bedford-d-v-leighton-buzzard-c
+    result: ½ - ½
+    home:
+      name: Rigden, Jamie
+      rating: 0000
+      color: B
+      team: Bedford D
+    away:
+      name: Gallagher, Sean
+      rating: 1559
+      color: W
+      team: Leighton Buzzard C
+
