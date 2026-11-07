@@ -174,7 +174,7 @@ bcl-division-1:
     result: 1 - 0
     home:
       name: Meichel, Eric B
-      rating: 2020
+      rating: 1946
       color: W
       team: Milton Keynes A
     away:
@@ -439,7 +439,7 @@ bcl-division-1:
       team: Leighton Buzzard B
     away:
       name: Meichel, Eric B
-      rating: 2020
+      rating: 1946
       color: B
       team: Milton Keynes A
 
