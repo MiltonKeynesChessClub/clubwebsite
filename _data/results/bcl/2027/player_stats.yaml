@@ -37,27 +37,39 @@ bcl-division-1:
       won: 0
       lost: 2
       drawn: 0
-    giuseppe-spigapiena:
-      played: 2
-      won: 1
+    colin-solloway:
+      played: 1
+      won: 0
       lost: 1
+      drawn: 0
+    giuseppe-spigapiena:
+      played: 3
+      won: 1
+      lost: 2
       drawn: 0
       best_win_opponent_rating: 1866
     graham-smith:
-      played: 2
-      won: 0
+      played: 3
+      won: 1
       lost: 2
       drawn: 0
+      best_win_opponent_rating: 1815
     joseph-asante:
-      played: 2
-      won: 0
+      played: 3
+      won: 1
       lost: 2
       drawn: 0
+      best_win_opponent_rating: 1915
     sumit-bhalla:
       played: 2
       won: 0
       lost: 2
       drawn: 0
+    vincent-edwards:
+      played: 1
+      won: 0
+      lost: 0
+      drawn: 1
 bcl-division-2:
   Milton Keynes C:
     colin-solloway:

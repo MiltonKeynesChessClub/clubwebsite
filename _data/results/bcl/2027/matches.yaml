@@ -456,6 +456,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-tue-10-nov-26-leighton-buzzard-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Matthews, Adrian MS
+      rating: 1815
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Smith, Graham
+      rating: 1950
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-10-nov-26-leighton-buzzard-b-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Taylor, Peter
+      rating: 1848
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Spigapiena, Giuseppe
+      rating: 1763
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-10-nov-26-leighton-buzzard-b-v-milton-keynes-b
+    result: 0 - 1
+    home:
+      name: Clarke, Peter C
+      rating: 1915
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Asante, Joseph
+      rating: 1755
+      color: W
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-10-nov-26-leighton-buzzard-b-v-milton-keynes-b
+    result: ½ - ½
+    home:
+      name: Valentine, Brian J
+      rating: 1882
+      color: W
+      team: Leighton Buzzard B
+    away:
+      name: Edwards, Vincent
+      rating: 1617
+      color: B
+      team: Milton Keynes B
+
+  - fixture: bcl-division-1-tue-10-nov-26-leighton-buzzard-b-v-milton-keynes-b
+    result: 1 - 0
+    home:
+      name: Taylor, Alistair
+      rating: 1835
+      color: B
+      team: Leighton Buzzard B
+    away:
+      name: Solloway, Colin J
+      rating: 1611
+      color: W
+      team: Milton Keynes B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-1-oct-26-open-university-v-milton-keynes-d
