@@ -110,53 +110,55 @@ bcl-division-2:
       drawn: 1
   Milton Keynes D:
     dominic-watson:
-      played: 1
+      played: 2
       won: 0
-      lost: 0
+      lost: 1
       drawn: 1
     olajide-mabogunje:
-      played: 2
-      won: 0
-      lost: 1
-      drawn: 1
-    richard-keane:
-      played: 2
-      won: 0
-      lost: 1
-      drawn: 1
-    rikin-burse:
-      played: 2
-      won: 1
-      lost: 1
-      drawn: 0
-      best_win_opponent_rating: 1317
-    thomas-evans:
-      played: 2
-      won: 0
-      lost: 1
-      drawn: 1
-  Open University:
-    david-phillips:
-      played: 1
-      won: 1
-      lost: 0
-      drawn: 0
-      best_win_opponent_rating: 1590
-    dexter-caplin-lazard:
-      played: 3
-      won: 2
-      lost: 0
-      drawn: 1
-      best_win_opponent_rating: 1552
-    james-alexander:
       played: 3
       won: 0
       lost: 2
       drawn: 1
-    mark-osborn:
-      played: 2
+    richard-keane:
+      played: 3
+      won: 1
+      lost: 1
+      drawn: 1
+      best_win_opponent_rating: 1029
+    rikin-burse:
+      played: 3
       won: 2
+      lost: 1
+      drawn: 0
+      best_win_opponent_rating: 1317
+    thomas-evans:
+      played: 3
+      won: 1
+      lost: 1
+      drawn: 1
+      best_win_opponent_rating: 1970
+  Open University:
+    david-phillips:
+      played: 2
+      won: 1
       lost: 0
+      drawn: 1
+      best_win_opponent_rating: 1590
+    dexter-caplin-lazard:
+      played: 4
+      won: 2
+      lost: 1
+      drawn: 1
+      best_win_opponent_rating: 1552
+    james-alexander:
+      played: 4
+      won: 0
+      lost: 3
+      drawn: 1
+    mark-osborn:
+      played: 3
+      won: 2
+      lost: 1
       drawn: 0
       best_win_opponent_rating: 1366
     matthew-jacques:
@@ -165,8 +167,8 @@ bcl-division-2:
       lost: 1
       drawn: 2
     vincent-edwards:
-      played: 3
-      won: 3
+      played: 4
+      won: 4
       lost: 0
       drawn: 0
       best_win_opponent_rating: 1751

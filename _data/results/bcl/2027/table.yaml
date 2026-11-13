@@ -76,21 +76,30 @@ bcl-division-2:
     points: 6
 
   - team: Open University
-    played: 3
+    played: 4
     won: 3
     drawn: 0
-    lost: 0
-    for: 10
-    against: 5
+    lost: 1
+    for: 11½
+    against: 8½
     points: 6
 
   - team: Bedford D
+    played: 4
+    won: 2
+    drawn: 1
+    lost: 1
+    for: 11½
+    against: 8½
+    points: 5
+
+  - team: Milton Keynes D
     played: 3
     won: 1
     drawn: 1
     lost: 1
-    for: 8
-    against: 7
+    for: 7
+    against: 8
     points: 3
 
   - team: Bedford C
@@ -103,12 +112,12 @@ bcl-division-2:
     points: 3
 
   - team: University of Bedfordshire
-    played: 3
+    played: 4
     won: 0
     drawn: 1
-    lost: 2
-    for: 5½
-    against: 9½
+    lost: 3
+    for: 7½
+    against: 12½
     points: 1
 
   - team: Bedford E
@@ -127,14 +136,5 @@ bcl-division-2:
     lost: 2
     for: 5
     against: 10
-    points: 1
-
-  - team: Milton Keynes D
-    played: 2
-    won: 0
-    drawn: 1
-    lost: 1
-    for: 4
-    against: 6
     points: 1
 
