@@ -44,7 +44,7 @@ Adrian Elwin, Alan Heath, Giuseppe Spigapiena and Vincent Edwards finished level
 
 ### Playoff
 
-Semi-finals, then a two-game final. Adrian Elwin won the final 1½–½ and takes the pool 3 place.
+The playoff was two semi-finals, then a final played whih took two attempts to resolve, Adrian making the way through to the final group.
 
 #### Semi-finals
 
