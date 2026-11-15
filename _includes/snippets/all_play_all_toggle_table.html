@@ -57,12 +57,12 @@
 							{% include snippets/all_play_all_result.html playera=player.name playerb=playerb.name results=results %}
 						{% endfor %}
 						<td class="score">
-							{% if player.score %}
+							{% if player.played and player.played != "0" and player.played != 0 %}
 								{% include snippets/rendered_score.html score=player.score %}
 							{% endif %}
 						</td>
 						<td class="played">
-							{% if player.played %}
+							{% if player.played and player.played != "0" and player.played != 0 %}
 								<span class="played" title="Out of {{ player.played }} games played">/ {{ player.played }}</span>
 							{% endif %}
 						</td>

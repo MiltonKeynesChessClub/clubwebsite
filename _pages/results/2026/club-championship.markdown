@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-<!-- {% assign final = site.data.results.internal[ "2026" ].championship.final %} -->
+{% assign final = site.data.results.internal[ "2026" ].championship.final %}
 {% assign pool1 = site.data.results.internal[ "2026" ].championship.pool1 %}
 {% assign pool2 = site.data.results.internal[ "2026" ].championship.pool2 %}
 {% assign pool3 = site.data.results.internal[ "2026" ].championship.pool3 %}
@@ -20,9 +20,11 @@ All ties will be resolved by a normal-speed playoff game and then, if necessary,
 
 {% include snippets/tourney_info.html rules=rules director="adrian-elwin" timecontrol="Time control is game in 80 minutes with a 10 secs/move increment from move 1." %}
 
-<!-- # Final pool
+# Final pool
 
-{% include snippets/all_play_all_toggle_table.html results=final %} -->
+Andrew Bowler, Joseph Asante and James Alexander won their pools. Eric Meichel and George Ward also qualified. Adrian Elwin took the pool 3 place after a mini-knockout broke a four-way tie.
+
+{% include snippets/all_play_all_toggle_table.html results=final %}
 
 # First round stage
 
@@ -35,6 +37,8 @@ All ties will be resolved by a normal-speed playoff game and then, if necessary,
 {% include snippets/all_play_all_toggle_table.html results=pool2 %}
 
 ## Pool 3
+
+Adrian Elwin, Alan Heath, Giuseppe Spigapiena and Vincent Edwards finished level on 2½. A mini-knockout resolved the tie, and Adrian Elwin progresses to the final.
 
 {% include snippets/all_play_all_toggle_table.html results=pool3 %}
 
