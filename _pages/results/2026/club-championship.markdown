@@ -38,9 +38,67 @@ Andrew Bowler, Joseph Asante and James Alexander won their pools. Eric Meichel a
 
 ## Pool 3
 
-Adrian Elwin, Alan Heath, Giuseppe Spigapiena and Vincent Edwards finished level on 2½. A mini-knockout resolved the tie, and Adrian Elwin progresses to the final.
+Adrian Elwin, Alan Heath, Giuseppe Spigapiena and Vincent Edwards finished level on 2½. A mini-knockout resolved the tie.
 
 {% include snippets/all_play_all_toggle_table.html results=pool3 %}
+
+### Playoff
+
+Semi-finals, then a two-game final. Adrian Elwin won the final 1½–½ and takes the pool 3 place.
+
+#### Semi-finals
+
+<table class="swiss-results-table">
+	<thead>
+		<tr>
+			<th class="text-right">White</th>
+			<th class="swiss-result">vs</th>
+			<th>Black</th>
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="text-right">{% include snippets/member_link.html value="adrian-elwin" field="slug" %}</td>
+			<td class="swiss-result">{% include snippets/result.html result="1-0" %}</td>
+			<td>{% include snippets/member_link.html value="vincent-edwards" field="slug" %}</td>
+			<td>20 Aug, 2026</td>
+		</tr>
+		<tr>
+			<td class="text-right">{% include snippets/member_link.html value="alan-heath" field="slug" %}</td>
+			<td class="swiss-result">{% include snippets/result.html result="0-1" %}</td>
+			<td>{% include snippets/member_link.html value="giuseppe-spigapiena" field="slug" %}</td>
+			<td>16 Sep, 2026</td>
+		</tr>
+	</tbody>
+</table>
+
+#### Playoff final
+
+<table class="swiss-results-table">
+	<thead>
+		<tr>
+			<th class="text-right">White</th>
+			<th class="swiss-result">vs</th>
+			<th>Black</th>
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="text-right">{% include snippets/member_link.html value="giuseppe-spigapiena" field="slug" %}</td>
+			<td class="swiss-result">{% include snippets/result.html result="1/2-1/2" %}</td>
+			<td>{% include snippets/member_link.html value="adrian-elwin" field="slug" %}</td>
+			<td>22 Oct, 2026</td>
+		</tr>
+		<tr>
+			<td class="text-right">{% include snippets/member_link.html value="adrian-elwin" field="slug" %}</td>
+			<td class="swiss-result">{% include snippets/result.html result="1-0" %}</td>
+			<td>{% include snippets/member_link.html value="giuseppe-spigapiena" field="slug" %}</td>
+			<td>12 Nov, 2026</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Pool 4
 
