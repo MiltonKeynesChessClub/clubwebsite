@@ -2,35 +2,35 @@
 bcl-division-1:
   Milton Keynes A:
     adrian-elwin:
-      played: 2
+      played: 3
       won: 1
       lost: 0
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 1755
     andrew-bowler:
-      played: 2
+      played: 3
       won: 1
-      lost: 1
+      lost: 2
       drawn: 0
       best_win_opponent_rating: 1950
     eoin-tweeddale:
-      played: 2
+      played: 3
       won: 1
-      lost: 0
+      lost: 1
       drawn: 1
       best_win_opponent_rating: 1844
     eric-meichel:
-      played: 2
+      played: 3
       won: 2
-      lost: 0
+      lost: 1
       drawn: 0
       best_win_opponent_rating: 1815
     ozan-senturk:
-      played: 2
-      won: 1
+      played: 3
+      won: 2
       lost: 0
       drawn: 1
-      best_win_opponent_rating: 1494
+      best_win_opponent_rating: 1882
   Milton Keynes B:
     alan-heath:
       played: 2

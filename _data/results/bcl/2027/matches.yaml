@@ -521,6 +521,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes B
 
+  - fixture: bcl-division-1-tue-17-nov-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Tukpetov, Evgeny
+      rating: 2328
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Bowler, Andrew
+      rating: 2080
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-17-nov-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Kenworthy, Gary
+      rating: 2065
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Tweeddale, Eoin
+      rating: 2034
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-17-nov-26-leighton-buzzard-a-v-milton-keynes-a
+    result: ½ - ½
+    home:
+      name: Hunt, Peter
+      rating: 1982
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Elwin, Adrian G
+      rating: 2001
+      color: W
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-17-nov-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 1 - 0
+    home:
+      name: Law, Stephen
+      rating: 1943
+      color: W
+      team: Leighton Buzzard A
+    away:
+      name: Meichel, Eric B
+      rating: 1946
+      color: B
+      team: Milton Keynes A
+
+  - fixture: bcl-division-1-tue-17-nov-26-leighton-buzzard-a-v-milton-keynes-a
+    result: 0 - 1
+    home:
+      name: Valentine, Brian J
+      rating: 1882
+      color: B
+      team: Leighton Buzzard A
+    away:
+      name: Senturk, N Ozan NE
+      rating: 1804
+      color: W
+      team: Milton Keynes A
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-1-oct-26-open-university-v-milton-keynes-d
@@ -1367,4 +1432,69 @@ bcl-division-2:
       rating: 1160
       color: W
       team: University of Bedfordshire
+
+  - fixture: bcl-division-2-tue-17-nov-26-leighton-buzzard-c-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Williamson, Kevin J
+      rating: 1839
+      color: B
+      team: Leighton Buzzard C
+    away:
+      name: Bodily, Richard T
+      rating: 1987
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-17-nov-26-leighton-buzzard-c-v-bedford-c
+    result: ½ - ½
+    home:
+      name: Clarke, Peter C
+      rating: 1915
+      color: W
+      team: Leighton Buzzard C
+    away:
+      name: Pike, Steve C
+      rating: 1840
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-17-nov-26-leighton-buzzard-c-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Woodward, Ian P
+      rating: 1722
+      color: B
+      team: Leighton Buzzard C
+    away:
+      name: Walker, Robert S
+      rating: 1703
+      color: W
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-17-nov-26-leighton-buzzard-c-v-bedford-c
+    result: 0 - 1
+    home:
+      name: Gallagher, Sean
+      rating: 1559
+      color: W
+      team: Leighton Buzzard C
+    away:
+      name: Potts, Alexander
+      rating: 1672
+      color: B
+      team: Bedford C
+
+  - fixture: bcl-division-2-tue-17-nov-26-leighton-buzzard-c-v-bedford-c
+    result: 1 - 0
+    home:
+      name: Nash, Matthew
+      rating: 0000
+      color: B
+      team: Leighton Buzzard C
+    away:
+      name: McMorran, Richard
+      rating: 1615
+      color: W
+      team: Bedford C
 
