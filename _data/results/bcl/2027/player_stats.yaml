@@ -115,27 +115,27 @@ bcl-division-2:
       lost: 1
       drawn: 1
     olajide-mabogunje:
-      played: 3
+      played: 4
       won: 0
       lost: 2
-      drawn: 1
+      drawn: 2
     richard-keane:
-      played: 3
+      played: 4
       won: 1
-      lost: 1
+      lost: 2
       drawn: 1
       best_win_opponent_rating: 1029
     rikin-burse:
-      played: 3
-      won: 2
+      played: 4
+      won: 3
       lost: 1
       drawn: 0
       best_win_opponent_rating: 1317
     thomas-evans:
-      played: 3
+      played: 4
       won: 1
       lost: 1
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 1970
   Open University:
     david-phillips:

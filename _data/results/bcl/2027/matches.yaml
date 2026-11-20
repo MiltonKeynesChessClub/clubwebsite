@@ -586,6 +586,71 @@ bcl-division-1:
       color: W
       team: Milton Keynes A
 
+  - fixture: bcl-division-1-thu-19-nov-26-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Dairi, Ramsey
+      rating: 2013
+      color: B
+      team: Bedford B
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-19-nov-26-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Botteley, Michael T
+      rating: 2003
+      color: W
+      team: Bedford B
+    away:
+      name: Default
+      rating: 0000
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-19-nov-26-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Bodily, Richard T
+      rating: 1987
+      color: B
+      team: Bedford B
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-19-nov-26-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Habershon, Paul F
+      rating: 1945
+      color: W
+      team: Bedford B
+    away:
+      name: Default
+      rating: 0000
+      color: B
+      team: Leighton Buzzard B
+
+  - fixture: bcl-division-1-thu-19-nov-26-bedford-b-v-leighton-buzzard-b
+    result: 1 - 0
+    home:
+      name: Pike, Steve C
+      rating: 1840
+      color: B
+      team: Bedford B
+    away:
+      name: Default
+      rating: 0000
+      color: W
+      team: Leighton Buzzard B
+
 
 bcl-division-2:
   - fixture: bcl-division-2-thu-1-oct-26-open-university-v-milton-keynes-d
@@ -1562,4 +1627,69 @@ bcl-division-2:
       rating: 1558
       color: W
       team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-e-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: Taylor, Alex
+      rating: 1890
+      color: B
+      team: Bedford E
+    away:
+      name: Evans, Thomas
+      rating: 1748
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-e-v-milton-keynes-d
+    result: 1 - 0(def)
+    home:
+      name: Goodman, James
+      rating: 1500
+      color: W
+      team: Bedford E
+    away:
+      name: Default
+      rating: 0000
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-e-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: Madhadi, Rishik
+      rating: 1459
+      color: B
+      team: Bedford E
+    away:
+      name: Mabogunje, Olajide
+      rating: 1610
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-e-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Walker, Nigel B
+      rating: 1451
+      color: W
+      team: Bedford E
+    away:
+      name: Keane, Richard C
+      rating: 1552
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-e-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Graf, Francesco
+      rating: 1283
+      color: B
+      team: Bedford E
+    away:
+      name: Burse, Rikin
+      rating: 1590
+      color: W
+      team: Milton Keynes D
 
