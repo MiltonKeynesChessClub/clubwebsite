@@ -457,7 +457,7 @@ bcl-division-2:
     date: Thu 19 Nov 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 1 - 4
 
   - id: bcl-division-2-thu-19-nov-26-bedford-e-v-milton-keynes-d
     hometeam: Bedford E

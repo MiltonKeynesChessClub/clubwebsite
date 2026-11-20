@@ -85,13 +85,22 @@ bcl-division-2:
     points: 6
 
   - team: Bedford D
-    played: 4
+    played: 5
     won: 2
     drawn: 1
-    lost: 1
-    for: 11½
-    against: 8½
+    lost: 2
+    for: 12½
+    against: 12½
     points: 5
+
+  - team: University of Bedfordshire
+    played: 5
+    won: 1
+    drawn: 1
+    lost: 3
+    for: 11½
+    against: 13½
+    points: 3
 
   - team: Bedford C
     played: 3
@@ -110,15 +119,6 @@ bcl-division-2:
     for: 7
     against: 8
     points: 3
-
-  - team: University of Bedfordshire
-    played: 4
-    won: 0
-    drawn: 1
-    lost: 3
-    for: 7½
-    against: 12½
-    points: 1
 
   - team: Bedford E
     played: 3

@@ -1498,3 +1498,68 @@ bcl-division-2:
       color: W
       team: Bedford C
 
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-d-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: Mangarayi, Abigail
+      rating: 1646
+      color: B
+      team: Bedford D
+    away:
+      name: Doggett, Christopher
+      rating: 1970
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-d-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: Gill, Peter S
+      rating: 1617
+      color: W
+      team: Bedford D
+    away:
+      name: Gladysz, Marek
+      rating: 1751
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-d-v-university-of-bedfordshire
+    result: ½ - ½
+    home:
+      name: Avern-Love, Andrew
+      rating: 1500
+      color: B
+      team: Bedford D
+    away:
+      name: Ozdemir, Kamil
+      rating: 1688
+      color: W
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-d-v-university-of-bedfordshire
+    result: ½ - ½
+    home:
+      name: Dairi, Mahmoud
+      rating: 1326
+      color: W
+      team: Bedford D
+    away:
+      name: Jones, Dixon H
+      rating: 1630
+      color: B
+      team: University of Bedfordshire
+
+  - fixture: bcl-division-2-thu-19-nov-26-bedford-d-v-university-of-bedfordshire
+    result: 0 - 1
+    home:
+      name: Dairi, Daniella
+      rating: 1167
+      color: B
+      team: Bedford D
+    away:
+      name: Hayden, Tim
+      rating: 1558
+      color: W
+      team: University of Bedfordshire
+
