@@ -1758,6 +1758,71 @@ bcl-division-2:
       color: W
       team: Milton Keynes D
 
+  - fixture: bcl-division-2-thu-26-nov-26-bedford-c-v-milton-keynes-d
+    result: 0 - 1
+    home:
+      name: Collacott, Nick
+      rating: 2011
+      color: B
+      team: Bedford C
+    away:
+      name: Athanasopoulos, Stavros
+      rating: 1873
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-nov-26-bedford-c-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Shields, Callum T
+      rating: 1755
+      color: W
+      team: Bedford C
+    away:
+      name: Evans, Thomas
+      rating: 1748
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-nov-26-bedford-c-v-milton-keynes-d
+    result: 1 - 0
+    home:
+      name: Walker, Robert S
+      rating: 1703
+      color: B
+      team: Bedford C
+    away:
+      name: Watson, Dominic
+      rating: 1665
+      color: W
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-nov-26-bedford-c-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: Potts, Alexander
+      rating: 1672
+      color: W
+      team: Bedford C
+    away:
+      name: Keane, Richard C
+      rating: 1552
+      color: B
+      team: Milton Keynes D
+
+  - fixture: bcl-division-2-thu-26-nov-26-bedford-c-v-milton-keynes-d
+    result: ½ - ½
+    home:
+      name: McMorran, Richard
+      rating: 1615
+      color: B
+      team: Bedford C
+    away:
+      name: Burse, Rikin
+      rating: 1590
+      color: W
+      team: Milton Keynes D
+
   - fixture: bcl-division-2-thu-26-nov-26-open-university-v-bedford-e
     result: ½ - ½
     home:

@@ -110,9 +110,9 @@ bcl-division-2:
       drawn: 1
   Milton Keynes D:
     dominic-watson:
-      played: 2
+      played: 3
       won: 0
-      lost: 1
+      lost: 2
       drawn: 1
     olajide-mabogunje:
       played: 4
@@ -120,21 +120,21 @@ bcl-division-2:
       lost: 2
       drawn: 2
     richard-keane:
-      played: 4
+      played: 5
       won: 1
       lost: 2
-      drawn: 1
+      drawn: 2
       best_win_opponent_rating: 1029
     rikin-burse:
-      played: 4
+      played: 5
       won: 3
       lost: 1
-      drawn: 0
+      drawn: 1
       best_win_opponent_rating: 1317
     thomas-evans:
-      played: 4
+      played: 5
       won: 1
-      lost: 1
+      lost: 2
       drawn: 2
       best_win_opponent_rating: 1970
   Open University:
