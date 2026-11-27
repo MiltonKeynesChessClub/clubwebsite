@@ -87,7 +87,7 @@ bcl-division-1:
     date: Thu 26 Nov 26
     time: "19:30"
     status: OU
-    result: 0 - 0
+    result: 2½ - 2½
 
   - id: bcl-division-1-thu-3-dec-26-milton-keynes-b-v-leighton-buzzard-a
     hometeam: Milton Keynes B
@@ -480,8 +480,8 @@ bcl-division-2:
     awayteam: Bedford E
     date: Thu 26 Nov 26
     time: "19:30"
-    status: OU
-    result: 0 - 0
+    status: OV
+    result: 3 - 2
 
   - id: bcl-division-2-thu-3-dec-26-milton-keynes-d-v-leighton-buzzard-c
     hometeam: Milton Keynes D
